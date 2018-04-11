@@ -7,7 +7,7 @@ entity SumadorCompleto is
     S,Cf:out std_logic
   );
 end entity;
-
+--Comportamiento de Sumador completo
 architecture Bhv_SumadorCompleto of SumadorCompleto is
 begin
   S<=A xor B xor Ci;
