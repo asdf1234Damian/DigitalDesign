@@ -8,9 +8,9 @@ entity Comparador is
 end entity;
 architecture arch1Comparador of Comparador is
 begin
-    I<='1' when (A=B)else'0';
-    MA<='1' when (A>B)else'0';
-    ME<='1' when (A<B)else'0';
+    I<='1' when (A=B) else'0';
+    MA<='1' when (A>B) else'0';
+    ME<='1' when (A<B) else'0';
 end architecture;
 
 architecture  arch2Comparador of Comparador is
