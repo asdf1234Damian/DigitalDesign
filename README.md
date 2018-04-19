@@ -4,4 +4,4 @@ Practicas del curso de Fundamentos de Diseño Digital en ESCOM con la profesora 
 
 ### Alumnos:
 * Meza Madrid Raúl Damián 2017631051
-* Daniela Tellez 
+* Daniela Tellez Jimenez 
