@@ -9,7 +9,7 @@ entity SumadorRestador is
     Cf,OVERFLOW:out std_logic
   );
   attribute pin_numbers of SumadorRestador: entity is
-  "A(0):2 A(1):3 A(2):4 A(3):5 B(0):6 B(1):7 B(2):8 B(3):9 Ci:10 S(0):19 S(1):20 S(2):21 S(3):22 OVERFLOW:23";
+    "A(0):2 A(1):3 A(2):4 A(3):5 B(0):6 B(1):7 B(2):8 B(3):9 Ci:10 S(0):19 S(1):20 S(2):21 S(3):22 OVERFLOW:23";
 end entity;
 
 architecture archSumadorRestador  of  SumadorRestador is

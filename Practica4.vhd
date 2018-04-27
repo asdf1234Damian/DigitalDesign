@@ -1,7 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 --Incluir un control para que cambie de grey a bianrio y al revez
---Intentar 9 
+--Intentar 9
 entity Converter  is
   port (
     E: in std_logic_vector(3 downto 0);
