@@ -1,0 +1,7 @@
+ENTITY decoder IS
+    PORT (
+	i : in std_logic_vector (3 downto 0) ; 
+	c : in std_logic  ; 
+	o : inout std_logic_vector (6 downto 0)
+    ) ;
+END decoder ;

@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: \\VBOXSVR\DigitalDesign\Practica5\vhd\Practica5.vhd
+ Compile Entity "decoder"
+ Compile Architecture "DSMB" of Entity "decoder"
+ Top-Level unit detected
+ Entity  =>   decoder
+ Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
