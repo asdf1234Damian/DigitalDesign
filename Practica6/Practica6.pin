@@ -1,0 +1,18 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: Practica6.pin
+
+This file was created on 05/07/2018 at 12:26:51 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+invec(0) in <> Enabled Normal 2 <> [User] 
+invec(1) in <> Enabled Normal 3 <> [User] 
+invec(2) in <> Enabled Normal 4 <> [User] 
+invec(3) in <> Enabled Normal 5 <> [User] 
+control in <> Enabled Normal 6 <> [User] 
+outvec(0) out <> Enabled Normal 17 <> [User] 
+outvec(1) out <> Enabled Normal 18 <> [User] 
+outvec(2) inout <> Enabled Normal 19 <> [User] 
+outvec(3) out <> Enabled Normal 20 <> [User] 
+outvec(4) out <> Enabled Normal 21 <> [User] 
+outvec(5) inout <> Enabled Normal 22 <> [User] 
+outvec(6) out <> Enabled Normal 23 <> [User] 
