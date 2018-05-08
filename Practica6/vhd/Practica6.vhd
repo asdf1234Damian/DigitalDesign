@@ -6,7 +6,7 @@
 
 --    VHDL File: Practica6.vhd
 
---    Date: Mon May 07 12:26:51 2018
+--    Date: Mon May 07 20:06:52 2018
 
 --  Disassembly from Jedec file for: c22v10
 
