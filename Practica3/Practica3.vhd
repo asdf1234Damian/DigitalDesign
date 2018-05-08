@@ -17,7 +17,7 @@ architecture archSumadorRestador  of  SumadorRestador is
   signal C: std_logic_vector(4 downto 1);
   attribute synthesis_off of c: signal is true;
   signal SB: std_logic_vector(3 downto 0);
-  --attribute synthesis_off of SB: signal is true;
+  attribute synthesis_off of SB: signal is true;
 begin
 BtoSB : for i in 0 to 3 generate
   SB(i)<= Ci xor B(i);

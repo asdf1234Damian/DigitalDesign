@@ -1,4 +1,4 @@
-Design: 7:59 PM, Monday, May 07, 2018
+Design: 8:26 PM, Monday, May 07, 2018
 Design: Opening design "\\VBOXSVR\DigitalDesign\Practica3\Practica3\Practica3.adf"
 ELBREAD: Elaboration process.
 ELBREAD: Elaboration time 0.0 [s].
@@ -18,28 +18,7 @@ KERNEL: Kernel process initialization phase.
 ELAB2: Elaboration final pass...
 ELAB2: Elaboration final pass complete - time: 0.0 [s].
 KERNEL: Kernel process initialization done.
-7:59 PM, Monday, May 07, 2018
-Simulation has been initialized
-Selected Top-Level: SumadorRestador (archSumadorRestador)
-KERNEL: stopped at time: 100 ns
-KERNEL: Simulation has finished. There are no more test vectors to simulate.
-Cannot force signal A with formula 9.
-Cannot force signal A with formula 8.
-Cannot force signal B with formula 4.
-KERNEL: stopped at time: 2 ms
- reached  the maximum simulation time (2ms) allowed in any single simulation run.  The effective length of the simulation may be extended by running multiple simulations in increments of 2ms.  To upgrade your software to handle simulations greater than this time as well as VHDL source level simulation contact Aldec - sales@aldec.com
-KERNEL: Simulation has finished. There are no more test vectors to simulate.
-Warning: Active-HDL(tm) Sim has reached  the maximum simulation time (2ms) allowed in any single simulation run.  The effective length of the simulation may be extended by running multiple simulations in increments of 2ms.  To upgrade your software to handle simulations greater than this time as well as VHDL source level simulation contact Aldec - sales@aldec.com
-Cannot force signal B with formula 4.
-Warning: Active-HDL(tm) Sim has reached  the maximum simulation time (2ms) allowed in any single simulation run.  The effective length of the simulation may be extended by running multiple simulations in increments of 2ms.  To upgrade your software to handle simulations greater than this time as well as VHDL source level simulation contact Aldec - sales@aldec.com
-ELBREAD: Elaboration process.
-ELBREAD: Elaboration time 0.0 [s].
-KERNEL: Main thread initiated.
-KERNEL: Kernel process initialization phase.
-ELAB2: Elaboration final pass...
-ELAB2: Elaboration final pass complete - time: 0.0 [s].
-KERNEL: Kernel process initialization done.
-8:01 PM, Monday, May 07, 2018
+8:28 PM, Monday, May 07, 2018
 Simulation has been initialized
 Selected Top-Level: SumadorRestador (archSumadorRestador)
 KERNEL: stopped at time: 100 ns
@@ -51,7 +30,7 @@ KERNEL: Kernel process initialization phase.
 ELAB2: Elaboration final pass...
 ELAB2: Elaboration final pass complete - time: 0.0 [s].
 KERNEL: Kernel process initialization done.
-8:02 PM, Monday, May 07, 2018
+8:28 PM, Monday, May 07, 2018
 Simulation has been initialized
 Selected Top-Level: SumadorRestador (archSumadorRestador)
 KERNEL: stopped at time: 100 ns
