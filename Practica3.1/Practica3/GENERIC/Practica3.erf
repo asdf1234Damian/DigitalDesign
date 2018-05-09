@@ -1,0 +1,7 @@
+MESSAGE "File: \\VBOXSVR\DigitalDesign\Practica3.1\Practica3.vhd" 
+MESSAGE "Compile Entity "SumadorRestador"" 
+ERROR COMP96_0078: "Unknown identifier "pin_numbers"." "\\VBOXSVR\DigitalDesign\Practica3.1\Practica3.vhd" 11 3
+ERROR COMP96_0088: "The attribute designator must denote an attribute." "\\VBOXSVR\DigitalDesign\Practica3.1\Practica3.vhd" 11 3
+MESSAGE "Compile Architecture "archSumadorRestador" of Entity "SumadorRestador"" 
+ERROR COMP96_0056: "Cannot find referenced entity declaration "SumadorRestador"." "\\VBOXSVR\DigitalDesign\Practica3.1\Practica3.vhd" 15 1
+MESSAGE "Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [s]" 

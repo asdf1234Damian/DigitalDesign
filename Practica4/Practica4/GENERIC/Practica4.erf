@@ -1,0 +1,6 @@
+MESSAGE "File: \\VBOXSVR\DigitalDesign\Practica4\Practica4.vhd" 
+MESSAGE "Compile Entity "Converter"" 
+MESSAGE "Compile Architecture "archConverter" of Entity "Converter"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   Converter" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 

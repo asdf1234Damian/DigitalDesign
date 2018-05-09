@@ -1,7 +1,0 @@
- Compilation with file reorder...
- File: \\VBOXSVR\DigitalDesign\Practica3\Practica3.vhd
- Compile Entity "SumadorRestador"
- Compile Architecture "archSumadorRestador" of Entity "SumadorRestador"
- Top-Level unit detected
- Entity  =>   SumadorRestador
- Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
