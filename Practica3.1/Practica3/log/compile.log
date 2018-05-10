@@ -1,8 +1,0 @@
- Compilation with file reorder...
- File: \\VBOXSVR\DigitalDesign\Practica3.1\Practica3.vhd
- Compile Entity "SumadorRestador"
-Error:  COMP96_0078:Practica3.vhd : (11, 3): Unknown identifier "pin_numbers".
-Error:  COMP96_0088:Practica3.vhd : (11, 3): The attribute designator must denote an attribute.
- Compile Architecture "archSumadorRestador" of Entity "SumadorRestador"
-Error:  COMP96_0056:Practica3.vhd : (15, 1): Cannot find referenced entity declaration "SumadorRestador".
- Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [s]
