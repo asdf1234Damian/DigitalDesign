@@ -1,0 +1,13 @@
+ Compilation with file reorder...
+ File: \\VBOXSVR\DigitalDesign\Practica8\Practica8.vhd
+ Compile Entity "Encoder"
+ Compile Architecture "archEncoder" of Entity "Encoder"
+ Top-Level unit detected
+ Entity  =>   Encoder
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+ Compilation...
+ File: \\VBOXSVR\DigitalDesign\Practica8\Practica8.vhd
+ Compile Entity "Encoder"
+ Entity "Encoder" has been skipped - no difference detected.
+ Compile Architecture "archEncoder" of Entity "Encoder"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
