@@ -13,3 +13,5 @@ Path=
 CmdLine=
 [OPENDOC|VSIM.SHELL||]
 CmdLine=
+[OPENDOC|SCRIPTENGINE.GENERIC||]
+CmdLine=

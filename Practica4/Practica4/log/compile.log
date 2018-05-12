@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: \\VBOXSVR\DigitalDesign\Practica4\Practica4.vhd
+ Compile Entity "Converter"
+ Compile Architecture "archConverter" of Entity "Converter"
+ Top-Level unit detected
+ Entity  =>   Converter
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
