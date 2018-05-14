@@ -17,7 +17,7 @@ Options:    -m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-25pc/pi -b
 ======================================================================
 
 vhdlfe V6.3 IR 35:  VHDL parser
-Sat May 12 08:35:32 2018
+Mon May 14 09:46:51 2018
 
 Library 'work' => directory 'lc22v10'
 Linking 'C:\Program Files\Cypress\Warp\bin\std.vhd'.
@@ -30,7 +30,7 @@ vhdlfe:  No errors.
 
 
 tovif V6.3 IR 35:  High-level synthesis
-Sat May 12 08:35:32 2018
+Mon May 14 09:46:51 2018
 
 Linking 'C:\Program Files\Cypress\Warp\bin\std.vhd'.
 Linking 'C:\Program Files\Cypress\Warp\lib\common\cypress.vhd'.
@@ -41,7 +41,7 @@ tovif:  No errors.
 
 
 topld V6.3 IR 35:  Synthesis and optimization
-Sat May 12 08:35:33 2018
+Mon May 14 09:46:51 2018
 
 Linking 'C:\Program Files\Cypress\Warp\bin\std.vhd'.
 Linking 'C:\Program Files\Cypress\Warp\lib\common\cypress.vhd'.
@@ -52,10 +52,16 @@ Linking 'C:\Program Files\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
 Detecting unused logic.
 ----------------------------------------------------------
     User names
-	aux
+	auxvec_6
+	auxvec_5
+	auxvec_4
+	auxvec_3
+	auxvec_2
+	auxvec_1
+	auxvec_0
 
 
-Deleted 1 User equation or component.
+Deleted 7 User equations/components.
 Deleted 0 Synthesized equations/components.
 
 ------------------------------------------------------
@@ -77,14 +83,14 @@ Circuit simplification results:
 	Turned 0 signals into soft nodes.
 	Maximum default expansion cost was set at 10.
 ----------------------------------------------------------
-Created 20 PLD nodes.
+Created 26 PLD nodes.
 
 topld:  No errors.
 
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-DESIGN HEADER INFORMATION  (08:35:34)
+DESIGN HEADER INFORMATION  (09:46:52)
 
 Input File(s): Practica4.pla
 Device       : C22V10
@@ -103,14 +109,14 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-OPTIMIZATION OPTIONS       (08:35:34)
+OPTIMIZATION OPTIONS       (09:46:52)
 
 Messages:
   Information: Optimizing logic using best output polarity for signals:
-         o(0) o(1) o(2) o(3) o(4) o(5) o(6) o(7)
+         middleleft middleright o(0) o(1) o(2) o(3) o(4) o(5) o(6)
 
   Information: Selected logic optimization OFF for signals:
-         o(8)
+         o(7)
 
 
 
@@ -133,7 +139,7 @@ Completed Successfully
 ----------------------------------------------------------------------------
 PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-OPTIMIZATION OPTIONS       (08:35:34)
+OPTIMIZATION OPTIONS       (09:46:52)
 
 Messages:
   Information: Optimizing Banked Preset/Reset requirements.
@@ -147,50 +153,88 @@ Completed Successfully
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 <CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
-DESIGN EQUATIONS           (08:35:34)
+DESIGN EQUATIONS           (09:46:52)
 </CYPRESSTAG>
 
+    middleleft =
+          /i(4) * i(5) * i(6) * i(7) 
+        + i(4) * /i(5) * i(6) * i(7) 
+        + i(4) * i(5) * /i(6) * i(7) 
+        + /i(4) * /i(5) * /i(6) * i(7) 
+        + i(4) * i(5) * i(6) * /i(7) 
+        + /i(4) * /i(5) * i(6) * /i(7) 
+        + /i(4) * i(5) * /i(6) * /i(7) 
+        + i(4) * /i(5) * /i(6) * /i(7) 
+
+    middleright =
+          /i(0) * i(1) * i(2) * i(3) 
+        + i(0) * /i(1) * i(2) * i(3) 
+        + i(0) * i(1) * /i(2) * i(3) 
+        + /i(0) * /i(1) * /i(2) * i(3) 
+        + i(0) * i(1) * i(2) * /i(3) 
+        + /i(0) * /i(1) * i(2) * /i(3) 
+        + /i(0) * i(1) * /i(2) * /i(3) 
+        + i(0) * /i(1) * /i(2) * /i(3) 
+
     o(0) =
-          /i(0) * i(1) 
-        + i(0) * /i(1) 
+          /c * /i(0) * i(1) 
+        + /c * i(0) * /i(1) 
+        + c * /middleleft * middleright 
+        + c * middleleft * /middleright 
 
     o(1) =
-          /i(1) * i(2) 
-        + i(1) * /i(2) 
+          c * i(1) * i(2) * /i(3) * middleleft 
+        + c * /i(1) * /i(2) * /i(3) * middleleft 
+        + c * i(1) * i(2) * i(3) * /middleleft 
+        + c * /i(1) * /i(2) * i(3) * /middleleft 
+        + /i(1) * i(2) * i(3) * middleleft 
+        + i(1) * /i(2) * i(3) * middleleft 
+        + /i(1) * i(2) * /i(3) * /middleleft 
+        + i(1) * /i(2) * /i(3) * /middleleft 
+        + /c * /i(1) * i(2) 
+        + /c * i(1) * /i(2) 
 
     o(2) =
-          /i(2) * i(3) 
-        + i(2) * /i(3) 
+          c * i(2) * i(3) * middleleft 
+        + c * /i(2) * /i(3) * middleleft 
+        + /c * /i(2) * i(3) 
+        + /c * i(2) * /i(3) 
+        + /i(2) * i(3) * /middleleft 
+        + i(2) * /i(3) * /middleleft 
 
     o(3) =
-          /i(3) * i(4) 
-        + i(3) * /i(4) 
+          c * /i(3) * middleleft 
+        + /c * /i(3) * i(4) 
+        + /c * i(3) * /i(4) 
+        + c * i(3) * /middleleft 
 
     o(4) =
-          /i(4) * i(5) 
-        + i(4) * /i(5) 
+          /c * /i(4) * i(5) 
+        + /c * i(4) * /i(5) 
+        + c * middleleft 
 
     o(5) =
-          /i(5) * i(6) 
-        + i(5) * /i(6) 
+          c * i(5) * i(6) * i(7) 
+        + c * /i(5) * /i(6) * i(7) 
+        + /c * /i(5) * i(6) 
+        + /c * i(5) * /i(6) 
+        + /i(5) * i(6) * /i(7) 
+        + i(5) * /i(6) * /i(7) 
 
     o(6) =
-          /i(6) * i(7) 
+          c * /i(6) * i(7) 
+        + /c * i(6) 
         + i(6) * /i(7) 
 
     o(7) =
-          /i(7) * i(8) 
-        + i(7) * /i(8) 
-
-    o(8) =
-          i(8) 
+          i(7) 
 
 
 Completed Successfully  
 ----------------------------------------------------------------------------
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-DESIGN RULE CHECK          (08:35:34)
+DESIGN RULE CHECK          (09:46:52)
 
 Messages:
                  None.
@@ -204,25 +248,26 @@ Completed Successfully
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 <CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
-PINOUT INFORMATION   (08:35:34)
+PINOUT INFORMATION   (09:46:52)
 </CYPRESSTAG>
 Messages:
-  Information: All signals pre-placed in user design.
+  Information: Checking for duplicate NODE logic.
+                 None.
 
 
                                  C22V10
                  __________________________________________
-           i(0) =| 1|                                  |24|* not used       
-           i(1) =| 2|                                  |23|* not used       
-           i(2) =| 3|                                  |22|= o(8)           
-           i(3) =| 4|                                  |21|= o(7)           
+              c =| 1|                                  |24|* not used       
+           i(7) =| 2|                                  |23|= (middleleft)   
+           i(6) =| 3|                                  |22|= o(5)           
+           i(5) =| 4|                                  |21|= o(3)           
            i(4) =| 5|                                  |20|= o(6)           
-           i(5) =| 6|                                  |19|= o(5)           
-           i(6) =| 7|                                  |18|= o(4)           
-           i(7) =| 8|                                  |17|= o(3)           
-           i(8) =| 9|                                  |16|= o(2)           
+           i(3) =| 6|                                  |19|= o(7)           
+           i(2) =| 7|                                  |18|= o(4)           
+           i(1) =| 8|                                  |17|= o(0)           
+           i(0) =| 9|                                  |16|= o(2)           
        not used *|10|                                  |15|= o(1)           
-       not used *|11|                                  |14|= o(0)           
+       not used *|11|                                  |14|= (middleright)  
        not used *|12|                                  |13|* not used       
                  __________________________________________
 
@@ -231,12 +276,11 @@ Summary:
                  Error Count = 0      Warning Count = 0
 
 Completed Successfully  
-  Information: Checking for duplicate NODE logic.
 ----------------------------------------------------------------------------
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 <CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
-RESOURCE UTILIZATION (08:35:34)
+RESOURCE UTILIZATION (09:46:52)
 </CYPRESSTAG>
   Information: Macrocell Utilization.
 
@@ -244,46 +288,46 @@ RESOURCE UTILIZATION (08:35:34)
                  ______________________________________
                  | Dedicated Inputs   |    8  |   11  |
                  | Clock/Inputs       |    1  |    1  |
-                 | I/O Macrocells     |    9  |   10  |
+                 | I/O Macrocells     |   10  |   10  |
                  ______________________________________
-                                          18  /   22   = 81  %
+                                          19  /   22   = 86  %
 
 
   Information: Output Logic Product Term Utilization.
 
                   Node#  Output Signal Name  Used   Max
                  ________________________________________
-                 | 14  |  o(0)            |   2  |   8  |
-                 | 15  |  o(1)            |   2  |  10  |
-                 | 16  |  o(2)            |   2  |  12  |
-                 | 17  |  o(3)            |   2  |  14  |
-                 | 18  |  o(4)            |   2  |  16  |
-                 | 19  |  o(5)            |   2  |  16  |
-                 | 20  |  o(6)            |   2  |  14  |
-                 | 21  |  o(7)            |   2  |  12  |
-                 | 22  |  o(8)            |   1  |  10  |
-                 | 23  |  Unused          |   0  |   8  |
+                 | 14  |  middleright     |   8  |   8  |
+                 | 15  |  o(1)            |  10  |  10  |
+                 | 16  |  o(2)            |   6  |  12  |
+                 | 17  |  o(0)            |   4  |  14  |
+                 | 18  |  o(4)            |   3  |  16  |
+                 | 19  |  o(7)            |   1  |  16  |
+                 | 20  |  o(6)            |   3  |  14  |
+                 | 21  |  o(3)            |   4  |  12  |
+                 | 22  |  o(5)            |   6  |  10  |
+                 | 23  |  middleleft      |   8  |   8  |
                  | 25  |  Unused          |   0  |   1  |
                  ________________________________________
-                                             17  / 121   = 14  %
+                                             53  / 121   = 43  %
 
 
 Completed Successfully  
 ----------------------------------------------------------------------------
 PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
-JEDEC ASSEMBLE             (08:35:34)
+JEDEC ASSEMBLE             (09:46:52)
 
 Messages:
   Information: Output file 'Practica4.pin' created.
   Information: Output file 'Practica4.jed' created.
 
   Usercode:    
-  Checksum:    8E5B
+  Checksum:    4F81
 
 
 
 Summary:
                  Error Count = 0      Warning Count = 0
 
-Completed Successfully at 08:35:34
+Completed Successfully at 09:46:52

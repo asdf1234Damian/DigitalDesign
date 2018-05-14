@@ -1,7 +1,7 @@
 ENTITY converter IS
     PORT (
-	i : in std_logic_vector (8 downto 0) ; 
+	i : in std_logic_vector (7 downto 0) ; 
 	c : in std_logic  ; 
-	o : inout std_logic_vector (8 downto 0)
+	o : inout std_logic_vector (7 downto 0)
     ) ;
 END converter ;

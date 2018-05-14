@@ -4,6 +4,6 @@ module converter (
 	o
 	) ;
 
-input [8:0] i;
+input [7:0] i;
 input  c;
-inout [8:0] o;
+inout [7:0] o;
