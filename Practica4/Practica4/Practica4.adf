@@ -1,11 +1,11 @@
 [Project]
 Current config=GENERIC
 VCS=0
-modified=69
+modified=102
 [Configurations]
 GENERIC=Practica4
 [c:Converter]
 IVG=0
 SdfNoWarn=0
 [Files]
-/\\VBOXSVR\DigitalDesign\Practica4\Practica4.vhd=4, 1 30665507 407800633, 0, , , ,
+/\\VBOXSVR\DigitalDesign\Practica4\Practica4.vhd=4, 1 30667473 3963919698, 0, , , ,
