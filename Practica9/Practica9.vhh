@@ -1,0 +1,11 @@
+ENTITY cuadrodealarma IS
+    PORT (
+	a : in std_logic_vector (1 downto 0) ; 
+	b : in std_logic_vector (1 downto 0) ; 
+	c : in std_logic_vector (1 downto 0) ; 
+	d : in std_logic_vector (1 downto 0) ; 
+	selct : in std_logic_vector (1 downto 0) ; 
+	ref : in std_logic_vector (1 downto 0) ; 
+	display : inout std_logic_vector (6 downto 0)
+    ) ;
+END cuadrodealarma ;
