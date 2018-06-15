@@ -1,20 +1,20 @@
 Cypress Package: palce22v10-25pc/pi  PinOut File: Practica8.pin
 
-This file was created on 05/09/2018 at 21:24:48 
+This file was created on 05/24/2018 at 13:34:39 
 by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 ==========
-input(9) in <> Enabled Normal 1 <> [Auto] 
-input(8) in <> Enabled Normal 2 <> [Auto] 
-input(7) in <> Enabled Normal 3 <> [Auto] 
-input(6) in <> Enabled Normal 4 <> [Auto] 
-input(5) in <> Enabled Normal 5 <> [Auto] 
-input(4) in <> Enabled Normal 6 <> [Auto] 
-input(3) in <> Enabled Normal 7 <> [Auto] 
-input(2) in <> Enabled Normal 8 <> [Auto] 
-input(1) in <> Enabled Normal 9 <> [Auto] 
-input(0) in <> Enabled Normal 10 <> [Auto] 
-output(2) out <> Enabled Normal 14 <> [Auto] 
-output(0) out <> Enabled Normal 15 <> [Auto] 
-output(3) out <> Enabled Normal 22 <> [Auto] 
-output(1) out <> Enabled Normal 23 <> [Auto] 
+i(0) in <> Enabled Normal 1 <> [User] 
+i(1) in <> Enabled Normal 2 <> [User] 
+i(2) in <> Enabled Normal 3 <> [User] 
+i(3) in <> Enabled Normal 4 <> [User] 
+i(4) in <> Enabled Normal 5 <> [User] 
+i(5) in <> Enabled Normal 6 <> [User] 
+i(6) in <> Enabled Normal 7 <> [User] 
+i(7) in <> Enabled Normal 8 <> [User] 
+i(8) in <> Enabled Normal 9 <> [User] 
+i(9) in <> Enabled Normal 10 <> [User] 
+o(0) out <> Enabled Normal 14 <> [User] 
+o(1) out <> Enabled Normal 15 <> [User] 
+o(2) out <> Enabled Normal 16 <> [User] 
+o(3) out <> Enabled Normal 17 <> [User] 

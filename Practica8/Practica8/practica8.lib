@@ -1,11 +1,10 @@
 [~A]
-invalid=17107
-last=21628
-modifyid=5
-valid=17107
+last=4521
+modifyid=3
+valid=16843
 ver=57
 
 [~U]
-Encoder=21628,5
-Encoder__archEncoder__code=17107,1
+Encoder=4521,5
+Encoder__archEncoder__code=0,1
 

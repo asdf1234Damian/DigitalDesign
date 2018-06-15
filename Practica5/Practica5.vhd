@@ -8,7 +8,7 @@ entity Decoder  is
     O: out std_logic_vector(6 downto 0)
   );
   attribute pin_numbers of Decoder: entity is
-  "I(0):2 I(1):3 I(2):4 I(3):5 C:6 O(0):17 O(1):18 O(2):19 O(3):20 O(4):21 O(5):22 O(6):23";--Corregir las entradas
+  "I(0):2 I(1):3 I(2):4 I(3):5 C:6 O(0):14 O(1):15 O(2):16 O(3):17 O(4):18 O(5):19 O(6):20";--Corregir las entradas
 end entity;
 
 
@@ -28,7 +28,6 @@ architecture Arch_Decode of Decoder is
   Constant HexC: std_logic_vector(6 downto 0):="0110001";
   Constant HexE: std_logic_vector(6 downto 0):="0110000";
   Constant HexF: std_logic_vector(6 downto 0):="0111000";
-
 begin
   process(I,C)
   begin

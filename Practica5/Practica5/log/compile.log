@@ -1,0 +1,15 @@
+ Compilation with file reorder...
+ File: \\VBOXSVR\DigitalDesign\Practica5\Practica5.vhd
+ Compile Entity "Decoder"
+Error:  COMP96_0078:Practica5.vhd : (10, 3): Unknown identifier "pin_numbers".
+Error:  COMP96_0088:Practica5.vhd : (10, 3): The attribute designator must denote an attribute.
+ Compile Architecture "Arch_Decode" of Entity "Decoder"
+Error:  COMP96_0056:Practica5.vhd : (15, 1): Cannot find referenced entity declaration "Decoder".
+ Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [s]
+ Compilation with file reorder...
+ File: \\VBOXSVR\DigitalDesign\Practica5\Practica5.vhd
+ Compile Entity "Decoder"
+ Compile Architecture "Arch_Decode" of Entity "Decoder"
+ Top-Level unit detected
+ Entity  =>   Decoder
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]

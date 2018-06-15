@@ -1,24 +1,4 @@
-Design: 1:09 PM, Wednesday, May 23, 2018
-Design: Opening design "\\VBOXSVR\DigitalDesign\Practica4\Practica4\Practica4.adf"
-Compilation with file reorder...
-File: \\VBOXSVR\DigitalDesign\Practica4\Practica4.vhd
-Compile Entity "Converter"
-Compile Architecture "archConverter" of Entity "Converter"
-Top-Level unit detected
-Entity  =>   Converter
-Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+Design: 2:49 PM, Wednesday, May 23, 2018
+Design: Opening design "\\VBOXSVR\DIGITALDESIGN\PRACTICA4\PRACTICA4\Practica4.adf"
 ELBREAD: Elaboration process.
 ELBREAD: Elaboration time 0.0 [s].
-ELBREAD: Elaboration process.
-ELBREAD: Elaboration time 0.0 [s].
-KERNEL: Main thread initiated.
-KERNEL: Kernel process initialization phase.
-ELAB2: Elaboration final pass...
-ELAB2: Elaboration final pass complete - time: 0.0 [s].
-KERNEL: Kernel process initialization done.
-1:25 PM, Wednesday, May 23, 2018
-Simulation has been initialized
-Selected Top-Level: Converter (archConverter)
-KERNEL: stopped at time: 100 ns
-KERNEL: Simulation has finished. There are no more test vectors to simulate.
-Simulation has been stopped

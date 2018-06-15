@@ -1,6 +1,6 @@
 Cypress Package: palce22v10-25pc/pi  PinOut File: Practica5.pin
 
-This file was created on 05/06/2018 at 16:26:46 
+This file was created on 05/23/2018 at 13:56:33 
 by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
 
 ==========
@@ -9,10 +9,10 @@ i(1) in <> Enabled Normal 3 <> [User]
 i(2) in <> Enabled Normal 4 <> [User] 
 i(3) in <> Enabled Normal 5 <> [User] 
 c in <> Enabled Normal 6 <> [User] 
-o(0) out <> Enabled Normal 17 <> [User] 
-o(1) out <> Enabled Normal 18 <> [User] 
-o(2) out <> Enabled Normal 19 <> [User] 
-o(3) out <> Enabled Normal 20 <> [User] 
-o(4) out <> Enabled Normal 21 <> [User] 
-o(5) out <> Enabled Normal 22 <> [User] 
-o(6) out <> Enabled Normal 23 <> [User] 
+o(0) out <> Enabled Normal 14 <> [User] 
+o(1) out <> Enabled Normal 15 <> [User] 
+o(2) out <> Enabled Normal 16 <> [User] 
+o(3) out <> Enabled Normal 17 <> [User] 
+o(4) out <> Enabled Normal 18 <> [User] 
+o(5) out <> Enabled Normal 19 <> [User] 
+o(6) out <> Enabled Normal 20 <> [User] 

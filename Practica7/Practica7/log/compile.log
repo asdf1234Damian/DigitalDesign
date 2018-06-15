@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: \\VBOXSVR\DigitalDesign\Practica7\Practica7.vhd
+ Compile Entity "MUX"
+ Compile Architecture "archMUX" of Entity "MUX"
+ Top-Level unit detected
+ Entity  =>   MUX
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

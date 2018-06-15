@@ -1,6 +1,6 @@
 ENTITY encoder IS
     PORT (
-	input : in std_logic_vector (9 downto 0) ; 
-	output : inout std_logic_vector (3 downto 0)
+	i : in std_logic_vector (9 downto 0) ; 
+	o : inout std_logic_vector (3 downto 0)
     ) ;
 END encoder ;
