@@ -1,0 +1,15 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Aug 21 14:08:40 2018 *
+NOTE DESIGN NAME: seisEntradas *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS z : 142 : out *
+NOTE PINS a : 40 : in *
+NOTE PINS f : 50 : in *
+NOTE PINS e : 49 : in *
+NOTE PINS d : 45 : in *
+NOTE PINS c : 44 : in *
+NOTE PINS b : 41 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

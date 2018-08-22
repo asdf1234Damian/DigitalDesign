@@ -1,0 +1,11 @@
+#Start recording tcl command: 8/22/2018 09:12:33
+#Project Location: /home/damian/Documents/ESCOM/Practica1DSD; Project name: Practica1DSD
+prj_project open "/home/damian/Documents/ESCOM/Practica1DSD/Practica1DSD.ldf"
+prj_src add "/home/damian/Documents/ESCOM/Practica1DSD/DosComponentes.vhd"
+prj_src remove "/home/damian/Documents/ESCOM/Practica1DSD/DosComponentes.vhd"
+prj_src add "/home/damian/Documents/ESCOM/Practica1DSD/DosEntradas.vhd"
+prj_src remove "/home/damian/Documents/ESCOM/Practica1DSD/Practica1.vhd"
+prj_src add "/home/damian/Documents/ESCOM/Practica1DSD/XorComponentes.vhd"
+prj_src add "/home/damian/Documents/ESCOM/Practica1DSD/XorOperaciones.vhd"
+prj_src add "/home/damian/Documents/ESCOM/Practica1DSD/SeisEntradas.vhd"
+#Stop recording: 8/22/2018 09:36:31

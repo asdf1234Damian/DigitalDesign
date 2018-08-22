@@ -1,5 +1,6 @@
 MESSAGE "File: \\VBOXSVR\DigitalDesign\Practica10\Practica10.vhd" 
 MESSAGE "Compile Entity "FFT"" 
-MESSAGE "Entity "FFT" has been skipped - no difference detected." 
 MESSAGE "Compile Architecture "archFFT" of Entity "FFT"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   FFT" 
 MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 

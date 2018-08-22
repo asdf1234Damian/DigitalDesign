@@ -1,0 +1,86 @@
+$WAVE
+$SIGNAL 1 clock -1 0 IN 700000
+1 Stimulator="CLK:FRM:Override:100000.000000;1;1;0;50;1:Clock:1:0ps"
+$SIGNAL 2 clr -1 0 IN 700000
+2 Stimulator="VAL:FRM:Override:1:<= 1:1:0ps"
+$SIGNAL 4 pre -1 0 IN 700000
+4 Stimulator="VAL:FRM:Override:0:<= 0:1:0ps"
+$SIGNAL 6 toggle -1 0 IN 700000
+6 Stimulator="VAL:FRM:Override:1:<= 1:1:0ps"
+$SIGNAL 5 q -1 0 OUT 700000
+$SIGNAL 3 nq -1 0 OUT 700000
+$EVENTS
+I 0 "e#9#std_logicc9 UX01ZWLH-"
+S 1 0
+S 2 0
+S 3 0
+S 4 0
+S 5 0
+S 6 0
+1 U
+2 U
+3 U
+4 U
+5 U
+6 U
+D 1
+6 1
+4 1
+2 1
+1 0
+T 50000
+1 1
+D 2
+5 1
+3 0
+T 50000
+1 0
+D 1
+4 0
+T 50000
+1 1
+D 2
+5 0
+3 1
+T 50000
+1 0
+T 50000
+1 1
+D 2
+5 1
+3 0
+T 50000
+1 0
+T 50000
+1 1
+D 2
+5 0
+3 1
+T 50000
+1 0
+T 50000
+1 1
+D 2
+5 1
+3 0
+T 50000
+1 0
+2 1
+3 0
+4 0
+5 1
+6 1
+1 0
+T 50000
+1 1
+D 2
+5 0
+3 1
+T 50000
+1 0
+T 50000
+1 1
+D 2
+5 1
+3 0
+$ENDWAVE

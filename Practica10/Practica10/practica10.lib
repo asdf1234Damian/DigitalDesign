@@ -1,11 +1,10 @@
 [~A]
-invalid=8109
-last=9390
-modifyid=7
+last=1281
+modifyid=3
 valid=4097
 ver=57
 
 [~U]
-FFT=9390,5
-FFT__archFFT__code=8109,1
+FFT=1281,5
+FFT__archFFT__code=0,1
 
