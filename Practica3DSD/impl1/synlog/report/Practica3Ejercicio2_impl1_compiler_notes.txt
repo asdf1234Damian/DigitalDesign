@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":4:7:4:10|Top entity is set to SISO.
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":4:7:4:10|Synthesizing work.siso.archsiso.
+@N: CD364 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":20:3:20:4|Removing redundant assignment.
+@N|Running in 64-bit mode
+

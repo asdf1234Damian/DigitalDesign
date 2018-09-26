@@ -1,0 +1,5 @@
+#Start recording tcl command: 9/6/2018 14:55:00
+#Project Location: C:/Users/asdf1/Documents/DigitalDesign/Practica3DSD; Project name: Practica3Ejercico1
+prj_project open "C:/Users/asdf1/Documents/DigitalDesign/Practica3DSD/Practica3Ejercico1.ldf"
+prj_project close
+#Stop recording: 9/6/2018 14:55:22

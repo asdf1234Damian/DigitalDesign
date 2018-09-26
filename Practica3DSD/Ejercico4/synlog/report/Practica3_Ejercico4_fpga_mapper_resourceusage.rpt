@@ -1,0 +1,17 @@
+Resource Usage Report
+Part: lcmxo2_7000he-4
+
+Register bits: 4 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       14
+
+Details:
+FD1P3DX:        4
+GSR:            1
+IB:             10
+INV:            1
+OB:             4
+ORCALUT4:       9
+PUR:            1
+VHI:            1
+VLO:            1

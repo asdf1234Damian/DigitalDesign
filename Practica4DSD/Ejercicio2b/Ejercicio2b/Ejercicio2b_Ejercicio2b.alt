@@ -1,0 +1,20 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Sep 14 17:27:48 2018 *
+NOTE DESIGN NAME: Mux8a1 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS o8 : 142 : out *
+NOTE PINS s8[0] : 42 : in *
+NOTE PINS a8[7] : 40 : in *
+NOTE PINS a8[6] : 41 : in *
+NOTE PINS a8[5] : 44 : in *
+NOTE PINS a8[4] : 45 : in *
+NOTE PINS a8[3] : 49 : in *
+NOTE PINS a8[2] : 50 : in *
+NOTE PINS a8[1] : 55 : in *
+NOTE PINS a8[0] : 56 : in *
+NOTE PINS s8[2] : 38 : in *
+NOTE PINS s8[1] : 39 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

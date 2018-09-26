@@ -1,0 +1,6 @@
+MESSAGE "File: C:\Users\asdf1\Documents\DigitalDesign\Practica1DSD\Practica1.vhd" 
+MESSAGE "Compile Entity "seisEntradas"" 
+MESSAGE "Compile Entity "dosEntradas"" 
+MESSAGE "Compile Architecture "archXOR2" of Entity "dosEntradas"" 
+MESSAGE "Compile Architecture "archXOR6" of Entity "seisEntradas"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]" 

@@ -1,0 +1,1 @@
+project -fileorder "C:/Users/asdf1/Documents/DigitalDesign/Practica4DSD/Ejercicio2b/Ejercicio2b.vhd" 

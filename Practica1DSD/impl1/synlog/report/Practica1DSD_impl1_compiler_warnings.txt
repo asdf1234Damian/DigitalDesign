@@ -1,0 +1,2 @@
+@W: CD638 :"C:\Users\asdf1\Documents\DigitalDesign\Practica1DSD\Practica1.vhd":39:21:39:22|Signal s5 is undriven. Either assign the signal a value or remove the signal declaration.
+

@@ -1,0 +1,30 @@
+----------------------------------------------------------------------
+Report for cell seisEntradas.archxor6
+
+Register bits: 0 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       7
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GSR        1       100.0
+                                 IB        6       100.0
+                                 OB        1       100.0
+                           ORCALUT4        2       100.0
+                                PUR        1       100.0
+                                VHI        2       100.0
+                                VLO        2       100.0
+SUB MODULES 
+                      dosEntradas_3        1       100.0
+                            
+                         TOTAL            16           
+----------------------------------------------------------------------
+Report for cell dosEntradas_3.netlist
+  Original Cell name dosEntradas
+     Instance path:  x5
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2       100.0
+                                VHI        1        50.0
+                                VLO        1        50.0
+                            
+                         TOTAL             4           

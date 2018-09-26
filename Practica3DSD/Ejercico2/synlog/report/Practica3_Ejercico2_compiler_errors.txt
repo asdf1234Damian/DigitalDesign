@@ -1,0 +1,20 @@
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Multiple non-tristate drivers for net Dn(7) in SISO
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Multiple non-tristate drivers for net Dn(6) in SISO
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Multiple non-tristate drivers for net Dn(5) in SISO
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Multiple non-tristate drivers for net Dn(4) in SISO
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Multiple non-tristate drivers for net Dn(3) in SISO
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Multiple non-tristate drivers for net Dn(2) in SISO
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Multiple non-tristate drivers for net Dn(1) in SISO
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Multiple non-tristate drivers for net Dn(0) in SISO
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Unresolved tristate drivers for net Dn(0) in SISO
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Unresolved tristate drivers for net Dn(1) in SISO
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Unresolved tristate drivers for net Dn(2) in SISO
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Unresolved tristate drivers for net Dn(3) in SISO
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Unresolved tristate drivers for net Dn(4) in SISO
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Unresolved tristate drivers for net Dn(5) in SISO
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Unresolved tristate drivers for net Dn(6) in SISO
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":12:7:12:8|Unresolved tristate drivers for net Dn(7) in SISO
+@E: MF420 |Netlist read from file C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico2\synwork\layer0.srs failed
+@E: Could not find specified top level SISO (library: work, cell: SISO)Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+@E::Error while linking, aborting.
+

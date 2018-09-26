@@ -1,0 +1,5 @@
+[COMPILESTATUS|.\..\Practica1.vhd]
+FileTimeLow=30685566
+Status=Compiled
+[Gui config]
+RunFor=80 ns

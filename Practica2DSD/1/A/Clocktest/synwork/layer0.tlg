@@ -1,0 +1,4 @@
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\DCMA.vhd":6:7:6:18|Synthesizing work.blinking_led.behavior.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.blinking_led.behavior

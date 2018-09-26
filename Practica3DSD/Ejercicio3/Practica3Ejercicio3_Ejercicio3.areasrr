@@ -1,0 +1,19 @@
+----------------------------------------------------------------------
+Report for cell SIPO.archsipo
+
+Register bits: 8 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       10
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3AX        6       100.0
+                                GSR        1       100.0
+                                 IB        2       100.0
+                           IFS1P3DX        1       100.0
+                                 OB        8       100.0
+                           OFS1P3DX        1       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL            22           

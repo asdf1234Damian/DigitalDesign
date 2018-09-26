@@ -1,0 +1,8 @@
+---------------------------------------------------
+Report for cell PIPO
+   Instance path: PIPO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       8.00        100.0
+                                 IOREG	          8        100.0
+                                 IOBUF	         17        100.0

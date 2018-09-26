@@ -1,0 +1,18 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Aug 31 13:36:05 2018 *
+NOTE DESIGN NAME: shifter *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS qn[0] : 133 : out *
+NOTE PINS s : 40 : in *
+NOTE PINS qn[3] : 143 : out *
+NOTE PINS qn[2] : 141 : out *
+NOTE PINS qn[1] : 139 : out *
+NOTE PINS pn[3] : 49 : in *
+NOTE PINS pn[2] : 50 : in *
+NOTE PINS pn[1] : 55 : in *
+NOTE PINS pn[0] : 56 : in *
+NOTE PINS c : 38 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

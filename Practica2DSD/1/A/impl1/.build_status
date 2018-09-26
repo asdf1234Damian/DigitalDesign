@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Bitgen" build_result="0" update_result="2" update_time="1535739539"/>
+            <Task name="Jedecgen" build_result="0" update_result="2" update_time="1535740565"/>
+        </Milestone>
+        <Milestone name="Map" build_result="0" build_time="1535740558">
+            <Task name="Map" build_result="0" update_result="2" update_time="1535740558"/>
+            <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="0" build_time="1535740562">
+            <Task name="PAR" build_result="0" update_result="2" update_time="1535740562"/>
+            <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="0" build_time="1535740556">
+            <Task name="Synplify_Synthesis" build_result="0" update_result="2" update_time="1535740556"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="0" update_result="2" update_time="1535740876"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
+            <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
+            <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
+            <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
+        </Milestone>
+        <Milestone name="Translate" build_result="0" build_time="1535740557">
+            <Task name="Translate" build_result="0" update_result="2" update_time="1535740557"/>
+        </Milestone>
+        <Report name="A_impl1.bgn" last_build_time="1535745104" last_build_size="4258"/>
+        <Report name="A_impl1.edi" last_build_time="1535745096" last_build_size="18059"/>
+        <Report name="A_impl1.jed" last_build_time="1535745104" last_build_size="1464686"/>
+        <Report name="A_impl1.ncd" last_build_time="1535745102" last_build_size="19721"/>
+        <Report name="A_impl1.ngd" last_build_time="1535745098" last_build_size="14756"/>
+        <Report name="A_impl1_map.ncd" last_build_time="1535745099" last_build_size="14482"/>
+        <Report name="Practica2TablaShifter_impl1.bgn" last_build_time="1535740565" last_build_size="4344"/>
+        <Report name="Practica2TablaShifter_impl1.bit" last_build_time="1535739539" last_build_size="25233"/>
+        <Report name="Practica2TablaShifter_impl1.edi" last_build_time="1535740555" last_build_size="9028"/>
+        <Report name="Practica2TablaShifter_impl1.jed" last_build_time="1535740565" last_build_size="1464705"/>
+        <Report name="Practica2TablaShifter_impl1.ncd" last_build_time="1535740561" last_build_size="10852"/>
+        <Report name="Practica2TablaShifter_impl1.ngd" last_build_time="1535740557" last_build_size="10165"/>
+        <Report name="Practica2TablaShifter_impl1_map.ncd" last_build_time="1535740558" last_build_size="8154"/>
+        <Report name="Shifter4Bits_impl1.bgn" last_build_time="1535753531" last_build_size="4313"/>
+        <Report name="Shifter4Bits_impl1.edi" last_build_time="1535745444" last_build_size="18059"/>
+        <Report name="Shifter4Bits_impl1.jed" last_build_time="1535753531" last_build_size="1464697"/>
+        <Report name="Shifter4Bits_impl1.ncd" last_build_time="1535753526" last_build_size="19811"/>
+        <Report name="Shifter4Bits_impl1.ngd" last_build_time="1535745445" last_build_size="14756"/>
+        <Report name="Shifter4Bits_impl1_map.ncd" last_build_time="1535753520" last_build_size="14479"/>
+    </Strategy>
+</BuildStatus>

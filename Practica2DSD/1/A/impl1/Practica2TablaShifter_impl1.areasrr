@@ -1,0 +1,19 @@
+----------------------------------------------------------------------
+Report for cell shifter.archshift
+
+Register bits: 0 of 6864 (0%)
+Latch bits:      4
+PIC Latch:       0
+I/O cells:       10
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S1AY        4       100.0
+                                GSR        1       100.0
+                                 IB        6       100.0
+                                 OB        4       100.0
+                           ORCALUT4        4       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL            22           

@@ -1,0 +1,1 @@
+@W: MT529 :"c:\users\asdf1\documents\digitaldesign\practica2dsd\1\a\shifter2.vhd":20:0:20:1|Found inferred clock shifter|c which controls 4 sequential elements including aux[3]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

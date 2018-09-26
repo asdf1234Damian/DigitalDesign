@@ -1,0 +1,1 @@
+run_tcl -fg Practica3Ejercicio2_impl1_synplify.tcl

@@ -1,0 +1,18 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu Sep 06 19:06:21 2018 *
+NOTE DESIGN NAME: SIPO *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Qn[0] : 109 : out *
+NOTE PINS D : 40 : in *
+NOTE PINS Qn[7] : 142 : out *
+NOTE PINS Qn[6] : 140 : out *
+NOTE PINS Qn[5] : 138 : out *
+NOTE PINS Qn[4] : 132 : out *
+NOTE PINS Qn[3] : 115 : out *
+NOTE PINS Qn[2] : 113 : out *
+NOTE PINS Qn[1] : 111 : out *
+NOTE PINS clk : 38 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

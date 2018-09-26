@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="PAR">
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=oao loads=2 clock_loads=2</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=oao loads=2 clock_loads=2</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\asdf1\documents\digitaldesign\practica2dsd\asdfasd\ffsr.vhd&quot;:19:0:19:1|Found inferred clock andOr|cz_inferred_clock which controls 8 sequential elements including ff0.tmp_cl. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\practica2dsd\asdfasd\ffsr.vhd</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>Found inferred clock andOr|cz_inferred_clock which controls 8 sequential elements including ff0.tmp_cl. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MO129 :&quot;c:\users\asdf1\documents\digitaldesign\practica2dsd\asdfasd\ffsr.vhd&quot;:19:0:19:1|Sequential instance ff0.tmp_cl is reduced to a combinational gate by constant propagation.</Dynamic>
+            <Navigation>MO129</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\practica2dsd\asdfasd\ffsr.vhd</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>Sequential instance ff0.tmp_cl is reduced to a combinational gate by constant propagation.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MO129 :&quot;c:\users\asdf1\documents\digitaldesign\practica2dsd\asdfasd\ffsr.vhd&quot;:19:0:19:1|Sequential instance ff1.tmp_cl is reduced to a combinational gate by constant propagation.</Dynamic>
+            <Navigation>MO129</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\practica2dsd\asdfasd\ffsr.vhd</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>Sequential instance ff1.tmp_cl is reduced to a combinational gate by constant propagation.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MO129 :&quot;c:\users\asdf1\documents\digitaldesign\practica2dsd\asdfasd\ffsr.vhd&quot;:19:0:19:1|Sequential instance ff2.tmp_cl is reduced to a combinational gate by constant propagation.</Dynamic>
+            <Navigation>MO129</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\practica2dsd\asdfasd\ffsr.vhd</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>Sequential instance ff2.tmp_cl is reduced to a combinational gate by constant propagation.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MO129 :&quot;c:\users\asdf1\documents\digitaldesign\practica2dsd\asdfasd\ffsr.vhd&quot;:19:0:19:1|Sequential instance ff3.tmp_cl is reduced to a combinational gate by constant propagation.</Dynamic>
+            <Navigation>MO129</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\practica2dsd\asdfasd\ffsr.vhd</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>Sequential instance ff3.tmp_cl is reduced to a combinational gate by constant propagation.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock andOr|cz_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object &quot;n:ao.cz&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock andOr|cz_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object &quot;n:ao.cz&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

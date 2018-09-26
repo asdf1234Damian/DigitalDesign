@@ -1,0 +1,1 @@
+run_tcl -fg Practica2TablaShifter_impl1_synplify.tcl

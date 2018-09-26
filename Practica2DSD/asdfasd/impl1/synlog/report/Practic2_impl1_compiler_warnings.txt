@@ -1,0 +1,11 @@
+@W: CL240 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\asdfasd\barrelShifter.vhd":11:1:11:1|Signal z is floating; a simulation mismatch is possible.
+@W: CL168 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\asdfasd\barrelShifter.vhd":53:1:53:3|Removing instance ff3 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\asdfasd\barrelShifter.vhd":52:1:52:3|Removing instance ff2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\asdfasd\barrelShifter.vhd":51:1:51:3|Removing instance ff1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\asdfasd\barrelShifter.vhd":50:1:50:3|Removing instance ff0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\asdfasd\barrelShifter.vhd":48:1:48:3|Removing instance an3 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\asdfasd\barrelShifter.vhd":47:1:47:3|Removing instance an2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\asdfasd\barrelShifter.vhd":46:1:46:3|Removing instance an1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\asdfasd\barrelShifter.vhd":45:1:45:3|Removing instance an0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\asdfasd\barrelShifter.vhd":44:1:44:2|Removing instance ao because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+

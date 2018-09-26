@@ -1,0 +1,15 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Mon Sep 10 13:54:51 2018 *
+NOTE DESIGN NAME: Mux4a1 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS o : 142 : out *
+NOTE PINS s[0] : 39 : in *
+NOTE PINS a[3] : 40 : in *
+NOTE PINS a[2] : 41 : in *
+NOTE PINS a[1] : 44 : in *
+NOTE PINS a[0] : 45 : in *
+NOTE PINS s[1] : 38 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

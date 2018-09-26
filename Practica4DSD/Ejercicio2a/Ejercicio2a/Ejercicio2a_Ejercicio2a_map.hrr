@@ -1,0 +1,8 @@
+---------------------------------------------------
+Report for cell Mux4a1
+   Instance path: Mux4a1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00        100.0
+                                  LUT4	       2.00        100.0
+                                 IOBUF	          7        100.0

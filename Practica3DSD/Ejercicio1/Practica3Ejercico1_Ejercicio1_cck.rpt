@@ -1,0 +1,77 @@
+# Synopsys Constraint Checker, version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Mon Sep  3 14:55:26 2018
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "PIPO"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:Dn[0]
+p:Dn[1]
+p:Dn[2]
+p:Dn[3]
+p:Dn[4]
+p:Dn[5]
+p:Dn[6]
+p:Dn[7]
+p:Qn[0]
+p:Qn[1]
+p:Qn[2]
+p:Qn[3]
+p:Qn[4]
+p:Qn[5]
+p:Qn[6]
+p:Qn[7]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

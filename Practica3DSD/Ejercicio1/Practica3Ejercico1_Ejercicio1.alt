@@ -1,0 +1,25 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu Sep 06 19:53:43 2018 *
+NOTE DESIGN NAME: PIPO *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Qn[0] : 109 : out *
+NOTE PINS Dn[0] : 56 : in *
+NOTE PINS Qn[7] : 142 : out *
+NOTE PINS Qn[6] : 140 : out *
+NOTE PINS Qn[5] : 138 : out *
+NOTE PINS Qn[4] : 132 : out *
+NOTE PINS Qn[3] : 115 : out *
+NOTE PINS Qn[2] : 113 : out *
+NOTE PINS Qn[1] : 111 : out *
+NOTE PINS ck : 38 : in *
+NOTE PINS Dn[7] : 40 : in *
+NOTE PINS Dn[6] : 41 : in *
+NOTE PINS Dn[5] : 44 : in *
+NOTE PINS Dn[4] : 45 : in *
+NOTE PINS Dn[3] : 49 : in *
+NOTE PINS Dn[2] : 50 : in *
+NOTE PINS Dn[1] : 55 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

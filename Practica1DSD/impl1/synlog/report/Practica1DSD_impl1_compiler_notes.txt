@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\asdf1\Documents\DigitalDesign\Practica1DSD\Practica1.vhd":4:7:4:18|Top entity is set to seisEntradas.
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica1DSD\Practica1.vhd":4:7:4:18|Synthesizing work.seisentradas.archxor6.
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica1DSD\Practica1.vhd":13:7:13:17|Synthesizing work.dosentradas.archxor2.
+@N|Running in 64-bit mode
+

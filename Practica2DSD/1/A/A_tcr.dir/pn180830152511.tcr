@@ -1,0 +1,6 @@
+#Start recording tcl command: 8/30/2018 14:37:34
+#Project Location: C:/Users/asdf1/Documents/DigitalDesign/Practica2DSD/1/A; Project name: A
+prj_project open "C:/Users/asdf1/Documents/DigitalDesign/Practica2DSD/1/A/A.ldf"
+prj_run Translate -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+#Stop recording: 8/30/2018 15:25:11

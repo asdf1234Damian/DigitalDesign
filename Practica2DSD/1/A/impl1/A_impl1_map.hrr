@@ -1,0 +1,47 @@
+---------------------------------------------------
+Report for cell corrimientoRotacional
+   Instance path: corrimientoRotacional
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00        100.0
+                                  LUT4	      16.00        100.0
+                                 IOBUF	         10        100.0
+                                PFUREG	          4        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                FFSR_2	          1        25.0
+                                FFSR_0	          1        25.0
+                                FFSR_1	          1        25.0
+                                  FFSR	          1        25.0
+---------------------------------------------------
+Report for cell FFSR_2
+   Instance path: corrimientoRotacional/ff3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00        25.0
+                                  LUT4	       4.00        25.0
+                                PFUREG	          1        25.0
+---------------------------------------------------
+Report for cell FFSR_1
+   Instance path: corrimientoRotacional/ff2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00        25.0
+                                  LUT4	       4.00        25.0
+                                PFUREG	          1        25.0
+---------------------------------------------------
+Report for cell FFSR_0
+   Instance path: corrimientoRotacional/ff1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00        25.0
+                                  LUT4	       4.00        25.0
+                                PFUREG	          1        25.0
+---------------------------------------------------
+Report for cell FFSR
+   Instance path: corrimientoRotacional/ff0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00        25.0
+                                  LUT4	       4.00        25.0
+                                PFUREG	          1        25.0

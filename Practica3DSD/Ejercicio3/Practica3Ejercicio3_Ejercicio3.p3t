@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Practica3Ejercicio3_Ejercicio3.log"
+-o "Practica3Ejercicio3_Ejercicio3.csv"
+-pr "Practica3Ejercicio3_Ejercicio3.prf"

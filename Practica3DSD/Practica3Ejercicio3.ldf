@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="Practica3Ejercicio3" device="LCMXO2-7000HE-5TG144C" default_implementation="Ejercicio3">
+    <Options/>
+    <Implementation title="Ejercicio3" dir="Ejercicio3" description="Ejercicio3" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="SIPO"/>
+        <Source name="Ejercico3.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="SIPO"/>
+        </Source>
+        <Source name="Ejercicio3/Ejercicio3.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="Practica3Ejercicio3.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Practica3Ejercicio31.sty"/>
+</BaliProject>

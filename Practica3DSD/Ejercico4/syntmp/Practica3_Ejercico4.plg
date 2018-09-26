@@ -1,0 +1,8 @@
+@P:  Worst Slack : 997.347
+@P:  reg_uni|clk - Estimated Frequency : 377.0 MHz
+@P:  reg_uni|clk - Requested Frequency : 1.0 MHz
+@P:  reg_uni|clk - Estimated Period : 2.653
+@P:  reg_uni|clk - Requested Period : 1000.000
+@P:  reg_uni|clk - Slack : 997.347
+@P:  Total Area : 10.0
+@P:  CPU Time : 0h:00m:00s

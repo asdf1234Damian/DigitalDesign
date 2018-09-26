@@ -1,0 +1,17 @@
+----------------------------------------------------------------------
+Report for cell PIPO.arch_pipo
+
+Register bits: 8 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       17
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GSR        1       100.0
+                                 IB        9       100.0
+                           IFS1P3DX        8       100.0
+                                 OB        8       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL            29           

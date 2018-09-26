@@ -1,0 +1,72 @@
+timestamp=1535669059091
+
+[~A]
+ModifyID=4
+Version=74
+
+[andnor]
+A/archandnor=A/archAndNor 21|./../../andNor.vhd|13|1*1582
+BinI32/archandnor=3*964
+I=0*3283
+I/archandnor=I/archAndNor 0*3821
+M=11|0|vd0|1535669058776|./../../andNor.vhd|0*2938*0x1ae3175e4f860c6791bce767bff8b0722938a3f4|0*3205*0x23b75c12e3e89f2ef000564498faa8c2
+M/archandnor=M/archAndNor 21|0|vd0|1535669058780|./../../andNor.vhd|0*3563*0x08c29d9d4c4aeafe774bcccf33f7a1ae76dca54b|0*3729*0x9065d32a2e40e13794b29a2731812845
+R=./../../andNor.vhd|6
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|43e96f9484730a2334cc921ee34faa6716140adc65336e50ee9cfc3b6a53af31
+Version/archandnor=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9cc28a0a42588977446f45fa8a5cdc65b6cb8f865411fc18548a8c9492b6c9f44620e746342f67283b7039a7e2eb1211
+
+[andor]
+A/archandor=A/archAndOr 21|./../../andNor.vhd|31|1*2378
+BinI32/archandor=3*1291
+I=0*4638
+I/archandor=I/archAndOr 0*5168
+M=11|0|vd0|1535669058790|./../../andNor.vhd|0*4296*0x684732b5db05289f9e13c94a37217736e9a928c4|0*4561*0x23b75c12e3e89f2ef000564498faa8c2
+M/archandor=M/archAndOr 21|0|vd0|1535669058793|./../../andNor.vhd|0*4917*0xf78fe4d93260b0b815d0ca05e37b89ebbb35c4fa|0*5078*0x9065d32a2e40e13794b29a2731812845
+R=./../../andNor.vhd|24
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|862df0976bcebdeb37747e3a9c6a8ca131bd5b21c7b4a5f81fbeea41fa227291
+Version/archandor=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|a15501354ec7fd60719ed5445af208311abc7d99fa60964a20020dd4f66126561f7f0cdf1b9ab1de6c87289b0e51718f
+
+[corrimientorotacional]
+A/barrshift=A/barrShift 21|./../../RegistroCorrimientRotacional.vhd|15|1*3176
+BinI32/barrshift=3*1617
+I=0*6182
+I/barrshift=I/barrShift 0*7726
+M=11|0|vd0|1535669058992|./../../RegistroCorrimientRotacional.vhd|0*5691*0xd9fbf6c5cd7f60001d730c48293d9cac91d87f18|0*6067*0x23b75c12e3e89f2ef000564498faa8c2
+M/barrshift=M/barrShift 21|0|vd0|1535669058996|./../../RegistroCorrimientRotacional.vhd|0*6477*0x0334bd096e27ff0ef728ed03321b459214fc58f1|0*7598*0x9065d32a2e40e13794b29a2731812845
+R=./../../RegistroCorrimientRotacional.vhd|6
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|1f0bd0a94230096917ddc66c3cc607f34e4ecafa088515770601a5562ff7cbc1861c5a7b2abbd747dcab3582e95e785a
+Version/barrshift=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c4463bc5c2154cc7a2514d27f1ca47111cf3f6da28b33b2380de57447e8243513eda734983a8956febd1c999faced5eb
+
+[ffd]
+A/archffd=A/archFFD 21|./../../FlipFlopD.vhd|12|1*0
+BinI32/archffd=3*0
+I=0*481
+I/archffd=I/archFFD 0*985
+M=11|0|vd0|1535669058120|./../../FlipFlopD.vhd|0*178*0x9cb53f1627a566ec59b6e960f4894b30101e50ed|0*403*0x23b75c12e3e89f2ef000564498faa8c2
+M/archffd=M/archFFD 21|0|vd0|1535669058123|./../../FlipFlopD.vhd|0*711*0x2abdcd1e77512211aa6996f714da96b6e1c6cf71|0*896*0x9065d32a2e40e13794b29a2731812845
+R=./../../FlipFlopD.vhd|5
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|dcfd268ed5b9f95be2f60a9c414fd9d0c35e99247a606f143fe90d33c7c95d32
+Version/archffd=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|d9a1527672c26efb917eeb94fcf21e7326527262ddaa47cb266f3a3c4d9b973a78ca487ee2e316f75301a52dc985bda9
+
+[ffsr]
+A/archffsr=A/archFFSR 21|./../../FlipFlopSR.vhd|14|1*734
+BinI32/archffsr=3*356
+I=0*1753
+I/archffsr=I/archFFSR 0*2465
+M=11|0|vd0|1535669058519|./../../FlipFlopSR.vhd|0*1407*0xf4f926f3f8480077604a5221185b8fe859d125d1|0*1673*0x23b75c12e3e89f2ef000564498faa8c2
+M/archffsr=M/archFFSR 21|0|vd0|1535669058522|./../../FlipFlopSR.vhd|0*2031*0x9467dc1f0e93fd5897c40742e07cd5e0e86590a2|0*2373*0x9065d32a2e40e13794b29a2731812845
+R=./../../FlipFlopSR.vhd|6
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|3fc974969c4ffdeee21ffc71c2a44140bf30f175b1e276e7e5f4f782fb0285a4
+Version/archffsr=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|3acbab91bb88e23f7ffe7d67a7fd979d074877a8690640a4156c1f30ef00c062550ab6b6a8badc8785d90bc0e00586dc
+
+[~MFT]
+0=7|0work.mgf|7726|0
+1=1|1work.mgf|3176|0
+3=1|3work.mgf|1617|0
+
+[~U]
+andnor=andNor 11|0*2752|
+andor=andOr 11|0*4112|
+corrimientorotacional=corrimientoRotacional 11|0*5457|
+ffd=FFD 11|0*0|
+ffsr=FFSR 11|0*1223|

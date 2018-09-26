@@ -1,0 +1,53 @@
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd":7:7:7:13|Top entity is set to shifter.
+File C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd changed - recompiling
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd":7:7:7:13|Synthesizing work.shifter.archshift.
+@N: CD364 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd":29:0:29:2|Removing redundant assignment.
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd":17:0:17:6|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd":22:6:22:7|Referenced variable pn is not in sensitivity list.
+Post processing for work.shifter.archshift
+@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd":20:0:20:1|Latch generated from process for signal aux(3); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd":20:0:20:1|Latch generated from process for signal aux(2); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd":20:0:20:1|Latch generated from process for signal aux(1); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd":20:0:20:1|Latch generated from process for signal aux(0); possible missing assignment in an if or case statement.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Aug 31 13:35:50 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\impl1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Aug 31 13:35:50 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Aug 31 13:35:50 2018
+
+###########################################################]

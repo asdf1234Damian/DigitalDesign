@@ -1,0 +1,10 @@
+#Start recording tcl command: 9/6/2018 14:55:23
+#Project Location: C:/Users/asdf1/Documents/DigitalDesign/Practica3DSD; Project name: Practica3Ejercicio2
+prj_project open "C:/Users/asdf1/Documents/DigitalDesign/Practica3DSD/Practica3Ejercicio2.ldf"
+prj_src add "C:/Users/asdf1/Documents/DigitalDesign/Practica3DSD/v.vhd"
+prj_src remove "C:/Users/asdf1/Documents/DigitalDesign/Practica3DSD/v.vhd"
+prj_src add "C:/Users/asdf1/Documents/DigitalDesign/Practica3DSD/Ejercicio2.vhd"
+prj_src remove "C:/Users/asdf1/Documents/DigitalDesign/Practica3DSD/Ejercico3.vhd"
+prj_project save
+prj_project close
+#Stop recording: 9/6/2018 14:57:24

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Practica2TablaShifter_impl1.log"
+-o "Practica2TablaShifter_impl1.csv"
+-pr "Practica2TablaShifter_impl1.prf"

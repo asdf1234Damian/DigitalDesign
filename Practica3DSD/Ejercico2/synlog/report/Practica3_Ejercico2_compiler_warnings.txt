@@ -1,0 +1,3 @@
+@W: CL240 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":7:1:7:1|Signal Q is floating; a simulation mismatch is possible.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Practica3DSD\Ejercico3.vhd":16:2:16:3|Pruning unused register Dn_2(7 downto 0). Make sure that there are no unused intermediate registers.
+
