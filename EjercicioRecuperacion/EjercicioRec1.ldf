@@ -2,7 +2,10 @@
 <BaliProject version="3.2" title="EjercicioRec1" device="LCMXO2-7000HE-5TG144C" default_implementation="impl1">
     <Options/>
     <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
-        <Options/>
+        <Options def_top="ejercicio"/>
+        <Source name="Eje1.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="ejercicio"/>
+        </Source>
         <Source name="EjercicioRec1.lpf" type="Logic Preference" type_short="LPF">
             <Options/>
         </Source>
