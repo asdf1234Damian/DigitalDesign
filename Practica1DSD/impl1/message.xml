@@ -4,35 +4,82 @@
         <Message>
             <ID>1100679</ID>
             <Severity>Warning</Severity>
+<<<<<<< HEAD
             <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf(9): Semantic error in &quot;LOCATE COMP &quot;z3&quot; SITE &quot;98&quot; ;&quot;: </Dynamic>
             <Dynamic>z3</Dynamic>
+=======
+            <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf(9): Semantic error in &quot;LOCATE COMP &quot;z7&quot; SITE &quot;104&quot; ;&quot;: </Dynamic>
+            <Dynamic>z7</Dynamic>
+>>>>>>> 1e0159934712de369f90e4d4827110fd69e68344
             <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf</Navigation>
             <Navigation>9</Navigation>
         </Message>
         <Message>
             <ID>1100679</ID>
             <Severity>Warning</Severity>
+<<<<<<< HEAD
             <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf(10): Semantic error in &quot;LOCATE COMP &quot;z2&quot; SITE &quot;97&quot; ;&quot;: </Dynamic>
             <Dynamic>z2</Dynamic>
+=======
+            <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf(10): Semantic error in &quot;LOCATE COMP &quot;z6&quot; SITE &quot;99&quot; ;&quot;: </Dynamic>
+            <Dynamic>z6</Dynamic>
+>>>>>>> 1e0159934712de369f90e4d4827110fd69e68344
             <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf</Navigation>
             <Navigation>10</Navigation>
         </Message>
         <Message>
             <ID>1100679</ID>
             <Severity>Warning</Severity>
+<<<<<<< HEAD
             <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf(11): Semantic error in &quot;LOCATE COMP &quot;z1&quot; SITE &quot;106&quot; ;&quot;: </Dynamic>
             <Dynamic>z1</Dynamic>
+=======
+            <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf(11): Semantic error in &quot;LOCATE COMP &quot;z3&quot; SITE &quot;98&quot; ;&quot;: </Dynamic>
+            <Dynamic>z3</Dynamic>
+>>>>>>> 1e0159934712de369f90e4d4827110fd69e68344
             <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf</Navigation>
             <Navigation>11</Navigation>
         </Message>
         <Message>
             <ID>1100679</ID>
             <Severity>Warning</Severity>
+<<<<<<< HEAD
             <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf(12): Semantic error in &quot;LOCATE COMP &quot;z4&quot; SITE &quot;100&quot; ;&quot;: </Dynamic>
             <Dynamic>z4</Dynamic>
             <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf</Navigation>
             <Navigation>12</Navigation>
         </Message>
+=======
+            <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf(12): Semantic error in &quot;LOCATE COMP &quot;z2&quot; SITE &quot;97&quot; ;&quot;: </Dynamic>
+            <Dynamic>z2</Dynamic>
+            <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf(13): Semantic error in &quot;LOCATE COMP &quot;z5&quot; SITE &quot;107&quot; ;&quot;: </Dynamic>
+            <Dynamic>z5</Dynamic>
+            <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf(14): Semantic error in &quot;LOCATE COMP &quot;z1&quot; SITE &quot;106&quot; ;&quot;: </Dynamic>
+            <Dynamic>z1</Dynamic>
+            <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf(15): Semantic error in &quot;LOCATE COMP &quot;z4&quot; SITE &quot;100&quot; ;&quot;: </Dynamic>
+            <Dynamic>z4</Dynamic>
+            <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1DSD.lpf</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+>>>>>>> 1e0159934712de369f90e4d4827110fd69e68344
     </Task>
     <Task name="Synplify_Synthesis">
         <Message>
@@ -42,12 +89,21 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
+<<<<<<< HEAD
             <Dynamic>CD638 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Practica1DSD\Practica1.vhd&quot;:39:21:39:22|Signal s5 is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
             <Navigation>CD638</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Practica1DSD\Practica1.vhd</Navigation>
             <Navigation>39</Navigation>
             <Navigation>21</Navigation>
             <Navigation>39</Navigation>
+=======
+            <Dynamic>CD638 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Practica1DSD\Practica1.vhd&quot;:40:21:40:22|Signal s5 is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Practica1DSD\Practica1.vhd</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>40</Navigation>
+>>>>>>> 1e0159934712de369f90e4d4827110fd69e68344
             <Navigation>22</Navigation>
             <Navigation>Signal s5 is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
         </Message>

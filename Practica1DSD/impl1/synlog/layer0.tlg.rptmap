@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ./synwork/layer0.tlg,layer0.tlg,An incremental, partial HDL compilation log file that may allow early access to errors or other messages.
+=======
+./synwork/layer0.tlg,layer0.tlg,An incremental, partial HDL compilation log file that may allow early access to errors or other messages.
+>>>>>>> 1e0159934712de369f90e4d4827110fd69e68344

@@ -1,7 +1,7 @@
 module encoder ( 
-	input,
-	output
+	i,
+	o
 	) ;
 
-input [9:0] input;
-inout [3:0] output;
+input [9:0] i;
+inout [3:0] o;

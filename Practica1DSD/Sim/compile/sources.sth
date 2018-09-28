@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 [Files List]
 C:\lscc\diamond\3.10_x64\active-hdl\vlib\std/src/standard.vhd=S
 C:\lscc\diamond\3.10_x64\active-hdl\vlib\std/src/textio.vhd=S
 C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/std_logic_1164.vhdl=S
 C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/std_logic_1164-body.vhdl=S
 C:\Users\asdf1\Documents\DigitalDesign\Practica1DSD/Practica1.vhd=S
+=======
+[Files List]
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\std/src/standard.vhd=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\std/src/textio.vhd=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Users\asdf1\Documents\DigitalDesign\Practica1DSD/Practica1.vhd=S
+>>>>>>> 1e0159934712de369f90e4d4827110fd69e68344

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---------------------------------------------------
 Report for cell seisEntradas
    Instance path: seisEntradas
@@ -16,3 +17,23 @@ Report for cell dosEntradas_3
                                   cell	      count    Res Usage(%)
                                   SLIC	       1.00        100.0
                                   LUT4	       2.00        100.0
+=======
+---------------------------------------------------
+Report for cell seisEntradas
+   Instance path: seisEntradas
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00        100.0
+                                  LUT4	       2.00        100.0
+                                 IOBUF	          7        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         dosEntradas_3	          1        100.0
+---------------------------------------------------
+Report for cell dosEntradas_3
+   Instance path: seisEntradas/x5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00        100.0
+                                  LUT4	       2.00        100.0
+>>>>>>> 1e0159934712de369f90e4d4827110fd69e68344

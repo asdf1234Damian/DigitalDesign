@@ -1,5 +1,6 @@
 MESSAGE "File: \\VBOXSVR\DigitalDesign\Practica8\Practica8.vhd" 
 MESSAGE "Compile Entity "Encoder"" 
-MESSAGE "Entity "Encoder" has been skipped - no difference detected." 
 MESSAGE "Compile Architecture "archEncoder" of Entity "Encoder"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   Encoder" 
 MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 

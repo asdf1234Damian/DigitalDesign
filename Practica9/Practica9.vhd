@@ -17,12 +17,7 @@ begin
 
   mux : process(selct,a,b,c,d)
   begin
-    case( selct ) is
-      when "00" => z <=a;
-      when "01" => z <=b;
-      when "10" => z <=c;
-      when others => z <=d;
-    end case;
+
   end process;
 
   MagComp : process(z,ref,ma,me,i)

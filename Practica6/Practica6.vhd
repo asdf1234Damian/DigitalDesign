@@ -16,7 +16,7 @@ architecture archHolaPalabra of  HolaPalabra is
   Constant AlfO: std_logic_vector(6 downto 0):= "0000001";
   Constant AlfL: std_logic_vector(6 downto 0):= "1110001";
   Constant AlfA: std_logic_vector(6 downto 0):= "0001000";
-  Constant AlfB: std_logic_vector(6 downto 0):= "0011000";
+  Constant AlfC: std_logic_vector(6 downto 0):= "0110001";
   Constant Apag: std_logic_vector(6 downto 0):= "1111111";
 begin
 process(Control ,InVec)
@@ -31,10 +31,10 @@ begin
     end case;
   else
     case( InVec ) is
-      when "0000" => OutVec <= AlfA;
-      when "0001" => OutVec <= AlfL;
-      when "0011" => OutVec <= AlfO;
-      when "0111" => OutVec <= AlfH;
+      when "0000" => OutVec <= AlfC;
+      when "0001" => OutVec <= AlfH;
+      when "0011" => OutVec <= AlfA;
+      when "0111" => OutVec <= AlfO;
       when others => OutVec <= Apag;
     end case;
   end if;

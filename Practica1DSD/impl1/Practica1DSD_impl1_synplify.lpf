@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #
 # Logical Preferences generated for Lattice by Synplify maplat, Build 1796R.
 #
@@ -18,3 +19,25 @@
 BLOCK ASYNCPATHS;
 
 # End of generated Logical Preferences.
+=======
+#
+# Logical Preferences generated for Lattice by Synplify maplat, Build 1796R.
+#
+
+# Period Constraints 
+
+
+# Output Constraints 
+
+# Input Constraints 
+
+# Point-to-point Delay Constraints 
+
+
+
+# Block Path Constraints 
+
+BLOCK ASYNCPATHS;
+
+# End of generated Logical Preferences.
+>>>>>>> 1e0159934712de369f90e4d4827110fd69e68344

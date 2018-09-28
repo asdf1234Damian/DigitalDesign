@@ -1,0 +1,90 @@
+Design: 8:18 AM, Tuesday, June 19, 2018
+Design: Opening design "\\VBOXSVR\DigitalDesign\Practica10\Practica10\Practica10.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation with file reorder...
+File: \\VBOXSVR\DigitalDesign\Practica10\Practica10.vhd
+Compile Entity "FFT"
+Compile Architecture "archFFT" of Entity "FFT"
+Top-Level unit detected
+Entity  =>   FFT
+Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+8:20 AM, Tuesday, June 19, 2018
+Simulation has been initialized
+Selected Top-Level: FFT (archFFT)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+8:20 AM, Tuesday, June 19, 2018
+Simulation has been initialized
+Selected Top-Level: FFT (archFFT)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 500 ns
+KERNEL: stopped at time: 600 ns
+KERNEL: stopped at time: 700 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+8:27 AM, Tuesday, June 19, 2018
+Simulation has been initialized
+Selected Top-Level: FFT (archFFT)
+KERNEL: stopped at time: 100 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+8:27 AM, Tuesday, June 19, 2018
+Simulation has been initialized
+Selected Top-Level: FFT (archFFT)
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+8:27 AM, Tuesday, June 19, 2018
+Simulation has been initialized
+Selected Top-Level: FFT (archFFT)
+KERNEL: stopped at time: 100 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+8:27 AM, Tuesday, June 19, 2018
+Simulation has been initialized
+Selected Top-Level: FFT (archFFT)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 500 ns
+Simulation has been stopped
