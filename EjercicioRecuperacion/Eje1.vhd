@@ -25,13 +25,12 @@ architecture archEjercicio of ejercicio is
 begin 
 	OSCInst0 : OSCH GENERIC  MAP("26.60") PORT MAP('0', clk_0);
 PIPO: process(clk_low, rst)
-variable count: INTEGER RANGE 0 to 25000000;
 begin 
-
 	if rst='0' then 
+		v<="000000000000";
 		d<="0000";
 	elsif (clk_low'event and clk_low='1') then 
-		v<=q&v(7 downto 0);
+		v<=q&v(11 downto 4);
 		d<=v(3 downto 0);
 	end if;
 end process;
