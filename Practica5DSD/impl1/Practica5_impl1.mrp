@@ -10,12 +10,12 @@ Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
      Practica5_impl1.mrp -lpf C:/Users/asdf1/Documents/DigitalDesign/Practica5DS
      D/impl1/Practica5_impl1_synplify.lpf -lpf
      C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf -c 0 -gui
-     
+     -msgset C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/promote.xml 
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
-Mapped on:  09/24/18  19:53:41
+Mapped on:  09/29/18  11:51:07
 
 Design Summary
 --------------
@@ -23,16 +23,16 @@ Design Summary
    Number of registers:     30 out of  7209 (0%)
       PFU registers:           30 out of  6864 (0%)
       PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:        27 out of  3432 (1%)
-      SLICEs as Logic/ROM:     27 out of  3432 (1%)
+   Number of SLICEs:        31 out of  3432 (1%)
+      SLICEs as Logic/ROM:     31 out of  3432 (1%)
       SLICEs as RAM:            0 out of  2574 (0%)
       SLICEs as Carry:         16 out of  3432 (0%)
-   Number of LUT4s:         53 out of  6864 (1%)
-      Number used as logic LUTs:         21
+   Number of LUT4s:         61 out of  6864 (1%)
+      Number used as logic LUTs:         29
       Number used as distributed RAM:     0
       Number used as ripple logic:       32
       Number used as shift registers:     0
-   Number of PIO sites used: 16 + 4(JTAG) out of 115 (17%)
+   Number of PIO sites used: 23 + 4(JTAG) out of 115 (23%)
    Number of block RAMs:  0 out of 26 (0%)
    Number of GSRs:  1 out of 1 (100%)
    EFB used :       No
@@ -66,7 +66,7 @@ Design Summary
 
 
 
-Design:  contadorBCD                                   Date:  09/24/18  19:53:41
+Design:  contadorBCD                                   Date:  09/29/18  11:51:07
 
 Design Summary (cont)
 ---------------------
@@ -76,27 +76,43 @@ Design Summary (cont)
      Net P_blink_LED.un2_count_i: 7 loads, 7 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
+     Net s_count[0]: 13 loads
+     Net s_count[2]: 12 loads
+     Net s_count[1]: 10 loads
+     Net s_count[3]: 10 loads
      Net P_blink_LED.un2_count_i: 7 loads
-     Net conta_c[1]: 6 loads
-     Net conta_c[2]: 6 loads
      Net load_c: 6 loads
-     Net conta_c[0]: 5 loads
      Net clk_low_RNI9PTU: 4 loads
-     Net contaBCD.s_count_8_sm0: 4 loads
-     Net conta_c[3]: 4 loads
      Net count[23]: 4 loads
      Net count[24]: 4 loads
+     Net VCC: 4 loads
 
 
 
 
-   Number of warnings:  1
+   Number of warnings:  5
    Number of errors:    0
      
 
 Design Errors/Warnings
 ----------------------
 
+WARNING - map:
+     C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(4):
+     Semantic error in "LOCATE COMP "conta[0]" SITE "142" ;": COMP "conta[0]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map:
+     C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(5):
+     Semantic error in "LOCATE COMP "conta[1]" SITE "140" ;": COMP "conta[1]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map:
+     C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(6):
+     Semantic error in "LOCATE COMP "conta[2]" SITE "138" ;": COMP "conta[2]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map:
+     C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(7):
+     Semantic error in "LOCATE COMP "conta[3]" SITE "132" ;": COMP "conta[3]"
+     cannot be found in design. This preference has been disabled.
 WARNING - map: Using local reset signal 'reset_c' to infer global GSR net.
 
 IO (PIO) Attributes
@@ -110,6 +126,16 @@ IO (PIO) Attributes
 +---------------------+-----------+-----------+------------+
 | load                | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
+
+                                    Page 2
+
+
+
+
+Design:  contadorBCD                                   Date:  09/29/18  11:51:07
+
+IO (PIO) Attributes (cont)
+--------------------------
 | blink_LED           | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | off_LED[2]          | OUTPUT    | LVCMOS25  |            |
@@ -118,24 +144,28 @@ IO (PIO) Attributes
 +---------------------+-----------+-----------+------------+
 | off_LED[0]          | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| conta[3]            | OUTPUT    | LVCMOS25  |            |
+| dispA[6]            | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| conta[2]            | OUTPUT    | LVCMOS25  |            |
+| dispA[5]            | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| conta[1]            | OUTPUT    | LVCMOS25  |            |
+| dispA[4]            | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| conta[0]            | OUTPUT    | LVCMOS25  |            |
+| dispA[3]            | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-
-                                    Page 2
-
-
-
-
-Design:  contadorBCD                                   Date:  09/24/18  19:53:41
-
-IO (PIO) Attributes (cont)
---------------------------
+| dispA[2]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dispA[1]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dispA[0]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[3]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[2]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[1]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[0]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
 | data[3]             | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | data[2]             | INPUT     | LVCMOS25  |            |
@@ -162,6 +192,14 @@ Signal un1_s_count_1_cry_0_0_S1 undriven or does not drive anything - clipped.
 Signal un1_s_count_1_cry_0_0_S0 undriven or does not drive anything - clipped.
 Signal N_1 undriven or does not drive anything - clipped.
 Signal OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
+
+                                    Page 3
+
+
+
+
+Design:  contadorBCD                                   Date:  09/29/18  11:51:07
+
 
 Memory Usage
 ------------
@@ -193,16 +231,6 @@ GSR Component:
         Set Reset (GSR). The reset signal used for GSR control is 'reset_c'.
         
 
-                                    Page 3
-
-
-
-
-Design:  contadorBCD                                   Date:  09/24/18  19:53:41
-
-GSR Usage (cont)
-----------------
-
      GSR Property:
    The design components with GSR property set to ENABLED will respond to global
         set reset while the components with GSR property set to DISABLED will
@@ -216,34 +244,6 @@ Run Time and Memory Usage
    Total REAL Time: 0 secs  
    Peak Memory Usage: 57 MB
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

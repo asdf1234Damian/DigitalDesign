@@ -3,6 +3,6 @@ relcom:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe -osy
 rc:0 success:1 runtime:0
 file:..\synwork\Practica5_impl1_hdl_.srs|io:o|time:0|size:0|exec:0|csum:
 file:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493327504|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
-file:..\..\OSCH.vhd|io:i|time:1537836798|size:1599|exec:0|csum:64A2ABD6FE4B8232813AB993801F5CB3
-file:..\syntax.log|io:o|time:1537836813|size:1002|exec:0|csum:
+file:..\..\OSCH.vhd|io:i|time:1538239847|size:3350|exec:0|csum:6F55DAB55E49110187F16A6D9B001A9E
+file:..\syntax.log|io:o|time:1538239859|size:1002|exec:0|csum:
 file:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1501910110|size:5913600|exec:1|csum:93E5DE52AE488E4DC33E43C149B8DA6C

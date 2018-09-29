@@ -1,4 +1,4 @@
-# Mon Sep 24 19:53:37 2018
+# Sat Sep 29 11:51:03 2018
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -28,6 +28,9 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 Available hyper_sources - for debug and ip models
 	None Found
 
+@W: FA239 :"c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd":90:1:90:4|ROM dispA_1[6:0] (in view: work.contadorBCD(test_osc)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd":90:1:90:4|ROM dispA_1[6:0] (in view: work.contadorBCD(test_osc)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd":90:1:90:4|Found ROM .delname. (in view: work.contadorBCD(test_osc)) with 16 words by 7 bits.
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
@@ -56,20 +59,20 @@ Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elaps
 Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		    31.46ns		  21 /        30
+   1		0h:00m:00s		    31.46ns		  27 /        30
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 @N: MT611 :|Automatically generated clock contadorBCD|blink_LED_derived_clock is not used and is being removed
 
@@ -107,13 +110,13 @@ M-2017.03L-SP1-1
 Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 145MB)
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
 
 @W: MT420 |Found inferred clock contadorBCD|clk_0_inferred_clock with period 37.59ns. Please declare a user-defined clock on object "n:clk_0"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Mon Sep 24 19:53:38 2018
+# Timing Report written on Sat Sep 29 11:51:04 2018
 #
 
 
@@ -188,8 +191,8 @@ count[15]      contadorBCD|clk_0_inferred_clock     FD1S3AX     Q       count[15
 count[16]      contadorBCD|clk_0_inferred_clock     FD1S3AX     Q       count[16]      1.044       30.263
 count[12]      contadorBCD|clk_0_inferred_clock     FD1S3IX     Q       count[12]      1.044       31.280
 count[13]      contadorBCD|clk_0_inferred_clock     FD1S3IX     Q       count[13]      1.044       31.280
-s_count[1]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       conta_c[1]     1.188       31.351
-s_count[2]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       conta_c[2]     1.188       31.351
+s_count[0]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       s_count[0]     1.252       31.287
+s_count[2]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       s_count[2]     1.244       31.295
 =========================================================================================================
 
 
@@ -275,7 +278,7 @@ Part: lcmxo2_7000he-5
 
 Register bits: 30 of 6864 (0%)
 PIC Latch:       0
-I/O cells:       16
+I/O cells:       23
 
 
 Details:
@@ -285,9 +288,9 @@ FD1S3AX:        15
 FD1S3IX:        11
 GSR:            1
 IB:             7
-INV:            2
-OB:             9
-ORCALUT4:       20
+INV:            1
+OB:             16
+ORCALUT4:       26
 OSCH:           1
 PFUMX:          3
 PUR:            1
@@ -298,6 +301,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 31MB peak: 145MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Sep 24 19:53:39 2018
+# Sat Sep 29 11:51:04 2018
 
 ###########################################################]

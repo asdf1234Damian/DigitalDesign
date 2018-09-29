@@ -2,6 +2,38 @@
 <BaliMessageLog>
     <Task name="Map">
         <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(4): Semantic error in &quot;LOCATE COMP &quot;conta[0]&quot; SITE &quot;142&quot; ;&quot;: </Dynamic>
+            <Dynamic>conta[0]</Dynamic>
+            <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(5): Semantic error in &quot;LOCATE COMP &quot;conta[1]&quot; SITE &quot;140&quot; ;&quot;: </Dynamic>
+            <Dynamic>conta[1]</Dynamic>
+            <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(6): Semantic error in &quot;LOCATE COMP &quot;conta[2]&quot; SITE &quot;138&quot; ;&quot;: </Dynamic>
+            <Dynamic>conta[2]</Dynamic>
+            <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(7): Semantic error in &quot;LOCATE COMP &quot;conta[3]&quot; SITE &quot;132&quot; ;&quot;: </Dynamic>
+            <Dynamic>conta[3]</Dynamic>
+            <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf</Navigation>
+            <Navigation>7</Navigation>
+        </Message>
+        <Message>
             <ID>51001030</ID>
             <Severity>Warning</Severity>
             <Dynamic>reset_c</Dynamic>
@@ -48,14 +80,38 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT529 :&quot;c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd&quot;:61:2:61:3|Found inferred clock contadorBCD|clk_0_inferred_clock which controls 26 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Dynamic>MT529 :&quot;c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd&quot;:77:2:77:3|Found inferred clock contadorBCD|clk_0_inferred_clock which controls 26 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
             <Navigation>MT529</Navigation>
             <Navigation>c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd</Navigation>
-            <Navigation>61</Navigation>
+            <Navigation>77</Navigation>
             <Navigation>2</Navigation>
-            <Navigation>61</Navigation>
+            <Navigation>77</Navigation>
             <Navigation>3</Navigation>
             <Navigation>Found inferred clock contadorBCD|clk_0_inferred_clock which controls 26 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd&quot;:90:1:90:4|ROM dispA_1[6:0] (in view: work.contadorBCD(test_osc)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd</Navigation>
+            <Navigation>90</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>90</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>ROM dispA_1[6:0] (in view: work.contadorBCD(test_osc)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd&quot;:90:1:90:4|ROM dispA_1[6:0] (in view: work.contadorBCD(test_osc)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd</Navigation>
+            <Navigation>90</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>90</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>ROM dispA_1[6:0] (in view: work.contadorBCD(test_osc)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
         </Message>
         <Message>
             <ID>2019993</ID>

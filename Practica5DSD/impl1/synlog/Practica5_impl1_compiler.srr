@@ -15,14 +15,15 @@ File C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\OSCH.vhd changed - reco
 @W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
 @N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
 Post processing for work.osch.syn_black_box
+@N: CD604 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\OSCH.vhd":107:8:107:21|OTHERS clause is not synthesized.
 Post processing for work.contadorbcd.test_osc
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 73MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 74MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep 24 19:53:34 2018
+# Sat Sep 29 11:51:00 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
@@ -34,7 +35,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep 24 19:53:34 2018
+# Sat Sep 29 11:51:00 2018
 
 ###########################################################]
 @END
@@ -44,6 +45,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep 24 19:53:34 2018
+# Sat Sep 29 11:51:00 2018
 
 ###########################################################]

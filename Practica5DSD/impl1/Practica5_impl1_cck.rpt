@@ -1,7 +1,7 @@
 # Synopsys Constraint Checker, version maplat, Build 1796R, built Aug  4 2017
 # Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
-# Written on Mon Sep 24 19:53:37 2018
+# Written on Sat Sep 29 11:51:03 2018
 
 
 ##### DESIGN INFO #######################################################
@@ -37,15 +37,22 @@ Unconstrained Start/End Points
 ******************************
 
 p:arriba
-p:conta[0]
-p:conta[1]
-p:conta[2]
-p:conta[3]
 p:data[0]
 p:data[1]
 p:data[2]
 p:data[3]
+p:dispA[0]
+p:dispA[1]
+p:dispA[2]
+p:dispA[3]
+p:dispA[4]
+p:dispA[5]
+p:dispA[6]
 p:load
+p:mux[0]
+p:mux[1]
+p:mux[2]
+p:mux[3]
 p:off_LED[0]
 p:off_LED[1]
 p:off_LED[2]

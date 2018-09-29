@@ -8,13 +8,30 @@ entity contadorBCD is
 		clk_0: inout std_logic;
 		load, reset, arriba: in std_logic;
 		data: in std_logic_vector(3 downto 0);
-		conta: out std_logic_vector(3 downto 0);
+		mux:out std_logic_vector(3 downto 0 );
+		dispA: inout std_logic_vector(6 downto 0);
 		off_LED: out std_logic_vector(2 downto 0);
 		blink_LED: out std_logic
 	);
 end contadorBCD;
 
-architecture test_osc of contadorBCD is 
+architecture test_osc of contadorBCD is	Constant Dig0: std_logic_vector(6 downto 0):="1111110";
+	Constant Dig1: std_logic_vector(6 downto 0):="0110000";
+	Constant Dig2: std_logic_vector(6 downto 0):="1101101";
+	Constant Dig3: std_logic_vector(6 downto 0):="1111001";
+	Constant Dig4: std_logic_vector(6 downto 0):="0110011";
+	Constant Dig5: std_logic_vector(6 downto 0):="1011011";
+	Constant Dig6: std_logic_vector(6 downto 0):="1011111";
+	Constant Dig7: std_logic_vector(6 downto 0):="1110000";
+	Constant Dig8: std_logic_vector(6 downto 0):="1111111";
+	Constant Dig9: std_logic_vector(6 downto 0):="1110011";
+	Constant Apag: std_logic_vector(6 downto 0):="0000000";
+	Constant HexA: std_logic_vector(6 downto 0):="1110111";
+	Constant HexB: std_logic_vector(6 downto 0):="0011111";
+	Constant HexC: std_logic_vector(6 downto 0):="0001101";
+	Constant HexD: std_logic_vector(6 downto 0):="0111101";
+	Constant HexE: std_logic_vector(6 downto 0):="1001111";
+	Constant HexF: std_logic_vector(6 downto 0):="1000111";	
 	
 	COMPONENT  OSCH
 		GENERIC (NOM_FREQ: string);
@@ -24,37 +41,35 @@ architecture test_osc of contadorBCD is
 	attribute NOM_FREQ: string ;
 	attribute NOM_FREQ of OSCinst0 : label is "26.60";
 	
-	signal clk_low: std_logic:= '0'; 
 	
+	signal clk_low: std_logic:= '0'; 
 	signal s_count: std_logic_vector(3 downto 0 ); 
 begin 
 	OSCInst0 : OSCH GENERIC  MAP("26.60") PORT MAP('0', clk_0);
-
-off_LED<= "000";
-
-contaBCD: process(clk_low,reset)
-	begin 
+	off_LED <= "000";
+	mux <= "1111";
+contaBCD: process(clk_low,reset)begin 
 	if reset='1' then 
 		s_count <="0000";
 	elsif (clk_low'event and clk_low='1') then 
 		if load='1' then 
 			s_count<=data;
 		elsif arriba='1' then 
-			if s_count= "1001" then 
+			if s_count= "1111" then 
 				s_count<="0000";
 			else
 				s_count <=s_count+1;
 			end if;  
 		else
 			if s_count ="0000" then
-				s_count<="1001";
+				s_count<="1111";
 			else
 				s_count <=s_count-1;
 			end if; 
 		end if; 
 	end if ;
 end process;
-conta <=s_count;
+
 P_blink_LED: PROCESS(clk_0)
 	VARIABLE count: INTEGER RANGE 0 to 25000000;
 	BEGIN 
@@ -66,4 +81,30 @@ P_blink_LED: PROCESS(clk_0)
 				clk_low <= NOT clk_low;
 			END IF;
 		END IF; 
-	END PROCESS; 	blink_LED<= clk_low;end test_osc;
+	END PROCESS; 	blink_LED<= clk_low;
+	
+decoder: process(s_count)
+	begin 
+	case(s_count) is
+        when "0000" => dispA <= Dig0;
+        when "0001" => dispA <= Dig1;
+        when "0010" => dispA <= Dig2;
+        when "0011" => dispA <= Dig3;
+        when "0100" => dispA <= Dig4;
+        when "0101" => dispA <= Dig5;
+        when "0110" => dispA <= Dig6;
+        when "0111" => dispA <= Dig7;
+        when "1000" => dispA <= Dig8;
+        when "1001" => dispA <= Dig9;
+        when "1010" => dispA <= HexA;
+        when "1011" => dispA <= HexB;
+        when "1100" => dispA <= HexC;
+        when "1101" => dispA <= HexD;
+        when "1110" => dispA <= HexE;
+        when "1111" => dispA <= HexF;
+        when others => dispA <= Apag;
+      end case;
+	end process;end test_osc;
+
+
+	

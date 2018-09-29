@@ -3,7 +3,7 @@ Part: lcmxo2_7000he-5
 
 Register bits: 30 of 6864 (0%)
 PIC Latch:       0
-I/O cells:       16
+I/O cells:       23
 
 Details:
 CCU2D:          16
@@ -12,9 +12,9 @@ FD1S3AX:        15
 FD1S3IX:        11
 GSR:            1
 IB:             7
-INV:            2
-OB:             9
-ORCALUT4:       20
+INV:            1
+OB:             16
+ORCALUT4:       26
 OSCH:           1
 PFUMX:          3
 PUR:            1

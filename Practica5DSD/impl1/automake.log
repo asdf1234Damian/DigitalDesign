@@ -10,7 +10,7 @@ Lattice Diamond Version 3.10.0.111.2
 #OS: Windows 8 6.2
 #Hostname: DESKTOP-4BVJD33
 
-# Mon Sep 24 19:53:34 2018
+# Sat Sep 29 11:50:59 2018
 
 #Implementation: impl1
 
@@ -31,14 +31,15 @@ File C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\OSCH.vhd changed - reco
 @W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
 @N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
 Post processing for work.osch.syn_black_box
+@N: CD604 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\OSCH.vhd":107:8:107:21|OTHERS clause is not synthesized.
 Post processing for work.contadorbcd.test_osc
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 73MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 74MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep 24 19:53:34 2018
+# Sat Sep 29 11:51:00 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
@@ -50,7 +51,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep 24 19:53:34 2018
+# Sat Sep 29 11:51:00 2018
 
 ###########################################################]
 @END
@@ -60,7 +61,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep 24 19:53:34 2018
+# Sat Sep 29 11:51:00 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
@@ -72,12 +73,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Sep 24 19:53:36 2018
+# Sat Sep 29 11:51:02 2018
 
 ###########################################################]
 Pre-mapping Report
 
-# Mon Sep 24 19:53:36 2018
+# Sat Sep 29 11:51:02 2018
 
 Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -122,7 +123,7 @@ Level     Clock                                     Frequency     Period        
 1 .         contadorBCD|blink_LED_derived_clock     26.6 MHz      37.594        derived (from contadorBCD|clk_0_inferred_clock)     Inferred_clkgroup_0     4    
 =================================================================================================================================================================
 
-@W: MT529 :"c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd":61:2:61:3|Found inferred clock contadorBCD|clk_0_inferred_clock which controls 26 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd":77:2:77:3|Found inferred clock contadorBCD|clk_0_inferred_clock which controls 26 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
 
@@ -141,12 +142,12 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 141MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Sep 24 19:53:37 2018
+# Sat Sep 29 11:51:03 2018
 
 ###########################################################]
 Map & Optimize Report
 
-# Mon Sep 24 19:53:37 2018
+# Sat Sep 29 11:51:03 2018
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -176,6 +177,9 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 Available hyper_sources - for debug and ip models
 	None Found
 
+@W: FA239 :"c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd":90:1:90:4|ROM dispA_1[6:0] (in view: work.contadorBCD(test_osc)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd":90:1:90:4|ROM dispA_1[6:0] (in view: work.contadorBCD(test_osc)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd":90:1:90:4|Found ROM .delname. (in view: work.contadorBCD(test_osc)) with 16 words by 7 bits.
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
@@ -204,20 +208,20 @@ Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elaps
 Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		    31.46ns		  21 /        30
+   1		0h:00m:00s		    31.46ns		  27 /        30
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 @N: MT611 :|Automatically generated clock contadorBCD|blink_LED_derived_clock is not used and is being removed
 
@@ -255,13 +259,13 @@ M-2017.03L-SP1-1
 Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 145MB)
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
 
 @W: MT420 |Found inferred clock contadorBCD|clk_0_inferred_clock with period 37.59ns. Please declare a user-defined clock on object "n:clk_0"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Mon Sep 24 19:53:38 2018
+# Timing Report written on Sat Sep 29 11:51:04 2018
 #
 
 
@@ -336,8 +340,8 @@ count[15]      contadorBCD|clk_0_inferred_clock     FD1S3AX     Q       count[15
 count[16]      contadorBCD|clk_0_inferred_clock     FD1S3AX     Q       count[16]      1.044       30.263
 count[12]      contadorBCD|clk_0_inferred_clock     FD1S3IX     Q       count[12]      1.044       31.280
 count[13]      contadorBCD|clk_0_inferred_clock     FD1S3IX     Q       count[13]      1.044       31.280
-s_count[1]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       conta_c[1]     1.188       31.351
-s_count[2]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       conta_c[2]     1.188       31.351
+s_count[0]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       s_count[0]     1.252       31.287
+s_count[2]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       s_count[2]     1.244       31.295
 =========================================================================================================
 
 
@@ -423,7 +427,7 @@ Part: lcmxo2_7000he-5
 
 Register bits: 30 of 6864 (0%)
 PIC Latch:       0
-I/O cells:       16
+I/O cells:       23
 
 
 Details:
@@ -433,9 +437,9 @@ FD1S3AX:        15
 FD1S3IX:        11
 GSR:            1
 IB:             7
-INV:            2
-OB:             9
-ORCALUT4:       20
+INV:            1
+OB:             16
+ORCALUT4:       26
 OSCH:           1
 PFUMX:          3
 PUR:            1
@@ -446,7 +450,7 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 31MB peak: 145MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Sep 24 19:53:39 2018
+# Sat Sep 29 11:51:04 2018
 
 ###########################################################]
 
@@ -489,7 +493,7 @@ Running DRC...
     <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="1"  />
 
 Design Results:
-     91 blocks expanded
+    103 blocks expanded
 Complete the first expansion.
 Writing 'Practica5_impl1.ngd' ...
 Total CPU Time: 0 secs  
@@ -518,6 +522,10 @@ Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
 
 Part used: LCMXO2-7000HETQFP144, Performance used: 5.
 
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(4): Semantic error in &quot;LOCATE COMP &quot;conta[0]&quot; SITE &quot;142&quot; ;&quot;: " arg1="conta[0]" arg2="C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf" arg3="4"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(5): Semantic error in &quot;LOCATE COMP &quot;conta[1]&quot; SITE &quot;140&quot; ;&quot;: " arg1="conta[1]" arg2="C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf" arg3="5"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(6): Semantic error in &quot;LOCATE COMP &quot;conta[2]&quot; SITE &quot;138&quot; ;&quot;: " arg1="conta[2]" arg2="C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf" arg3="6"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(7): Semantic error in &quot;LOCATE COMP &quot;conta[3]&quot; SITE &quot;132&quot; ;&quot;: " arg1="conta[3]" arg2="C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf" arg3="7"  />
 Loading device for application map from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
 Package Status:                     Final          Version 1.39.
 
@@ -537,16 +545,16 @@ Design Summary:
    Number of registers:     30 out of  7209 (0%)
       PFU registers:           30 out of  6864 (0%)
       PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:        27 out of  3432 (1%)
-      SLICEs as Logic/ROM:     27 out of  3432 (1%)
+   Number of SLICEs:        31 out of  3432 (1%)
+      SLICEs as Logic/ROM:     31 out of  3432 (1%)
       SLICEs as RAM:            0 out of  2574 (0%)
       SLICEs as Carry:         16 out of  3432 (0%)
-   Number of LUT4s:         53 out of  6864 (1%)
-      Number used as logic LUTs:         21
+   Number of LUT4s:         61 out of  6864 (1%)
+      Number used as logic LUTs:         29
       Number used as distributed RAM:     0
       Number used as ripple logic:       32
       Number used as shift registers:     0
-   Number of PIO sites used: 16 + 4(JTAG) out of 115 (17%)
+   Number of PIO sites used: 23 + 4(JTAG) out of 115 (23%)
    Number of block RAMs:  0 out of 26 (0%)
    Number of GSRs:  1 out of 1 (100%)
    EFB used :       No
@@ -578,19 +586,19 @@ Design Summary:
      Net P_blink_LED.un2_count_i: 7 loads, 7 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
+     Net s_count[0]: 13 loads
+     Net s_count[2]: 12 loads
+     Net s_count[1]: 10 loads
+     Net s_count[3]: 10 loads
      Net P_blink_LED.un2_count_i: 7 loads
-     Net conta_c[1]: 6 loads
-     Net conta_c[2]: 6 loads
      Net load_c: 6 loads
-     Net conta_c[0]: 5 loads
      Net clk_low_RNI9PTU: 4 loads
-     Net contaBCD.s_count_8_sm0: 4 loads
-     Net conta_c[3]: 4 loads
      Net count[23]: 4 loads
      Net count[24]: 4 loads
+     Net VCC: 4 loads
  
 
-   Number of warnings:  1
+   Number of warnings:  5
    Number of errors:    0
 
 
@@ -608,10 +616,10 @@ Removing old design directory at request of -rem command line option to this pro
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "Practica5_impl1_map.ncd"
-Mon Sep 24 19:53:42 2018
+Sat Sep 29 11:51:08 2018
 
 PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
-Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF Practica5_impl1_map.ncd Practica5_impl1.dir/5_1.ncd Practica5_impl1.prf
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF Practica5_impl1_map.ncd Practica5_impl1.dir/5_1.ncd Practica5_impl1.prf
 Preference file: Practica5_impl1.prf.
 Placement level-cost: 5-1.
 Routing Iterations: 6
@@ -632,20 +640,20 @@ License checked out.
 Ignore Preference Error(s):  True
 Device utilization summary:
 
-   PIO (prelim)   16+4(JTAG)/336     6% used
-                  16+4(JTAG)/115     17% bonded
+   PIO (prelim)   23+4(JTAG)/336     8% used
+                  23+4(JTAG)/115     23% bonded
 
-   SLICE             27/3432         <1% used
+   SLICE             31/3432         <1% used
 
    GSR                1/1           100% used
    OSC                1/1           100% used
 
 
-Number of Signals: 97
-Number of Connections: 187
+Number of Signals: 105
+Number of Connections: 221
 
 Pin Constraint Summary:
-   9 out of 16 pins locked (56% locked).
+   20 out of 23 pins locked (86% locked).
 
 The following 1 signal is selected to use the primary clock routing resources:
     clk_0_0 (driver: OSCInst0, clk load #: 20)
@@ -656,17 +664,17 @@ No signal is selected as secondary clock.
 Signal reset_c is selected as Global Set/Reset.
 .
 Starting Placer Phase 0.
-.........
+.......
 Finished Placer Phase 0.  REAL time: 0 secs 
 
 Starting Placer Phase 1.
 ....................
-Placer score = 10646.
+Placer score = 21108.
 Finished Placer Phase 1.  REAL time: 4 secs 
 
 Starting Placer Phase 2.
 .
-Placer score =  10196
+Placer score =  21108
 Finished Placer Phase 2.  REAL time: 4 secs 
 
 
@@ -691,20 +699,20 @@ Edge Clocks:
 
 
 I/O Usage Summary (final):
-   16 + 4(JTAG) out of 336 (6.0%) PIO sites used.
-   16 + 4(JTAG) out of 115 (17.4%) bonded PIO sites used.
-   Number of PIO comps: 16; differential: 0.
+   23 + 4(JTAG) out of 336 (8.0%) PIO sites used.
+   23 + 4(JTAG) out of 115 (23.5%) bonded PIO sites used.
+   Number of PIO comps: 23; differential: 0.
    Number of Vref pins used: 0.
 
 I/O Bank Usage Summary:
 +----------+----------------+------------+-----------+
 | I/O Bank | Usage          | Bank Vccio | Bank Vref |
 +----------+----------------+------------+-----------+
-| 0        | 14 / 28 ( 50%) | 2.5V       | -         |
-| 1        | 0 / 29 (  0%)  | -          | -         |
-| 2        | 0 / 29 (  0%)  | -          | -         |
+| 0        | 1 / 28 (  3%)  | 2.5V       | -         |
+| 1        | 14 / 29 ( 48%) | 2.5V       | -         |
+| 2        | 2 / 29 (  6%)  | 2.5V       | -         |
 | 3        | 0 / 9 (  0%)   | -          | -         |
-| 4        | 0 / 10 (  0%)  | -          | -         |
+| 4        | 4 / 10 ( 40%)  | 2.5V       | -         |
 | 5        | 2 / 10 ( 20%)  | 2.5V       | -         |
 +----------+----------------+------------+-----------+
 
@@ -712,12 +720,12 @@ Total placer CPU time: 4 secs
 
 Dumping design to file Practica5_impl1.dir/5_1.ncd.
 
-0 connections routed; 187 unrouted.
+0 connections routed; 221 unrouted.
 Starting router resource preassignment
 
 Completed router resource preassignment. Real time: 5 secs 
 
-Start NBR router at 19:53:48 09/24/18
+Start NBR router at 11:51:13 09/29/18
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -732,29 +740,35 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at 19:53:48 09/24/18
+Start NBR special constraint process at 11:51:13 09/29/18
 
-Start NBR section for initial routing at 19:53:48 09/24/18
+Start NBR section for initial routing at 11:51:13 09/29/18
 Level 4, iteration 1
-3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 29.311ns/0.000ns; real time: 6 secs 
+5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 30.153ns/0.000ns; real time: 5 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 19:53:48 09/24/18
+Start NBR section for normal routing at 11:51:13 09/29/18
+Level 4, iteration 1
+3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 30.153ns/0.000ns; real time: 5 secs 
+Level 4, iteration 2
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 30.153ns/0.000ns; real time: 5 secs 
+Level 4, iteration 3
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 30.153ns/0.000ns; real time: 5 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 11:51:13 09/29/18
+
+Start NBR section for re-routing at 11:51:13 09/29/18
 Level 4, iteration 1
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 29.280ns/0.000ns; real time: 6 secs 
+Estimated worst slack/total negative slack<setup>: 30.153ns/0.000ns; real time: 5 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at 19:53:48 09/24/18
-
-Start NBR section for re-routing at 19:53:48 09/24/18
-Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 29.280ns/0.000ns; real time: 6 secs 
-
-Start NBR section for post-routing at 19:53:48 09/24/18
+Start NBR section for post-routing at 11:51:13 09/29/18
 
 End NBR router with 0 unrouted connection
 
@@ -762,17 +776,17 @@ NBR Summary
 -----------
   Number of unrouted connections : 0 (0.00%)
   Number of connections with timing violations : 0 (0.00%)
-  Estimated worst slack<setup> : 29.280ns
+  Estimated worst slack<setup> : 30.153ns
   Timing score<setup> : 0
 -----------
 Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
 
 
 
-Total CPU time 6 secs 
+Total CPU time 5 secs 
 Total REAL time: 6 secs 
 Completely routed.
-End of route.  187 routed (100.00%); 0 unrouted.
+End of route.  221 routed (100.00%); 0 unrouted.
 
 Hold time timing score: 0, hold timing errors: 0
 
@@ -783,13 +797,13 @@ Dumping design to file Practica5_impl1.dir/5_1.ncd.
 
 PAR_SUMMARY::Run status = Success
 PAR_SUMMARY::Number of unrouted conns = 0
-PAR_SUMMARY::Worst  slack<setup/<ns>> = 29.280
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 30.153
 PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
 PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.377
 PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 6 secs 
+Total CPU  time to completion: 5 secs 
 Total REAL time to completion: 6 secs 
 
 par done!

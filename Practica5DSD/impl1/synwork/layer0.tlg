@@ -2,4 +2,5 @@
 @W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
 @N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
 Post processing for work.osch.syn_black_box
+@N: CD604 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\OSCH.vhd":107:8:107:21|OTHERS clause is not synthesized.
 Post processing for work.contadorbcd.test_osc

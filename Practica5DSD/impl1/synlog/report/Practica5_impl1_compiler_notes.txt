@@ -4,5 +4,6 @@
 @N:"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\OSCH.vhd":6:7:6:17|Top entity is set to contadorBCD.
 @N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\OSCH.vhd":6:7:6:17|Synthesizing work.contadorbcd.test_osc.
 @N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CD604 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\OSCH.vhd":107:8:107:21|OTHERS clause is not synthesized.
 @N|Running in 64-bit mode
 

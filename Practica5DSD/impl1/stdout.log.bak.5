@@ -3,7 +3,7 @@ Running in Lattice mode
 Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
 Install:     C:\lscc\diamond\3.10_x64\synpbase
 Hostname:    DESKTOP-4BVJD33
-Date:        Sat Sep 29 11:39:56 2018
+Date:        Sat Sep 29 15:38:20 2018
 Version:     M-2017.03L-SP1-1
 
 Arguments:   -product synplify_pro -batch Practica5_impl1_synplify.tcl
@@ -18,10 +18,10 @@ Running: hdl_info_gen in foreground
 Generating HDL info...
 
 hdl_info_gen completed
-# Sat Sep 29 11:39:57 2018
+# Sat Sep 29 15:38:20 2018
 
 Return Code: 0
-Run Time:00h:00m:01s
+Run Time:00h:00m:00s
 Copied C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\Practica5_impl1.srr to C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\Practica5_impl1.srf
 log file: "C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\Practica5_impl1.srr"
 Running: impl1 in foreground
@@ -29,58 +29,67 @@ Running: impl1 in foreground
 Running proj_1|impl1
 
 Running: compile (Compile) on proj_1|impl1
-# Sat Sep 29 11:39:57 2018
+# Sat Sep 29 15:38:21 2018
 
 Running: compile_flow (Compile Process) on proj_1|impl1
-# Sat Sep 29 11:39:57 2018
+# Sat Sep 29 15:38:21 2018
 
 Running: compiler (Compile Input) on proj_1|impl1
-# Sat Sep 29 11:39:57 2018
+# Sat Sep 29 15:38:21 2018
+Copied C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\synwork\Practica5_impl1_comp.srs to C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\Practica5_impl1.srs
 
 compiler completed
-# Sat Sep 29 11:39:59 2018
+# Sat Sep 29 15:38:23 2018
 
 Return Code: 0
 Run Time:00h:00m:02s
 
 Running: multi_srs_gen (Multi-srs Generator) on proj_1|impl1
-# Sat Sep 29 11:39:59 2018
+# Sat Sep 29 15:38:23 2018
 
 multi_srs_gen completed
-# Sat Sep 29 11:40:00 2018
+# Sat Sep 29 15:38:23 2018
 
 Return Code: 0
-Run Time:00h:00m:01s
+Run Time:00h:00m:00s
 Copied C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\synwork\Practica5_impl1_mult.srs to C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\Practica5_impl1.srs
+Copied C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\Practica5_impl1.srr to C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\Practica5_impl1.srf
 Complete: Compile Process on proj_1|impl1
 
 Running: premap (Pre-mapping) on proj_1|impl1
-# Sat Sep 29 11:40:00 2018
+# Sat Sep 29 15:38:23 2018
 
 premap completed with warnings
-# Sat Sep 29 11:40:01 2018
+# Sat Sep 29 15:38:24 2018
 
 Return Code: 1
 Run Time:00h:00m:01s
 Complete: Compile on proj_1|impl1
 
 Running: map (Map) on proj_1|impl1
-# Sat Sep 29 11:40:01 2018
+# Sat Sep 29 15:38:24 2018
 License granted for 4 parallel jobs
 
 Running: fpga_mapper (Map & Optimize) on proj_1|impl1
-# Sat Sep 29 11:40:01 2018
+# Sat Sep 29 15:38:24 2018
+fpga_mapper exited with errors
+Job failed on: proj_1|impl1
 
-fpga_mapper completed with warnings
-# Sat Sep 29 11:40:03 2018
+Job: "fpga_mapper" terminated with error status: 2
+See log file: "C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\synlog\Practica5_impl1_fpga_mapper.srr"
+# Sat Sep 29 15:38:25 2018
 
-Return Code: 1
-Run Time:00h:00m:02s
+Return Code: 2
+Run Time:00h:00m:01s
 Complete: Map on proj_1|impl1
 Complete: Logic Synthesis on proj_1|impl1
+Copied C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\Practica5_impl1.srr to C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\Practica5_impl1.srf
+Error: At line 63 while processing "Practica5_impl1_synplify.tcl"
+2
 TCL script complete: "Practica5_impl1_synplify.tcl"
-exit status=0
-exit status=0
+TCL script had errors: "Practica5_impl1_synplify.tcl"
+exit status=9
+exit status=9
 Save changes for project:
 C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\proj_1.prj
 batch mode default:no
