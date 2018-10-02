@@ -4,7 +4,7 @@
 
 #project files
 add_file -vhdl -lib work "C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd"
-add_file -vhdl -lib work "C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/OSCH.vhd"
+add_file -vhdl -lib work "C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.vhd"
 
 
 

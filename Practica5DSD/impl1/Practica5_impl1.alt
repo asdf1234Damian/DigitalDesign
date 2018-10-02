@@ -1,31 +1,40 @@
 NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
 NOTE All Rights Reserved *
-NOTE DATE CREATED: Sat Sep 29 11:51:17 2018 *
+NOTE DATE CREATED: Tue Oct 02 11:13:26 2018 *
 NOTE DESIGN NAME: contadorBCD *
 NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
 NOTE PIN ASSIGNMENTS *
 NOTE PINS clk_0 : 60 : out *
 NOTE PINS load : 4 : in *
 NOTE PINS blink_LED : 61 : out *
-NOTE PINS off_LED[2] : 99 : out *
-NOTE PINS off_LED[1] : 94 : out *
-NOTE PINS off_LED[0] : 95 : out *
-NOTE PINS dispA[6] : 77 : out *
-NOTE PINS dispA[5] : 78 : out *
-NOTE PINS dispA[4] : 81 : out *
-NOTE PINS dispA[3] : 82 : out *
-NOTE PINS dispA[2] : 83 : out *
-NOTE PINS dispA[1] : 84 : out *
-NOTE PINS dispA[0] : 85 : out *
-NOTE PINS mux[3] : 76 : out *
-NOTE PINS mux[2] : 73 : out *
-NOTE PINS mux[1] : 74 : out *
-NOTE PINS mux[0] : 75 : out *
-NOTE PINS data[3] : 19 : in *
-NOTE PINS data[2] : 20 : in *
-NOTE PINS data[1] : 21 : in *
-NOTE PINS data[0] : 22 : in *
+NOTE PINS disp[6] : 77 : out *
+NOTE PINS disp[5] : 78 : out *
+NOTE PINS disp[4] : 81 : out *
+NOTE PINS disp[3] : 82 : out *
+NOTE PINS disp[2] : 83 : out *
+NOTE PINS disp[1] : 84 : out *
+NOTE PINS disp[0] : 85 : out *
+NOTE PINS mux[3] : 73 : out *
+NOTE PINS mux[2] : 74 : out *
+NOTE PINS mux[1] : 75 : out *
+NOTE PINS mux[0] : 76 : out *
+NOTE PINS data[15] : 19 : in *
+NOTE PINS data[14] : 20 : in *
+NOTE PINS data[13] : 21 : in *
+NOTE PINS data[12] : 22 : in *
+NOTE PINS data[11] : 132 : in *
+NOTE PINS data[10] : 133 : in *
+NOTE PINS data[9] : 24 : in *
+NOTE PINS data[8] : 23 : in *
+NOTE PINS data[7] : 26 : in *
+NOTE PINS data[6] : 25 : in *
+NOTE PINS data[5] : 28 : in *
+NOTE PINS data[4] : 27 : in *
+NOTE PINS data[3] : 33 : in *
+NOTE PINS data[2] : 32 : in *
+NOTE PINS data[1] : 35 : in *
+NOTE PINS data[0] : 34 : in *
 NOTE PINS arriba : 2 : in *
-NOTE PINS reset : 143 : in *
+NOTE PINS reset : 1 : in *
 NOTE CONFIGURATION MODE: NONE *
 NOTE COMPRESSION: on *

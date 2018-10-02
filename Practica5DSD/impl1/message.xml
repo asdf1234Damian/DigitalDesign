@@ -2,38 +2,6 @@
 <BaliMessageLog>
     <Task name="Map">
         <Message>
-            <ID>1100679</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(4): Semantic error in &quot;LOCATE COMP &quot;conta[0]&quot; SITE &quot;142&quot; ;&quot;: </Dynamic>
-            <Dynamic>conta[0]</Dynamic>
-            <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf</Navigation>
-            <Navigation>4</Navigation>
-        </Message>
-        <Message>
-            <ID>1100679</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(5): Semantic error in &quot;LOCATE COMP &quot;conta[1]&quot; SITE &quot;140&quot; ;&quot;: </Dynamic>
-            <Dynamic>conta[1]</Dynamic>
-            <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf</Navigation>
-            <Navigation>5</Navigation>
-        </Message>
-        <Message>
-            <ID>1100679</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(6): Semantic error in &quot;LOCATE COMP &quot;conta[2]&quot; SITE &quot;138&quot; ;&quot;: </Dynamic>
-            <Dynamic>conta[2]</Dynamic>
-            <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf</Navigation>
-            <Navigation>6</Navigation>
-        </Message>
-        <Message>
-            <ID>1100679</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(7): Semantic error in &quot;LOCATE COMP &quot;conta[3]&quot; SITE &quot;132&quot; ;&quot;: </Dynamic>
-            <Dynamic>conta[3]</Dynamic>
-            <Navigation>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf</Navigation>
-            <Navigation>7</Navigation>
-        </Message>
-        <Message>
             <ID>51001030</ID>
             <Severity>Warning</Severity>
             <Dynamic>reset_c</Dynamic>
@@ -71,6 +39,66 @@
             <Navigation>Map for port sedstdby of component osch not found</Navigation>
         </Message>
         <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd&quot;:175:10:175:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd</Navigation>
+            <Navigation>175</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>175</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd&quot;:181:25:181:29|Referenced variable disp4 is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd</Navigation>
+            <Navigation>181</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>181</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>Referenced variable disp4 is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd&quot;:180:25:180:29|Referenced variable disp3 is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd</Navigation>
+            <Navigation>180</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>180</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>Referenced variable disp3 is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd&quot;:179:25:179:29|Referenced variable disp2 is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd</Navigation>
+            <Navigation>179</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>179</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>Referenced variable disp2 is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd&quot;:178:25:178:29|Referenced variable disp1 is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd</Navigation>
+            <Navigation>178</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>178</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>Referenced variable disp1 is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
             <ID>2019993</ID>
             <Severity>Warning</Severity>
             <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
@@ -80,45 +108,21 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT529 :&quot;c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd&quot;:77:2:77:3|Found inferred clock contadorBCD|clk_0_inferred_clock which controls 26 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Dynamic>MT529 :&quot;c:\users\asdf1\documents\digitaldesign\practica5dsd\practica5.vhd&quot;:42:42:42:47|Found inferred clock contadorBCD|clk_0_inferred_clock which controls 30 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
             <Navigation>MT529</Navigation>
-            <Navigation>c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd</Navigation>
-            <Navigation>77</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>77</Navigation>
-            <Navigation>3</Navigation>
-            <Navigation>Found inferred clock contadorBCD|clk_0_inferred_clock which controls 26 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>FA239 :&quot;c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd&quot;:90:1:90:4|ROM dispA_1[6:0] (in view: work.contadorBCD(test_osc)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
-            <Navigation>FA239</Navigation>
-            <Navigation>c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd</Navigation>
-            <Navigation>90</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>90</Navigation>
-            <Navigation>4</Navigation>
-            <Navigation>ROM dispA_1[6:0] (in view: work.contadorBCD(test_osc)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>FA239 :&quot;c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd&quot;:90:1:90:4|ROM dispA_1[6:0] (in view: work.contadorBCD(test_osc)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
-            <Navigation>FA239</Navigation>
-            <Navigation>c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd</Navigation>
-            <Navigation>90</Navigation>
-            <Navigation>1</Navigation>
-            <Navigation>90</Navigation>
-            <Navigation>4</Navigation>
-            <Navigation>ROM dispA_1[6:0] (in view: work.contadorBCD(test_osc)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\practica5dsd\practica5.vhd</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>47</Navigation>
+            <Navigation>Found inferred clock contadorBCD|clk_0_inferred_clock which controls 30 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
         </Message>
         <Message>
             <ID>2019993</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT420 |Found inferred clock contadorBCD|clk_0_inferred_clock with period 37.59ns. Please declare a user-defined clock on object &quot;n:clk_0&quot;</Dynamic>
+            <Dynamic>MT420 |Found inferred clock contadorBCD|clk_0_inferred_clock with period 7.52ns. Please declare a user-defined clock on object &quot;n:clk_0&quot;</Dynamic>
             <Navigation>MT420</Navigation>
-            <Navigation>Found inferred clock contadorBCD|clk_0_inferred_clock with period 37.59ns. Please declare a user-defined clock on object &quot;n:clk_0&quot;</Navigation>
+            <Navigation>Found inferred clock contadorBCD|clk_0_inferred_clock with period 7.52ns. Please declare a user-defined clock on object &quot;n:clk_0&quot;</Navigation>
         </Message>
     </Task>
 </BaliMessageLog>

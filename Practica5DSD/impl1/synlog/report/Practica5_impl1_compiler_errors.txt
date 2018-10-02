@@ -1,6 +1,2 @@
-@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\OSCH.vhd":12:2:12:6|Multiple non-tristate drivers for net dispA(6 downto 0) in contadorBCD
-@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\OSCH.vhd":12:2:12:6|Unresolved tristate drivers for net dispA(6 downto 0) in contadorBCD
-@E: MF420 |Netlist read from file C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\synwork\layer0.srs failed
-@E: Could not find specified top level contadorBCD (library: work, cell: contadorBCD)Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-@E::Error while linking, aborting.
+@E: CD297 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":133:17:133:27|Width mismatch, location has width 4, value 7
 

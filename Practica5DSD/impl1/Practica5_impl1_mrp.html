@@ -23,23 +23,23 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
-Mapped on:  09/29/18  11:51:07
+Mapped on:  10/02/18  11:13:16
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
-   Number of registers:     30 out of  7209 (0%)
-      PFU registers:           30 out of  6864 (0%)
+   Number of registers:     46 out of  7209 (1%)
+      PFU registers:           46 out of  6864 (1%)
       PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:        31 out of  3432 (1%)
-      SLICEs as Logic/ROM:     31 out of  3432 (1%)
+   Number of SLICEs:        99 out of  3432 (3%)
+      SLICEs as Logic/ROM:     99 out of  3432 (3%)
       SLICEs as RAM:            0 out of  2574 (0%)
-      SLICEs as Carry:         16 out of  3432 (0%)
-   Number of LUT4s:         61 out of  6864 (1%)
-      Number used as logic LUTs:         29
+      SLICEs as Carry:         13 out of  3432 (0%)
+   Number of LUT4s:        196 out of  6864 (3%)
+      Number used as logic LUTs:        170
       Number used as distributed RAM:     0
-      Number used as ripple logic:       32
+      Number used as ripple logic:       26
       Number used as shift registers:     0
-   Number of PIO sites used: 23 + 4(JTAG) out of 115 (23%)
+   Number of PIO sites used: 32 + 4(JTAG) out of 115 (31%)
    Number of block RAMs:  0 out of 26 (0%)
    Number of GSRs:  1 out of 1 (100%)
    EFB used :       No
@@ -65,30 +65,30 @@ Mapped on:  09/29/18  11:51:07
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
    Number of clocks:  1
-     Net clk_0_0: 20 loads, 20 rising, 0 falling (Driver: OSCInst0 )
+     Net clk_0_0: 31 loads, 31 rising, 0 falling (Driver: OSCInst0 )
    Number of Clock Enables:  1
 
-     Net clk_low_RNI9PTU: 4 loads, 4 LSLICEs
-   Number of local set/reset loads for net reset_c merged into GSR:  4
+     Net clk_low_RNI2MST: 13 loads, 13 LSLICEs
+   Number of local set/reset loads for net reset_c merged into GSR:  16
    Number of LSRs:  1
-     Net P_blink_LED.un2_count_i: 7 loads, 7 LSLICEs
+     Net lowClk.un2_count_i: 7 loads, 7 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net s_count[0]: 13 loads
-     Net s_count[2]: 12 loads
-     Net s_count[1]: 10 loads
-     Net s_count[3]: 10 loads
-     Net P_blink_LED.un2_count_i: 7 loads
-     Net load_c: 6 loads
-     Net clk_low_RNI9PTU: 4 loads
-     Net count[23]: 4 loads
-     Net count[24]: 4 loads
-     Net VCC: 4 loads
+     Net load_c: 33 loads
+     Net c_count[1]: 19 loads
+     Net s_count[0]: 18 loads
+     Net d_count[1]: 17 loads
+     Net s_count[2]: 16 loads
+     Net s_count[3]: 16 loads
+     Net c_count[0]: 15 loads
+     Net s_count[1]: 15 loads
+     Net d_count[0]: 14 loads
+     Net d_count[2]: 14 loads
 
 
 
 
-   Number of warnings:  5
+   Number of warnings:  1
    Number of errors:    0
      
 
@@ -97,22 +97,6 @@ Mapped on:  09/29/18  11:51:07
 
 <A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
 
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(4):
-     Semantic error in "LOCATE COMP "conta[0]" SITE "142" ;": COMP "conta[0]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(5):
-     Semantic error in "LOCATE COMP "conta[1]" SITE "140" ;": COMP "conta[1]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(6):
-     Semantic error in "LOCATE COMP "conta[2]" SITE "138" ;": COMP "conta[2]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/Practica5.lpf(7):
-     Semantic error in "LOCATE COMP "conta[3]" SITE "132" ;": COMP "conta[3]"
-     cannot be found in design. This preference has been disabled.
 WARNING - map: Using local reset signal 'reset_c' to infer global GSR net.
 
 
@@ -127,29 +111,23 @@ WARNING - map: Using local reset signal 'reset_c' to infer global GSR net.
 +---------------------+-----------+-----------+------------+
 | load                | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-
 | blink_LED           | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| off_LED[2]          | OUTPUT    | LVCMOS25  |            |
+| disp[6]             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| off_LED[1]          | OUTPUT    | LVCMOS25  |            |
+| disp[5]             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| off_LED[0]          | OUTPUT    | LVCMOS25  |            |
+| disp[4]             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| dispA[6]            | OUTPUT    | LVCMOS25  |            |
+| disp[3]             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| dispA[5]            | OUTPUT    | LVCMOS25  |            |
+| disp[2]             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| dispA[4]            | OUTPUT    | LVCMOS25  |            |
+| disp[1]             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| dispA[3]            | OUTPUT    | LVCMOS25  |            |
+| disp[0]             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| dispA[2]            | OUTPUT    | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| dispA[1]            | OUTPUT    | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| dispA[0]            | OUTPUT    | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
+
 | mux[3]              | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | mux[2]              | OUTPUT    | LVCMOS25  |            |
@@ -157,6 +135,30 @@ WARNING - map: Using local reset signal 'reset_c' to infer global GSR net.
 | mux[1]              | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | mux[0]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[15]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[14]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[13]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[12]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[11]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[10]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[9]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[8]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[7]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[6]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[5]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[4]             | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | data[3]             | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
@@ -175,16 +177,13 @@ WARNING - map: Using local reset signal 'reset_c' to infer global GSR net.
 
 <A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
 
-Signal un1_s_count_1_s_3_0_S1 undriven or does not drive anything - clipped.
-Signal un1_s_count_1_s_3_0_COUT undriven or does not drive anything - clipped.
-Signal un4_count_cry_0_0_S1 undriven or does not drive anything - clipped.
-Signal un4_count_cry_0_0_S0 undriven or does not drive anything - clipped.
-Signal N_2 undriven or does not drive anything - clipped.
-Signal un4_count_cry_23_0_COUT undriven or does not drive anything - clipped.
-Signal un1_s_count_1_cry_0_0_S1 undriven or does not drive anything - clipped.
-Signal un1_s_count_1_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal GND undriven or does not drive anything - clipped.
+Signal un5_count_cry_23_0_COUT undriven or does not drive anything - clipped.
+Signal un5_count_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un5_count_cry_0_0_S0 undriven or does not drive anything - clipped.
 Signal N_1 undriven or does not drive anything - clipped.
 Signal OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
+Block GND was optimized away.
 
 
 
@@ -202,7 +201,7 @@ OSC 1:                                     Pin/Node Value
   OSC Type:                                         OSCH
   STDBY Input:                                      NONE
   OSC Output:                              PIN,NODE clk_0_0
-  OSC Nominal Frequency (MHz):                      26.60
+  OSC Nominal Frequency (MHz):                      133.00
 
 
 
@@ -235,8 +234,9 @@ GSR Component:
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 57 MB
+   Peak Memory Usage: 59 MB
         
+
 
 
 

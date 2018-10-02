@@ -3,7 +3,10 @@
     <Options/>
     <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
         <Options def_top="contadorBCD"/>
-        <Source name="OSCH.vhd" type="VHDL" type_short="VHDL">
+        <Source name="OSCH.vhd" type="VHDL" type_short="VHDL" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="Practica5.vhd" type="VHDL" type_short="VHDL">
             <Options top_module="contadorBCD"/>
         </Source>
         <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">

@@ -1,3 +1,1 @@
-@W: FA239 :"c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd":90:1:90:4|ROM dispA_1[6:0] (in view: work.contadorBCD(test_osc)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"c:\users\asdf1\documents\digitaldesign\practica5dsd\osch.vhd":90:1:90:4|ROM dispA_1[6:0] (in view: work.contadorBCD(test_osc)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: MT420 |Found inferred clock contadorBCD|clk_0_inferred_clock with period 37.59ns. Please declare a user-defined clock on object "n:clk_0"
+@W: MT420 |Found inferred clock contadorBCD|clk_0_inferred_clock with period 7.52ns. Please declare a user-defined clock on object "n:clk_0"

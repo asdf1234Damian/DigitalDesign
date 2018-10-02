@@ -8,9 +8,8 @@ entity contadorBCD is
 		clk_0: inout std_logic;
 		load, reset, arriba: in std_logic;
 		data: in std_logic_vector(7 downto 0);
-		mux:inout std_logic_vector(3 downto 0 );
+		mux: out std_logic_vector(3 downto 0 );
 		dispA: inout std_logic_vector(6 downto 0);
-		off_LED: out std_logic_vector(2 downto 0);
 		blink_LED: out std_logic
 	);
 end contadorBCD;
@@ -40,30 +39,27 @@ architecture test_osc of contadorBCD is	Constant Dig0: std_logic_vector(6 downt
 	 
 	attribute NOM_FREQ: string ;
 	attribute NOM_FREQ of OSCinst0 : label is "26.60";
-	
-	
 	signal clk_low: std_logic:= '0'; 
 	signal s_count: std_logic_vector(3 downto 0 ); 
 	signal d_count: std_logic_vector(3 downto 0 ); 
+	signal c_count: std_logic_vector(3 downto 0 ); 
+	signal m_count: std_logic_vector(3 downto 0 ); 
+	signal m :std_logic_vector(3 downto 0):="0001";
+	
 begin 
-	OSCInst0 : OSCH GENERIC  MAP("26.60") PORT MAP('0', clk_0);
-	off_LED <= "000";
-	mux <= "0001";
+
+OSCInst0 : OSCH GENERIC  MAP("33.25") PORT MAP('0', clk_0);
+
+
 contaBCD: process(clk_low,reset)begin 
 	if reset='1' then 
 		s_count <="0000";
 		d_count <="0000";		
 	elsif (clk_low'event and clk_low='1') then
-		case mux is 
-			when "0001" => mux <="0010";
-			when "0010" => mux <="0100";
-			when "0100" => mux <="1000";
-			when others => mux <="0001";
-		end case; 
 		if load='1' then 
 			s_count <= data(3 downto 0);
 			d_count <= data(7 downto 4);
-		elsif arriba='1' then 
+		elsif arriba='0' then 
 			if s_count= "1111" then 
 				s_count<="0000";
 				if d_count="1111" then 
@@ -76,12 +72,13 @@ contaBCD: process(clk_low,reset)begin
 			end if;  
 		else
 			if s_count ="0000" then
-				s_count<="1111";
+				s_count<="1111";	
 				if d_count="0000" then 
 					d_count<= "1111" ;
-				else
+						else
 					d_count<= d_count-1;
 				end if;
+				
 			else
 				s_count <=s_count-1;
 			end if; 
@@ -102,11 +99,12 @@ P_blink_LED: PROCESS(clk_0)
 		END IF; 
 	END PROCESS; 	blink_LED<= clk_low;
 	
-decoder: process(s_count)
+decoder: process(s_count,m,d_count,clk_low)
 variable disp1, disp2, disp3, disp4 :std_logic_vector(6 downto 0);
 	begin 
-	disp3 := Dig0;
-	disp4 := Dig0;
+	if (clk_low'event and clk_low='1') then  
+	disp3 := dig0;
+	disp4 := dig0;
 	case(s_count) is
         when "0000" => disp1 := Dig0;
         when "0001" => disp1 := Dig1;
@@ -146,15 +144,18 @@ variable disp1, disp2, disp3, disp4 :std_logic_vector(6 downto 0);
         when "1111" => disp2 := HexF;
         when others => disp2 := Apag;
       end case;
-	  
-	  case (mux) is 
-		  when "0001" => dispA <= disp1;
-		  when "0010" => dispA <= disp2;
-		  when "0100" => dispA <= disp3;
-		  when others => dispA <= disp4;
+	  end if; 
+	  IF (clk_0'EVENT AND clk_0='1' )THEN 
+			m<=m(2 downto 0 )&m(3);
+			case (m) is 
+			when "0001" => dispA <= disp1;when "0010" => dispA <= disp2;
+		when "0100" => dispA <= disp3;
+		when others => dispA <= disp4;
 	  end case;
+	  end if;
 	  
-	end process;end test_osc; 
+	end process;
+	mux<=m;end test_osc; 
 
 
 	

@@ -1,6 +1,10 @@
-@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\OSCH.vhd":6:7:6:17|Synthesizing work.contadorbcd.test_osc.
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":6:7:6:17|Synthesizing work.contadorbcd.test_osc.
 @W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
 @N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
 Post processing for work.osch.syn_black_box
-@N: CD604 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\OSCH.vhd":107:8:107:21|OTHERS clause is not synthesized.
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":175:10:175:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":181:25:181:29|Referenced variable disp4 is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":180:25:180:29|Referenced variable disp3 is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":179:25:179:29|Referenced variable disp2 is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":178:25:178:29|Referenced variable disp1 is not in sensitivity list.
 Post processing for work.contadorbcd.test_osc
