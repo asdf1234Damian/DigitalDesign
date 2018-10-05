@@ -10,7 +10,7 @@ Lattice Diamond Version 3.10.0.111.2
 #OS: Windows 8 6.2
 #Hostname: DESKTOP-4BVJD33
 
-# Tue Oct  2 11:13:07 2018
+# Fri Oct  5 00:37:23 2018
 
 #Implementation: impl1
 
@@ -31,19 +31,19 @@ File C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd changed -
 @W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
 @N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
 Post processing for work.osch.syn_black_box
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":175:10:175:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":181:25:181:29|Referenced variable disp4 is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":180:25:180:29|Referenced variable disp3 is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":179:25:179:29|Referenced variable disp2 is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":178:25:178:29|Referenced variable disp1 is not in sensitivity list.
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":186:10:186:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":193:30:193:34|Referenced variable disp4 is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":192:30:192:34|Referenced variable disp3 is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":191:30:191:34|Referenced variable disp2 is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\Practica5.vhd":190:30:190:34|Referenced variable disp1 is not in sensitivity list.
 Post processing for work.contadorbcd.test_osc
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 76MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Oct  2 11:13:08 2018
+# Fri Oct  5 00:37:24 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
@@ -55,7 +55,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Oct  2 11:13:08 2018
+# Fri Oct  5 00:37:25 2018
 
 ###########################################################]
 @END
@@ -65,7 +65,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Oct  2 11:13:08 2018
+# Fri Oct  5 00:37:25 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
@@ -77,12 +77,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Oct  2 11:13:10 2018
+# Fri Oct  5 00:37:26 2018
 
 ###########################################################]
 Pre-mapping Report
 
-# Tue Oct  2 11:13:10 2018
+# Fri Oct  5 00:37:27 2018
 
 Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -123,11 +123,11 @@ Clock Summary
           Start                                     Requested     Requested     Clock                                               Clock                   Clock
 Level     Clock                                     Frequency     Period        Type                                                Group                   Load 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-0 -       contadorBCD|clk_0_inferred_clock          133.0 MHz     7.519         inferred                                            Inferred_clkgroup_0     30   
-1 .         contadorBCD|blink_LED_derived_clock     133.0 MHz     7.519         derived (from contadorBCD|clk_0_inferred_clock)     Inferred_clkgroup_0     16   
+0 -       contadorBCD|clk_0_inferred_clock          2.1 MHz       480.769       inferred                                            Inferred_clkgroup_0     28   
+1 .         contadorBCD|blink_LED_derived_clock     2.1 MHz       480.769       derived (from contadorBCD|clk_0_inferred_clock)     Inferred_clkgroup_0     16   
 =================================================================================================================================================================
 
-@W: MT529 :"c:\users\asdf1\documents\digitaldesign\practica5dsd\practica5.vhd":42:42:42:47|Found inferred clock contadorBCD|clk_0_inferred_clock which controls 30 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\asdf1\documents\digitaldesign\practica5dsd\practica5.vhd":42:42:42:51|Found inferred clock contadorBCD|clk_0_inferred_clock which controls 28 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
 
@@ -146,12 +146,12 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 141MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Oct  2 11:13:11 2018
+# Fri Oct  5 00:37:28 2018
 
 ###########################################################]
 Map & Optimize Report
 
-# Tue Oct  2 11:13:11 2018
+# Fri Oct  5 00:37:28 2018
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -181,7 +181,7 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 Available hyper_sources - for debug and ip models
 	None Found
 
-@N: FX493 |Applying initial value "0001" on instance m[3:0].
+@N: FX493 |Applying initial value "00000001" on instance m[7:0].
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
@@ -198,37 +198,32 @@ Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00
 Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 148MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 148MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 148MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 165MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 149MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		     0.38ns		 182 /        46
-   2		0h:00m:01s		     0.95ns		 171 /        46
-   3		0h:00m:01s		     0.55ns		 171 /        46
-   4		0h:00m:01s		     0.55ns		 169 /        46
-   5		0h:00m:01s		     0.55ns		 169 /        46
-   6		0h:00m:01s		     0.55ns		 169 /        46
+   1		0h:00m:00s		   469.97ns		 114 /        44
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 165MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 149MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 165MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 148MB peak: 149MB)
 
 @N: MT611 :|Automatically generated clock contadorBCD|blink_LED_derived_clock is not used and is being removed
 
@@ -239,45 +234,45 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 46 clock pin(s) of sequential element(s)
-0 instances converted, 46 sequential instances remain driven by gated/generated clocks
+1 gated/generated clock tree(s) driving 44 clock pin(s) of sequential element(s)
+0 instances converted, 44 sequential instances remain driven by gated/generated clocks
 
 ================================================================================================= Gated/Generated Clocks =================================================================================================
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       OSCInst0            OSCH                   46         clk_low             Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0001       OSCInst0            OSCH                   44         clk_low             Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
 ==========================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 131MB peak: 165MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 114MB peak: 149MB)
 
 Writing Analyst data base C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\synwork\Practica5_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 166MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 149MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\asdf1\Documents\DigitalDesign\Practica5DSD\impl1\Practica5_impl1.edi
 M-2017.03L-SP1-1
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 170MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 153MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 168MB peak: 170MB)
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 152MB peak: 153MB)
 
-@W: MT420 |Found inferred clock contadorBCD|clk_0_inferred_clock with period 7.52ns. Please declare a user-defined clock on object "n:clk_0"
+@W: MT420 |Found inferred clock contadorBCD|clk_0_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:clk_0"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Tue Oct  2 11:13:13 2018
+# Timing Report written on Fri Oct  5 00:37:30 2018
 #
 
 
 Top view:               contadorBCD
-Requested Frequency:    133.0 MHz
+Requested Frequency:    2.1 MHz
 Wire load mode:         top
 Paths requested:        5
 Constraint File(s):    
@@ -291,14 +286,14 @@ Performance Summary
 *******************
 
 
-Worst slack in design: -0.690
+Worst slack in design: 469.880
 
-                                     Requested     Estimated     Requested     Estimated                Clock        Clock              
-Starting Clock                       Frequency     Frequency     Period        Period        Slack      Type         Group              
-----------------------------------------------------------------------------------------------------------------------------------------
-contadorBCD|clk_0_inferred_clock     133.0 MHz     121.8 MHz     7.519         8.209         -0.690     inferred     Inferred_clkgroup_0
-System                               1.0 MHz       NA            1000.000      NA            NA         system       system_clkgroup    
-========================================================================================================================================
+                                     Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                       Frequency     Frequency     Period        Period        Slack       Type         Group              
+-----------------------------------------------------------------------------------------------------------------------------------------
+contadorBCD|clk_0_inferred_clock     2.1 MHz       91.8 MHz      480.769       10.889        469.880     inferred     Inferred_clkgroup_0
+System                               1.0 MHz       NA            1000.000      NA            NA          system       system_clkgroup    
+=========================================================================================================================================
 Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
 
 
@@ -308,12 +303,12 @@ Estimated period and frequency reported as NA means no slack depends directly on
 Clock Relationships
 *******************
 
-Clocks                                                              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
------------------------------------------------------------------------------------------------------------------------------------------------------------
-Starting                          Ending                            |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
------------------------------------------------------------------------------------------------------------------------------------------------------------
-contadorBCD|clk_0_inferred_clock  contadorBCD|clk_0_inferred_clock  |  7.519       -0.690  |  No paths    -      |  No paths    -      |  No paths    -    
-===========================================================================================================================================================
+Clocks                                                              |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                          Ending                            |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+contadorBCD|clk_0_inferred_clock  contadorBCD|clk_0_inferred_clock  |  480.769     469.880  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -335,41 +330,41 @@ Detailed Report for Clock: contadorBCD|clk_0_inferred_clock
 Starting Points with Worst Slack
 ********************************
 
-               Starting                                                                Arrival           
-Instance       Reference                            Type        Pin     Net            Time        Slack 
-               Clock                                                                                     
----------------------------------------------------------------------------------------------------------
-d_count[3]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       d_count[3]     1.252       -0.690
-s_count[0]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       s_count[0]     1.272       0.083 
-s_count[3]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       s_count[3]     1.260       0.095 
-d_count[0]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       d_count[0]     1.256       0.171 
-s_count[2]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       s_count[2]     1.268       0.255 
-s_count[1]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       s_count[1]     1.260       0.263 
-m_count[1]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       m_count[1]     1.252       0.351 
-m_count[2]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       m_count[2]     1.244       0.359 
-m_count[0]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       m_count[0]     1.236       0.367 
-m_count[3]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       m_count[3]     1.180       0.423 
-=========================================================================================================
+               Starting                                                                Arrival            
+Instance       Reference                            Type        Pin     Net            Time        Slack  
+               Clock                                                                                      
+----------------------------------------------------------------------------------------------------------
+s_count[1]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       s_count[1]     1.256       469.880
+s_count[2]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       s_count[2]     1.256       469.880
+d_count[2]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       d_count[2]     1.228       469.908
+s_count[0]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       s_count[0]     1.236       469.933
+d_count[1]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       d_count[1]     1.188       469.948
+s_count[3]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       s_count[3]     1.220       469.949
+d_count[0]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       d_count[0]     1.236       471.086
+d_count[3]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       d_count[3]     1.220       471.102
+c_count[1]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       c_count[1]     1.232       471.169
+c_count[2]     contadorBCD|clk_0_inferred_clock     FD1P3DX     Q       c_count[2]     1.232       471.169
+==========================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-               Starting                                                                             Required           
-Instance       Reference                            Type        Pin     Net                         Time         Slack 
-               Clock                                                                                                   
------------------------------------------------------------------------------------------------------------------------
-c_count[3]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.c_count_10[3]     7.607        -0.690
-c_count[2]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.c_count_10[2]     7.607        0.055 
-m_count[2]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.m_count_12[2]     7.607        0.083 
-m_count[3]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.m_count_12[3]     7.607        0.083 
-m_count[1]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.m_count_12[1]     7.607        0.095 
-d_count[3]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.d_count_8[3]      7.607        0.223 
-c_count[1]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.c_count_10[1]     7.981        0.831 
-m_count[0]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.m_count_12[0]     7.981        1.085 
-d_count[2]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.d_count_8[2]      7.607        1.140 
-s_count[3]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.s_count_8[3]      7.607        1.200 
-=======================================================================================================================
+               Starting                                                                             Required            
+Instance       Reference                            Type        Pin     Net                         Time         Slack  
+               Clock                                                                                                    
+------------------------------------------------------------------------------------------------------------------------
+m_count[3]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.m_count_12[3]     480.858      469.880
+m_count[1]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.m_count_12[1]     480.858      470.076
+m_count[2]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.m_count_12[2]     480.858      470.076
+c_count[3]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.c_count_10[3]     480.858      471.113
+c_count[1]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.c_count_10[1]     480.858      471.405
+c_count[2]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.c_count_10[2]     480.858      471.405
+d_count[3]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.d_count_8[3]      480.858      472.303
+d_count[1]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.d_count_8[1]      480.858      472.445
+d_count[2]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.d_count_8[2]      480.858      472.445
+m_count[0]     contadorBCD|clk_0_inferred_clock     FD1P3DX     D       contaBCD\.m_count_12[0]     480.858      473.169
+========================================================================================================================
 
 
 
@@ -378,221 +373,52 @@ Worst Path Information
 
 
 Path information for path number 1: 
-      Requested Period:                      7.519
+      Requested Period:                      480.769
     - Setup time:                            -0.089
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         7.607
+    = Required time:                         480.858
 
-    - Propagation time:                      8.297
+    - Propagation time:                      10.978
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -0.690
+    = Slack (critical) :                     469.880
 
-    Number of logic level(s):                7
-    Starting point:                          d_count[3] / Q
-    Ending point:                            c_count[3] / D
-    The start point is clocked by            contadorBCD|clk_0_inferred_clock [rising] on pin CK
-    The end   point is clocked by            contadorBCD|clk_0_inferred_clock [rising] on pin CK
-
-Instance / Net                                                                   Pin      Pin               Arrival     No. of    
-Name                                                                Type         Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------------
-d_count[3]                                                          FD1P3DX      Q        Out     1.252     1.252       -         
-d_count[3]                                                          Net          -        -       -         -           13        
-contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2_0_0_0            ORCALUT4     B        In      0.000     1.252       -         
-contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2_0_0_0            ORCALUT4     Z        Out     1.017     2.269       -         
-contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2_0_0              Net          -        -       -         -           1         
-contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2_0                ORCALUT4     A        In      0.000     2.269       -         
-contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2_0                ORCALUT4     Z        Out     1.273     3.541       -         
-N_94                                                                Net          -        -       -         -           9         
-contaBCD\.m_count_12_sn.un1_d_count_2_sqmuxa_2_0_a2_RNIRV1M1[2]     ORCALUT4     A        In      0.000     3.541       -         
-contaBCD\.m_count_12_sn.un1_d_count_2_sqmuxa_2_0_a2_RNIRV1M1[2]     ORCALUT4     Z        Out     1.089     4.630       -         
-N_67                                                                Net          -        -       -         -           2         
-un1_c_count_5_c2_0_0_1                                              ORCALUT4     A        In      0.000     4.630       -         
-un1_c_count_5_c2_0_0_1                                              ORCALUT4     Z        Out     1.017     5.647       -         
-un1_c_count_5_c2_0_0_1                                              Net          -        -       -         -           1         
-un1_c_count_5_c2_0_0_1_RNI29T61                                     ORCALUT4     D        In      0.000     5.647       -         
-un1_c_count_5_c2_0_0_1_RNI29T61                                     ORCALUT4     Z        Out     1.017     6.664       -         
-r_m1_1                                                              Net          -        -       -         -           1         
-contaBCD\.m_count_12_sn.un1_c_count_2_sqmuxa_2_0_RNI81G72[2]        ORCALUT4     B        In      0.000     6.664       -         
-contaBCD\.m_count_12_sn.un1_c_count_2_sqmuxa_2_0_RNI81G72[2]        ORCALUT4     Z        Out     1.017     7.681       -         
-contaBCD\.m_count_12_sn.contaBCD\.c_count_rn_0[3]                   Net          -        -       -         -           1         
-contaBCD\.m_count_12_sn.un1_c_count_2_sqmuxa_2_0_RNI90104[2]        ORCALUT4     C        In      0.000     7.681       -         
-contaBCD\.m_count_12_sn.un1_c_count_2_sqmuxa_2_0_RNI90104[2]        ORCALUT4     Z        Out     0.617     8.297       -         
-contaBCD\.c_count_10[3]                                             Net          -        -       -         -           1         
-c_count[3]                                                          FD1P3DX      D        In      0.000     8.297       -         
-==================================================================================================================================
-
-
-Path information for path number 2: 
-      Requested Period:                      7.519
-    - Setup time:                            -0.089
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         7.607
-
-    - Propagation time:                      7.553
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 0.055
-
-    Number of logic level(s):                6
-    Starting point:                          d_count[3] / Q
-    Ending point:                            c_count[3] / D
-    The start point is clocked by            contadorBCD|clk_0_inferred_clock [rising] on pin CK
-    The end   point is clocked by            contadorBCD|clk_0_inferred_clock [rising] on pin CK
-
-Instance / Net                                                                Pin      Pin               Arrival     No. of    
-Name                                                             Type         Name     Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------------------------------------
-d_count[3]                                                       FD1P3DX      Q        Out     1.252     1.252       -         
-d_count[3]                                                       Net          -        -       -         -           13        
-contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2_0_0_0         ORCALUT4     B        In      0.000     1.252       -         
-contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2_0_0_0         ORCALUT4     Z        Out     1.017     2.269       -         
-contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2_0_0           Net          -        -       -         -           1         
-contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2_0             ORCALUT4     A        In      0.000     2.269       -         
-contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2_0             ORCALUT4     Z        Out     1.273     3.541       -         
-N_94                                                             Net          -        -       -         -           9         
-contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2            ORCALUT4     B        In      0.000     3.541       -         
-contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2            ORCALUT4     Z        Out     1.225     4.766       -         
-N_104                                                            Net          -        -       -         -           5         
-contaBCD\.m_count_12_sn.un1_c_count_2_sqmuxa_2_0[2]              ORCALUT4     B        In      0.000     4.766       -         
-contaBCD\.m_count_12_sn.un1_c_count_2_sqmuxa_2_0[2]              ORCALUT4     Z        Out     1.153     5.919       -         
-un1_c_count_2_sqmuxa_2_0[2]                                      Net          -        -       -         -           3         
-contaBCD\.m_count_12_sn.un1_c_count_2_sqmuxa_2_0_RNI81G72[2]     ORCALUT4     C        In      0.000     5.919       -         
-contaBCD\.m_count_12_sn.un1_c_count_2_sqmuxa_2_0_RNI81G72[2]     ORCALUT4     Z        Out     1.017     6.936       -         
-contaBCD\.m_count_12_sn.contaBCD\.c_count_rn_0[3]                Net          -        -       -         -           1         
-contaBCD\.m_count_12_sn.un1_c_count_2_sqmuxa_2_0_RNI90104[2]     ORCALUT4     C        In      0.000     6.936       -         
-contaBCD\.m_count_12_sn.un1_c_count_2_sqmuxa_2_0_RNI90104[2]     ORCALUT4     Z        Out     0.617     7.553       -         
-contaBCD\.c_count_10[3]                                          Net          -        -       -         -           1         
-c_count[3]                                                       FD1P3DX      D        In      0.000     7.553       -         
-===============================================================================================================================
-
-
-Path information for path number 3: 
-      Requested Period:                      7.519
-    - Setup time:                            -0.089
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         7.607
-
-    - Propagation time:                      7.553
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 0.055
-
-    Number of logic level(s):                6
-    Starting point:                          d_count[3] / Q
-    Ending point:                            c_count[2] / D
-    The start point is clocked by            contadorBCD|clk_0_inferred_clock [rising] on pin CK
-    The end   point is clocked by            contadorBCD|clk_0_inferred_clock [rising] on pin CK
-
-Instance / Net                                                                    Pin      Pin               Arrival     No. of    
-Name                                                                 Type         Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------------------------------
-d_count[3]                                                           FD1P3DX      Q        Out     1.252     1.252       -         
-d_count[3]                                                           Net          -        -       -         -           13        
-contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2_0_0_0             ORCALUT4     B        In      0.000     1.252       -         
-contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2_0_0_0             ORCALUT4     Z        Out     1.017     2.269       -         
-contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2_0_0               Net          -        -       -         -           1         
-contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2_0                 ORCALUT4     A        In      0.000     2.269       -         
-contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2_0                 ORCALUT4     Z        Out     1.273     3.541       -         
-N_94                                                                 Net          -        -       -         -           9         
-contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2                ORCALUT4     B        In      0.000     3.541       -         
-contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2                ORCALUT4     Z        Out     1.225     4.766       -         
-N_104                                                                Net          -        -       -         -           5         
-contaBCD\.m_count_12_sn.un1_c_count_2_sqmuxa_2_0[2]                  ORCALUT4     B        In      0.000     4.766       -         
-contaBCD\.m_count_12_sn.un1_c_count_2_sqmuxa_2_0[2]                  ORCALUT4     Z        Out     1.153     5.919       -         
-un1_c_count_2_sqmuxa_2_0[2]                                          Net          -        -       -         -           3         
-un1_c_count_5_ac0_0_RNILS781                                         ORCALUT4     B        In      0.000     5.919       -         
-un1_c_count_5_ac0_0_RNILS781                                         ORCALUT4     Z        Out     1.017     6.936       -         
-r_N_4_mux                                                            Net          -        -       -         -           1         
-contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2_1_RNIM8QJ2     ORCALUT4     C        In      0.000     6.936       -         
-contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2_1_RNIM8QJ2     ORCALUT4     Z        Out     0.617     7.553       -         
-contaBCD\.c_count_10[2]                                              Net          -        -       -         -           1         
-c_count[2]                                                           FD1P3DX      D        In      0.000     7.553       -         
-===================================================================================================================================
-
-
-Path information for path number 4: 
-      Requested Period:                      7.519
-    - Setup time:                            -0.089
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         7.607
-
-    - Propagation time:                      7.525
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 0.083
-
-    Number of logic level(s):                6
-    Starting point:                          s_count[0] / Q
+    Number of logic level(s):                8
+    Starting point:                          s_count[1] / Q
     Ending point:                            m_count[3] / D
     The start point is clocked by            contadorBCD|clk_0_inferred_clock [rising] on pin CK
     The end   point is clocked by            contadorBCD|clk_0_inferred_clock [rising] on pin CK
 
-Instance / Net                                                             Pin      Pin               Arrival     No. of    
-Name                                                          Type         Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------
-s_count[0]                                                    FD1P3DX      Q        Out     1.272     1.272       -         
-s_count[0]                                                    Net          -        -       -         -           18        
-contaBCD\.m_count_12_sn.un1_d_count_2_sqmuxa_2_0_a2[2]        ORCALUT4     B        In      0.000     1.272       -         
-contaBCD\.m_count_12_sn.un1_d_count_2_sqmuxa_2_0_a2[2]        ORCALUT4     Z        Out     1.225     2.497       -         
-N_92                                                          Net          -        -       -         -           5         
-contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2_0_1     ORCALUT4     B        In      0.000     2.497       -         
-contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2_0_1     ORCALUT4     Z        Out     1.225     3.721       -         
-contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2_0_1     Net          -        -       -         -           5         
-un1_m_count_5_ac0_0_a0                                        ORCALUT4     B        In      0.000     3.721       -         
-un1_m_count_5_ac0_0_a0                                        ORCALUT4     Z        Out     1.153     4.874       -         
-un1_m_count_5_ac0_0_a0                                        Net          -        -       -         -           3         
-contaBCD\.m_count_12_sn.contaBCD\.m_count_12_RNO_1[3]         ORCALUT4     A        In      0.000     4.874       -         
-contaBCD\.m_count_12_sn.contaBCD\.m_count_12_RNO_1[3]         ORCALUT4     Z        Out     1.017     5.891       -         
-contaBCD\.m_count_12_RNO_1[3]                                 Net          -        -       -         -           1         
-contaBCD\.m_count_12_sn.contaBCD\.m_count_12_RNO[3]           ORCALUT4     B        In      0.000     5.891       -         
-contaBCD\.m_count_12_sn.contaBCD\.m_count_12_RNO[3]           ORCALUT4     Z        Out     1.017     6.908       -         
-contaBCD\.m_count_12_RNO[3]                                   Net          -        -       -         -           1         
-contaBCD\.m_count_12_sn.contaBCD\.m_count_12[3]               ORCALUT4     D        In      0.000     6.908       -         
-contaBCD\.m_count_12_sn.contaBCD\.m_count_12[3]               ORCALUT4     Z        Out     0.617     7.525       -         
-contaBCD\.m_count_12[3]                                       Net          -        -       -         -           1         
-m_count[3]                                                    FD1P3DX      D        In      0.000     7.525       -         
-============================================================================================================================
-
-
-Path information for path number 5: 
-      Requested Period:                      7.519
-    - Setup time:                            -0.089
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         7.607
-
-    - Propagation time:                      7.525
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 0.083
-
-    Number of logic level(s):                6
-    Starting point:                          s_count[0] / Q
-    Ending point:                            m_count[2] / D
-    The start point is clocked by            contadorBCD|clk_0_inferred_clock [rising] on pin CK
-    The end   point is clocked by            contadorBCD|clk_0_inferred_clock [rising] on pin CK
-
-Instance / Net                                                                    Pin      Pin               Arrival     No. of    
-Name                                                                 Type         Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------------------------------
-s_count[0]                                                           FD1P3DX      Q        Out     1.272     1.272       -         
-s_count[0]                                                           Net          -        -       -         -           18        
-contaBCD\.m_count_12_sn.un1_d_count_2_sqmuxa_2_0_a2[2]               ORCALUT4     B        In      0.000     1.272       -         
-contaBCD\.m_count_12_sn.un1_d_count_2_sqmuxa_2_0_a2[2]               ORCALUT4     Z        Out     1.225     2.497       -         
-N_92                                                                 Net          -        -       -         -           5         
-contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2_0_1            ORCALUT4     B        In      0.000     2.497       -         
-contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2_0_1            ORCALUT4     Z        Out     1.225     3.721       -         
-contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2_0_1            Net          -        -       -         -           5         
-un1_m_count_5_ac0_0_a0                                               ORCALUT4     B        In      0.000     3.721       -         
-un1_m_count_5_ac0_0_a0                                               ORCALUT4     Z        Out     1.153     4.874       -         
-un1_m_count_5_ac0_0_a0                                               Net          -        -       -         -           3         
-contaBCD\.m_count_12_sn.contaBCD\.m_count_N_3L3                      ORCALUT4     A        In      0.000     4.874       -         
-contaBCD\.m_count_12_sn.contaBCD\.m_count_N_3L3                      ORCALUT4     Z        Out     1.017     5.891       -         
-contaBCD\.m_count_N_3L3                                              Net          -        -       -         -           1         
-contaBCD\.m_count_12_sn.un1_m_count_2_sqmuxa_2_0_RNITP3I1[2]         ORCALUT4     A        In      0.000     5.891       -         
-contaBCD\.m_count_12_sn.un1_m_count_2_sqmuxa_2_0_RNITP3I1[2]         ORCALUT4     Z        Out     1.017     6.908       -         
-un1_m_count_2_sqmuxa_2_0_RNITP3I1[2]                                 Net          -        -       -         -           1         
-contaBCD\.m_count_12_sn.contaBCD\.m_count_12_ss0_i_a4_0_RNITMRO5     ORCALUT4     D        In      0.000     6.908       -         
-contaBCD\.m_count_12_sn.contaBCD\.m_count_12_ss0_i_a4_0_RNITMRO5     ORCALUT4     Z        Out     0.617     7.525       -         
-contaBCD\.m_count_12[2]                                              Net          -        -       -         -           1         
-m_count[2]                                                           FD1P3DX      D        In      0.000     7.525       -         
-===================================================================================================================================
+Instance / Net                                                           Pin      Pin               Arrival     No. of    
+Name                                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------
+s_count[1]                                                  FD1P3DX      Q        Out     1.256     1.256       -         
+s_count[1]                                                  Net          -        -       -         -           14        
+contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2          ORCALUT4     C        In      0.000     1.256       -         
+contaBCD\.m_count_12_sn.contaBCD\.d_count_8s2_0_a2          ORCALUT4     Z        Out     1.265     2.521       -         
+N_73                                                        Net          -        -       -         -           8         
+contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2_1     ORCALUT4     D        In      0.000     2.521       -         
+contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2_1     ORCALUT4     Z        Out     1.225     3.745       -         
+N_170                                                       Net          -        -       -         -           5         
+contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2       ORCALUT4     B        In      0.000     3.745       -         
+contaBCD\.m_count_12_sn.contaBCD\.c_count_10_ss0_i_a2       ORCALUT4     Z        Out     1.273     5.018       -         
+N_177                                                       Net          -        -       -         -           9         
+contaBCD\.m_count_12_sn.contaBCD\.m_count_12s2_0_a4         ORCALUT4     B        In      0.000     5.018       -         
+contaBCD\.m_count_12_sn.contaBCD\.m_count_12s2_0_a4         ORCALUT4     Z        Out     1.233     6.251       -         
+N_65                                                        Net          -        -       -         -           6         
+un1_m_count_5_cry_1_0                                       CCU2D        C0       In      0.000     6.251       -         
+un1_m_count_5_cry_1_0                                       CCU2D        COUT     Out     1.544     7.795       -         
+un1_m_count_5_cry_2                                         Net          -        -       -         -           1         
+un1_m_count_5_s_3_0                                         CCU2D        CIN      In      0.000     7.795       -         
+un1_m_count_5_s_3_0                                         CCU2D        S0       Out     1.549     9.345       -         
+un1_m_count_5_s_3_0_S0                                      Net          -        -       -         -           1         
+contaBCD\.m_count_12_sn.contaBCD\.m_count_12_m0[3]          ORCALUT4     B        In      0.000     9.345       -         
+contaBCD\.m_count_12_sn.contaBCD\.m_count_12_m0[3]          ORCALUT4     Z        Out     1.017     10.361      -         
+contaBCD\.m_count_12_m0[3]                                  Net          -        -       -         -           1         
+contaBCD\.m_count_12_sn.contaBCD\.m_count_12[3]             ORCALUT4     B        In      0.000     10.361      -         
+contaBCD\.m_count_12_sn.contaBCD\.m_count_12[3]             ORCALUT4     Z        Out     0.617     10.978      -         
+contaBCD\.m_count_12[3]                                     Net          -        -       -         -           1         
+m_count[3]                                                  FD1P3DX      D        In      0.000     10.978      -         
+==========================================================================================================================
 
 
 
@@ -601,42 +427,42 @@ m_count[2]                                                           FD1P3DX    
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 169MB peak: 170MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 152MB peak: 153MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 169MB peak: 170MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 152MB peak: 153MB)
 
 ---------------------------------------
 Resource Usage Report
 Part: lcmxo2_7000he-5
 
-Register bits: 46 of 6864 (1%)
+Register bits: 44 of 6864 (1%)
 PIC Latch:       0
 I/O cells:       32
 
 
 Details:
-CCU2D:          13
+CCU2D:          22
 FD1P3DX:        16
-FD1S3AX:        18
+FD1S3AX:        19
 FD1S3AY:        1
-FD1S3IX:        11
+FD1S3IX:        8
 GSR:            1
 IB:             19
 INV:            1
 OB:             13
-ORCALUT4:       169
+ORCALUT4:       108
 OSCH:           1
-PFUMX:          9
+PFUMX:          1
 PUR:            1
 VHI:            1
 VLO:            1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 31MB peak: 170MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 31MB peak: 153MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Tue Oct  2 11:13:13 2018
+# Fri Oct  5 00:37:31 2018
 
 ###########################################################]
 
@@ -679,7 +505,7 @@ Running DRC...
     <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="1"  />
 
 Design Results:
-    274 blocks expanded
+    212 blocks expanded
 Complete the first expansion.
 Writing 'Practica5_impl1.ngd' ...
 Total CPU Time: 0 secs  
@@ -724,17 +550,17 @@ Optimizing...
 
 
 Design Summary:
-   Number of registers:     46 out of  7209 (1%)
-      PFU registers:           46 out of  6864 (1%)
+   Number of registers:     44 out of  7209 (1%)
+      PFU registers:           44 out of  6864 (1%)
       PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:        99 out of  3432 (3%)
-      SLICEs as Logic/ROM:     99 out of  3432 (3%)
+   Number of SLICEs:        77 out of  3432 (2%)
+      SLICEs as Logic/ROM:     77 out of  3432 (2%)
       SLICEs as RAM:            0 out of  2574 (0%)
-      SLICEs as Carry:         13 out of  3432 (0%)
-   Number of LUT4s:        196 out of  6864 (3%)
-      Number used as logic LUTs:        170
+      SLICEs as Carry:         22 out of  3432 (1%)
+   Number of LUT4s:        153 out of  6864 (2%)
+      Number used as logic LUTs:        109
       Number used as distributed RAM:     0
-      Number used as ripple logic:       26
+      Number used as ripple logic:       44
       Number used as shift registers:     0
    Number of PIO sites used: 32 + 4(JTAG) out of 115 (31%)
    Number of block RAMs:  0 out of 26 (0%)
@@ -760,24 +586,24 @@ Design Summary:
       1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
    Number of clocks:  1
-     Net clk_0_0: 31 loads, 31 rising, 0 falling (Driver: OSCInst0 )
+     Net clk_0_0: 26 loads, 26 rising, 0 falling (Driver: OSCInst0 )
    Number of Clock Enables:  1
-     Net clk_low_RNI2MST: 13 loads, 13 LSLICEs
+     Net clk_low_RNIRD5V: 9 loads, 9 LSLICEs
    Number of local set/reset loads for net reset_c merged into GSR:  16
    Number of LSRs:  1
-     Net lowClk.un2_count_i: 7 loads, 7 LSLICEs
+     Net lowClk.un2_count_i: 6 loads, 6 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net load_c: 33 loads
-     Net c_count[1]: 19 loads
-     Net s_count[0]: 18 loads
-     Net d_count[1]: 17 loads
-     Net s_count[2]: 16 loads
-     Net s_count[3]: 16 loads
-     Net c_count[0]: 15 loads
-     Net s_count[1]: 15 loads
-     Net d_count[0]: 14 loads
-     Net d_count[2]: 14 loads
+     Net load_c: 24 loads
+     Net s_count[1]: 14 loads
+     Net s_count[2]: 14 loads
+     Net c_count[0]: 11 loads
+     Net d_count[0]: 11 loads
+     Net mux_c[3]: 11 loads
+     Net s_count[0]: 11 loads
+     Net c_count[1]: 10 loads
+     Net c_count[2]: 10 loads
+     Net m_count[0]: 10 loads
  
 
    Number of warnings:  1
@@ -787,7 +613,7 @@ Design Summary:
 
 Total CPU Time: 0 secs  
 Total REAL Time: 0 secs  
-Peak Memory Usage: 59 MB
+Peak Memory Usage: 58 MB
 
 Dumping design to file Practica5_impl1_map.ncd.
 
@@ -798,7 +624,7 @@ Removing old design directory at request of -rem command line option to this pro
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "Practica5_impl1_map.ncd"
-Tue Oct 02 11:13:17 2018
+Fri Oct 05 00:37:35 2018
 
 PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
 Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF Practica5_impl1_map.ncd Practica5_impl1.dir/5_1.ncd Practica5_impl1.prf
@@ -825,24 +651,23 @@ Device utilization summary:
    PIO (prelim)   32+4(JTAG)/336     11% used
                   32+4(JTAG)/115     31% bonded
 
-   SLICE             99/3432          2% used
+   SLICE             77/3432          2% used
 
    GSR                1/1           100% used
    OSC                1/1           100% used
 
 
-Number of Signals: 263
-Number of Connections: 748
+Number of Signals: 219
+Number of Connections: 569
 
 Pin Constraint Summary:
    32 out of 32 pins locked (100% locked).
 
 The following 1 signal is selected to use the primary clock routing resources:
-    clk_0_0 (driver: OSCInst0, clk load #: 31)
+    clk_0_0 (driver: OSCInst0, clk load #: 26)
 
 
-The following 1 signal is selected to use the secondary clock routing resources:
-    clk_low_RNI2MST (driver: SLICE_55, clk load #: 0, sr load #: 0, ce load #: 13)
+No signal is selected as secondary clock.
 
 Signal reset_c is selected as Global Set/Reset.
 Starting Placer Phase 0.
@@ -851,13 +676,13 @@ Finished Placer Phase 0.  REAL time: 0 secs
 
 Starting Placer Phase 1.
 ..................
-Placer score = 58536.
-Finished Placer Phase 1.  REAL time: 3 secs 
+Placer score = 51258.
+Finished Placer Phase 1.  REAL time: 4 secs 
 
 Starting Placer Phase 2.
 .
-Placer score =  58536
-Finished Placer Phase 2.  REAL time: 3 secs 
+Placer score =  50471
+Finished Placer Phase 2.  REAL time: 4 secs 
 
 
 ------------------ Clock Report ------------------
@@ -869,11 +694,10 @@ Global Clock Resources:
   DCC        : 0 out of 8 (0%)
 
 Quadrants All (TL, TR, BL, BR) - Global Clocks:
-  PRIMARY "clk_0_0" from OSC on comp "OSCInst0" on site "OSC", clk load = 31
-  SECONDARY "clk_low_RNI2MST" from F0 on comp "SLICE_55" on site "R21C18D", clk load = 0, ce load = 13, sr load = 0
+  PRIMARY "clk_0_0" from OSC on comp "OSCInst0" on site "OSC", clk load = 26
 
   PRIMARY  : 1 out of 8 (12%)
-  SECONDARY: 1 out of 8 (12%)
+  SECONDARY: 0 out of 8 (0%)
 
 Edge Clocks:
   No edge clock selected.
@@ -899,16 +723,16 @@ I/O Bank Usage Summary:
 | 5        | 3 / 10 ( 30%)  | 2.5V       | -         |
 +----------+----------------+------------+-----------+
 
-Total placer CPU time: 2 secs 
+Total placer CPU time: 4 secs 
 
 Dumping design to file Practica5_impl1.dir/5_1.ncd.
 
-0 connections routed; 748 unrouted.
+0 connections routed; 569 unrouted.
 Starting router resource preassignment
 
-Completed router resource preassignment. Real time: 5 secs 
+Completed router resource preassignment. Real time: 6 secs 
 
-Start NBR router at 11:13:22 10/02/18
+Start NBR router at 00:37:41 10/05/18
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -923,161 +747,71 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at 11:13:22 10/02/18
+Start NBR special constraint process at 00:37:41 10/05/18
 
-Start NBR section for initial routing at 11:13:22 10/02/18
-Level 1, iteration 1
-0(0.00%) conflict; 636(85.03%) untouched conns; 36513 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.780ns/-36.513ns; real time: 5 secs 
-Level 2, iteration 1
-20(0.01%) conflicts; 568(75.94%) untouched conns; 9993 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.353ns/-9.993ns; real time: 5 secs 
-Level 3, iteration 1
-35(0.01%) conflicts; 322(43.05%) untouched conns; 5717 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.167ns/-5.718ns; real time: 6 secs 
+Start NBR section for initial routing at 00:37:41 10/05/18
 Level 4, iteration 1
-27(0.01%) conflicts; 0(0.00%) untouched conn; 6448 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.331ns/-6.448ns; real time: 6 secs 
+21(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.206ns/0.000ns; real time: 7 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 11:13:23 10/02/18
-Level 1, iteration 1
-17(0.00%) conflicts; 19(2.54%) untouched conns; 3855 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.160ns/-3.856ns; real time: 6 secs 
-Level 1, iteration 2
-28(0.01%) conflicts; 33(4.41%) untouched conns; 423 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.040ns/-0.424ns; real time: 6 secs 
-Level 2, iteration 1
-8(0.00%) conflicts; 40(5.35%) untouched conns; 3199 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.203ns/-3.200ns; real time: 6 secs 
-Level 2, iteration 2
-17(0.00%) conflicts; 43(5.75%) untouched conns; 1438 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.098ns/-1.438ns; real time: 6 secs 
-Level 3, iteration 1
-16(0.00%) conflicts; 29(3.88%) untouched conns; 799 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.084ns/-0.800ns; real time: 6 secs 
+Start NBR section for normal routing at 00:37:42 10/05/18
 Level 4, iteration 1
-18(0.00%) conflicts; 0(0.00%) untouched conn; 1716 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.148ns/-1.716ns; real time: 6 secs 
+3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.205ns/0.000ns; real time: 7 secs 
 Level 4, iteration 2
-13(0.00%) conflicts; 0(0.00%) untouched conn; 1894 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.113ns/-1.894ns; real time: 6 secs 
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.205ns/0.000ns; real time: 7 secs 
 Level 4, iteration 3
-10(0.00%) conflicts; 0(0.00%) untouched conn; 743 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.077ns/-0.744ns; real time: 6 secs 
-Level 4, iteration 4
-5(0.00%) conflicts; 0(0.00%) untouched conn; 743 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.077ns/-0.744ns; real time: 6 secs 
-Level 4, iteration 5
-3(0.00%) conflicts; 0(0.00%) untouched conn; 2399 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.240ns/-2.399ns; real time: 6 secs 
-Level 4, iteration 6
-6(0.00%) conflicts; 0(0.00%) untouched conn; 2399 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.240ns/-2.399ns; real time: 6 secs 
-Level 4, iteration 7
-5(0.00%) conflicts; 0(0.00%) untouched conn; 3166 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.237ns/-3.166ns; real time: 6 secs 
-Level 4, iteration 8
-2(0.00%) conflicts; 0(0.00%) untouched conn; 3166 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.237ns/-3.166ns; real time: 6 secs 
-Level 4, iteration 9
-1(0.00%) conflict; 0(0.00%) untouched conn; 1926 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.132ns/-1.926ns; real time: 6 secs 
-Level 4, iteration 10
-3(0.00%) conflicts; 0(0.00%) untouched conn; 1926 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.132ns/-1.926ns; real time: 6 secs 
-Level 4, iteration 11
-3(0.00%) conflicts; 0(0.00%) untouched conn; 3816 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.237ns/-3.816ns; real time: 6 secs 
-Level 4, iteration 12
-1(0.00%) conflict; 0(0.00%) untouched conn; 3816 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.237ns/-3.816ns; real time: 6 secs 
-Level 4, iteration 13
-1(0.00%) conflict; 0(0.00%) untouched conn; 4214 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.237ns/-4.214ns; real time: 6 secs 
-Level 4, iteration 14
-2(0.00%) conflicts; 0(0.00%) untouched conn; 4214 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.237ns/-4.214ns; real time: 6 secs 
-Level 4, iteration 15
-1(0.00%) conflict; 0(0.00%) untouched conn; 2156 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.132ns/-2.156ns; real time: 6 secs 
-Level 4, iteration 16
-2(0.00%) conflicts; 0(0.00%) untouched conn; 2156 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.132ns/-2.156ns; real time: 6 secs 
-Level 4, iteration 17
-1(0.00%) conflict; 0(0.00%) untouched conn; 4214 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.237ns/-4.214ns; real time: 6 secs 
-Level 4, iteration 18
-2(0.00%) conflicts; 0(0.00%) untouched conn; 4214 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.237ns/-4.214ns; real time: 6 secs 
-Level 4, iteration 19
-2(0.00%) conflicts; 0(0.00%) untouched conn; 2960 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.250ns/-2.960ns; real time: 6 secs 
-Level 4, iteration 20
-1(0.00%) conflict; 0(0.00%) untouched conn; 2960 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.250ns/-2.960ns; real time: 6 secs 
-Level 4, iteration 21
-0(0.00%) conflict; 0(0.00%) untouched conn; 4203 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.319ns/-4.203ns; real time: 6 secs 
-Level 4, iteration 22
-1(0.00%) conflict; 0(0.00%) untouched conn; 4203 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.319ns/-4.203ns; real time: 6 secs 
-Level 4, iteration 23
-0(0.00%) conflict; 0(0.00%) untouched conn; 1937 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.133ns/-1.937ns; real time: 6 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.205ns/0.000ns; real time: 7 secs 
 
-Start NBR section for performance tuning (iteration 1) at 11:13:23 10/02/18
+Start NBR section for setup/hold timing optimization with effort level 3 at 00:37:42 10/05/18
+
+Start NBR section for re-routing at 00:37:42 10/05/18
 Level 4, iteration 1
-14(0.00%) conflicts; 0(0.00%) untouched conn; 616 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.077ns/-0.616ns; real time: 6 secs 
-Level 4, iteration 2
-3(0.00%) conflicts; 0(0.00%) untouched conn; 12194 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.702ns/-12.194ns; real time: 6 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.205ns/0.000ns; real time: 7 secs 
 
-Start NBR section for re-routing at 11:13:23 10/02/18
-Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 1733 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.133ns/-1.733ns; real time: 6 secs 
-
-Start NBR section for post-routing at 11:13:23 10/02/18
+Start NBR section for post-routing at 00:37:42 10/05/18
 
 End NBR router with 0 unrouted connection
 
 NBR Summary
 -----------
   Number of unrouted connections : 0 (0.00%)
-  Number of connections with timing violations : 28 (3.74%)
-  Estimated worst slack<setup> : -0.133ns
-  Timing score<setup> : 422
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 469.205ns
+  Timing score<setup> : 0
 -----------
 Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
 
 
 
-Total CPU time 6 secs 
+Total CPU time 7 secs 
 Total REAL time: 7 secs 
 Completely routed.
-End of route.  748 routed (100.00%); 0 unrouted.
+End of route.  569 routed (100.00%); 0 unrouted.
 
 Hold time timing score: 0, hold timing errors: 0
 
-Timing score: 422 
+Timing score: 0 
 
 Dumping design to file Practica5_impl1.dir/5_1.ncd.
 
 
 PAR_SUMMARY::Run status = Success
 PAR_SUMMARY::Number of unrouted conns = 0
-PAR_SUMMARY::Worst  slack<setup/<ns>> = -0.133
-PAR_SUMMARY::Timing score<setup/<ns>> = 0.422
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 469.205
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
 PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.306
 PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 6 secs 
-Total REAL time to completion: 7 secs 
+Total CPU  time to completion: 7 secs 
+Total REAL time to completion: 8 secs 
 
 par done!
 

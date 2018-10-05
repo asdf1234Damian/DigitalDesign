@@ -25,38 +25,37 @@ architecture test_osc of contadorBCD is
 	Constant Dig6: std_logic_vector(6 downto 0):="1011111";
 	Constant Dig7: std_logic_vector(6 downto 0):="1110000";
 	Constant Dig8: std_logic_vector(6 downto 0):="1111111";
-	Constant Dig9: std_logic_vector(6 downto 0):="1110011";
+	Constant Dig9: std_logic_vector(6 downto 0):="1111011";
 	Constant Apag: std_logic_vector(6 downto 0):="0000000";
 	COMPONENT  OSCH
 			GENERIC (NOM_FREQ: string);
 			PORT(STDBY: in std_logic; OSC: out std_logic);
 	END COMPONENT;
 	attribute NOM_FREQ: string ;
-	attribute NOM_FREQ of OSCinst0 : label is "133.00";
+	attribute NOM_FREQ of OSCinst0 : label is "2.08";
 	signal clk_low: std_logic:= '0';  
 	signal s_count: std_logic_vector(3 downto 0 ); 
 	signal d_count: std_logic_vector(3 downto 0 ); 
 	signal c_count: std_logic_vector(3 downto 0 ); 
 	signal m_count: std_logic_vector(3 downto 0 ); 
 	signal disp1,disp2,disp3,disp4: std_logic_vector(6 downto 0);
-	signal m :std_logic_vector(3 downto 0):="0001";
+	signal m: std_logic_vector(7 downto 0):="00000001";
 ------------------------------------------------------------------------------
 begin
-	OSCInst0 : OSCH GENERIC  MAP("133.00") PORT MAP('0', clk_0);
-------------------------------------------------------------------------------	
+	OSCInst0 : OSCH GENERIC  MAP("2.08") PORT MAP('0', clk_0);
+------------------------------------------------------------------------------
 	lowClk: process(clk_0)  
-		VARIABLE count: INTEGER RANGE 0 to 25000000;
+		VARIABLE count: INTEGER RANGE 0 to 500000;
 	begin
 		IF (clk_0'EVENT AND clk_0='1' )THEN
-			m<=m(2 downto 0)& m(3); 
-			IF(count < 24000000) THEN  				
+			m<=m(6 downto 0)&m(7); 	
+			IF(count < 500000) THEN  				
 				count := count+1; 
 			ELSE
 				count :=0; 
 				clk_low <= NOT clk_low;
 			END IF;
 		END IF; 
-		mux<=m;
 		blink_LED<= clk_low;
 	end process; 
 ------------------------------------------------------------------------------
@@ -117,68 +116,83 @@ begin
 				end if;
 			end if;	
 		end if;
+	end process;
+
+	decoUno: process(s_count)
+	begin 
 		case s_count is 
-			when "0000" => disp1 <= dig0;
-			when "0001" => disp1 <= dig1;
-			when "0010" => disp1 <= dig2;
-			when "0011" => disp1 <= dig3;
-			when "0100" => disp1 <= dig4;
-			when "0101" => disp1 <= dig5;
-			when "0110" => disp1 <= dig6;
-			when "0111" => disp1 <= dig7;
-			when "1000" => disp1 <= dig8;
-			when others => disp1 <= dig9;
-		end case;
-		
-		case d_count is 
-			when "0000" => disp2 <= dig0;
-			when "0001" => disp2 <= dig1;
-			when "0010" => disp2 <= dig2;
-			when "0011" => disp2 <= dig3;
-			when "0100" => disp2 <= dig4;
-			when "0101" => disp2 <= dig5;
-			when "0110" => disp2 <= dig6;
-			when "0111" => disp2 <= dig7;
-			when "1000" => disp2 <= dig8;
-			when others => disp2 <= dig9;
-		end case;
-		
-		case c_count is 
-			when "0000" => disp3 <= dig0;
-			when "0001" => disp3 <= dig1;
-			when "0010" => disp3 <= dig2;
-			when "0011" => disp3 <= dig3;
-			when "0100" => disp3 <= dig4;
-			when "0101" => disp3 <= dig5;
-			when "0110" => disp3 <= dig6;
-			when "0111" => disp3 <= dig7;
-			when "1000" => disp3 <= dig8;
-			when others => disp3 <= dig9;
-		end case;
-		
-		case m_count is 
-			when "0000" => disp4 <= dig0;
-			when "0001" => disp4 <= dig1;
-			when "0010" => disp4 <= dig2;
-			when "0011" => disp4 <= dig3;
-			when "0100" => disp4 <= dig4;
-			when "0101" => disp4 <= dig5;
-			when "0110" => disp4 <= dig6;
-			when "0111" => disp4 <= dig7;
-			when "1000" => disp4 <= dig8;
-			when others => disp4 <= dig9;
+		when "0000" => disp1 <= dig0;
+		when "0001" => disp1 <= dig1;
+		when "0010" => disp1 <= dig2;
+		when "0011" => disp1 <= dig3;
+		when "0100" => disp1 <= dig4;
+		when "0101" => disp1 <= dig5;
+		when "0110" => disp1 <= dig6;
+		when "0111" => disp1 <= dig7;
+		when "1000" => disp1 <= dig8;
+		when others => disp1 <= dig9;
 		end case;
 	end process;
 
+	decoDiez:process(d_count)
+	begin 
+		case d_count is 
+		when "0000" => disp2 <= dig0;
+		when "0001" => disp2 <= dig1;
+		when "0010" => disp2 <= dig2;
+		when "0011" => disp2 <= dig3;
+		when "0100" => disp2 <= dig4;
+		when "0101" => disp2 <= dig5;
+		when "0110" => disp2 <= dig6;
+		when "0111" => disp2 <= dig7;
+		when "1000" => disp2 <= dig8;
+		when others => disp2 <= dig9;
+		end case;
+	end process;
+
+	decoCien:process(c_count)
+	begin
+		case c_count is 
+		when "0000" => disp3 <= dig0;
+		when "0001" => disp3 <= dig1;
+		when "0010" => disp3 <= dig2;
+		when "0011" => disp3 <= dig3;
+		when "0100" => disp3 <= dig4;
+		when "0101" => disp3 <= dig5;
+		when "0110" => disp3 <= dig6;
+		when "0111" => disp3 <= dig7;
+		when "1000" => disp3 <= dig8;
+		when others => disp3 <= dig9;
+		end case;
+	end process; 
+
+	decoMil:process(m_count)
+	begin 
+		case m_count is 
+		when "0000" => disp4 <= dig0;
+		when "0001" => disp4 <= dig1;
+		when "0010" => disp4 <= dig2;
+		when "0011" => disp4 <= dig3;
+		when "0100" => disp4 <= dig4;
+		when "0101" => disp4 <= dig5;
+		when "0110" => disp4 <= dig6;
+		when "0111" => disp4 <= dig7;
+		when "1000" => disp4 <= dig8;
+		when others => disp4 <= dig9;
+		end case;
+	end process;
 ------------------------------------------------------------------------------
 
-	muxDisp: process (mux) 
+	muxDisp: process (m) 
 	begin 
-		case mux  is
-			when "0001" => disp <=disp1;
-			when "0010" => disp <=disp2;
-			when "0100" => disp <=disp3;
-			when others => disp <=disp4;
+	mux <= m(6)&m(4)&m(2)&m(0);
+		case m is
+			when "00000001" => disp <= disp1;
+			when "00000100" => disp <= disp2;
+			when "00010000" => disp <= disp3;
+			when "01000000" => disp <= disp4;
+			when others => disp <= apag;
 		end case;
 	end process;
+	
 end architecture;

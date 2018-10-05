@@ -1,161 +1,168 @@
-library ieee; 
-use ieee.std_logic_1164.all; 
-use ieee.std_logic_arith.all; 
-use ieee.std_logic_unsigned.all; 
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
 
-entity contadorBCD is 
+entity contadorBCD is
 	port(
-		clk_0: inout std_logic;
-		load, reset, arriba: in std_logic;
-		data: in std_logic_vector(7 downto 0);
-		mux: out std_logic_vector(3 downto 0 );
-		dispA: inout std_logic_vector(6 downto 0);
-		blink_LED: out std_logic
+	selector : in std_logic_vector(1 downto 0);
+	D,C,B,A,TL,enablew: in std_logic;
+	clk_0: inout std_logic;
+	displayud: out std_logic_vector(3 downto 0);
+	load, load2, load3, reset: in std_logic;
+	data: in std_logic_vector(3 downto 0);
+	conta: out std_logic_vector(3 downto 0);
+	off_LED: out std_logic_vector(2 downto 0);
+	da,db,dc,dd,de,df,dg,sec1: out std_logic;
+	blink_LED: out std_logic
+	
 	);
 end contadorBCD;
 
-architecture test_osc of contadorBCD is	Constant Dig0: std_logic_vector(6 downto 0):="1111110";
-	Constant Dig1: std_logic_vector(6 downto 0):="0110000";
-	Constant Dig2: std_logic_vector(6 downto 0):="1101101";
-	Constant Dig3: std_logic_vector(6 downto 0):="1111001";
-	Constant Dig4: std_logic_vector(6 downto 0):="0110011";
-	Constant Dig5: std_logic_vector(6 downto 0):="1011011";
-	Constant Dig6: std_logic_vector(6 downto 0):="1011111";
-	Constant Dig7: std_logic_vector(6 downto 0):="1110000";
-	Constant Dig8: std_logic_vector(6 downto 0):="1111111";
-	Constant Dig9: std_logic_vector(6 downto 0):="1110011";
-	Constant Apag: std_logic_vector(6 downto 0):="0000000";
-	Constant HexA: std_logic_vector(6 downto 0):="1110111";
-	Constant HexB: std_logic_vector(6 downto 0):="0011111";
-	Constant HexC: std_logic_vector(6 downto 0):="0001101";
-	Constant HexD: std_logic_vector(6 downto 0):="0111101";
-	Constant HexE: std_logic_vector(6 downto 0):="1001111";
-	Constant HexF: std_logic_vector(6 downto 0):="1000111";	
-	
+architecture test_osc of contadorBCD is
+
+
 	COMPONENT  OSCH
 		GENERIC (NOM_FREQ: string);
 		PORT(STDBY: in std_logic; OSC: out std_logic);
 	END COMPONENT;
-	 
+
 	attribute NOM_FREQ: string ;
 	attribute NOM_FREQ of OSCinst0 : label is "26.60";
-	signal clk_low: std_logic:= '0'; 
-	signal s_count: std_logic_vector(3 downto 0 ); 
-	signal d_count: std_logic_vector(3 downto 0 ); 
-	signal c_count: std_logic_vector(3 downto 0 ); 
-	signal m_count: std_logic_vector(3 downto 0 ); 
-	signal m :std_logic_vector(3 downto 0):="0001";
-	
-begin 
 
-OSCInst0 : OSCH GENERIC  MAP("33.25") PORT MAP('0', clk_0);
+	signal clk_low: std_logic:= '0';
+	signal clk2_low: std_logic:= '0';
+	signal s_count: std_logic_vector(3 downto 0);
+	signal s_countd: std_logic_vector(3 downto 0);
+	signal s_countc: std_logic_vector(3 downto 0);
+	signal s_countm : std_logic_vector(3 downto 0);
+	signal DATO: std_logic_vector(3 downto 0);
+	signal OCHO: std_logic_vector(3 downto 0);
+	signal DATO_DECO: std_logic_vector(3 downto 0);
+	signal b1 : std_logic;
+	signal b2 : std_logic;
+	signal b3 : std_logic;
+	signal display : std_logic_vector(6 downto 0);
+	signal display2 : std_logic_vector(6 downto 0);
+	signal display3 : std_logic_vector(6 downto 0);
+	signal display4 : std_logic_vector(6 downto 0);
+	signal displays : std_logic_vector(1 downto 0);
+	signal complemento : std_logic_vector(3 downto 0);
+begin
+OSCInst0 : OSCH GENERIC  MAP("26.60") PORT MAP('0', clk_0);
+off_LED<= "000";
 
+DATO(3) <= D;
+DATO(2) <= C;
+DATO(1) <= B;
+DATO(0) <= A;
+OCHO <= "1000";
 
-contaBCD: process(clk_low,reset)begin 
-	if reset='1' then 
+ multiplexor: process(DATO,OCHO,TL,DATO_DECO)
+	begin
+		if (enablew = '1') then
+			if (TL = '0') then
+				DATO_DECO <= OCHO;
+			else
+				DATO_DECO <= DATO;
+		end if;
+	end if;
+end process multiplexor;
+
+decoder: process (s_countd,display)
+	begin
+	case s_countd is
+	when "0000" => display <= "1111110";
+	when "0001" => display <= "0110000";
+	when "0010" => display <= "1101101";
+	when "0011" => display <= "1111001";
+	when "0100" => display <= "0110011";
+	when "0101" => display <= "1011011";
+	when "0110" => display <= "1011111";
+	when "0111" => display <= "1110000";
+	when "1000"	=> display <= "1111111";
+	when "1001"	=> display <= "1111011";
+	when "1010"	=> display <= "1110111";
+	when "1011"	=> display <= "0011111";
+	when "1100"	=> display <= "1001110";
+	when "1101"	=> display <= "0111101";
+	when "1110"	=> display <= "1001111";
+	when others	=> display <= "1000111";
+	end case;
+end process decoder;
+
+decoder2: process (s_count,display2)
+	begin
+	case s_count is
+	when "0000" => display2 <= "1111110";
+	when "0001" => display2 <= "0110000";
+	when "0010" => display2 <= "1101101";
+	when "0011" => display2 <= "1111001";
+	when "0100" => display2 <= "0110011";
+	when "0101" => display2 <= "1011011";
+	when "0110" => display2 <= "1011111";
+	when "0111" => display2 <= "1110000";
+	when "1000"	=> display2 <= "1111111";
+	when "1001"	=> display2 <= "1111011";
+	when "1010"	=> display2 <= "1110111";
+	when "1011"	=> display2 <= "0011111";
+	when "1100"	=> display2 <= "1001110";
+	when "1101"	=> display2 <= "0111101";
+	when "1110"	=> display2 <= "1001111";
+	when others	=> display2 <= "1000111";
+	end case;
+end process decoder2;
+
+decoder3: process (s_countc,display3)
+	begin
+	case s_countc is
+	when "0000" => display3 <= "1111110";
+	when "0001" => display3 <= "0110000";
+	when "0010" => display3 <= "1101101";
+	when "0011" => display3 <= "1111001";
+	when "0100" => display3 <= "0110011";
+	when "0101" => display3 <= "1011011";
+	when "0110" => display3 <= "1011111";
+	when "0111" => display3 <= "1110000";
+	when "1000"	=> display3 <= "1111111";
+	when "1001"	=> display3 <= "1111011";
+	when "1010"	=> display3 <= "1110111";
+	when "1011"	=> display3 <= "0011111";
+	when "1100"	=> display3 <= "100	1110";
+	when "1101"	=> display3 <= "0111101";
+	when "1110"	=> display3 <= "1001111";
+	when others	=> display3 <= "1000111";
+	end case;
+end process decoder3;
+
+decoder4: process (s_countm,display4)
+	begin
+	case s_countm is
+	when "0000" => display4 <= "1111110";
+	when "0001" => display4 <= "0110000";
+	when "0010" => display4 <= "1101101";
+	when "0011" => display4 <= "1111001";
+	when "0100" => display4 <= "0110011";
+	when "0101" => display4 <= "1011011";
+	when "0110" => display4 <= "1011111";
+	when "0111" => display4 <= "1110000";
+	when "1000"	=> display4 <= "1111111";
+	when "1001"	=> display4 <= "1111011";
+	when "1010"	=> display4 <= "1110111";
+	when "1011"	=> display4 <= "0011111";
+	when "1100"	=> display4 <= "1001110";
+	when "1101"	=> display4 <= "0111101";
+	when "1110"	=> display4 <= "1001111";
+	when others	=> display4 <= "1000111";
+	end case;
+end process decoder4;
+
+contaBCD: process(clk_low,reset)
+	begin
+	if (selector= "00" and enablew = '1') then
+		s_count <= data;
+	elsif reset='1' then
 		s_count <="0000";
-		d_count <="0000";		
 	elsif (clk_low'event and clk_low='1') then
-		if load='1' then 
-			s_count <= data(3 downto 0);
-			d_count <= data(7 downto 4);
-		elsif arriba='0' then 
-			if s_count= "1111" then 
-				s_count<="0000";
-				if d_count="1111" then 
-					d_count<= "0000" ;
-				else
-					d_count<= d_count+1;
-				end if;
-			else
-				s_count <=s_count+1;
-			end if;  
-		else
-			if s_count ="0000" then
-				s_count<="1111";	
-				if d_count="0000" then 
-					d_count<= "1111" ;
-						else
-					d_count<= d_count-1;
-				end if;
-				
-			else
-				s_count <=s_count-1;
-			end if; 
-		end if; 
-	end if ;
-end process;
-
-P_blink_LED: PROCESS(clk_0)
-	VARIABLE count: INTEGER RANGE 0 to 25000000;
-	BEGIN 
-		IF (clk_0'EVENT AND clk_0='1' )THEN 
-			IF(count < 24000000) THEN  
-				count := count+1; 
-			ELSE
-				count :=0; 
-				clk_low <= NOT clk_low;
-			END IF;
-		END IF; 
-	END PROCESS; 	blink_LED<= clk_low;
-	
-decoder: process(s_count,m,d_count,clk_low)
-variable disp1, disp2, disp3, disp4 :std_logic_vector(6 downto 0);
-	begin 
-	if (clk_low'event and clk_low='1') then  
-	disp3 := dig0;
-	disp4 := dig0;
-	case(s_count) is
-        when "0000" => disp1 := Dig0;
-        when "0001" => disp1 := Dig1;
-        when "0010" => disp1 := Dig2;
-        when "0011" => disp1 := Dig3;
-        when "0100" => disp1 := Dig4;
-        when "0101" => disp1 := Dig5;
-        when "0110" => disp1 := Dig6;
-        when "0111" => disp1 := Dig7;
-        when "1000" => disp1 := Dig8;
-        when "1001" => disp1 := Dig9;
-        when "1010" => disp1 := HexA;
-        when "1011" => disp1 := HexB;
-        when "1100" => disp1 := HexC;
-        when "1101" => disp1 := HexD;
-        when "1110" => disp1 := HexE;
-        when "1111" => disp1 := HexF;
-        when others => disp1 := Apag;
-      end case; 
-	  
-	  case(d_count) is
-        when "0000" => disp2 := Dig0;
-        when "0001" => disp2 := Dig1;
-        when "0010" => disp2 := Dig2; 
-        when "0011" => disp2 := Dig3;
-        when "0100" => disp2 := Dig4;
-        when "0101" => disp2 := Dig5;
-        when "0110" => disp2 := Dig6;
-        when "0111" => disp2 := Dig7;
-        when "1000" => disp2 := Dig8;
-        when "1001" => disp2 := Dig9;
-        when "1010" => disp2 := HexA;
-        when "1011" => disp2 := HexB;
-        when "1100" => disp2 := HexC;
-        when "1101" => disp2 := HexD;
-        when "1110" => disp2 := HexE;
-        when "1111" => disp2 := HexF;
-        when others => disp2 := Apag;
-      end case;
-	  end if; 
-	  IF (clk_0'EVENT AND clk_0='1' )THEN 
-			m<=m(2 downto 0 )&m(3);
-			case (m) is 
-			when "0001" => dispA <= disp1;when "0010" => dispA <= disp2;
-		when "0100" => dispA <= disp3;
-		when others => dispA <= disp4;
-	  end case;
-	  end if;
-	  
-	end process;
-	mux<=m;end test_osc; 
-
-
-	
+		--if load='1' then--
+			--s_count<=da

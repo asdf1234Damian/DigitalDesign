@@ -2,18 +2,38 @@
 [ END MERGED ]
 [ START CLIPPED ]
 GND
-un5_count_cry_23_0_COUT
+un5_count_cry_17_0_COUT
+un1_s_count_5_cry_0_0_S1
+un1_s_count_5_cry_0_0_S0
+N_2
+un1_s_count_5_s_3_0_S1
+un1_s_count_5_s_3_0_COUT
+un1_d_count_5_cry_0_0_S1
+un1_d_count_5_cry_0_0_S0
+N_3
+un1_d_count_5_s_3_0_S1
+un1_d_count_5_s_3_0_COUT
+un1_m_count_5_cry_0_0_S1
+un1_m_count_5_cry_0_0_S0
+N_4
+un1_m_count_5_s_3_0_S1
+un1_m_count_5_s_3_0_COUT
+un1_c_count_5_cry_0_0_S1
+un1_c_count_5_cry_0_0_S0
+N_5
+un1_c_count_5_s_3_0_S1
+un1_c_count_5_s_3_0_COUT
 un5_count_cry_0_0_S1
 un5_count_cry_0_0_S0
 N_1
 OSCInst0_SEDSTDBY
 [ END CLIPPED ]
 [ START OSC ]
-clk_0_0 133.00
+clk_0_0 2.08
 [ END OSC ]
 [ START DESIGN PREFS ]
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.10.0.111.2 -- WARNING: Map write only section -- Tue Oct 02 11:13:17 2018
+# map:  version Diamond (64-bit) 3.10.0.111.2 -- WARNING: Map write only section -- Fri Oct 05 00:37:34 2018
 
 SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
 LOCATE COMP "clk_0" SITE "60" ;
@@ -48,6 +68,6 @@ LOCATE COMP "data[1]" SITE "35" ;
 LOCATE COMP "data[0]" SITE "34" ;
 LOCATE COMP "arriba" SITE "2" ;
 LOCATE COMP "reset" SITE "1" ;
-FREQUENCY NET "clk_0_0" 133.000000 MHz ;
+FREQUENCY NET "clk_0_0" 2.080000 MHz ;
 SCHEMATIC END ;
 [ END DESIGN PREFS ]

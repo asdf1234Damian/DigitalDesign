@@ -20,8 +20,8 @@
 				<BScanVal>0</BScanVal>
 			</Bypass>
 			<File>C:/Users/asdf1/Documents/DigitalDesign/Practica5DSD/impl1/Practica5_impl1.jed</File>
-			<FileTime>10/02/18 11:13:26</FileTime>
-			<JedecChecksum>0xF34C</JedecChecksum>
+			<FileTime>10/05/18 00:37:46</FileTime>
+			<JedecChecksum>0xE5B1</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>

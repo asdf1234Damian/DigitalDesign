@@ -16,9 +16,9 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 </row>
 <row>
 <data>contadorBCD|clk_0_inferred_clock</data>
-<data>133.0 MHz</data>
-<data>121.8 MHz</data>
-<data>-0.690</data>
+<data>2.1 MHz</data>
+<data>91.8 MHz</data>
+<data>469.880</data>
 </row>
 <row>
 <data>System</data>

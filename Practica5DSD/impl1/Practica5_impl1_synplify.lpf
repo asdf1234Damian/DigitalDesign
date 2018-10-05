@@ -3,7 +3,7 @@
 #
 
 # Period Constraints 
-#FREQUENCY NET "clk_0_0" 133.0 MHz;
+#FREQUENCY NET "clk_0_0" 2.1 MHz;
 
 
 # Output Constraints 

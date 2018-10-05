@@ -1,25 +1,25 @@
 ----------------------------------------------------------------------
 Report for cell contadorBCD.test_osc
 
-Register bits: 46 of 6864 (1%)
+Register bits: 44 of 6864 (1%)
 PIC Latch:       0
 I/O cells:       32
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2D       13       100.0
+                              CCU2D       22       100.0
                             FD1P3DX       16       100.0
-                            FD1S3AX       18       100.0
+                            FD1S3AX       19       100.0
                             FD1S3AY        1       100.0
-                            FD1S3IX       11       100.0
+                            FD1S3IX        8       100.0
                                 GSR        1       100.0
                                  IB       19       100.0
                                 INV        1       100.0
                                  OB       13       100.0
-                           ORCALUT4      169       100.0
+                           ORCALUT4      108       100.0
                                OSCH        1       100.0
-                              PFUMX        9       100.0
+                              PFUMX        1       100.0
                                 PUR        1       100.0
                                 VHI        1       100.0
                                 VLO        1       100.0
                             
-                         TOTAL           275           
+                         TOTAL           213           
