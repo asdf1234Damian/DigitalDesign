@@ -26,7 +26,7 @@ Practicas de los cursos de Diseño Digital y relacionadas en ESCOM
 
 # Diseño digital
 
-## Profesora:
+## Profesor:
 * Pastrana Carlos 
 
 ### Alumnos:
