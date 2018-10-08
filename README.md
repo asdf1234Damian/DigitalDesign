@@ -1,6 +1,11 @@
 # DigitalDesign
 
-Practicas del curso de Fundamentos de Diseño Digital en ESCOM con la profesora Lopez Rodriguez Claudia Alejandra
+Practicas de los cursos de Diseño Digital y relacionadas en ESCOM 
+
+# Fundamentos de diseño digital
+
+## Profesora:
+* Lopez Rodriguez Claudia Alejandra
 
 ### Alumnos:
 * Meza Madrid Raúl Damián 2017631051
@@ -18,3 +23,21 @@ Practicas del curso de Fundamentos de Diseño Digital en ESCOM con la profesora 
 * 8.-  Codificador de prioridad
 * 9.-  Cuadro de alarmas
 * 10.- Flip-Flip tipo T(toggle)
+
+# Diseño digital
+
+## Profesor:
+* Pastrana Carlos 
+
+### Alumnos:
+* Meza Madrid Raúl Damián 2017631051
+* Portilla Martinez David
+
+
+### Practicas:
+* 1.-  XOR 6 entradas con XOR de 2 entradas
+* 2.-  Flip-flops y Registro de corrimiento 
+* 3.-  Registros
+* 4.-  Match XO2
+* 5.-  Contador BCD (0000-9999)
+* 6.-  Divisores de frecuencia
