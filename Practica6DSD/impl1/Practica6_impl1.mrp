@@ -15,7 +15,7 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   4
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
-Mapped on:  10/08/18  14:37:04
+Mapped on:  10/08/18  19:04:18
 
 Design Summary
 --------------
@@ -23,16 +23,16 @@ Design Summary
    Number of registers:     26 out of  7209 (0%)
       PFU registers:           26 out of  6864 (0%)
       PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:        15 out of  3432 (0%)
-      SLICEs as Logic/ROM:     15 out of  3432 (0%)
+   Number of SLICEs:        14 out of  3432 (0%)
+      SLICEs as Logic/ROM:     14 out of  3432 (0%)
       SLICEs as RAM:            0 out of  2574 (0%)
       SLICEs as Carry:         14 out of  3432 (0%)
-   Number of LUT4s:         30 out of  6864 (0%)
-      Number used as logic LUTs:          2
+   Number of LUT4s:         28 out of  6864 (0%)
+      Number used as logic LUTs:          0
       Number used as distributed RAM:     0
       Number used as ripple logic:       28
       Number used as shift registers:     0
-   Number of PIO sites used: 4 + 4(JTAG) out of 115 (7%)
+   Number of PIO sites used: 27 + 4(JTAG) out of 115 (27%)
    Number of block RAMs:  0 out of 26 (0%)
    Number of GSRs:  0 out of 1 (0%)
    EFB used :       No
@@ -66,158 +66,34 @@ Design Summary
 
 
 
-Design:  Counter                                       Date:  10/08/18  14:37:04
+Design:  Counter                                       Date:  10/08/18  19:04:18
 
 Design Summary (cont)
 ---------------------
    Number of LSRs:  0
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net d_22: 2 loads
-     Net d_23: 2 loads
-     Net d_24: 2 loads
-     Net d_25: 2 loads
-     Net sel_c_0: 2 loads
-     Net n110: 1 loads
-     Net n158: 1 loads
-     Net n159: 1 loads
-     Net o_c: 1 loads
-     Net sel_c_1: 1 loads
+     Net data_c_15: 2 loads
+     Net data_c_17: 2 loads
+     Net data_c_18: 2 loads
+     Net data_c_19: 2 loads
+     Net data_c_20: 2 loads
+     Net data_c_21: 2 loads
+     Net data_c_22: 2 loads
+     Net data_c_23: 2 loads
+     Net data_c_24: 2 loads
+     Net data_c_25: 2 loads
 
 
 
 
-   Number of warnings:  28
+   Number of warnings:  7
    Number of errors:    0
      
 
 Design Errors/Warnings
 ----------------------
 
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(4):
-     Semantic error in "LOCATE COMP "data[25]" SITE "52" ;": COMP "data[25]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(5):
-     Semantic error in "LOCATE COMP "data[24]" SITE "50" ;": COMP "data[24]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(6):
-     Semantic error in "LOCATE COMP "data[23]" SITE "48" ;": COMP "data[23]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(7):
-     Semantic error in "LOCATE COMP "data[22]" SITE "49" ;": COMP "data[22]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(8):
-     Semantic error in "LOCATE COMP "data[21]" SITE "47" ;": COMP "data[21]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(9):
-     Semantic error in "LOCATE COMP "data[20]" SITE "45" ;": COMP "data[20]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(10):
-     Semantic error in "LOCATE COMP "data[19]" SITE "43" ;": COMP "data[19]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(11):
-     Semantic error in "LOCATE COMP "data[18]" SITE "42" ;": COMP "data[18]"
-     cannot be found in design. This preference has been disabled.
-
-                                    Page 2
-
-
-
-
-Design:  Counter                                       Date:  10/08/18  14:37:04
-
-Design Errors/Warnings (cont)
------------------------------
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(12):
-     Semantic error in "LOCATE COMP "data[17]" SITE "44" ;": COMP "data[17]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(13):
-     Semantic error in "LOCATE COMP "data[16]" SITE "39" ;": COMP "data[16]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(14):
-     Semantic error in "LOCATE COMP "data[15]" SITE "41" ;": COMP "data[15]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(15):
-     Semantic error in "LOCATE COMP "data[14]" SITE "91" ;": COMP "data[14]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(16):
-     Semantic error in "LOCATE COMP "data[13]" SITE "92" ;": COMP "data[13]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(17):
-     Semantic error in "LOCATE COMP "data[12]" SITE "93" ;": COMP "data[12]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(18):
-     Semantic error in "LOCATE COMP "data[11]" SITE "94" ;": COMP "data[11]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(19):
-     Semantic error in "LOCATE COMP "data[10]" SITE "96" ;": COMP "data[10]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(20):
-     Semantic error in "LOCATE COMP "data[9]" SITE "95" ;": COMP "data[9]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(21):
-     Semantic error in "LOCATE COMP "data[8]" SITE "98" ;": COMP "data[8]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(22):
-     Semantic error in "LOCATE COMP "data[7]" SITE "97" ;": COMP "data[7]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(23):
-     Semantic error in "LOCATE COMP "data[6]" SITE "99" ;": COMP "data[6]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(24):
-     Semantic error in "LOCATE COMP "data[5]" SITE "100" ;": COMP "data[5]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(25):
-     Semantic error in "LOCATE COMP "data[4]" SITE "104" ;": COMP "data[4]"
-     cannot be found in design. This preference has been disabled.
-
-                                    Page 3
-
-
-
-
-Design:  Counter                                       Date:  10/08/18  14:37:04
-
-Design Errors/Warnings (cont)
------------------------------
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(26):
-     Semantic error in "LOCATE COMP "data[3]" SITE "105" ;": COMP "data[3]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(27):
-     Semantic error in "LOCATE COMP "data[2]" SITE "106" ;": COMP "data[2]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(28):
-     Semantic error in "LOCATE COMP "data[1]" SITE "107" ;": COMP "data[1]"
-     cannot be found in design. This preference has been disabled.
-WARNING - map:
-     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(29):
-     Semantic error in "LOCATE COMP "data[0]" SITE "40" ;": COMP "data[0]"
-     cannot be found in design. This preference has been disabled.
 WARNING - map:
      C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(30):
      Semantic error in "LOCATE COMP "sel[3]" SITE "5" ;": COMP "sel[3]" cannot
@@ -226,6 +102,37 @@ WARNING - map:
      C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(31):
      Semantic error in "LOCATE COMP "sel[2]" SITE "6" ;": COMP "sel[2]" cannot
      be found in design. This preference has been disabled.
+WARNING - map:
+     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(32):
+     Semantic error in "LOCATE COMP "sel[1]" SITE "1" ;": COMP "sel[1]" cannot
+     be found in design. This preference has been disabled.
+WARNING - map:
+     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(33):
+     Semantic error in "LOCATE COMP "sel[0]" SITE "2" ;": COMP "sel[0]" cannot
+     be found in design. This preference has been disabled.
+WARNING - map:
+     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(34):
+     Semantic error in "LOCATE COMP "o" SITE "59" ;": COMP "o" cannot be found
+     in design. This preference has been disabled.
+WARNING - map:
+     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(35):
+     Semantic error in "LOCATE COMP "data[26]" SITE "55" ;": COMP "data[26]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map:
+     C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Practica6.lpf(36):
+     Semantic error in "LOCATE COMP "data[27]" SITE "54" ;": COMP "data[27]"
+     cannot be found in design. This preference has been disabled.
+
+
+
+
+
+                                    Page 2
+
+
+
+
+Design:  Counter                                       Date:  10/08/18  19:04:18
 
 IO (PIO) Attributes
 -------------------
@@ -236,11 +143,67 @@ IO (PIO) Attributes
 +---------------------+-----------+-----------+------------+
 | clk                 | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| o                   | OUTPUT    | LVCMOS25  |            |
+| data[25]            | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| sel[1]              | INPUT     | LVCMOS25  |            |
+| data[24]            | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| sel[0]              | INPUT     | LVCMOS25  |            |
+| data[23]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[22]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[21]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[20]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[19]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[18]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[17]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[16]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[15]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[14]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[13]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[12]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[11]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[10]            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[9]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[8]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[7]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[6]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[5]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[4]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[3]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[2]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| data[1]             | OUTPUT    | LVCMOS25  |            |
+
+                                    Page 3
+
+
+
+
+Design:  Counter                                       Date:  10/08/18  19:04:18
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| data[0]             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 
 Removed logic
@@ -250,21 +213,11 @@ Block i2 undriven or does not drive anything - clipped.
 Block GSR_INST undriven or does not drive anything - clipped.
 Signal GND_net undriven or does not drive anything - clipped.
 Signal VCC_net undriven or does not drive anything - clipped.
-Signal d_12_13_add_4_1/S0 undriven or does not drive anything - clipped.
-Signal d_12_13_add_4_1/CI undriven or does not drive anything - clipped.
-Signal d_12_13_add_4_27/S1 undriven or does not drive anything - clipped.
-Signal d_12_13_add_4_27/CO undriven or does not drive anything - clipped.
+Signal d_12_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal d_12_add_4_1/CI undriven or does not drive anything - clipped.
+Signal d_12_add_4_27/S1 undriven or does not drive anything - clipped.
+Signal d_12_add_4_27/CO undriven or does not drive anything - clipped.
 Block i1 was optimized away.
-
-
-
-
-                                    Page 4
-
-
-
-
-Design:  Counter                                       Date:  10/08/18  14:37:04
 
 Memory Usage
 ------------
@@ -280,7 +233,7 @@ OSC 1:                                     Pin/Node Value
   OSC Type:                                         OSCH
   STDBY Input:                                      NONE
   OSC Output:                              PIN,NODE clk_c
-  OSC Nominal Frequency (MHz):                      133.00
+  OSC Nominal Frequency (MHz):                      53.20
 
 ASIC Components
 ---------------
@@ -306,26 +259,7 @@ Run Time and Memory Usage
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                    Page 5
+                                    Page 4
 
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.

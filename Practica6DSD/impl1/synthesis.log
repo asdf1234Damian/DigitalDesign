@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Oct 08 14:36:36 2018
+Mon Oct 08 19:04:17 2018
 
 
 Command Line:  synthesis -f Practica6_impl1_lattice.synproj -gui -msgset C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/promote.xml 
@@ -79,19 +79,14 @@ Compile Design Begin
 INFO - synthesis: The default VHDL library search path is now "C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/impl1". VHDL-1504
 Analyzing VHDL file c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd. VHDL-1481
 INFO - synthesis: c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd(5): analyzing entity counter. VHDL-1012
-INFO - synthesis: c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd(13): analyzing architecture arch_counter. VHDL-1010
+INFO - synthesis: c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd(14): analyzing architecture arch_counter. VHDL-1010
 unit Counter is not yet analyzed. VHDL-1485
 unit Counter is not yet analyzed. VHDL-1485
 c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd(5): executing Counter(arch_counter)
 
-WARNING - synthesis: c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd(38): sel should be on the sensitivity list of the process. VHDL-1251
-WARNING - synthesis: c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd(39): d should be on the sensitivity list of the process. VHDL-1251
-WARNING - synthesis: c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd(40): d should be on the sensitivity list of the process. VHDL-1251
-WARNING - synthesis: c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd(41): d should be on the sensitivity list of the process. VHDL-1251
-WARNING - synthesis: c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd(42): d should be on the sensitivity list of the process. VHDL-1251
-INFO - synthesis: c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd(43): others clause is never selected. VHDL-1172
-WARNING - synthesis: c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd(45): incomplete sensitivity list specified, assuming completeness. VHDL-1613
-WARNING - synthesis: c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd(11): replacing existing netlist Counter(arch_counter). VHDL-1205
+WARNING - synthesis: c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd(36): d should be on the sensitivity list of the process. VHDL-1251
+WARNING - synthesis: c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd(37): incomplete sensitivity list specified, assuming completeness. VHDL-1613
+WARNING - synthesis: c:/users/asdf1/documents/digitaldesign/practica6dsd/counter.vhd(12): replacing existing netlist Counter(arch_counter). VHDL-1205
 Top module name (VHDL): Counter
 Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
 Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
@@ -101,6 +96,32 @@ Loading device for application map from file 'xo2c7000.nph' in environment: C:/l
 Package Status:                     Final          Version 1.39.
 Top-level module name = Counter.
 ######## Converting I/O port clk to output.
+######## Converting I/O port data[25] to output.
+######## Converting I/O port data[24] to output.
+######## Converting I/O port data[23] to output.
+######## Converting I/O port data[22] to output.
+######## Converting I/O port data[21] to output.
+######## Converting I/O port data[20] to output.
+######## Converting I/O port data[19] to output.
+######## Converting I/O port data[18] to output.
+######## Converting I/O port data[17] to output.
+######## Converting I/O port data[16] to output.
+######## Converting I/O port data[15] to output.
+######## Converting I/O port data[14] to output.
+######## Converting I/O port data[13] to output.
+######## Converting I/O port data[12] to output.
+######## Converting I/O port data[11] to output.
+######## Converting I/O port data[10] to output.
+######## Converting I/O port data[9] to output.
+######## Converting I/O port data[8] to output.
+######## Converting I/O port data[7] to output.
+######## Converting I/O port data[6] to output.
+######## Converting I/O port data[5] to output.
+######## Converting I/O port data[4] to output.
+######## Converting I/O port data[3] to output.
+######## Converting I/O port data[2] to output.
+######## Converting I/O port data[1] to output.
+######## Converting I/O port data[0] to output.
 
 
 
@@ -121,14 +142,11 @@ Number of register bits => 26 of 7209 (0 % )
 CCU2D => 14
 FD1S3AX => 26
 GSR => 1
-IB => 2
-LUT4 => 2
-OB => 2
-PFUMX => 1
+OB => 27
 ################### End Area Report ##################
 
 ################### Begin BlackBox Report ######################
-OSCH("133.00")(1,6) => 1
+OSCH("53.20")(1,5) => 1
 TSALL => 1
 ################### End BlackBox Report ##################
 
@@ -141,16 +159,16 @@ Number of Clock Enables: 0
 Top 0 highest fanout Clock Enables:
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : sel_c_0, loads : 2
-  Net : d_25, loads : 2
-  Net : d_24, loads : 2
-  Net : d_23, loads : 2
-  Net : d_22, loads : 2
-  Net : sel_c_1, loads : 1
-  Net : o_c, loads : 1
-  Net : n26, loads : 1
-  Net : n25, loads : 1
-  Net : n24, loads : 1
+  Net : data_c_25, loads : 2
+  Net : data_c_24, loads : 2
+  Net : data_c_23, loads : 2
+  Net : data_c_22, loads : 2
+  Net : data_c_21, loads : 2
+  Net : data_c_20, loads : 2
+  Net : data_c_19, loads : 2
+  Net : data_c_18, loads : 2
+  Net : data_c_17, loads : 2
+  Net : data_c_16, loads : 2
 ################### End Clock Report ##################
 
 Timing Report Summary
@@ -160,7 +178,7 @@ Constraint                              |   Constraint|       Actual|Levels
 --------------------------------------------------------------------------------
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk0 [get_nets clk_c]                   |  200.000 MHz|  165.153 MHz|    15 *
+clk0 [get_nets clk_c]                   |  200.000 MHz|  158.428 MHz|    15 *
                                         |             |             |
 --------------------------------------------------------------------------------
 
@@ -168,8 +186,8 @@ clk0 [get_nets clk_c]                   |  200.000 MHz|  165.153 MHz|    15 *
 1 constraints not met.
 
 
-Peak Memory Usage: 74.078  MB
+Peak Memory Usage: 73.688  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 0.453  secs
+Elapsed CPU time for LSE flow : 0.672  secs
 --------------------------------------------------------------

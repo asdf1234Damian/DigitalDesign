@@ -32,3 +32,5 @@ LOCATE COMP "sel[2]" SITE "6" ;
 LOCATE COMP "sel[1]" SITE "1" ;
 LOCATE COMP "sel[0]" SITE "2" ;
 LOCATE COMP "o" SITE "59" ;
+LOCATE COMP "data[26]" SITE "55" ;
+LOCATE COMP "data[27]" SITE "54" ;

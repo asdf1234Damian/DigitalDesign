@@ -18,15 +18,16 @@ architecture arch_counter of Counter is
 
 	attribute NOM_FREQ: string ;
 	attribute NOM_FREQ of OSCinst0 : label is "133.00";
-	signal d: std_logic_vector(27 downto 0);
+	--signal d: std_logic_vector(27 downto 0);
 	signal clkA, clkB, clkC, clkD: std_logic;
 begin 
 	OSCInst0 : OSCH GENERIC  MAP("133.00") PORT MAP('0', clk);
+	
 	p_ClkA:process (clk) is 	
 	variable count: integer range 0 to 33250000;
 	begin 
 		if(clk'event and clk='1') then 
-			if(d<33250000) then 
+			if(count<33250000) then 
 				count:=count+1;
 			else
 				count:=0;
@@ -39,7 +40,7 @@ begin
 	variable count: integer range 0 to 66500000;
 	begin 
 		if(clk'event and clk='1') then 
-			if(d<66500000) then 
+			if(count<66500000) then 
 				count:=count+1;
 			else
 				count:=0;
@@ -52,7 +53,7 @@ begin
 	variable count: integer range 0 to 133000000;
 	begin 
 		if(clk'event and clk='1') then 
-			if(d<133000000) then 
+			if(count<133000000) then 
 				count:=count+1;
 			else
 				count:=0;
@@ -65,7 +66,7 @@ begin
 	variable count: integer range 0 to 166250000;
 	begin 
 		if(clk'event and clk='1') then 
-			if(d<166250000) then 
+			if(count<166250000) then 
 				count:=count+1;
 			else
 				count:=0;
@@ -75,7 +76,7 @@ begin
 	end process; 
 	
 	
-	mux:process (clk)is 
+	mux:process (sel)is 
 	begin 
 		case (sel) is  
 			when "00" => o <= clkA; 

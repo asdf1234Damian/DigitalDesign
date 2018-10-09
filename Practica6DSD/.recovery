@@ -6,6 +6,9 @@
         <Source name="Counter.vhd" type="VHDL" type_short="VHDL">
             <Options top_module="Counter"/>
         </Source>
+        <Source name="IncisoA.vhd" type="VHDL" type_short="VHDL" excluded="TRUE">
+            <Options/>
+        </Source>
         <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
             <Options/>
         </Source>
