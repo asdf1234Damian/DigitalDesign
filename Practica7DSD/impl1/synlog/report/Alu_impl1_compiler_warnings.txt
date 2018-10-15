@@ -1,0 +1,4 @@
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CG296 :"C:\Users\asdf1\Downloads\practica7alu\aluseq.vhd":29:10:29:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Downloads\practica7alu\aluseq.vhd":31:35:31:37|Referenced variable ena is not in sensitivity list.
+

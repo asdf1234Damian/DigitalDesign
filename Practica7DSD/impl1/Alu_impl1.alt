@@ -1,0 +1,21 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Mon Oct 15 14:29:52 2018 *
+NOTE DESIGN NAME: aluS *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS clk_0 : 15 : out *
+NOTE PINS s[0] : 14 : in *
+NOTE PINS Z[4] : 52 : out *
+NOTE PINS Z[3] : 50 : out *
+NOTE PINS Z[2] : 48 : out *
+NOTE PINS Z[1] : 49 : out *
+NOTE PINS Z[0] : 47 : out *
+NOTE PINS D[3] : 19 : in *
+NOTE PINS D[2] : 20 : in *
+NOTE PINS D[1] : 21 : in *
+NOTE PINS D[0] : 22 : in *
+NOTE PINS ena : 1 : in *
+NOTE PINS s[1] : 13 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

@@ -1,0 +1,7 @@
+#Start recording tcl command: 10/14/2018 18:31:28
+#Project Location: /home/imperialwolf/Documentos/repoEscuela/escuela/DSD/practica7alu; Project name: Alu
+prj_project new -name "Alu" -impl "impl1" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "/home/imperialwolf/Documentos/repoEscuela/escuela/DSD/practica7alu/Noseq.vhd"
+prj_src add "/home/imperialwolf/Documentos/repoEscuela/escuela/DSD/practica7alu/aluseq.vhd"
+#Stop recording: 10/14/2018 19:09:50
