@@ -1,0 +1,14 @@
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":6:7:6:12|Synthesizing work.memrom.behavioral.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":99:10:99:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":106:26:106:30|Referenced variable disp4 is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":105:26:105:30|Referenced variable disp3 is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":104:26:104:30|Referenced variable disp2 is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":103:26:103:30|Referenced variable disp1 is not in sensitivity list.
+Post processing for work.memrom.behavioral
+@W: CL260 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":77:2:77:3|Pruning register bit 6 of disp4(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":77:2:77:3|Pruning register bit 6 of disp3(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":77:2:77:3|Pruning register bit 6 of disp2(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":77:2:77:3|Pruning register bit 6 of disp1(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.

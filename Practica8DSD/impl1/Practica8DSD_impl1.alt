@@ -1,0 +1,29 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Oct 24 02:29:08 2018 *
+NOTE DESIGN NAME: memROM *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Clock : 61 : out *
+NOTE PINS Reset : 2 : in *
+NOTE PINS mux[3] : 76 : out *
+NOTE PINS mux[2] : 75 : out *
+NOTE PINS mux[1] : 74 : out *
+NOTE PINS mux[0] : 73 : out *
+NOTE PINS Data[7] : 77 : out *
+NOTE PINS Data[6] : 78 : out *
+NOTE PINS Data[5] : 81 : out *
+NOTE PINS Data[4] : 82 : out *
+NOTE PINS Data[3] : 83 : out *
+NOTE PINS Data[2] : 84 : out *
+NOTE PINS Data[1] : 85 : out *
+NOTE PINS Data[0] : 86 : out *
+NOTE PINS Address[4] : 5 : in *
+NOTE PINS Address[3] : 6 : in *
+NOTE PINS Address[2] : 9 : in *
+NOTE PINS Address[1] : 10 : in *
+NOTE PINS Address[0] : 11 : in *
+NOTE PINS reed : 3 : in *
+NOTE PINS Enable : 1 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

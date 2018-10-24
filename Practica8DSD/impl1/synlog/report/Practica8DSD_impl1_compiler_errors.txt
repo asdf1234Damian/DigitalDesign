@@ -1,0 +1,20 @@
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Multiple non-tristate drivers for net Data(7) in memROM
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Multiple non-tristate drivers for net Data(6) in memROM
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Multiple non-tristate drivers for net Data(5) in memROM
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Multiple non-tristate drivers for net Data(4) in memROM
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Multiple non-tristate drivers for net Data(3) in memROM
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Multiple non-tristate drivers for net Data(2) in memROM
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Multiple non-tristate drivers for net Data(1) in memROM
+@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Multiple non-tristate drivers for net Data(0) in memROM
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Unresolved tristate drivers for net Data(0) in memROM
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Unresolved tristate drivers for net Data(1) in memROM
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Unresolved tristate drivers for net Data(2) in memROM
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Unresolved tristate drivers for net Data(3) in memROM
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Unresolved tristate drivers for net Data(4) in memROM
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Unresolved tristate drivers for net Data(5) in memROM
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Unresolved tristate drivers for net Data(6) in memROM
+@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\Practica8.vhd":12:2:12:5|Unresolved tristate drivers for net Data(7) in memROM
+@E: MF420 |Netlist read from file C:\Users\asdf1\Documents\DigitalDesign\Practica8DSD\impl1\synwork\layer0.srs failed
+@E: Could not find specified top level memROM (library: work, cell: memROM)Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+@E::Error while linking, aborting.
+
