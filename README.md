@@ -41,3 +41,5 @@ Practicas de los cursos de Diseño Digital y relacionadas en ESCOM
 * 4.-  Match XO2
 * 5.-  Contador BCD (0000-9999)
 * 6.-  Divisores de frecuencia
+* 7.-  ALU
+
