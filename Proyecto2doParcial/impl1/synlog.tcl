@@ -1,0 +1,1 @@
+run_tcl -fg Proyecto2doParcial_impl1_synplify.tcl

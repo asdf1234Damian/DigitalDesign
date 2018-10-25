@@ -1,0 +1,108 @@
+# Synopsys Constraint Checker, version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Thu Oct 25 01:32:13 2018
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "ALU"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                     Ending                       |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                       System                       |     No paths         |     1000.000         |     No paths         |     No paths                         
+ALU|clk_0_inferred_clock     ALU|clk_0_inferred_clock     |     480.769          |     No paths         |     No paths         |     No paths                         
+=====================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:a[0]
+p:a[1]
+p:a[2]
+p:a[3]
+p:a[4]
+p:a[5]
+p:a[6]
+p:a[7]
+p:a[8]
+p:a[9]
+p:b[0]
+p:b[1]
+p:b[2]
+p:b[3]
+p:b[4]
+p:b[5]
+p:b[6]
+p:b[7]
+p:b[8]
+p:b[9]
+p:disp[0]
+p:disp[1]
+p:disp[2]
+p:disp[3]
+p:disp[4]
+p:disp[5]
+p:disp[6]
+p:mux[0]
+p:mux[1]
+p:mux[2]
+p:mux[3]
+p:sel[0]
+p:sel[1]
+p:sel[2]
+p:sel[3]
+p:slog[0]
+p:slog[1]
+p:slog[2]
+p:slog[3]
+p:slog[4]
+p:slog[5]
+p:slog[6]
+p:slog[7]
+p:slog[8]
+p:slog[9]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

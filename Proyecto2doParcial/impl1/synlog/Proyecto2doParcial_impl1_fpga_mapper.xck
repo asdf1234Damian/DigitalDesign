@@ -1,0 +1,3 @@
+CKID0001:@|S:OSCInst0@|E:m[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:disp3_1_3_0_.un3_sum_resta@|E:sum_resta[0]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:disp3_1_3_0_.division_p\.un13_sel@|E:cociente[0]@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 

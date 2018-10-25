@@ -1,0 +1,26 @@
+----------------------------------------------------------------------
+Report for cell ALU.comp
+
+Register bits: 8 of 6864 (0%)
+Latch bits:      33
+PIC Latch:       0
+I/O cells:       46
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       21       100.0
+                             FD1S1A       25       100.0
+                             FD1S1D        8       100.0
+                            FD1S3AX        7       100.0
+                            FD1S3AY        1       100.0
+                                GSR        1       100.0
+                                 IB       24       100.0
+                                INV        2       100.0
+                                 OB       22       100.0
+                           ORCALUT4      136       100.0
+                               OSCH        1       100.0
+                              PFUMX        8       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL           259           
