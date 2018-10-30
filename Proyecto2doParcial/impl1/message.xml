@@ -4,7 +4,7 @@
         <Message>
             <ID>51001030</ID>
             <Severity>Warning</Severity>
-            <Dynamic>proceso_bcd.un261_sel</Dynamic>
+            <Dynamic>un2_sel_6_3</Dynamic>
         </Message>
     </Task>
     <Task name="PAR">
@@ -12,31 +12,29 @@
             <ID>66011008</ID>
             <Severity>Warning</Severity>
             <Dynamic>
-   Signal=un2_sel_13 loads=2 clock_loads=1
-   Signal=division_p.un18_sel loads=5 clock_loads=4
-   Signal=un2_sel_9 loads=2 clock_loads=1
-   Signal=un2_sel_21 loads=2 clock_loads=1
-   Signal=un2_sel_18 loads=2 clock_loads=1
-   Signal=un2_sel_10 loads=2 clock_loads=1
-   Signal=un2_sel_12 loads=2 clock_loads=1
-   Signal=un2_sel_11 loads=2 clock_loads=1
-   Signal=un2_sel_19 loads=2 clock_loads=1
-   Signal=un2_sel_24_clk loads=2 clock_loads=1</Dynamic>
+   Signal=un2_sel_19_0_a7 loads=2 clock_loads=1
+   Signal=un2_sel_15_0_a7 loads=2 clock_loads=1
+   Signal=division_p.un19_sel loads=4 clock_loads=4
+   Signal=un2_sel_5_0_a7 loads=2 clock_loads=1
+   Signal=un2_sel_17_0_a7 loads=2 clock_loads=1
+   Signal=un2_sel_12_0_a7 loads=2 clock_loads=1
+   Signal=un2_sel_7_0_a7 loads=2 clock_loads=1
+   Signal=un2_sel_13_0_a7 loads=2 clock_loads=1
+   Signal=un2_sel_16_0_a7 loads=2 clock_loads=1</Dynamic>
         </Message>
         <Message>
             <ID>66011008</ID>
             <Severity>Warning</Severity>
             <Dynamic>
-   Signal=un2_sel_13 loads=2 clock_loads=1
-   Signal=division_p.un18_sel loads=5 clock_loads=4
-   Signal=un2_sel_9 loads=2 clock_loads=1
-   Signal=un2_sel_21 loads=2 clock_loads=1
-   Signal=un2_sel_18 loads=2 clock_loads=1
-   Signal=un2_sel_10 loads=2 clock_loads=1
-   Signal=un2_sel_12 loads=2 clock_loads=1
-   Signal=un2_sel_11 loads=2 clock_loads=1
-   Signal=un2_sel_19 loads=2 clock_loads=1
-   Signal=un2_sel_24_clk loads=2 clock_loads=1</Dynamic>
+   Signal=un2_sel_19_0_a7 loads=2 clock_loads=1
+   Signal=un2_sel_15_0_a7 loads=2 clock_loads=1
+   Signal=division_p.un19_sel loads=4 clock_loads=4
+   Signal=un2_sel_5_0_a7 loads=2 clock_loads=1
+   Signal=un2_sel_17_0_a7 loads=2 clock_loads=1
+   Signal=un2_sel_12_0_a7 loads=2 clock_loads=1
+   Signal=un2_sel_7_0_a7 loads=2 clock_loads=1
+   Signal=un2_sel_13_0_a7 loads=2 clock_loads=1
+   Signal=un2_sel_16_0_a7 loads=2 clock_loads=1</Dynamic>
         </Message>
     </Task>
     <Task name="Translate">
@@ -131,16 +129,409 @@
             <Navigation>Referenced variable disp1 is not in sensitivity list.</Navigation>
         </Message>
         <Message>
-            <ID>2019990</ID>
-            <Severity>Error</Severity>
-            <Dynamic>CD297 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:85:15:85:57|Width mismatch, location has width 9, value 17</Dynamic>
-            <Navigation>CD297</Navigation>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:89:13:89:19|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>85</Navigation>
+            <Navigation>89</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>89</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:101:15:101:15|Referenced variable a is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>101</Navigation>
             <Navigation>15</Navigation>
-            <Navigation>85</Navigation>
-            <Navigation>57</Navigation>
-            <Navigation>Width mismatch, location has width 9, value 17</Navigation>
+            <Navigation>101</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Referenced variable a is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:110:14:110:20|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>110</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>110</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:122:12:122:19|Referenced variable cociente is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>122</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>122</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Referenced variable cociente is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:146:10:146:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>146</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>146</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:148:4:148:6|Referenced variable sel is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>148</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>148</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Referenced variable sel is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:166:10:166:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>166</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>166</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:168:4:168:6|Referenced variable sel is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>168</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Referenced variable sel is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:186:10:186:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>186</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>186</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:188:4:188:6|Referenced variable sel is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>188</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>188</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Referenced variable sel is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:25:28:25:32|Signal disp4 is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Signal disp4 is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:25:28:25:32|Bit 0 of signal disp4 is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Bit 0 of signal disp4 is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:25:28:25:32|Bit 1 of signal disp4 is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Bit 1 of signal disp4 is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:25:28:25:32|Bit 2 of signal disp4 is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Bit 2 of signal disp4 is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:25:28:25:32|Bit 3 of signal disp4 is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Bit 3 of signal disp4 is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:25:28:25:32|Bit 4 of signal disp4 is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Bit 4 of signal disp4 is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:25:28:25:32|Bit 5 of signal disp4 is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Bit 5 of signal disp4 is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL252 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:25:28:25:32|Bit 6 of signal disp4 is floating -- simulation mismatch possible.</Dynamic>
+            <Navigation>CL252</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Bit 6 of signal disp4 is floating -- simulation mismatch possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:26:43:26:52|Pruning unused register clk_low_3. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>Pruning unused register clk_low_3. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL117 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:99:3:99:4|Latch generated from process for signal division(7 downto 0); possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL117</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Latch generated from process for signal division(7 downto 0); possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:99:3:99:4|Feedback mux created for signal residuo[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Feedback mux created for signal residuo[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:99:3:99:4|Feedback mux created for signal cociente[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Feedback mux created for signal cociente[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN288 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:99:3:99:4|Register residuo[7] with set has an initial value of 0. Ignoring initial value.</Dynamic>
+            <Navigation>BN288</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Register residuo[7] with set has an initial value of 0. Ignoring initial value.  </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN288 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:99:3:99:4|Register residuo[6] with set has an initial value of 0. Ignoring initial value.</Dynamic>
+            <Navigation>BN288</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Register residuo[6] with set has an initial value of 0. Ignoring initial value.  </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN288 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:99:3:99:4|Register residuo[5] with set has an initial value of 0. Ignoring initial value.</Dynamic>
+            <Navigation>BN288</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Register residuo[5] with set has an initial value of 0. Ignoring initial value.  </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN288 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:99:3:99:4|Register residuo[4] with set has an initial value of 0. Ignoring initial value.</Dynamic>
+            <Navigation>BN288</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Register residuo[4] with set has an initial value of 0. Ignoring initial value.  </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN288 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:99:3:99:4|Register residuo[3] with set has an initial value of 0. Ignoring initial value.</Dynamic>
+            <Navigation>BN288</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Register residuo[3] with set has an initial value of 0. Ignoring initial value.  </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN288 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:99:3:99:4|Register residuo[2] with set has an initial value of 0. Ignoring initial value.</Dynamic>
+            <Navigation>BN288</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Register residuo[2] with set has an initial value of 0. Ignoring initial value.  </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN288 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:99:3:99:4|Register residuo[1] with set has an initial value of 0. Ignoring initial value.</Dynamic>
+            <Navigation>BN288</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Register residuo[1] with set has an initial value of 0. Ignoring initial value.  </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN288 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:99:3:99:4|Register residuo[0] with set has an initial value of 0. Ignoring initial value.</Dynamic>
+            <Navigation>BN288</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Register residuo[0] with set has an initial value of 0. Ignoring initial value.  </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT531 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:99:3:99:4|Found signal identified as System clock which controls 8 sequential elements including division[0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance.</Dynamic>
+            <Navigation>MT531</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>99</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Found signal identified as System clock which controls 8 sequential elements including division[0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:54:2:54:3|Found inferred clock ALU|clk_0_inferred_clock which controls 24 sequential elements including m[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock ALU|clk_0_inferred_clock which controls 24 sequential elements including m[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock ALU|clk_0_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:clk_0&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock ALU|clk_0_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:clk_0&quot;</Navigation>
         </Message>
     </Task>
 </BaliMessageLog>

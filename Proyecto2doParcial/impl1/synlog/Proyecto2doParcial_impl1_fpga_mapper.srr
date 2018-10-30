@@ -1,4 +1,4 @@
-# Mon Oct 29 20:45:05 2018
+# Mon Oct 29 23:12:24 2018
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -28,51 +28,52 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 Available hyper_sources - for debug and ip models
 	None Found
 
+@N: FX493 |Applying initial value "00000000" on instance division[7:0].
 @N: FX493 |Applying initial value "00000001" on instance m[7:0].
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
 
 @N: MO231 :"c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd":99:3:99:4|Found counter in view:work.ALU(behavioral) instance cociente[7:0] 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 151MB peak: 152MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 149MB peak: 150MB)
 
 
-Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 152MB)
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 150MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 152MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 150MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 149MB peak: 152MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 150MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 150MB peak: 152MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 150MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 150MB peak: 152MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 150MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 150MB peak: 152MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 150MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 149MB peak: 152MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 150MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 197MB peak: 200MB)
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 169MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:09s		   476.60ns		 376 /        24
+   1		0h:00m:01s		   476.60ns		 144 /        24
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 197MB peak: 200MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 169MB)
 
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 197MB peak: 200MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 169MB)
 
 
 
@@ -82,52 +83,49 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-13 gated/generated clock tree(s) driving 72 clock pin(s) of sequential element(s)
-0 instances converted, 72 sequential instances remain driven by gated/generated clocks
+10 gated/generated clock tree(s) driving 48 clock pin(s) of sequential element(s)
+0 instances converted, 48 sequential instances remain driven by gated/generated clocks
 
 ===================================================================================================== Gated/Generated Clocks =====================================================================================================
 Clock Tree ID     Driving Element          Drive Element Type     Fanout     Sample Instance        Explanation                                                                                                                   
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 @K:CKID0001       OSCInst0                 OSCH                   32         m[0]                   Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
-@K:CKID0002       un3_sum_resta_1          ORCALUT4               12         num_bcd[0]             No clocks found on inputs                                                                                                     
-@K:CKID0003       un1_z_0_sqmuxa           ORCALUT4               11         z[9]                   Multiple clocks on instance from nets division_p\.un18_sel, un2_sel_24_clk                                                    
-@K:CKID0004       division_p\.un18_sel     ORCALUT4               8          division[0]            No clocks found on inputs                                                                                                     
-@K:CKID0005       un2_sel_24               ORCALUT4               1          z[8]                   No clocks found on inputs                                                                                                     
-@K:CKID0006       un2_sel_21               ORCALUT4               1          residuo_6_.res_lat     No clocks found on inputs                                                                                                     
-@K:CKID0007       un2_sel_19               ORCALUT4               1          residuo_4_.res_lat     No clocks found on inputs                                                                                                     
-@K:CKID0008       un2_sel_18               ORCALUT4               1          residuo_0_.res_lat     No clocks found on inputs                                                                                                     
-@K:CKID0009       un2_sel_13               ORCALUT4               1          residuo_7_.res_lat     No clocks found on inputs                                                                                                     
-@K:CKID0010       un2_sel_12               ORCALUT4               1          residuo_2_.res_lat     No clocks found on inputs                                                                                                     
-@K:CKID0011       un2_sel_11               ORCALUT4               1          residuo_3_.res_lat     No clocks found on inputs                                                                                                     
-@K:CKID0012       un2_sel_10               ORCALUT4               1          residuo_1_.res_lat     No clocks found on inputs                                                                                                     
-@K:CKID0013       un2_sel_9                ORCALUT4               1          residuo_5_.res_lat     No clocks found on inputs                                                                                                     
+@K:CKID0002       division_p\.un18_sel     ORCALUT4               8          division[0]            No clocks found on inputs                                                                                                     
+@K:CKID0003       un2_sel_19_0_a7          ORCALUT4               1          residuo_7_.res_lat     No clocks found on inputs                                                                                                     
+@K:CKID0004       un2_sel_17_0_a7          ORCALUT4               1          residuo_5_.res_lat     No clocks found on inputs                                                                                                     
+@K:CKID0005       un2_sel_16_0_a7          ORCALUT4               1          residuo_2_.res_lat     No clocks found on inputs                                                                                                     
+@K:CKID0006       un2_sel_15_0_a7          ORCALUT4               1          residuo_3_.res_lat     No clocks found on inputs                                                                                                     
+@K:CKID0007       un2_sel_13_0_a7          ORCALUT4               1          residuo_1_.res_lat     No clocks found on inputs                                                                                                     
+@K:CKID0008       un2_sel_12_0_a7          ORCALUT4               1          residuo_6_.res_lat     No clocks found on inputs                                                                                                     
+@K:CKID0009       un2_sel_7_0_a7           ORCALUT4               1          residuo_0_.res_lat     No clocks found on inputs                                                                                                     
+@K:CKID0010       un2_sel_5_0_a7           ORCALUT4               1          residuo_4_.res_lat     No clocks found on inputs                                                                                                     
 ==================================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 162MB peak: 200MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 169MB)
 
 Writing Analyst data base C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\synwork\Proyecto2doParcial_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 194MB peak: 200MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 169MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\Proyecto2doParcial_impl1.edi
 M-2017.03L-SP1-1
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 198MB peak: 200MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 171MB peak: 172MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 199MB peak: 200MB)
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 171MB peak: 172MB)
 
 @W: MT420 |Found inferred clock ALU|clk_0_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:clk_0"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Mon Oct 29 20:45:16 2018
+# Timing Report written on Mon Oct 29 23:12:27 2018
 #
 
 
@@ -152,7 +150,7 @@ Worst slack in design: 473.856
 Starting Clock               Frequency     Frequency     Period        Period        Slack       Type         Group              
 ---------------------------------------------------------------------------------------------------------------------------------
 ALU|clk_0_inferred_clock     2.1 MHz       144.7 MHz     480.769       6.913         473.856     inferred     Inferred_clkgroup_0
-System                       1.0 MHz       46.5 MHz      1000.000      21.516        978.484     system       system_clkgroup    
+System                       1.0 MHz       320.0 MHz     1000.000      3.125         996.875     system       system_clkgroup    
 =================================================================================================================================
 
 
@@ -166,7 +164,7 @@ Clocks                                              |    rise  to  rise     |   
 --------------------------------------------------------------------------------------------------------------------------------------------
 Starting                  Ending                    |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 --------------------------------------------------------------------------------------------------------------------------------------------
-System                    System                    |  1000.000    978.484  |  No paths    -      |  No paths    -      |  No paths    -    
+System                    System                    |  1000.000    996.875  |  No paths    -      |  No paths    -      |  No paths    -    
 System                    ALU|clk_0_inferred_clock  |  480.769     473.856  |  No paths    -      |  No paths    -      |  No paths    -    
 ALU|clk_0_inferred_clock  System                    |  480.769     477.645  |  No paths    -      |  No paths    -      |  No paths    -    
 ALU|clk_0_inferred_clock  ALU|clk_0_inferred_clock  |  480.769     473.856  |  No paths    -      |  No paths    -      |  No paths    -    
@@ -273,8 +271,8 @@ division_p\.residuo_2_cry_6       Net          -        -       -         -     
 division_p\.residuo_2_s_7_0       CCU2D        CIN      In      0.000     4.170       -         
 division_p\.residuo_2_s_7_0       CCU2D        S0       Out     1.549     5.718       -         
 division_p\.residuo_2[7]          Net          -        -       -         -           1         
-residuo_7_.II_0_RNIJV0A1          ORCALUT4     B        In      0.000     5.718       -         
-residuo_7_.II_0_RNIJV0A1          ORCALUT4     Z        Out     1.089     6.807       -         
+residuo_7_.II_0_RNI77PB1          ORCALUT4     B        In      0.000     5.718       -         
+residuo_7_.II_0_RNI77PB1          ORCALUT4     Z        Out     1.089     6.807       -         
 residuo_7_.fb                     Net          -        -       -         -           2         
 residuo_7_.II_0                   FD1S3DX      D        In      0.000     6.807       -         
 ================================================================================================
@@ -303,8 +301,6 @@ residuo_4_.res_lat     System        FD1S1D     Q       residuo_4_.o3     0.972 
 residuo_5_.res_lat     System        FD1S1D     Q       residuo_5_.o3     0.972       474.357
 residuo_6_.res_lat     System        FD1S1D     Q       residuo_6_.o3     0.972       474.357
 residuo_7_.res_lat     System        FD1S1D     Q       residuo_7_.o3     0.972       476.240
-z[12]                  System        FD1S1D     Q       z[12]             1.204       978.484
-z[13]                  System        FD1S1D     Q       z[13]             1.204       978.484
 =============================================================================================
 
 
@@ -373,8 +369,8 @@ division_p\.residuo_2_cry_6       Net          -        -       -         -     
 division_p\.residuo_2_s_7_0       CCU2D        CIN      In      0.000     4.170       -         
 division_p\.residuo_2_s_7_0       CCU2D        S0       Out     1.549     5.718       -         
 division_p\.residuo_2[7]          Net          -        -       -         -           1         
-residuo_7_.II_0_RNIJV0A1          ORCALUT4     B        In      0.000     5.718       -         
-residuo_7_.II_0_RNIJV0A1          ORCALUT4     Z        Out     1.089     6.807       -         
+residuo_7_.II_0_RNI77PB1          ORCALUT4     B        In      0.000     5.718       -         
+residuo_7_.II_0_RNI77PB1          ORCALUT4     Z        Out     1.089     6.807       -         
 residuo_7_.fb                     Net          -        -       -         -           2         
 residuo_7_.II_0                   FD1S3DX      D        In      0.000     6.807       -         
 ================================================================================================
@@ -386,17 +382,17 @@ residuo_7_.II_0                   FD1S3DX      D        In      0.000     6.807 
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 199MB peak: 200MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 171MB peak: 172MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 199MB peak: 200MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 171MB peak: 172MB)
 
 ---------------------------------------
 Resource Usage Report
 Part: lcmxo2_7000he-5
 
 Register bits: 32 of 6864 (0%)
-Latch bits:      40
+Latch bits:      16
 PIC Latch:       0
 I/O cells:       46
 
@@ -405,27 +401,26 @@ Details:
 CCU2D:          21
 FD1P3DX:        8
 FD1S1A:         8
-FD1S1AY:        12
-FD1S1D:         20
+FD1S1D:         8
 FD1S3AX:        7
 FD1S3AY:        1
 FD1S3BX:        8
 FD1S3DX:        8
 GSR:            1
 IB:             24
-INV:            1
+INV:            2
 OB:             22
-ORCALUT4:       378
+ORCALUT4:       157
 OSCH:           1
-PFUMX:          26
+PFUMX:          21
 PUR:            1
 VHI:            1
 VLO:            1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 34MB peak: 200MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 32MB peak: 172MB)
 
-Process took 0h:00m:10s realtime, 0h:00m:10s cputime
-# Mon Oct 29 20:45:16 2018
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon Oct 29 23:12:27 2018
 
 ###########################################################]

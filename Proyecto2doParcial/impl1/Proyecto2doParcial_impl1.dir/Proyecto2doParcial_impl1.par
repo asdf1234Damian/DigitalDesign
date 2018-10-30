@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Oct 29 20:45:21 2018
+Mon Oct 29 23:12:31 2018
 
 C:/lscc/diamond/3.10_x64/ispfpga\bin\nt64\par -f Proyecto2doParcial_impl1.p2t
 Proyecto2doParcial_impl1_map.ncd Proyecto2doParcial_impl1.dir
@@ -17,10 +17,10 @@ Preference file: Proyecto2doParcial_impl1.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            473.117      0            0.306        0            10           Success
+5_1   *      0            473.006      0            0.306        0            06           Success
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 10 secs 
+Total (real) run time for 1-seed: 6 secs 
 
 par done!

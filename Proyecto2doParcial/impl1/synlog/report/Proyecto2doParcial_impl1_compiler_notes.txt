@@ -4,4 +4,5 @@
 @N:"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":7:7:7:9|Top entity is set to ALU.
 @N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":7:7:7:9|Synthesizing work.alu.behavioral.
 @N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N|Running in 64-bit mode
 

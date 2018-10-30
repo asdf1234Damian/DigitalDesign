@@ -1,7 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
-use ieee.std_logic_arith.all;
+--use ieee.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
 
 entity ALU is 
@@ -39,7 +39,7 @@ signal clk_low: std_logic:= '0';
 
 COMPONENT  OSCH
 		GENERIC(NOM_FREQ: string);
-		PORT(STDBY: in std_logic; OSC: out std_logic);
+		PORT(STDBY: in std_logic; OSC: out std_logic); 
 END COMPONENT;
 
 attribute NOM_FREQ: string ;
@@ -105,63 +105,185 @@ begin
 				division <= residuo;
 			end if;
 		end process;
-	proceso_bcd: process(division, sel)
+		
+		 
+	proceso_bcd: process(sum_resta,division, sel) 
 		-- Inicialización de datos en cero.           
-        variable z: std_logic_vector(19 downto 0) := "00000000000000000000";--"00000000011111111000";
+        variable z: std_logic_vector(8 downto 0) :=(others => '0');
+		variable bcd: unsigned(11 downto 0):=(others => '0');
     begin
         -- Se realizan los primeros tres corrimientos.
+		bcd:=(others =>'0');
 		if ((sel = "1000") or (sel = "1001")) then
-			z(8 downto 0) := sum_resta;
-			if z > "00000000000000001001" then
-			for i in 0 to 8 loop
+			z := sum_resta;
+		elsif (sel = "1100" )then 
+			z := "0"&division;	
+		elsif(sel = "1101") then 
+			z := "0"&cociente;	
+		end if;
+			for i in 0 to 8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+loop
 				 --Unidades (4 bits).
-				if z(11 downto 8) > "00000000000000000100" then
-					z(11 downto 8) := z(11 downto 8) + "0011";
+				 if bcd(3 downto 0) > 4 then 
+					bcd(3 downto 0) := bcd(3 downto 0) + 3;
 				end if;
-				 --Decenas (4 bits).
-				if z(15 downto 12) > "00000000000000000100" then
-					z(15 downto 12) := z(15 downto 12) + "0011";
+			  
+				if bcd(7 downto 4) > 4 then  
+					bcd(7 downto 4) := bcd(7 downto 4) + 3;
 				end if;
-				 --Centenas (4 bits).
-				if z(19 downto 16) > "00000000000000000100" then
-					z(19 downto 16) := z(19 downto 16) + "0011";
+
+				if bcd(11 downto 8) > 4 then  
+					bcd(11 downto 8) := bcd(11 downto 8) + 3;
 				end if;
-				-- Corrimiento a la izquierda.
-					z(19 downto 0) := z(18 downto 0) & '0';
+				-- corrimiento a la izquierda, y copiar el bit
+				--mas significativo del temp en el menos significativo del bcd
+				bcd := bcd(10 downto 0) & z(8); 
+				-- corrimiento a la izquiera 
+				z := z(7 downto 0) & '0';
 			end loop;
-			num_bcd <= z(19 downto 8);
-		else
-			num_bcd <= z(11 downto 0);
-		end if;
-		elsif ((sel = "1100") or (sel = "1101")) then
-			z(7 downto 0) := division;
-			if z > "00000000000000001001" then
-			for i in 0 to 7 loop
-				 --Unidades (4 bits).
-				if z(11 downto 8) > "00000000000000000100" then
-					z(11 downto 8) := z(11 downto 8) + "0011";
-				end if;
-				 --Decenas (4 bits).
-				if z(15 downto 12) > "00000000000000000100" then
-					z(15 downto 12) := z(15 downto 12) + "0011";
-				end if;
-				 --Centenas (4 bits).
-				if z(19 downto 16) > "00000000000000000100" then
-					z(19 downto 16) := z(19 downto 16) + "0011";
-				end if;
-				-- Corrimiento a la izquierda.
-					z(19 downto 0) := z(18 downto 0) & '0';
-			end loop;
-			num_bcd <= z(19 downto 8);
-		else
-			num_bcd <= z(11 downto 0);
-		end if;
-		elsif (sel = "1111") then
-			z := "00000000000011111110";
-		end if;
-		
-		
-        -- Pasando datos de variable Z, correspondiente a BCD.
+			num_bcd<=std_logic_vector(bcd);
     end process;
 
 	decoUno: process(num_bcd)

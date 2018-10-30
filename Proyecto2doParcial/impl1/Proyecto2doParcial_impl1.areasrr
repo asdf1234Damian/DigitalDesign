@@ -2,7 +2,7 @@
 Report for cell ALU.behavioral
 
 Register bits: 32 of 6864 (0%)
-Latch bits:      40
+Latch bits:      16
 PIC Latch:       0
 I/O cells:       46
                                           Cell usage:
@@ -10,21 +10,20 @@ I/O cells:       46
                               CCU2D       21       100.0
                             FD1P3DX        8       100.0
                              FD1S1A        8       100.0
-                            FD1S1AY       12       100.0
-                             FD1S1D       20       100.0
+                             FD1S1D        8       100.0
                             FD1S3AX        7       100.0
                             FD1S3AY        1       100.0
                             FD1S3BX        8       100.0
                             FD1S3DX        8       100.0
                                 GSR        1       100.0
                                  IB       24       100.0
-                                INV        1       100.0
+                                INV        2       100.0
                                  OB       22       100.0
-                           ORCALUT4      378       100.0
+                           ORCALUT4      157       100.0
                                OSCH        1       100.0
-                              PFUMX       26       100.0
+                              PFUMX       21       100.0
                                 PUR        1       100.0
                                 VHI        1       100.0
                                 VLO        1       100.0
                             
-                         TOTAL           549           
+                         TOTAL           300           
