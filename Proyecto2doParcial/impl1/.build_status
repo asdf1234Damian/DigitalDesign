@@ -5,38 +5,39 @@
             <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1540449994"/>
+            <Task name="Bitgen" build_result="0" update_result="2" update_time="1540861624"/>
+            <Task name="Jedecgen" build_result="0" update_result="2" update_time="1540867535"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1540449978">
-            <Task name="Map" build_result="2" update_result="0" update_time="1540449978"/>
+        <Milestone name="Map" build_result="0" build_time="1540867521">
+            <Task name="Map" build_result="0" update_result="2" update_time="1540867521"/>
             <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1540449989">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1540449989"/>
+        <Milestone name="PAR" build_result="0" build_time="1540867531">
+            <Task name="PAR" build_result="0" update_result="2" update_time="1540867531"/>
             <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1540449148">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1540449148"/>
+        <Milestone name="Synthesis" build_result="0" build_time="1540867815">
+            <Task name="Synplify_Synthesis" build_result="0" update_result="2" update_time="1540867815"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="0" update_result="2" update_time="1540449101"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1540873844"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="Translate" build_result="2" build_time="1540449151">
-            <Task name="Translate" build_result="2" update_result="0" update_time="1540449151"/>
+        <Milestone name="Translate" build_result="0" build_time="1540867519">
+            <Task name="Translate" build_result="0" update_result="2" update_time="1540867519"/>
         </Milestone>
-        <Report name="Proyecto2doParcial_impl1.bgn" last_build_time="1540449994" last_build_size="4329"/>
-        <Report name="Proyecto2doParcial_impl1.edi" last_build_time="1540449145" last_build_size="147256"/>
-        <Report name="Proyecto2doParcial_impl1.jed" last_build_time="1540449994" last_build_size="1465747"/>
-        <Report name="Proyecto2doParcial_impl1.ncd" last_build_time="1540449989" last_build_size="186588"/>
-        <Report name="Proyecto2doParcial_impl1.ngd" last_build_time="1540449151" last_build_size="147232"/>
-        <Report name="Proyecto2doParcial_impl1_map.ncd" last_build_time="1540449978" last_build_size="131109"/>
+        <Report name="Proyecto2doParcial_impl1.bgn" last_build_time="1540867535" last_build_size="4329"/>
+        <Report name="Proyecto2doParcial_impl1.bit" last_build_time="1540861624" last_build_size="28610"/>
+        <Report name="Proyecto2doParcial_impl1.edi" last_build_time="1540867516" last_build_size="289128"/>
+        <Report name="Proyecto2doParcial_impl1.jed" last_build_time="1540867535" last_build_size="1465747"/>
+        <Report name="Proyecto2doParcial_impl1.ncd" last_build_time="1540867531" last_build_size="401607"/>
+        <Report name="Proyecto2doParcial_impl1.ngd" last_build_time="1540867519" last_build_size="290438"/>
+        <Report name="Proyecto2doParcial_impl1_map.ncd" last_build_time="1540867521" last_build_size="273263"/>
     </Strategy>
 </BuildStatus>

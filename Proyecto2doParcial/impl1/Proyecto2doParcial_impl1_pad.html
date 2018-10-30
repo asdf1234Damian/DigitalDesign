@@ -14,7 +14,7 @@ Performance Grade:      5
 PACKAGE:          TQFP144
 Package Status:                     Final          Version 1.39
 
-Thu Oct 25 01:46:24 2018
+Mon Oct 29 20:45:26 2018
 
 Pinout by Port Name:
 +-----------+----------+--------------+-------+-----------+-----------+--------------------------------------+
@@ -48,10 +48,10 @@ Pinout by Port Name:
 | disp[4]   | 81/1     | LVCMOS25_OUT | PR18B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | disp[5]   | 78/1     | LVCMOS25_OUT | PR21A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | disp[6]   | 77/1     | LVCMOS25_OUT | PR21B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| mux[0]    | 73/1     | LVCMOS25_OUT | PR24B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| mux[1]    | 74/1     | LVCMOS25_OUT | PR24A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| mux[2]    | 75/1     | LVCMOS25_OUT | PR23B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| mux[3]    | 76/1     | LVCMOS25_OUT | PR23A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| mux[0]    | 74/1     | LVCMOS25_OUT | PR24A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| mux[1]    | 75/1     | LVCMOS25_OUT | PR23B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| mux[2]    | 76/1     | LVCMOS25_OUT | PR23A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| mux[3]    | 73/1     | LVCMOS25_OUT | PR24B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | sel[0]    | 4/5      | LVCMOS25_IN  | PL4B  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
 | sel[1]    | 3/5      | LVCMOS25_IN  | PL4A  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
 | sel[2]    | 2/5      | LVCMOS25_IN  | PL3B  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
@@ -148,10 +148,10 @@ Vccio by Bank:
 | 69/2     |     unused, PULL:DOWN |            |              | PB37B |                |           |           |
 | 70/2     |     unused, PULL:DOWN |            |              | PB38A | SN             |           |           |
 | 71/2     |     unused, PULL:DOWN |            |              | PB38B | SI/SISPI       |           |           |
-| 73/1     | mux[0]                | LOCATED    | LVCMOS25_OUT | PR24B | DQ1            |           |           |
-| 74/1     | mux[1]                | LOCATED    | LVCMOS25_OUT | PR24A | DQ1            |           |           |
-| 75/1     | mux[2]                | LOCATED    | LVCMOS25_OUT | PR23B | DQ1            |           |           |
-| 76/1     | mux[3]                | LOCATED    | LVCMOS25_OUT | PR23A | DQ1            |           |           |
+| 73/1     | mux[3]                | LOCATED    | LVCMOS25_OUT | PR24B | DQ1            |           |           |
+| 74/1     | mux[0]                | LOCATED    | LVCMOS25_OUT | PR24A | DQ1            |           |           |
+| 75/1     | mux[1]                | LOCATED    | LVCMOS25_OUT | PR23B | DQ1            |           |           |
+| 76/1     | mux[2]                | LOCATED    | LVCMOS25_OUT | PR23A | DQ1            |           |           |
 | 77/1     | disp[6]               | LOCATED    | LVCMOS25_OUT | PR21B | DQ1            |           |           |
 | 78/1     | disp[5]               | LOCATED    | LVCMOS25_OUT | PR21A | DQ1            |           |           |
 | 81/1     | disp[4]               | LOCATED    | LVCMOS25_OUT | PR18B | DQ1            |           |           |
@@ -472,10 +472,10 @@ LOCATE  COMP  "disp[3]"  SITE  "82";
 LOCATE  COMP  "disp[4]"  SITE  "81";
 LOCATE  COMP  "disp[5]"  SITE  "78";
 LOCATE  COMP  "disp[6]"  SITE  "77";
-LOCATE  COMP  "mux[0]"  SITE  "73";
-LOCATE  COMP  "mux[1]"  SITE  "74";
-LOCATE  COMP  "mux[2]"  SITE  "75";
-LOCATE  COMP  "mux[3]"  SITE  "76";
+LOCATE  COMP  "mux[0]"  SITE  "74";
+LOCATE  COMP  "mux[1]"  SITE  "75";
+LOCATE  COMP  "mux[2]"  SITE  "76";
+LOCATE  COMP  "mux[3]"  SITE  "73";
 LOCATE  COMP  "sel[0]"  SITE  "4";
 LOCATE  COMP  "sel[1]"  SITE  "3";
 LOCATE  COMP  "sel[2]"  SITE  "2";
@@ -501,7 +501,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Oct 25 01:46:26 2018
+Mon Oct 29 20:45:27 2018
 
 
 

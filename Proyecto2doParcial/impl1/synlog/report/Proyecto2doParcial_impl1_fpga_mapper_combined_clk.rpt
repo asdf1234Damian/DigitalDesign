@@ -6,16 +6,26 @@
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-3 gated/generated clock tree(s) driving 41 clock pin(s) of sequential element(s)
-0 instances converted, 41 sequential instances remain driven by gated/generated clocks
+13 gated/generated clock tree(s) driving 72 clock pin(s) of sequential element(s)
+0 instances converted, 72 sequential instances remain driven by gated/generated clocks
 
-========================================================================================================== Gated/Generated Clocks ==========================================================================================================
-Clock Tree ID     Driving Element                       Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       OSCInst0                              OSCH                   8          m[0]                Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
-@K:CKID0002       disp3_1_3_0_.un3_sum_resta            ORCALUT4               17         sum_resta[0]        No clocks found on inputs                                                                                                     
-@K:CKID0003       disp3_1_3_0_.division_p\.un13_sel     ORCALUT4               16         cociente[0]         No clocks found on inputs                                                                                                     
-============================================================================================================================================================================================================================================
+===================================================================================================== Gated/Generated Clocks =====================================================================================================
+Clock Tree ID     Driving Element          Drive Element Type     Fanout     Sample Instance        Explanation                                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       OSCInst0                 OSCH                   32         m[0]                   Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       un3_sum_resta_1          ORCALUT4               12         num_bcd[0]             No clocks found on inputs                                                                                                     
+@K:CKID0003       un1_z_0_sqmuxa           ORCALUT4               11         z[9]                   Multiple clocks on instance from nets division_p\.un18_sel, un2_sel_24_clk                                                    
+@K:CKID0004       division_p\.un18_sel     ORCALUT4               8          division[0]            No clocks found on inputs                                                                                                     
+@K:CKID0005       un2_sel_24               ORCALUT4               1          z[8]                   No clocks found on inputs                                                                                                     
+@K:CKID0006       un2_sel_21               ORCALUT4               1          residuo_6_.res_lat     No clocks found on inputs                                                                                                     
+@K:CKID0007       un2_sel_19               ORCALUT4               1          residuo_4_.res_lat     No clocks found on inputs                                                                                                     
+@K:CKID0008       un2_sel_18               ORCALUT4               1          residuo_0_.res_lat     No clocks found on inputs                                                                                                     
+@K:CKID0009       un2_sel_13               ORCALUT4               1          residuo_7_.res_lat     No clocks found on inputs                                                                                                     
+@K:CKID0010       un2_sel_12               ORCALUT4               1          residuo_2_.res_lat     No clocks found on inputs                                                                                                     
+@K:CKID0011       un2_sel_11               ORCALUT4               1          residuo_3_.res_lat     No clocks found on inputs                                                                                                     
+@K:CKID0012       un2_sel_10               ORCALUT4               1          residuo_1_.res_lat     No clocks found on inputs                                                                                                     
+@K:CKID0013       un2_sel_9                ORCALUT4               1          residuo_5_.res_lat     No clocks found on inputs                                                                                                     
+==================================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]

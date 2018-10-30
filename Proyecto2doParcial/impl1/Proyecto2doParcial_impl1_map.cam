@@ -2,21 +2,22 @@
 [ END MERGED ]
 [ START CLIPPED ]
 GND
-residuo_1_i_m3_s_7_0_S1
-residuo_1_i_m3_s_7_0_COUT
-un1_slog_4_cry_0_0_S0
+cociente_s_0_S1[7]
+cociente_s_0_COUT[7]
+un1_a_8_cry_0_0_S0
 N_2
-un1_slog_4_s_9_0_S1
-un1_slog_4_s_9_0_COUT
-sum_resta_1_cry_0_0_S0
+un1_a_8_s_7_0_S1
+un1_a_8_s_7_0_COUT
+division_p.residuo_2_cry_0_0_S1
+division_p.residuo_2_cry_0_0_S0
 N_3
-sum_resta_1_cry_7_0_COUT
-un1_cociente_cry_0_0_S1
-un1_cociente_cry_0_0_S0
+division_p.residuo_2_s_7_0_S1
+division_p.residuo_2_s_7_0_COUT
+un1_slog_3_cry_0_0_S0
 N_4
-un1_cociente_s_7_0_S1
-un1_cociente_s_7_0_COUT
-residuo_1_i_m3_cry_0_0_S0
+un1_slog_3_s_9_0_S1
+un1_slog_3_s_9_0_COUT
+cociente_cry_0_S0[0]
 N_1
 OSCInst0_SEDSTDBY
 [ END CLIPPED ]
@@ -25,7 +26,7 @@ clk_0_c 2.08
 [ END OSC ]
 [ START DESIGN PREFS ]
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.10.0.111.2 -- WARNING: Map write only section -- Thu Oct 25 01:46:17 2018
+# map:  version Diamond (64-bit) 3.10.0.111.2 -- WARNING: Map write only section -- Mon Oct 29 20:45:20 2018
 
 SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
 LOCATE COMP "clk_0" SITE "61" ;
@@ -70,10 +71,10 @@ LOCATE COMP "a[4]" SITE "12" ;
 LOCATE COMP "a[3]" SITE "13" ;
 LOCATE COMP "a[2]" SITE "14" ;
 LOCATE COMP "a[1]" SITE "19" ;
-LOCATE COMP "mux[3]" SITE "76" ;
-LOCATE COMP "mux[2]" SITE "75" ;
-LOCATE COMP "mux[1]" SITE "74" ;
-LOCATE COMP "mux[0]" SITE "73" ;
+LOCATE COMP "mux[3]" SITE "73" ;
+LOCATE COMP "mux[2]" SITE "76" ;
+LOCATE COMP "mux[1]" SITE "75" ;
+LOCATE COMP "mux[0]" SITE "74" ;
 FREQUENCY NET "clk_0_c" 2.080000 MHz ;
 SCHEMATIC END ;
 [ END DESIGN PREFS ]

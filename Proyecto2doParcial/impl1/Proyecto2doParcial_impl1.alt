@@ -1,6 +1,6 @@
 NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
 NOTE All Rights Reserved *
-NOTE DATE CREATED: Thu Oct 25 01:46:34 2018 *
+NOTE DATE CREATED: Mon Oct 29 20:45:35 2018 *
 NOTE DESIGN NAME: ALU *
 NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
 NOTE PIN ASSIGNMENTS *
@@ -46,9 +46,9 @@ NOTE PINS a[4] : 12 : in *
 NOTE PINS a[3] : 13 : in *
 NOTE PINS a[2] : 14 : in *
 NOTE PINS a[1] : 19 : in *
-NOTE PINS mux[3] : 76 : out *
-NOTE PINS mux[2] : 75 : out *
-NOTE PINS mux[1] : 74 : out *
-NOTE PINS mux[0] : 73 : out *
+NOTE PINS mux[3] : 73 : out *
+NOTE PINS mux[2] : 76 : out *
+NOTE PINS mux[1] : 75 : out *
+NOTE PINS mux[0] : 74 : out *
 NOTE CONFIGURATION MODE: NONE *
 NOTE COMPRESSION: on *

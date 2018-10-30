@@ -24,19 +24,19 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
-Mapped on:  10/25/18  01:46:17
+Mapped on:  10/29/18  20:45:20
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
-   Number of registers:     41 out of  7209 (1%)
-      PFU registers:           41 out of  6864 (1%)
+   Number of registers:     72 out of  7209 (1%)
+      PFU registers:           72 out of  6864 (1%)
       PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:        91 out of  3432 (3%)
-      SLICEs as Logic/ROM:     91 out of  3432 (3%)
+   Number of SLICEs:       217 out of  3432 (6%)
+      SLICEs as Logic/ROM:    217 out of  3432 (6%)
       SLICEs as RAM:            0 out of  2574 (0%)
       SLICEs as Carry:         21 out of  3432 (1%)
-   Number of LUT4s:        180 out of  6864 (3%)
-      Number used as logic LUTs:        138
+   Number of LUT4s:        427 out of  6864 (6%)
+      Number used as logic LUTs:        385
       Number used as distributed RAM:     0
       Number used as ripple logic:       42
       Number used as shift registers:     0
@@ -65,31 +65,58 @@ Mapped on:  10/25/18  01:46:17
      distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
-   Number of clocks:  4
-     Net clk_0_c: 4 loads, 4 rising, 0 falling (Driver: OSCInst0 )
+   Number of clocks:  13
+     Net clk_0_c: 25 loads, 25 rising, 0 falling (Driver: OSCInst0 )
 
-     Net division_p.un13_sel: 10 loads, 10 rising, 0 falling (Driver:
-     disp3_1_3_0_.division_p.un13_sel )
-     Net division_p.un22_sel: 4 loads, 4 rising, 0 falling (Driver:
-     disp3_1_3_0_.division_p.un22_sel )
-     Net un3_sum_resta_clk: 5 loads, 5 rising, 0 falling (Driver:
-     disp3_1_3_0_.un3_sum_resta )
-   Number of Clock Enables:  0
-   Number of local set/reset loads for net division_p.un12_sel merged into GSR:
-     8
-   Number of LSRs:  0
+     Net un2_sel_13: 1 loads, 1 rising, 0 falling (Driver: un2_sel_13 )
+     Net un1_z_0_sqmuxa: 10 loads, 10 rising, 0 falling (Driver: un1_z_0_sqmuxa
+     )
+     Net proceso_bcd.un159_sel: 6 loads, 6 rising, 0 falling (Driver:
+     un3_sum_resta_1 )
+     Net division_p.un18_sel: 4 loads, 4 rising, 0 falling (Driver:
+     division_p.un18_sel )
+     Net un2_sel_9: 1 loads, 1 rising, 0 falling (Driver: un2_sel_9 )
+     Net un2_sel_21: 1 loads, 1 rising, 0 falling (Driver: un2_sel_21 )
+     Net un2_sel_18: 1 loads, 1 rising, 0 falling (Driver: un2_sel_18 )
+     Net un2_sel_10: 1 loads, 1 rising, 0 falling (Driver: un2_sel_10 )
+     Net un2_sel_12: 1 loads, 1 rising, 0 falling (Driver: un2_sel_12 )
+     Net un2_sel_11: 1 loads, 1 rising, 0 falling (Driver: un2_sel_11 )
+     Net un2_sel_19: 1 loads, 1 rising, 0 falling (Driver: un2_sel_19 )
+     Net un2_sel_24_clk: 1 loads, 1 rising, 0 falling (Driver: un2_sel_24 )
+   Number of Clock Enables:  1
+     Net un2_sel_10_0: 5 loads, 5 LSLICEs
+   Number of local set/reset loads for net proceso_bcd.un261_sel merged into
+     GSR:  12
+   Number of LSRs:  17
+     Net un2_sel_17: 2 loads, 2 LSLICEs
+     Net un2_sel_13: 1 loads, 1 LSLICEs
+     Net un2_sel_6_3: 5 loads, 5 LSLICEs
+     Net un2_sel_9: 1 loads, 1 LSLICEs
+     Net un2_sel_7: 2 loads, 2 LSLICEs
+     Net un2_sel_21: 1 loads, 1 LSLICEs
+     Net un2_sel_6: 2 loads, 2 LSLICEs
+     Net un2_sel_18: 1 loads, 1 LSLICEs
+     Net un2_sel_8: 2 loads, 2 LSLICEs
+     Net un2_sel_10: 1 loads, 1 LSLICEs
+     Net un2_sel_16: 2 loads, 2 LSLICEs
+     Net un2_sel_12: 1 loads, 1 LSLICEs
+     Net un2_sel_15: 2 loads, 2 LSLICEs
+     Net un2_sel_11: 1 loads, 1 LSLICEs
+     Net un2_sel_14: 2 loads, 2 LSLICEs
+     Net un2_sel_19: 1 loads, 1 LSLICEs
+     Net un2_sel_20: 2 loads, 2 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net sel_c[0]: 33 loads
-     Net division_p.un1_sel: 18 loads
-     Net sel_c[2]: 16 loads
-     Net sel_c[3]: 13 loads
-     Net sel_c[1]: 12 loads
-     Net proceso_bcd.z_5_RNIMBDB1[10]: 10 loads
-     Net N_113: 8 loads
-     Net N_227: 8 loads
-     Net N_229: 8 loads
-     Net un3_sum_resta_RNI4RG84: 8 loads
+     Net sel_c[0]: 48 loads
+     Net sel_c[1]: 31 loads
+     Net sel_c[3]: 24 loads
+     Net sel_c[2]: 21 loads
+     Net un2_sel_10_0: 20 loads
+     Net un2_sel_6_3: 13 loads
+     Net z[10]: 13 loads
+     Net z[11]: 13 loads
+     Net z[9]: 13 loads
+     Net un3_sum_resta: 12 loads
 
 
 
@@ -101,9 +128,10 @@ Mapped on:  10/25/18  01:46:17
 
 
 
+
 <A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
 
-WARNING - map: Using local reset signal 'division_p.un12_sel' to infer global
+WARNING - map: Using local reset signal 'proceso_bcd.un261_sel' to infer global
      GSR net.
 
 
@@ -127,7 +155,6 @@ WARNING - map: Using local reset signal 'division_p.un12_sel' to infer global
 | slog[6]             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | slog[5]             | OUTPUT    | LVCMOS25  |            |
-
 +---------------------+-----------+-----------+------------+
 | slog[4]             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
@@ -159,6 +186,7 @@ WARNING - map: Using local reset signal 'division_p.un12_sel' to infer global
 +---------------------+-----------+-----------+------------+
 | sel[1]              | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
+
 | sel[0]              | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | b[9]                | INPUT     | LVCMOS25  |            |
@@ -184,7 +212,6 @@ WARNING - map: Using local reset signal 'division_p.un12_sel' to infer global
 | a[9]                | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | a[8]                | INPUT     | LVCMOS25  |            |
-
 +---------------------+-----------+-----------+------------+
 | a[7]                | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
@@ -214,21 +241,27 @@ WARNING - map: Using local reset signal 'division_p.un12_sel' to infer global
 <A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
 
 Signal GND undriven or does not drive anything - clipped.
-Signal residuo_1_i_m3_s_7_0_S1 undriven or does not drive anything - clipped.
-Signal residuo_1_i_m3_s_7_0_COUT undriven or does not drive anything - clipped.
-Signal un1_slog_4_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal cociente_s_0_S1[7] undriven or does not drive anything - clipped.
+Signal cociente_s_0_COUT[7] undriven or does not drive anything - clipped.
+Signal un1_a_8_cry_0_0_S0 undriven or does not drive anything - clipped.
+
 Signal N_2 undriven or does not drive anything - clipped.
-Signal un1_slog_4_s_9_0_S1 undriven or does not drive anything - clipped.
-Signal un1_slog_4_s_9_0_COUT undriven or does not drive anything - clipped.
-Signal sum_resta_1_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal un1_a_8_s_7_0_S1 undriven or does not drive anything - clipped.
+Signal un1_a_8_s_7_0_COUT undriven or does not drive anything - clipped.
+Signal division_p.residuo_2_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal division_p.residuo_2_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
 Signal N_3 undriven or does not drive anything - clipped.
-Signal sum_resta_1_cry_7_0_COUT undriven or does not drive anything - clipped.
-Signal un1_cociente_cry_0_0_S1 undriven or does not drive anything - clipped.
-Signal un1_cociente_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal division_p.residuo_2_s_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal division_p.residuo_2_s_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal un1_slog_3_cry_0_0_S0 undriven or does not drive anything - clipped.
 Signal N_4 undriven or does not drive anything - clipped.
-Signal un1_cociente_s_7_0_S1 undriven or does not drive anything - clipped.
-Signal un1_cociente_s_7_0_COUT undriven or does not drive anything - clipped.
-Signal residuo_1_i_m3_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal un1_slog_3_s_9_0_S1 undriven or does not drive anything - clipped.
+Signal un1_slog_3_s_9_0_COUT undriven or does not drive anything - clipped.
+Signal cociente_cry_0_S0[0] undriven or does not drive anything - clipped.
 Signal N_1 undriven or does not drive anything - clipped.
 Signal OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
 Block GND was optimized away.
@@ -239,10 +272,6 @@ Block GND was optimized away.
 
 
      
-
-
-
-
 
 OSC Summary
 -----------
@@ -268,15 +297,16 @@ Instance Name: OSCInst0
 ---------
 
 GSR Component:
-   The local reset signal 'division_p.un12_sel' of the design has been inferred
-        as Global Set Reset (GSR). The reset signal used for GSR control is
-        'division_p.un12_sel'.
+   The local reset signal 'proceso_bcd.un261_sel' of the design has been
+        inferred as Global Set Reset (GSR). The reset signal used for GSR
+        control is 'proceso_bcd.un261_sel'.
         
 
      GSR Property:
    The design components with GSR property set to ENABLED will respond to global
         set reset while the components with GSR property set to DISABLED will
         not.
+
         
 
 
@@ -286,8 +316,35 @@ GSR Component:
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 59 MB
+   Peak Memory Usage: 60 MB
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

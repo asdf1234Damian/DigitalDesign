@@ -3,8 +3,8 @@ Report for cell ALU
    Instance path: ALU
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      91.00        100.0
-                                  LUT4	     138.00        100.0
+                                  SLIC	     217.00        100.0
+                                  LUT4	     385.00        100.0
                                  IOBUF	         46        100.0
-                                PFUREG	         41        100.0
+                                PFUREG	         72        100.0
                                 RIPPLE	         21        100.0

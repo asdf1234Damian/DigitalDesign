@@ -7,62 +7,26 @@ Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
 @N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
-@N:"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":6:7:6:9|Top entity is set to ALU.
+@N:"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":7:7:7:9|Top entity is set to ALU.
+File C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd changed - recompiling
 VHDL syntax check successful!
-@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":6:7:6:9|Synthesizing work.alu.comp.
+File C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd changed - recompiling
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":7:7:7:9|Synthesizing work.alu.behavioral.
 @W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
 @N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
 Post processing for work.osch.syn_black_box
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":59:9:59:15|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":66:30:66:34|Referenced variable disp4 is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":65:30:65:34|Referenced variable disp3 is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":64:30:64:34|Referenced variable disp2 is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":63:30:63:34|Referenced variable disp1 is not in sensitivity list.
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":80:12:80:18|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":84:14:84:21|Referenced variable cociente is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":89:13:89:13|Referenced variable a is not in sensitivity list.
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":96:14:96:20|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":103:20:103:28|Referenced variable sum_resta is not in sensitivity list.
-@W: CD638 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Signal disp4 is undriven. Either assign the signal a value or remove the signal declaration.
-Post processing for work.alu.comp
-@W: CL252 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Bit 0 of signal disp4 is floating -- simulation mismatch possible.
-@W: CL252 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Bit 1 of signal disp4 is floating -- simulation mismatch possible.
-@W: CL252 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Bit 2 of signal disp4 is floating -- simulation mismatch possible.
-@W: CL252 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Bit 3 of signal disp4 is floating -- simulation mismatch possible.
-@W: CL252 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Bit 4 of signal disp4 is floating -- simulation mismatch possible.
-@W: CL252 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Bit 5 of signal disp4 is floating -- simulation mismatch possible.
-@W: CL252 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Bit 6 of signal disp4 is floating -- simulation mismatch possible.
-@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":23:41:23:50|Pruning unused register clk_low_3. Make sure that there are no unused intermediate registers.
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":82:2:82:3|Latch generated from process for signal cociente(7 downto 0); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":18:47:18:56|Latch generated from process for signal residuo(7 downto 0); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":18:47:18:56|Latch generated from process for signal division(7 downto 0); possible missing assignment in an if or case statement.
-
-At c_vhdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 76MB)
-
-Process took 0h:00m:02s realtime, 0h:00m:01s cputime
-
-Process completed successfully.
-# Thu Oct 25 01:32:03 2018
-
-###########################################################]
-Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
-@N|Running in 64-bit mode
-
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
-
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":65:10:65:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":72:30:72:34|Referenced variable disp4 is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":71:30:71:34|Referenced variable disp3 is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":70:30:70:34|Referenced variable disp2 is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":69:30:69:34|Referenced variable disp1 is not in sensitivity list.
+@E: CD297 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":85:15:85:57|Width mismatch, location has width 9, value 17
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-
-Process completed successfully.
-# Thu Oct 25 01:32:04 2018
+# Mon Oct 29 20:50:14 2018
 
 ###########################################################]
 @END
-
-At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
-
-Process took 0h:00m:03s realtime, 0h:00m:01s cputime
-
-Process completed successfully.
-# Thu Oct 25 01:32:04 2018
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 29 20:50:14 2018
 
 ###########################################################]

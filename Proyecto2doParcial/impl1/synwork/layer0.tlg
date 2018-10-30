@@ -1,27 +1,10 @@
-@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":6:7:6:9|Synthesizing work.alu.comp.
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":7:7:7:9|Synthesizing work.alu.behavioral.
 @W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
 @N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
 Post processing for work.osch.syn_black_box
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":59:9:59:15|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":66:30:66:34|Referenced variable disp4 is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":65:30:65:34|Referenced variable disp3 is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":64:30:64:34|Referenced variable disp2 is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":63:30:63:34|Referenced variable disp1 is not in sensitivity list.
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":80:12:80:18|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":84:14:84:21|Referenced variable cociente is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":89:13:89:13|Referenced variable a is not in sensitivity list.
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":96:14:96:20|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":103:20:103:28|Referenced variable sum_resta is not in sensitivity list.
-@W: CD638 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Signal disp4 is undriven. Either assign the signal a value or remove the signal declaration.
-Post processing for work.alu.comp
-@W: CL252 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Bit 0 of signal disp4 is floating -- simulation mismatch possible.
-@W: CL252 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Bit 1 of signal disp4 is floating -- simulation mismatch possible.
-@W: CL252 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Bit 2 of signal disp4 is floating -- simulation mismatch possible.
-@W: CL252 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Bit 3 of signal disp4 is floating -- simulation mismatch possible.
-@W: CL252 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Bit 4 of signal disp4 is floating -- simulation mismatch possible.
-@W: CL252 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Bit 5 of signal disp4 is floating -- simulation mismatch possible.
-@W: CL252 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":22:25:22:29|Bit 6 of signal disp4 is floating -- simulation mismatch possible.
-@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":23:41:23:50|Pruning unused register clk_low_3. Make sure that there are no unused intermediate registers.
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":82:2:82:3|Latch generated from process for signal cociente(7 downto 0); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":18:47:18:56|Latch generated from process for signal residuo(7 downto 0); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":18:47:18:56|Latch generated from process for signal division(7 downto 0); possible missing assignment in an if or case statement.
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":65:10:65:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":72:30:72:34|Referenced variable disp4 is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":71:30:71:34|Referenced variable disp3 is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":70:30:70:34|Referenced variable disp2 is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":69:30:69:34|Referenced variable disp1 is not in sensitivity list.
+@E: CD297 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":85:15:85:57|Width mismatch, location has width 9, value 17
