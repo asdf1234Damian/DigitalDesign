@@ -1,7 +1,7 @@
 C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  ALU  -multisrs  C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\synwork\Proyecto2doParcial_impl1_comp.srs  -osyn  C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\synwork\Proyecto2doParcial_impl1_mult.srs  -log  C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\synlog\Proyecto2doParcial_impl1_multi_srs_gen.srr 
 relcom:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top ALU -multisrs ..\synwork\Proyecto2doParcial_impl1_comp.srs -osyn ..\synwork\Proyecto2doParcial_impl1_mult.srs -log ..\synlog\Proyecto2doParcial_impl1_multi_srs_gen.srr
-rc:0 success:1 runtime:0
-file:..\synwork\Proyecto2doParcial_impl1_comp.srs|io:i|time:1540946323|size:7841|exec:0|csum:73CDDF10BE9AC74EE099DF980D6B02B8
-file:..\synwork\Proyecto2doParcial_impl1_mult.srs|io:o|time:1540946324|size:7636|exec:0|csum:
-file:..\synlog\Proyecto2doParcial_impl1_multi_srs_gen.srr|io:o|time:1540946324|size:543|exec:0|csum:
+rc:0 success:1 runtime:1
+file:..\synwork\Proyecto2doParcial_impl1_comp.srs|io:i|time:1540975811|size:20978|exec:0|csum:85A95AEFCAB7A631F9A3BB683D6C8005
+file:..\synwork\Proyecto2doParcial_impl1_mult.srs|io:o|time:1540975812|size:20819|exec:0|csum:
+file:..\synlog\Proyecto2doParcial_impl1_multi_srs_gen.srr|io:o|time:1540975812|size:543|exec:0|csum:
 file:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501910190|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

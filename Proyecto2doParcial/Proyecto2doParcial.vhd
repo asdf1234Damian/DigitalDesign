@@ -95,24 +95,31 @@ begin
 			disp4<=apag;
 			sum_resta <= (("0"&a(9 downto 2))-("0"&b(7 downto 0)));
 		end if;
-	end if;
+	end if; 
 	end process;
 
-	division_p: process(b,sel)--Cambiar  a integer
-	variable coc, res:integer in range 0 to 255;
+	division_p: process(b,sel)
+		variable coc, res, div : unsigned(7 downto 0 ); -- unsigned para que tengan valor numerico
 	begin
-	if b(7 downto 0) /= "000000000" then 
+	if b(7 downto 0) /= "000000000" then -- valida division entre cero
+		if b(7 downto 0) ="000000001" then -- si se divide entre uno, se pasa directo
+			cociente <= a(9 downto 2);
+			residuo <= "00000000";
+		else-- si se divide entre dos o mas
 			coc := "00000000";--inicializa en 0
-			res := a(9 downto 2);--inicializa a A
-		for i in 0 to 255 loop
-			if (res <= b(7 downto 0)) then
-				coc := coc+ 1;
-				res := res- b(7 downto 0);
-			end if;
-		end loop;	
-		cociente <= coc;
-		residuo <= res;
-	end if;
+			res := unsigned(a(9 downto 2));-- se inicializa el  res a A
+			div := unsigned(b(7 downto 0));-- se inicializa divisor a B
+			for i in 0 to 128 loop -- peor caso 255/2 (optimizado del paso pasado)
+				if (res >= div) then-- mientras el residuo sea mayor o igual al divisor 
+					coc := coc+ 1;
+					res := res - div;-- se hace la resta
+				end if;
+			end loop;	
+			cociente <= std_logic_vector(coc);-- se convierten en stdlogic
+			residuo <= std_logic_vector(res);-- sin importar que division era. 
+		end if;
+			
+	end if;  
 	end process;
 		
 		  
@@ -157,7 +164,7 @@ begin
 	if(sel(3 downto 2) = "00") or (sel(3 downto 2) = "01")then
 		disp3<=apag;
 	elsif (((sel="1100") or (sel="1101")) and (b(7 downto 0)=0)) then
-			disp3<=dash;
+		disp3<=dash;
 	else
 		case num_bcd(3 downto 0) is 
 			when "0000" => disp3 <= dig0;
@@ -178,9 +185,9 @@ begin
 	decoDiez:process(num_bcd)
 	begin 
 	if(sel(3 downto 2) = "00") or (sel(3 downto 2) = "01")then
-	disp2<=apag;
+		disp2<=apag;
 	elsif (((sel="1100") or (sel="1101")) and (b(7 downto 0)=0)) then
-			disp2<=dash;
+		disp2<=dash;
 	else
 		case num_bcd(7 downto 4) is 
 			when "0000" => disp2 <= dig0;
@@ -203,7 +210,7 @@ begin
 	if(sel(3 downto 2) = "00") or (sel(3 downto 2) = "01")then
 		disp1<=apag;
 	elsif (((sel="1100") or (sel="1101")) and (b(7 downto 0)=0)) then
-			disp1<=dash;
+		disp1<=dash;
 	else
 		case num_bcd(11 downto 8) is 
 			when "0000" => disp1 <= dig0;

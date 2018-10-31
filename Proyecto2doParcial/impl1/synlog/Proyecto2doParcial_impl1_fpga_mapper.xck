@@ -1,3 +1,3 @@
 CKID0001:@|S:OSCInst0@|E:m[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
-CKID0002:@|S:sumres\.un3_sel@|E:disp4[0]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
-CKID0003:@|S:decoUno\.op_eq\.un35_sel@|E:residuo_0io[0]@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
+CKID0002:@|S:decoUno\.op_eq\.un35_sel@|E:cociente[0]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:sumres\.un3_sel@|E:disp4[0]@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
