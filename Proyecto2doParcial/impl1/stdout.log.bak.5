@@ -3,7 +3,7 @@ Running in Lattice mode
 Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
 Install:     C:\lscc\diamond\3.10_x64\synpbase
 Hostname:    DESKTOP-4BVJD33
-Date:        Mon Oct 29 20:36:06 2018
+Date:        Tue Oct 30 17:01:51 2018
 Version:     M-2017.03L-SP1-1
 
 Arguments:   -product synplify_pro -batch Proyecto2doParcial_impl1_synplify.tcl
@@ -18,10 +18,10 @@ Running: hdl_info_gen in foreground
 Generating HDL info...
 
 hdl_info_gen completed
-# Mon Oct 29 20:36:07 2018
+# Tue Oct 30 17:01:52 2018
 
 Return Code: 0
-Run Time:00h:00m:00s
+Run Time:00h:00m:01s
 Copied C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\Proyecto2doParcial_impl1.srr to C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\Proyecto2doParcial_impl1.srf
 log file: "C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\Proyecto2doParcial_impl1.srr"
 Running: impl1 in foreground
@@ -29,32 +29,62 @@ Running: impl1 in foreground
 Running proj_1|impl1
 
 Running: compile (Compile) on proj_1|impl1
-# Mon Oct 29 20:36:07 2018
+# Tue Oct 30 17:01:52 2018
 
 Running: compile_flow (Compile Process) on proj_1|impl1
-# Mon Oct 29 20:36:07 2018
+# Tue Oct 30 17:01:52 2018
 
 Running: compiler (Compile Input) on proj_1|impl1
-# Mon Oct 29 20:36:07 2018
-compiler exited with errors
-Job failed on: proj_1|impl1
+# Tue Oct 30 17:01:52 2018
+Copied C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\synwork\Proyecto2doParcial_impl1_comp.srs to C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\Proyecto2doParcial_impl1.srs
 
-Job: "compiler" terminated with error status: 2
-See log file: "C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\synlog\Proyecto2doParcial_impl1_compiler.srr"
-# Mon Oct 29 20:36:08 2018
+compiler completed
+# Tue Oct 30 17:01:55 2018
 
-Return Code: 2
+Return Code: 0
+Run Time:00h:00m:03s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|impl1
+# Tue Oct 30 17:01:55 2018
+
+multi_srs_gen completed
+# Tue Oct 30 17:01:56 2018
+
+Return Code: 0
 Run Time:00h:00m:01s
-Complete: Compile Process on proj_1|impl1
-Complete: Compile on proj_1|impl1
-Complete: Logic Synthesis on proj_1|impl1
+Copied C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\synwork\Proyecto2doParcial_impl1_mult.srs to C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\Proyecto2doParcial_impl1.srs
 Copied C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\Proyecto2doParcial_impl1.srr to C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\Proyecto2doParcial_impl1.srf
-Error: At line 63 while processing "Proyecto2doParcial_impl1_synplify.tcl"
-2
+Complete: Compile Process on proj_1|impl1
+
+Running: premap (Pre-mapping) on proj_1|impl1
+# Tue Oct 30 17:01:56 2018
+
+premap completed with warnings
+# Tue Oct 30 17:01:57 2018
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on proj_1|impl1
+
+Running: map (Map) on proj_1|impl1
+# Tue Oct 30 17:01:57 2018
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|impl1
+# Tue Oct 30 17:01:57 2018
+Copied C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\synwork\Proyecto2doParcial_impl1_m.srm to C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\Proyecto2doParcial_impl1.srm
+
+fpga_mapper completed with warnings
+# Tue Oct 30 17:02:02 2018
+
+Return Code: 1
+Run Time:00h:00m:05s
+Complete: Map on proj_1|impl1
+Copied C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\Proyecto2doParcial_impl1.srr to C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\Proyecto2doParcial_impl1.srf
+Complete: Logic Synthesis on proj_1|impl1
 TCL script complete: "Proyecto2doParcial_impl1_synplify.tcl"
-TCL script had errors: "Proyecto2doParcial_impl1_synplify.tcl"
-exit status=9
-exit status=9
+exit status=0
+exit status=0
 Save changes for project:
 C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\proj_1.prj
 batch mode default:no

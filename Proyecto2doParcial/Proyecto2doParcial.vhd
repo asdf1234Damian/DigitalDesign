@@ -18,9 +18,8 @@ end entity;
 
 architecture Behavioral of ALU is
 signal sum_resta: std_logic_vector(8 downto 0) := "000000000";
-signal cociente: std_logic_vector(7 downto 0) := "00000000";
-signal division: std_logic_vector(7 downto 0) := "00000000";
 signal residuo: std_logic_vector(7 downto 0) := "00000000";
+signal cociente: std_logic_vector(7 downto 0) := "00000000";
 signal num_bcd: std_logic_vector(11 downto 0);
 signal disp1, disp2, disp3, disp4: std_logic_vector(6 downto 0);
 signal m: std_logic_vector(7 downto 0) := "00000001";
@@ -35,6 +34,7 @@ Constant Dig7: std_logic_vector(6 downto 0) := "1110000";
 Constant Dig8: std_logic_vector(6 downto 0) := "1111111";
 Constant Dig9: std_logic_vector(6 downto 0) := "1111011";
 Constant Apag: std_logic_vector(6 downto 0) := "0000000";
+Constant dash: std_logic_vector(6 downto 0) := "0000001";
 signal clk_low: std_logic:= '0';
 
 COMPONENT  OSCH
@@ -49,13 +49,13 @@ begin
 	OSCInst0 : OSCH GENERIC  MAP("2.08") PORT MAP('0', clk_0);
 ------------------------------------------------------------------------------
 	lowClk: process(clk_0)  
-		VARIABLE count: INTEGER RANGE 0 to 1000000;
+		VARIABLE count: INTEGER RANGE 0 to 2000000;
 	begin
 		if (clk_0'event and clk_0='1' ) then
 			m <= m(6 downto 0) & m(7); 	
-			if(count < 1000000) then  				
+			if(count < 2000000) then  				
 				count := count + 1; 
-			else
+			else 
 				count :=0; 
 				clk_low <= not clk_low;
 			end if;
@@ -81,33 +81,42 @@ begin
 			(a or b) when sel = "0011" else
 			(a(8 downto 0) & "0") when sel = "0100" else --LSL
 			("0" & a(9 downto 1)) when sel = "0101" else "0000000000";--LSR
-	
-	sum_resta <= "0" &(a(9 downto 2) +  b(7 downto 0)) when sel = "1000" else
-				 "0" &(a(9 downto 2) -  b(7 downto 0)) when sel = "1001" else
-				 "000000000"; 
+			
+	sumres: process(sel)
+	begin 
+	if sel = "1000" then -- suma
+		sum_resta <= (("0"&a(9 downto 2))+("0"&b(7 downto 0)));
+		disp4<=apag;
+	elsif sel = "1001" then
+		if (a(9 downto 2)<b(7 downto 0))then 
+			sum_resta <= not(("0"&a(9 downto 2))-("0"&b(7 downto 0)))+1;
+			disp4<=dash;
+		else 
+			disp4<=apag;
+			sum_resta <= (("0"&a(9 downto 2))-("0"&b(7 downto 0)));
+		end if;
+	end if;
+	end process;
 
-	division_p: process(residuo, b, sel, clk_0)
-		begin
-			if rising_edge(clk_0) then
-				if sel = "1010" then
-					if (residuo - b(7 downto 0) >= 0) then --divide por restas sucesivas 
-						cociente <= cociente+1;
-						residuo <= residuo - b(7 downto 0);
-					end if;
-				end if;
+	division_p: process(b,sel)--Cambiar  a integer
+	variable coc, res:integer in range 0 to 255;
+	begin
+	if b(7 downto 0) /= "000000000" then 
+			coc := "00000000";--inicializa en 0
+			res := a(9 downto 2);--inicializa a A
+		for i in 0 to 255 loop
+			if (res <= b(7 downto 0)) then
+				coc := coc+ 1;
+				res := res- b(7 downto 0);
 			end if;
-			if sel = "1011" then --carga una nueva division
-				cociente <= "00000000";
-				residuo <= a(9 downto 2);
-			elsif sel = "1100" then --muestra el resultado de la division
-				division <= cociente;
-			elsif sel = "1101" then --muestra el residuo de la division
-				division <= residuo;
-			end if;
-		end process;
+		end loop;	
+		cociente <= coc;
+		residuo <= res;
+	end if;
+	end process;
 		
-		 
-	proceso_bcd: process(sum_resta,division, sel) 
+		  
+	proceso_bcd: process(sel) 
 		-- Inicialización de datos en cero.           
         variable z: std_logic_vector(8 downto 0) :=(others => '0');
 		variable bcd: unsigned(11 downto 0):=(others => '0');
@@ -116,159 +125,16 @@ begin
 		bcd:=(others =>'0');
 		if ((sel = "1000") or (sel = "1001")) then
 			z := sum_resta;
-		elsif (sel = "1100" )then 
-			z := "0"&division;	
-		elsif(sel = "1101") then 
+		elsif (sel = "1100" )then  
 			z := "0"&cociente;	
+		elsif(sel = "1101") then 
+			z := "0"&residuo;	 
 		end if;
-			for i in 0 to 8
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-loop
+			for i in 0 to 8 loop
 				 --Unidades (4 bits).
-				 if bcd(3 downto 0) > 4 then 
+				if bcd(3 downto 0) > 4 then 
 					bcd(3 downto 0) := bcd(3 downto 0) + 3;
-				end if;
+				end if; 
 			  
 				if bcd(7 downto 4) > 4 then  
 					bcd(7 downto 4) := bcd(7 downto 4) + 3;
@@ -288,8 +154,10 @@ loop
 
 	decoUno: process(num_bcd)
 	begin 
-	if(sel(3 downto 2) = "00")then
+	if(sel(3 downto 2) = "00") or (sel(3 downto 2) = "01")then
 		disp3<=apag;
+	elsif (((sel="1100") or (sel="1101")) and (b(7 downto 0)=0)) then
+			disp3<=dash;
 	else
 		case num_bcd(3 downto 0) is 
 			when "0000" => disp3 <= dig0;
@@ -301,15 +169,18 @@ loop
 			when "0110" => disp3 <= dig6;
 			when "0111" => disp3 <= dig7;
 			when "1000" => disp3 <= dig8;
-			when others => disp3 <= dig9;
+			when "1001" => disp3 <= dig9;
+			when others => disp3 <= dash;
 		end case;
 	end if;
 	end process; 
 
 	decoDiez:process(num_bcd)
 	begin 
-	if(sel(3 downto 2) = "00")then
+	if(sel(3 downto 2) = "00") or (sel(3 downto 2) = "01")then
 	disp2<=apag;
+	elsif (((sel="1100") or (sel="1101")) and (b(7 downto 0)=0)) then
+			disp2<=dash;
 	else
 		case num_bcd(7 downto 4) is 
 			when "0000" => disp2 <= dig0;
@@ -321,16 +192,19 @@ loop
 			when "0110" => disp2 <= dig6;
 			when "0111" => disp2 <= dig7;
 			when "1000" => disp2 <= dig8;
-			when others => disp2 <= dig9;
+			when "1001" => disp2 <= dig9;
+			when others => disp2 <= dash;
 		end case;
 	 end if;
 	end process;
 
 	decoCien:process(num_bcd)
 	begin
-	if(sel(3 downto 2) = "00")then
+	if(sel(3 downto 2) = "00") or (sel(3 downto 2) = "01")then
 		disp1<=apag;
-	else 
+	elsif (((sel="1100") or (sel="1101")) and (b(7 downto 0)=0)) then
+			disp1<=dash;
+	else
 		case num_bcd(11 downto 8) is 
 			when "0000" => disp1 <= dig0;
 			when "0001" => disp1 <= dig1;
@@ -341,7 +215,8 @@ loop
 			when "0110" => disp1 <= dig6;
 			when "0111" => disp1 <= dig7;
 			when "1000" => disp1 <= dig8;
-			when others => disp1 <= dig9;
+			when "1001" => disp1 <= dig9;
+			when others => disp1 <= dash;
 		end case;
 		end if;
 	end process; 

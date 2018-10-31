@@ -24,21 +24,21 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
-Mapped on:  10/29/18  23:12:30
+Mapped on:  10/30/18  18:38:51
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
-   Number of registers:     48 out of  7209 (1%)
-      PFU registers:           48 out of  6864 (1%)
-      PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:       107 out of  3432 (3%)
-      SLICEs as Logic/ROM:    107 out of  3432 (3%)
+   Number of registers:     26 out of  7209 (0%)
+      PFU registers:           18 out of  6864 (0%)
+      PIO registers:            8 out of   345 (2%)
+   Number of SLICEs:       100 out of  3432 (3%)
+      SLICEs as Logic/ROM:    100 out of  3432 (3%)
       SLICEs as RAM:            0 out of  2574 (0%)
-      SLICEs as Carry:         21 out of  3432 (1%)
-   Number of LUT4s:        208 out of  6864 (3%)
-      Number used as logic LUTs:        166
+      SLICEs as Carry:         26 out of  3432 (1%)
+   Number of LUT4s:        200 out of  6864 (3%)
+      Number used as logic LUTs:        148
       Number used as distributed RAM:     0
-      Number used as ripple logic:       42
+      Number used as ripple logic:       52
       Number used as shift registers:     0
    Number of PIO sites used: 46 + 4(JTAG) out of 115 (43%)
    Number of block RAMs:  0 out of 26 (0%)
@@ -65,57 +65,27 @@ Mapped on:  10/29/18  23:12:30
      distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
-   Number of clocks:  10
-     Net clk_0_c: 25 loads, 25 rising, 0 falling (Driver: OSCInst0 )
+   Number of clocks:  3
+     Net clk_0_c: 4 loads, 4 rising, 0 falling (Driver: OSCInst0 )
 
-     Net un2_sel_19_0_a7: 1 loads, 1 rising, 0 falling (Driver: un2_sel_19_0_a7
-     )
-     Net un2_sel_15_0_a7: 1 loads, 1 rising, 0 falling (Driver: un2_sel_15_0_a7
-     )
-     Net division_p.un19_sel: 4 loads, 4 rising, 0 falling (Driver:
-     division_p.un18_sel )
-     Net un2_sel_5_0_a7: 1 loads, 1 rising, 0 falling (Driver: un2_sel_5_0_a7 )
-     Net un2_sel_17_0_a7: 1 loads, 1 rising, 0 falling (Driver: un2_sel_17_0_a7
-     )
-     Net un2_sel_12_0_a7: 1 loads, 1 rising, 0 falling (Driver: un2_sel_12_0_a7
-     )
-     Net un2_sel_7_0_a7: 1 loads, 1 rising, 0 falling (Driver: un2_sel_7_0_a7 )
-     Net un2_sel_13_0_a7: 1 loads, 1 rising, 0 falling (Driver: un2_sel_13_0_a7
-     )
-     Net un2_sel_16_0_a7: 1 loads, 1 rising, 0 falling (Driver: un2_sel_16_0_a7
-     )
-   Number of Clock Enables:  1
-     Net sel_c[2]: 5 loads, 5 LSLICEs
-   Number of local set/reset loads for net un2_sel_6_3 merged into GSR:  8
-   Number of LSRs:  16
-     Net un2_sel_11: 2 loads, 2 LSLICEs
-     Net un2_sel_19_0_a7: 1 loads, 1 LSLICEs
-     Net un2_sel_15_0_a7: 1 loads, 1 LSLICEs
-     Net un2_sel_8: 2 loads, 2 LSLICEs
-     Net un2_sel_5_0_a7: 1 loads, 1 LSLICEs
-     Net un2_sel_10: 2 loads, 2 LSLICEs
-     Net un2_sel_17_0_a7: 1 loads, 1 LSLICEs
-     Net un2_sel_9: 2 loads, 2 LSLICEs
-     Net un2_sel_12_0_a7: 1 loads, 1 LSLICEs
-     Net un2_sel_20: 2 loads, 2 LSLICEs
-     Net un2_sel_7_0_a7: 1 loads, 1 LSLICEs
-     Net un2_sel_14: 2 loads, 2 LSLICEs
-     Net un2_sel_13_0_a7: 1 loads, 1 LSLICEs
-     Net un2_sel_6: 2 loads, 2 LSLICEs
-     Net un2_sel_16_0_a7: 1 loads, 1 LSLICEs
-     Net un2_sel_18: 2 loads, 2 LSLICEs
+     Net sumres.un3_sel: 6 loads, 6 rising, 0 falling (Driver: sumres.un3_sel )
+     Net decoUno.op_eq.un35_sel: 8 loads, 0 rising, 8 falling (Driver:
+     decoUno.op_eq.un35_sel )
+   Number of Clock Enables:  0
+   Number of local set/reset loads for net sumres.un1_sel merged into GSR:  1
+   Number of LSRs:  0
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net sel_c[0]: 33 loads
-     Net sel_c[1]: 26 loads
-     Net sel_c[3]: 21 loads
-     Net sel_c[2]: 20 loads
-     Net un2_sel_6_3: 17 loads
-     Net z_4_RNINUI31[5]: 11 loads
+     Net sel_c[0]: 31 loads
+     Net sel_c[1]: 20 loads
+     Net N_91: 15 loads
+     Net N_29: 14 loads
+     Net a_c[2]: 10 loads
+     Net mux_c[0]: 10 loads
+     Net sel_c[3]: 10 loads
      Net slog_sn_N_8: 10 loads
-     Net bcd_15_RNINNBC2_0[1]: 8 loads
-     Net division_p.un1_sel: 8 loads
-     Net z_4_sn_N_3: 8 loads
+     Net bcd_1[5]: 9 loads
+     Net proceso_bcd.z_4[0]: 9 loads
 
 
 
@@ -127,10 +97,10 @@ Mapped on:  10/29/18  23:12:30
 
 
 
-
 <A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
 
-WARNING - map: Using local reset signal 'un2_sel_6_3' to infer global GSR net.
+WARNING - map: Using local reset signal 'sumres.un1_sel' to infer global GSR
+     net.
 
 
 
@@ -157,6 +127,7 @@ WARNING - map: Using local reset signal 'un2_sel_6_3' to infer global GSR net.
 | slog[4]             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | slog[3]             | OUTPUT    | LVCMOS25  |            |
+
 +---------------------+-----------+-----------+------------+
 | slog[2]             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
@@ -186,7 +157,6 @@ WARNING - map: Using local reset signal 'un2_sel_6_3' to infer global GSR net.
 +---------------------+-----------+-----------+------------+
 | sel[0]              | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-
 | b[9]                | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | b[8]                | INPUT     | LVCMOS25  |            |
@@ -207,21 +177,22 @@ WARNING - map: Using local reset signal 'un2_sel_6_3' to infer global GSR net.
 +---------------------+-----------+-----------+------------+
 | b[0]                | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| a[9]                | INPUT     | LVCMOS25  |            |
+| a[9]                | INPUT     | LVCMOS25  | IN         |
 +---------------------+-----------+-----------+------------+
-| a[8]                | INPUT     | LVCMOS25  |            |
+| a[8]                | INPUT     | LVCMOS25  | IN         |
 +---------------------+-----------+-----------+------------+
-| a[7]                | INPUT     | LVCMOS25  |            |
+| a[7]                | INPUT     | LVCMOS25  | IN         |
 +---------------------+-----------+-----------+------------+
-| a[6]                | INPUT     | LVCMOS25  |            |
+| a[6]                | INPUT     | LVCMOS25  | IN         |
+
 +---------------------+-----------+-----------+------------+
-| a[5]                | INPUT     | LVCMOS25  |            |
+| a[5]                | INPUT     | LVCMOS25  | IN         |
 +---------------------+-----------+-----------+------------+
-| a[4]                | INPUT     | LVCMOS25  |            |
+| a[4]                | INPUT     | LVCMOS25  | IN         |
 +---------------------+-----------+-----------+------------+
-| a[3]                | INPUT     | LVCMOS25  |            |
+| a[3]                | INPUT     | LVCMOS25  | IN         |
 +---------------------+-----------+-----------+------------+
-| a[2]                | INPUT     | LVCMOS25  |            |
+| a[2]                | INPUT     | LVCMOS25  | IN         |
 +---------------------+-----------+-----------+------------+
 | a[1]                | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
@@ -238,32 +209,42 @@ WARNING - map: Using local reset signal 'un2_sel_6_3' to infer global GSR net.
 
 <A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
 
-Signal sel_c_i[2] was merged into signal sel_c[2]
+Signal residuo_0_.GN was merged into signal decoUno.op_eq.un35_sel
 Signal GND undriven or does not drive anything - clipped.
-Signal cociente_s_0_S1[7] undriven or does not drive anything - clipped.
-Signal cociente_s_0_COUT[7] undriven or does not drive anything - clipped.
-Signal un1_a_8_cry_0_0_S0 undriven or does not drive anything - clipped.
-Signal N_2 undriven or does not drive anything - clipped.
-
-Signal un1_a_8_s_7_0_S1 undriven or does not drive anything - clipped.
-Signal un1_a_8_s_7_0_COUT undriven or does not drive anything - clipped.
-Signal division_p.residuo_2_cry_0_0_S1 undriven or does not drive anything -
-     clipped.
-Signal division_p.residuo_2_cry_0_0_S0 undriven or does not drive anything -
-     clipped.
-Signal N_3 undriven or does not drive anything - clipped.
-Signal division_p.residuo_2_s_7_0_S1 undriven or does not drive anything -
-     clipped.
-Signal division_p.residuo_2_s_7_0_COUT undriven or does not drive anything -
-     clipped.
+Signal sum_resta_3_s_7_0_S1 undriven or does not drive anything - clipped.
+Signal sum_resta_3_s_7_0_COUT undriven or does not drive anything - clipped.
 Signal un1_slog_3_cry_0_0_S0 undriven or does not drive anything - clipped.
-Signal N_4 undriven or does not drive anything - clipped.
+Signal N_2 undriven or does not drive anything - clipped.
 Signal un1_slog_3_s_9_0_S1 undriven or does not drive anything - clipped.
 Signal un1_slog_3_s_9_0_COUT undriven or does not drive anything - clipped.
-Signal cociente_cry_0_S0[0] undriven or does not drive anything - clipped.
+Signal un6_sum_resta_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un6_sum_resta_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_3 undriven or does not drive anything - clipped.
+Signal un6_sum_resta_cry_7_0_COUT undriven or does not drive anything - clipped.
+     
+Signal un19_sum_resta_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un19_sum_resta_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_4 undriven or does not drive anything - clipped.
+Signal un19_sum_resta_cry_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal sumres.un9_sel_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal sumres.un9_sel_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_5 undriven or does not drive anything - clipped.
+Signal sumres.un9_sel_cry_1_0_S1 undriven or does not drive anything - clipped.
+Signal sumres.un9_sel_cry_1_0_S0 undriven or does not drive anything - clipped.
+Signal sumres.un9_sel_cry_3_0_S1 undriven or does not drive anything - clipped.
+Signal sumres.un9_sel_cry_3_0_S0 undriven or does not drive anything - clipped.
+Signal sumres.un9_sel_cry_5_0_S1 undriven or does not drive anything - clipped.
+Signal sumres.un9_sel_cry_5_0_S0 undriven or does not drive anything - clipped.
+Signal sumres.un9_sel_cry_7_0_S0 undriven or does not drive anything - clipped.
+Signal sumres.un9_sel_cry_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal sum_resta_3_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal sum_resta_3_cry_0_0_S0 undriven or does not drive anything - clipped.
 Signal N_1 undriven or does not drive anything - clipped.
+
 Signal OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
-Block sel_pad_RNI274F[2] was optimized away.
+Block residuo_6_.GN was optimized away.
 Block GND was optimized away.
 
 
@@ -297,16 +278,15 @@ Instance Name: OSCInst0
 ---------
 
 GSR Component:
-   The local reset signal 'un2_sel_6_3' of the design has been inferred as
+   The local reset signal 'sumres.un1_sel' of the design has been inferred as
         Global Set Reset (GSR). The reset signal used for GSR control is
-        'un2_sel_6_3'.
+        'sumres.un1_sel'.
         
 
      GSR Property:
    The design components with GSR property set to ENABLED will respond to global
         set reset while the components with GSR property set to DISABLED will
         not.
-
         
 
 
@@ -318,45 +298,6 @@ GSR Component:
    Total REAL Time: 0 secs  
    Peak Memory Usage: 59 MB
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

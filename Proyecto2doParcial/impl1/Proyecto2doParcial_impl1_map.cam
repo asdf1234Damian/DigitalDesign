@@ -1,24 +1,35 @@
 [ START MERGED ]
-sel_c_i[2] sel_c[2]
+residuo_0_.GN decoUno.op_eq.un35_sel
 [ END MERGED ]
 [ START CLIPPED ]
 GND
-cociente_s_0_S1[7]
-cociente_s_0_COUT[7]
-un1_a_8_cry_0_0_S0
-N_2
-un1_a_8_s_7_0_S1
-un1_a_8_s_7_0_COUT
-division_p.residuo_2_cry_0_0_S1
-division_p.residuo_2_cry_0_0_S0
-N_3
-division_p.residuo_2_s_7_0_S1
-division_p.residuo_2_s_7_0_COUT
+sum_resta_3_s_7_0_S1
+sum_resta_3_s_7_0_COUT
 un1_slog_3_cry_0_0_S0
-N_4
+N_2
 un1_slog_3_s_9_0_S1
 un1_slog_3_s_9_0_COUT
-cociente_cry_0_S0[0]
+un6_sum_resta_cry_0_0_S1
+un6_sum_resta_cry_0_0_S0
+N_3
+un6_sum_resta_cry_7_0_COUT
+un19_sum_resta_cry_0_0_S1
+un19_sum_resta_cry_0_0_S0
+N_4
+un19_sum_resta_cry_7_0_COUT
+sumres.un9_sel_cry_0_0_S1
+sumres.un9_sel_cry_0_0_S0
+N_5
+sumres.un9_sel_cry_1_0_S1
+sumres.un9_sel_cry_1_0_S0
+sumres.un9_sel_cry_3_0_S1
+sumres.un9_sel_cry_3_0_S0
+sumres.un9_sel_cry_5_0_S1
+sumres.un9_sel_cry_5_0_S0
+sumres.un9_sel_cry_7_0_S0
+sumres.un9_sel_cry_7_0_COUT
+sum_resta_3_cry_0_0_S1
+sum_resta_3_cry_0_0_S0
 N_1
 OSCInst0_SEDSTDBY
 [ END CLIPPED ]
@@ -27,7 +38,7 @@ clk_0_c 2.08
 [ END OSC ]
 [ START DESIGN PREFS ]
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.10.0.111.2 -- WARNING: Map write only section -- Mon Oct 29 23:12:30 2018
+# map:  version Diamond (64-bit) 3.10.0.111.2 -- WARNING: Map write only section -- Tue Oct 30 18:38:51 2018
 
 SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
 LOCATE COMP "clk_0" SITE "61" ;

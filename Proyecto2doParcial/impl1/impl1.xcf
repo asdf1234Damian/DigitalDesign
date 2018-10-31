@@ -20,8 +20,8 @@
 				<BScanVal>0</BScanVal>
 			</Bypass>
 			<File>C:/Users/asdf1/Documents/DigitalDesign/Proyecto2doParcial/impl1/Proyecto2doParcial_impl1.jed</File>
-			<FileTime>10/29/18 23:12:40</FileTime>
-			<JedecChecksum>0x5A98</JedecChecksum>
+			<FileTime>10/30/18 18:39:02</FileTime>
+			<JedecChecksum>0x3DC5</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
@@ -47,6 +47,7 @@
 	<CableOptions>
 		<CableName>USB2</CableName>
 		<PortAdd>FTUSB-1</PortAdd>
+		<USBID>Lattice FTUSB Interface Cable A Location 0001 Serial A</USBID>
 		<JTAGPinSetting>
 			TRST	ABSENT;
 			ISPEN	ABSENT;

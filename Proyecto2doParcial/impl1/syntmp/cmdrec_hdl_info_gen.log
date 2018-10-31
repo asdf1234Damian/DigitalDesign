@@ -3,6 +3,6 @@ relcom:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe -osy
 rc:0 success:1 runtime:0
 file:..\synwork\Proyecto2doParcial_impl1_hdl_.srs|io:o|time:0|size:0|exec:0|csum:
 file:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493327504|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
-file:..\..\Proyecto2doParcial.vhd|io:i|time:1540876338|size:6186|exec:0|csum:9BD12C8EC077BEE60730AF0205E7FD07
-file:..\syntax.log|io:o|time:1540876340|size:1013|exec:0|csum:
+file:..\..\Proyecto2doParcial.vhd|io:i|time:1540946317|size:6670|exec:0|csum:2D54750EDACFABBAFF1FA27D608F6F04
+file:..\syntax.log|io:o|time:1540946321|size:1013|exec:0|csum:
 file:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1501910110|size:5913600|exec:1|csum:93E5DE52AE488E4DC33E43C149B8DA6C
