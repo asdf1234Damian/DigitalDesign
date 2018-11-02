@@ -20,8 +20,8 @@
 				<BScanVal>0</BScanVal>
 			</Bypass>
 			<File>C:/Users/asdf1/Documents/DigitalDesign/Proyecto2doParcial/impl1/Proyecto2doParcial_impl1.jed</File>
-			<FileTime>10/31/18 02:51:07</FileTime>
-			<JedecChecksum>0x4D18</JedecChecksum>
+			<FileTime>11/02/18 04:17:26</FileTime>
+			<JedecChecksum>0xE1D4</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>

@@ -5,17 +5,38 @@
 
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
-0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-3 gated/generated clock tree(s) driving 34 clock pin(s) of sequential element(s)
-0 instances converted, 34 sequential instances remain driven by gated/generated clocks
+1 non-gated/non-generated clock tree(s) driving 2 clock pin(s) of sequential element(s)
+19 gated/generated clock tree(s) driving 104 clock pin(s) of sequential element(s)
+0 instances converted, 104 sequential instances remain driven by gated/generated clocks
 
-===================================================================================================== Gated/Generated Clocks ======================================================================================================
-Clock Tree ID     Driving Element              Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       OSCInst0                     OSCH                   8          m[0]                Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
-@K:CKID0002       decoUno\.op_eq\.un35_sel     ORCALUT4               16         cociente[0]         No clocks found on inputs                                                                                                     
-@K:CKID0003       sumres\.un3_sel              ORCALUT4               10         disp4[0]            No clocks found on inputs                                                                                                     
-===================================================================================================================================================================================================================================
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0020       sel[3:0]            port                   2          slog_1[8]      
+=======================================================================================
+================================================================================================================== Gated/Generated Clocks ==================================================================================================================
+Clock Tree ID     Driving Element                                     Drive Element Type     Fanout     Sample Instance       Explanation                                                                                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       OSCInst0                                            OSCH                   62         clk_low               Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       decoUno\.op_eq\.un54_sel_0_RNIPT6K                  ORCALUT4               16         cociente[0]           No clocks found on inputs                                                                                                     
+@K:CKID0003       un1_slog_0_sqmuxa_14_u_i_a2_RNI622G1                ORCALUT4               1          slog_1_2_.res_lat     Multiple clocks on instance from nets N_47, N_52, sel_c[2]                                                                    
+@K:CKID0004       disp1_6_0_.un1_slog_0_sqmuxa_13_u_i_a2_RNINBE61     ORCALUT4               1          slog_1_3_.res_lat     Multiple clocks on instance from nets N_50, N_54, sel_c[2]                                                                    
+@K:CKID0005       sumres\.un22_sel                                    ORCALUT4               10         disp4[0]              Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0006       un1_slog_0_sqmuxa_15_u_i_0_RNI7AJV                  ORCALUT4               1          slog_1_1_.res_lat     Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0007       sel_pad_RNI8H8U2[1]                                 PFUMX                  1          slog_1_5_.res_lat     Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0008       un1_slog_0_sqmuxa_10_u_i_0_RNI7H7P                  ORCALUT4               1          slog_1_6_.res_lat     Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0009       un1_slog_0_sqmuxa_9_u_i_0_RNI21FA1                  ORCALUT4               1          slog_1_7_.res_lat     Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0010       disp1_6_0_.un1_slog_0_sqmuxa_8_u_i_m2               PFUMX                  1          slog_1_0_.res_lat     Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0011       un1_slog_0_sqmuxa_12_u                              PFUMX                  1          slog_1_4_.res_lat     Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0012       un1_sel_25_0_a2                                     ORCALUT4               1          shift_5_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0013       un1_sel_24_0_a2                                     ORCALUT4               1          shift_6_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0014       un1_sel_23_0_a2                                     ORCALUT4               1          shift_7_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0015       un1_sel_22_0_a2                                     ORCALUT4               1          shift_4_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0016       un1_sel_19_0_a2                                     ORCALUT4               1          shift_2_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0017       un1_sel_18_0_a2                                     ORCALUT4               1          shift_3_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0018       un1_sel_17_0_a2                                     ORCALUT4               1          shift_0_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0019       un1_sel_16                                          ORCALUT4               1          shift_1_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+============================================================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]

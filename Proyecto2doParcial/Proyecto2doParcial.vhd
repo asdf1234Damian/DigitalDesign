@@ -42,7 +42,7 @@ COMPONENT  OSCH
 		PORT(STDBY: in std_logic; OSC: out std_logic); 
 END COMPONENT;
 
-attribute NOM_FREQ: string ;
+attribute NOM_FREQ: string; 
 attribute NOM_FREQ of OSCinst0 : label is "2.08";
 
 begin
@@ -50,7 +50,7 @@ begin
 ------------------------------------------------------------------------------
 	lowClk: process(clk_0)  
 		VARIABLE count: INTEGER RANGE 0 to 2000000;
-	begin
+	begin 
 		if (clk_0'event and clk_0='1' ) then
 			m <= m(6 downto 0) & m(7); 	
 			if(count < 2000000) then  				
@@ -75,19 +75,40 @@ begin
 	end process;
 
 	--Salidas Logicas sel=00
-	slog <= (not a) when sel = "0000" else
-			(not(a) + 1) when sel = "0001" else
-			(a and b) when sel = "0010" else
-			(a or b) when sel = "0011" else
-			(a(8 downto 0) & "0") when sel = "0100" else --LSL
-			("0" & a(9 downto 1)) when sel = "0101" else "0000000000";--LSR
+	logicOP : process(sel)
+		variable shift: std_logic_vector(7 downto 0);
+	begin
+	if (sel="0110" or sel="0111" ) then 
+		shift:= a(9 downto 2);
+		slog(7 downto 0)<=shift;
+	elsif (sel="0100")then 
+		if(clk_low'event and clk_low='1') then 
+			shift:= shift(6 downto 0)&'0';
+			slog(7 downto 0)<=shift;
+		end if;
+	elsif (sel="0101") then 
+		if(clk_low'event and clk_low='1') then 
+			shift:= '0'&shift(7 downto 1);
+			slog(7 downto 0)<=shift;
+		end if;
+	else
+		case (sel) is 
+			when "0000"=> slog <=(not a);
+			when "0001"=> slog <=(not a)+1;
+			when "0010"=> slog <=(a and b);
+			when "0011"=> slog <=(a or b);
+			when others=> slog <="0000000000";
+	end case;			
+	end if;	
+	end process;
+	
 			
 	sumres: process(sel)
 	begin 
 	if sel = "1000" then -- suma
 		sum_resta <= (("0"&a(9 downto 2))+("0"&b(7 downto 0)));
-		disp4<=apag;
-	elsif sel = "1001" then
+		disp4<=apag; 
+	elsif sel = "1001" then 
 		if (a(9 downto 2)<b(7 downto 0))then 
 			sum_resta <= not(("0"&a(9 downto 2))-("0"&b(7 downto 0)))+1;
 			disp4<=dash;

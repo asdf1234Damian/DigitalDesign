@@ -12,13 +12,31 @@
             <ID>66011008</ID>
             <Severity>Warning</Severity>
             <Dynamic>
-   Signal=clk_0_c loads=5 clock_loads=4</Dynamic>
+   Signal=un1_sel_23_0_a2 loads=2 clock_loads=1
+   Signal=un1_sel_24_0_a2 loads=2 clock_loads=1
+   Signal=un1_sel_16 loads=2 clock_loads=1
+   Signal=un1_sel_19_0_a2 loads=2 clock_loads=1
+   Signal=un1_sel_18_0_a2 loads=2 clock_loads=1
+   Signal=un1_sel_22_0_a2 loads=2 clock_loads=1
+   Signal=un1_sel_25_0_a2 loads=2 clock_l   ....   _550_i loads=2 clock_loads=1
+   Signal=N_551_i loads=2 clock_loads=1
+   Signal=un1_slog_0_sqmuxa_12_u loads=2 clock_loads=1
+   Signal=sel_c[2] loads=58 clock_loads=2</Dynamic>
         </Message>
         <Message>
             <ID>66011008</ID>
             <Severity>Warning</Severity>
             <Dynamic>
-   Signal=clk_0_c loads=5 clock_loads=4</Dynamic>
+   Signal=un1_sel_23_0_a2 loads=2 clock_loads=1
+   Signal=un1_sel_24_0_a2 loads=2 clock_loads=1
+   Signal=un1_sel_16 loads=2 clock_loads=1
+   Signal=un1_sel_19_0_a2 loads=2 clock_loads=1
+   Signal=un1_sel_18_0_a2 loads=2 clock_loads=1
+   Signal=un1_sel_22_0_a2 loads=2 clock_loads=1
+   Signal=un1_sel_25_0_a2 loads=2 clock_l   ....   _550_i loads=2 clock_loads=1
+   Signal=N_551_i loads=2 clock_loads=1
+   Signal=un1_slog_0_sqmuxa_12_u loads=2 clock_loads=1
+   Signal=sel_c[2] loads=58 clock_loads=2</Dynamic>
         </Message>
     </Task>
     <Task name="Translate">
@@ -115,300 +133,372 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:85:9:85:15|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:78:11:78:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
             <Navigation>CG296</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>78</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>78</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:98:31:98:31|Referenced variable b is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>98</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>98</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>Referenced variable b is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:82:10:82:10|Referenced variable a is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Referenced variable a is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:85:5:85:11|Referenced variable clk_low is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
             <Navigation>85</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>85</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Referenced variable clk_low is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:106:9:106:15|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>106</Navigation>
             <Navigation>9</Navigation>
-            <Navigation>85</Navigation>
+            <Navigation>106</Navigation>
             <Navigation>15</Navigation>
             <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:88:42:88:42|Referenced variable b is not in sensitivity list.</Dynamic>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:109:42:109:42|Referenced variable b is not in sensitivity list.</Dynamic>
             <Navigation>CG290</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>88</Navigation>
+            <Navigation>109</Navigation>
             <Navigation>42</Navigation>
-            <Navigation>88</Navigation>
+            <Navigation>109</Navigation>
             <Navigation>42</Navigation>
             <Navigation>Referenced variable b is not in sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:88:21:88:21|Referenced variable a is not in sensitivity list.</Dynamic>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:109:21:109:21|Referenced variable a is not in sensitivity list.</Dynamic>
             <Navigation>CG290</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>88</Navigation>
+            <Navigation>109</Navigation>
             <Navigation>21</Navigation>
-            <Navigation>88</Navigation>
+            <Navigation>109</Navigation>
             <Navigation>21</Navigation>
             <Navigation>Referenced variable a is not in sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CD434 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:101:23:101:25|Signal sel in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.</Dynamic>
+            <Dynamic>CD434 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:122:23:122:25|Signal sel in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.</Dynamic>
             <Navigation>CD434</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>101</Navigation>
+            <Navigation>122</Navigation>
             <Navigation>23</Navigation>
-            <Navigation>101</Navigation>
+            <Navigation>122</Navigation>
             <Navigation>25</Navigation>
             <Navigation>Signal sel in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:101:13:101:19|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:122:13:122:19|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
             <Navigation>CG296</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>101</Navigation>
+            <Navigation>122</Navigation>
             <Navigation>13</Navigation>
-            <Navigation>101</Navigation>
+            <Navigation>122</Navigation>
             <Navigation>19</Navigation>
             <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:106:15:106:15|Referenced variable a is not in sensitivity list.</Dynamic>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:127:15:127:15|Referenced variable a is not in sensitivity list.</Dynamic>
             <Navigation>CG290</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>106</Navigation>
+            <Navigation>127</Navigation>
             <Navigation>15</Navigation>
-            <Navigation>106</Navigation>
+            <Navigation>127</Navigation>
             <Navigation>15</Navigation>
             <Navigation>Referenced variable a is not in sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:126:14:126:20|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:147:14:147:20|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
             <Navigation>CG296</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>126</Navigation>
+            <Navigation>147</Navigation>
             <Navigation>14</Navigation>
-            <Navigation>126</Navigation>
+            <Navigation>147</Navigation>
             <Navigation>20</Navigation>
             <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:136:12:136:19|Referenced variable cociente is not in sensitivity list.</Dynamic>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:157:12:157:19|Referenced variable cociente is not in sensitivity list.</Dynamic>
             <Navigation>CG290</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>136</Navigation>
+            <Navigation>157</Navigation>
             <Navigation>12</Navigation>
-            <Navigation>136</Navigation>
+            <Navigation>157</Navigation>
             <Navigation>19</Navigation>
             <Navigation>Referenced variable cociente is not in sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:138:12:138:18|Referenced variable residuo is not in sensitivity list.</Dynamic>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:159:12:159:18|Referenced variable residuo is not in sensitivity list.</Dynamic>
             <Navigation>CG290</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>138</Navigation>
+            <Navigation>159</Navigation>
             <Navigation>12</Navigation>
-            <Navigation>138</Navigation>
+            <Navigation>159</Navigation>
             <Navigation>18</Navigation>
             <Navigation>Referenced variable residuo is not in sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:134:8:134:16|Referenced variable sum_resta is not in sensitivity list.</Dynamic>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:155:8:155:16|Referenced variable sum_resta is not in sensitivity list.</Dynamic>
             <Navigation>CG290</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>134</Navigation>
+            <Navigation>155</Navigation>
             <Navigation>8</Navigation>
-            <Navigation>134</Navigation>
+            <Navigation>155</Navigation>
             <Navigation>16</Navigation>
             <Navigation>Referenced variable sum_resta is not in sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:162:10:162:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:183:10:183:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
             <Navigation>CG296</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>162</Navigation>
+            <Navigation>183</Navigation>
             <Navigation>10</Navigation>
-            <Navigation>162</Navigation>
+            <Navigation>183</Navigation>
             <Navigation>16</Navigation>
             <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:164:4:164:6|Referenced variable sel is not in sensitivity list.</Dynamic>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:185:4:185:6|Referenced variable sel is not in sensitivity list.</Dynamic>
             <Navigation>CG290</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>164</Navigation>
+            <Navigation>185</Navigation>
             <Navigation>4</Navigation>
-            <Navigation>164</Navigation>
+            <Navigation>185</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Referenced variable sel is not in sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:166:44:166:44|Referenced variable b is not in sensitivity list.</Dynamic>
-            <Navigation>CG290</Navigation>
-            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>166</Navigation>
-            <Navigation>44</Navigation>
-            <Navigation>166</Navigation>
-            <Navigation>44</Navigation>
-            <Navigation>Referenced variable b is not in sensitivity list.</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:185:10:185:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
-            <Navigation>CG296</Navigation>
-            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>185</Navigation>
-            <Navigation>10</Navigation>
-            <Navigation>185</Navigation>
-            <Navigation>16</Navigation>
-            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:187:4:187:6|Referenced variable sel is not in sensitivity list.</Dynamic>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:187:44:187:44|Referenced variable b is not in sensitivity list.</Dynamic>
             <Navigation>CG290</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
             <Navigation>187</Navigation>
-            <Navigation>4</Navigation>
-            <Navigation>187</Navigation>
-            <Navigation>6</Navigation>
-            <Navigation>Referenced variable sel is not in sensitivity list.</Navigation>
-        </Message>
-        <Message>
-            <ID>2019991</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:189:44:189:44|Referenced variable b is not in sensitivity list.</Dynamic>
-            <Navigation>CG290</Navigation>
-            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>189</Navigation>
             <Navigation>44</Navigation>
-            <Navigation>189</Navigation>
+            <Navigation>187</Navigation>
             <Navigation>44</Navigation>
             <Navigation>Referenced variable b is not in sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:208:10:208:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:206:10:206:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
             <Navigation>CG296</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>208</Navigation>
+            <Navigation>206</Navigation>
             <Navigation>10</Navigation>
-            <Navigation>208</Navigation>
+            <Navigation>206</Navigation>
             <Navigation>16</Navigation>
             <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:210:4:210:6|Referenced variable sel is not in sensitivity list.</Dynamic>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:208:4:208:6|Referenced variable sel is not in sensitivity list.</Dynamic>
             <Navigation>CG290</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>210</Navigation>
+            <Navigation>208</Navigation>
             <Navigation>4</Navigation>
-            <Navigation>210</Navigation>
+            <Navigation>208</Navigation>
             <Navigation>6</Navigation>
             <Navigation>Referenced variable sel is not in sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:212:44:212:44|Referenced variable b is not in sensitivity list.</Dynamic>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:210:44:210:44|Referenced variable b is not in sensitivity list.</Dynamic>
             <Navigation>CG290</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>212</Navigation>
+            <Navigation>210</Navigation>
             <Navigation>44</Navigation>
-            <Navigation>212</Navigation>
+            <Navigation>210</Navigation>
             <Navigation>44</Navigation>
             <Navigation>Referenced variable b is not in sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:25:43:25:52|Pruning unused register clk_low_3. Make sure that there are no unused intermediate registers.</Dynamic>
-            <Navigation>CL169</Navigation>
+            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:229:10:229:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>25</Navigation>
-            <Navigation>43</Navigation>
-            <Navigation>25</Navigation>
-            <Navigation>52</Navigation>
-            <Navigation>Pruning unused register clk_low_3. Make sure that there are no unused intermediate registers.</Navigation>
+            <Navigation>229</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>229</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL117 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:104:1:104:2|Latch generated from process for signal residuo(7 downto 0); possible missing assignment in an if or case statement.</Dynamic>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:231:4:231:6|Referenced variable sel is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>231</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>231</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Referenced variable sel is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:233:44:233:44|Referenced variable b is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>233</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>233</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>Referenced variable b is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL117 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:125:1:125:2|Latch generated from process for signal residuo(7 downto 0); possible missing assignment in an if or case statement.</Dynamic>
             <Navigation>CL117</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>104</Navigation>
+            <Navigation>125</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>104</Navigation>
+            <Navigation>125</Navigation>
             <Navigation>2</Navigation>
             <Navigation>Latch generated from process for signal residuo(7 downto 0); possible missing assignment in an if or case statement.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL117 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:104:1:104:2|Latch generated from process for signal cociente(7 downto 0); possible missing assignment in an if or case statement.</Dynamic>
+            <Dynamic>CL117 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:125:1:125:2|Latch generated from process for signal cociente(7 downto 0); possible missing assignment in an if or case statement.</Dynamic>
             <Navigation>CL117</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>104</Navigation>
+            <Navigation>125</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>104</Navigation>
+            <Navigation>125</Navigation>
             <Navigation>2</Navigation>
             <Navigation>Latch generated from process for signal cociente(7 downto 0); possible missing assignment in an if or case statement.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL117 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:87:1:87:2|Latch generated from process for signal sum_resta(8 downto 0); possible missing assignment in an if or case statement.</Dynamic>
+            <Dynamic>CL117 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:108:1:108:2|Latch generated from process for signal sum_resta(8 downto 0); possible missing assignment in an if or case statement.</Dynamic>
             <Navigation>CL117</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>87</Navigation>
+            <Navigation>108</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>87</Navigation>
+            <Navigation>108</Navigation>
             <Navigation>2</Navigation>
             <Navigation>Latch generated from process for signal sum_resta(8 downto 0); possible missing assignment in an if or case statement.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL117 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:87:1:87:2|Latch generated from process for signal disp4(6 downto 0); possible missing assignment in an if or case statement.</Dynamic>
+            <Dynamic>CL117 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:81:1:81:2|Latch generated from process for signal slog(9); possible missing assignment in an if or case statement.</Dynamic>
             <Navigation>CL117</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>87</Navigation>
+            <Navigation>81</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>87</Navigation>
+            <Navigation>81</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Latch generated from process for signal slog(9); possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL117 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:81:1:81:2|Latch generated from process for signal slog(8); possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL117</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>81</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>81</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Latch generated from process for signal slog(8); possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:81:1:81:2|Feedback mux created for signal shift[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>81</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>81</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal shift[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL117 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:108:1:108:2|Latch generated from process for signal disp4(6 downto 0); possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL117</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
+            <Navigation>108</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>108</Navigation>
             <Navigation>2</Navigation>
             <Navigation>Latch generated from process for signal disp4(6 downto 0); possible missing assignment in an if or case statement.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:87:1:87:2|Pruning register bits 6 to 2 of disp4(6 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd&quot;:108:1:108:2|Pruning register bits 6 to 2 of disp4(6 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
             <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd</Navigation>
-            <Navigation>87</Navigation>
+            <Navigation>108</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>87</Navigation>
+            <Navigation>108</Navigation>
             <Navigation>2</Navigation>
             <Navigation>Pruning register bits 6 to 2 of disp4(6 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
         </Message>
@@ -422,36 +512,36 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT531 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:104:1:104:2|Found signal identified as System clock which controls 27 sequential elements including cociente[0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance.</Dynamic>
+            <Dynamic>MT531 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:125:1:125:2|Found signal identified as System clock which controls 29 sequential elements including cociente[0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance.</Dynamic>
             <Navigation>MT531</Navigation>
             <Navigation>c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd</Navigation>
-            <Navigation>104</Navigation>
+            <Navigation>125</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>104</Navigation>
+            <Navigation>125</Navigation>
             <Navigation>2</Navigation>
-            <Navigation>Found signal identified as System clock which controls 27 sequential elements including cociente[0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </Navigation>
+            <Navigation>Found signal identified as System clock which controls 29 sequential elements including cociente[0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MT529 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:54:2:54:3|Found inferred clock ALU|clk_0_inferred_clock which controls 8 sequential elements including m[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Dynamic>MT529 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:25:43:25:52|Found inferred clock ALU|clk_0_inferred_clock which controls 30 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
             <Navigation>MT529</Navigation>
             <Navigation>c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd</Navigation>
-            <Navigation>54</Navigation>
-            <Navigation>2</Navigation>
-            <Navigation>54</Navigation>
-            <Navigation>3</Navigation>
-            <Navigation>Found inferred clock ALU|clk_0_inferred_clock which controls 8 sequential elements including m[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>Found inferred clock ALU|clk_0_inferred_clock which controls 30 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>MO129 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:87:1:87:2|Sequential instance disp4[1] is reduced to a combinational gate by constant propagation.</Dynamic>
+            <Dynamic>MO129 :&quot;c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd&quot;:108:1:108:2|Sequential instance disp4[1] is reduced to a combinational gate by constant propagation.</Dynamic>
             <Navigation>MO129</Navigation>
             <Navigation>c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd</Navigation>
-            <Navigation>87</Navigation>
+            <Navigation>108</Navigation>
             <Navigation>1</Navigation>
-            <Navigation>87</Navigation>
+            <Navigation>108</Navigation>
             <Navigation>2</Navigation>
             <Navigation>Sequential instance disp4[1] is reduced to a combinational gate by constant propagation.</Navigation>
         </Message>

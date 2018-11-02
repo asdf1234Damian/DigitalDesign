@@ -17,13 +17,13 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>ALU|clk_0_inferred_clock</data>
 <data>2.1 MHz</data>
-<data>773.2 MHz</data>
-<data>479.476</data>
+<data>144.5 MHz</data>
+<data>473.848</data>
 </row>
 <row>
 <data>System</data>
 <data>1.0 MHz</data>
-<data>NA</data>
-<data>NA</data>
+<data>1.9 MHz</data>
+<data>476.289</data>
 </row>
 </report_table>

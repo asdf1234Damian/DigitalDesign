@@ -10,7 +10,7 @@ Lattice Diamond Version 3.10.0.111.2
 #OS: Windows 8 6.2
 #Hostname: DESKTOP-4BVJD33
 
-# Wed Oct 31 02:50:05 2018
+# Fri Nov  2 04:16:07 2018
 
 #Implementation: impl1
 
@@ -36,61 +36,67 @@ Post processing for work.osch.syn_black_box
 @W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":71:30:71:34|Referenced variable disp3 is not in sensitivity list.
 @W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":70:30:70:34|Referenced variable disp2 is not in sensitivity list.
 @W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":69:30:69:34|Referenced variable disp1 is not in sensitivity list.
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":85:9:85:15|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":88:42:88:42|Referenced variable b is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":88:21:88:21|Referenced variable a is not in sensitivity list.
-@W: CD434 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":101:23:101:25|Signal sel in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":101:13:101:19|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":106:15:106:15|Referenced variable a is not in sensitivity list.
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":126:14:126:20|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":136:12:136:19|Referenced variable cociente is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":138:12:138:18|Referenced variable residuo is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":134:8:134:16|Referenced variable sum_resta is not in sensitivity list.
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":162:10:162:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":164:4:164:6|Referenced variable sel is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":166:44:166:44|Referenced variable b is not in sensitivity list.
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":185:10:185:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":187:4:187:6|Referenced variable sel is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":189:44:189:44|Referenced variable b is not in sensitivity list.
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":208:10:208:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":210:4:210:6|Referenced variable sel is not in sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":212:44:212:44|Referenced variable b is not in sensitivity list.
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":78:11:78:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":98:31:98:31|Referenced variable b is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":82:10:82:10|Referenced variable a is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":85:5:85:11|Referenced variable clk_low is not in sensitivity list.
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":106:9:106:15|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":109:42:109:42|Referenced variable b is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":109:21:109:21|Referenced variable a is not in sensitivity list.
+@W: CD434 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":122:23:122:25|Signal sel in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":122:13:122:19|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":127:15:127:15|Referenced variable a is not in sensitivity list.
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":147:14:147:20|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":157:12:157:19|Referenced variable cociente is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":159:12:159:18|Referenced variable residuo is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":155:8:155:16|Referenced variable sum_resta is not in sensitivity list.
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":183:10:183:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":185:4:185:6|Referenced variable sel is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":187:44:187:44|Referenced variable b is not in sensitivity list.
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":206:10:206:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":208:4:208:6|Referenced variable sel is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":210:44:210:44|Referenced variable b is not in sensitivity list.
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":229:10:229:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":231:4:231:6|Referenced variable sel is not in sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":233:44:233:44|Referenced variable b is not in sensitivity list.
 Post processing for work.alu.behavioral
-@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":25:43:25:52|Pruning unused register clk_low_3. Make sure that there are no unused intermediate registers.
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":104:1:104:2|Latch generated from process for signal residuo(7 downto 0); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":104:1:104:2|Latch generated from process for signal cociente(7 downto 0); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":87:1:87:2|Latch generated from process for signal sum_resta(8 downto 0); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":87:1:87:2|Latch generated from process for signal disp4(6 downto 0); possible missing assignment in an if or case statement.
-@W: CL279 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":87:1:87:2|Pruning register bits 6 to 2 of disp4(6 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":125:1:125:2|Latch generated from process for signal residuo(7 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":125:1:125:2|Latch generated from process for signal cociente(7 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":108:1:108:2|Latch generated from process for signal sum_resta(8 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":81:1:81:2|Latch generated from process for signal slog(9); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":81:1:81:2|Latch generated from process for signal slog(8); possible missing assignment in an if or case statement.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":81:1:81:2|Feedback mux created for signal shift[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":108:1:108:2|Latch generated from process for signal disp4(6 downto 0); possible missing assignment in an if or case statement.
+@W: CL279 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":108:1:108:2|Pruning register bits 6 to 2 of disp4(6 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 108MB peak: 160MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 107MB peak: 167MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:04s cputime
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
 
 Process completed successfully.
-# Wed Oct 31 02:50:11 2018
+# Fri Nov  2 04:16:14 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
 @N|Running in 64-bit mode
 File C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 69MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Oct 31 02:50:11 2018
+# Fri Nov  2 04:16:14 2018
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:04s cputime
+Process took 0h:00m:07s realtime, 0h:00m:06s cputime
 
 Process completed successfully.
-# Wed Oct 31 02:50:11 2018
+# Fri Nov  2 04:16:14 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
@@ -102,12 +108,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Oct 31 02:50:12 2018
+# Fri Nov  2 04:16:16 2018
 
 ###########################################################]
 Pre-mapping Report
 
-# Wed Oct 31 02:50:13 2018
+# Fri Nov  2 04:16:16 2018
 
 Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -121,13 +127,13 @@ Printing clock  summary report in "C:\Users\asdf1\Documents\DigitalDesign\Proyec
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 113MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 114MB)
 
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 116MB)
@@ -138,45 +144,46 @@ Number of ICG latches removed:	0
 Number of ICG latches not removed:	0
 syn_allowed_resources : blockrams=26  set on top level netlist ALU
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
 
 
 
 Clock Summary
 ******************
 
-          Start                        Requested     Requested     Clock        Clock                   Clock
-Level     Clock                        Frequency     Period        Type         Group                   Load 
--------------------------------------------------------------------------------------------------------------
-0 -       ALU|clk_0_inferred_clock     2.1 MHz       480.769       inferred     Inferred_clkgroup_0     8    
-=============================================================================================================
+          Start                           Requested     Requested     Clock                                       Clock                   Clock
+Level     Clock                           Frequency     Period        Type                                        Group                   Load 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+0 -       ALU|clk_0_inferred_clock        2.1 MHz       480.769       inferred                                    Inferred_clkgroup_0     30   
+1 .         ALU|clk_low_derived_clock     2.1 MHz       480.769       derived (from ALU|clk_0_inferred_clock)     Inferred_clkgroup_0     16   
+===============================================================================================================================================
 
-@W: MT531 :"c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd":104:1:104:2|Found signal identified as System clock which controls 27 sequential elements including cociente[0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
-@W: MT529 :"c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd":54:2:54:3|Found inferred clock ALU|clk_0_inferred_clock which controls 8 sequential elements including m[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT531 :"c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd":125:1:125:2|Found signal identified as System clock which controls 29 sequential elements including cociente[0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd":25:43:25:52|Found inferred clock ALU|clk_0_inferred_clock which controls 30 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
 
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 144MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 143MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 57MB peak: 144MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Oct 31 02:50:14 2018
+# Fri Nov  2 04:16:17 2018
 
 ###########################################################]
 Map & Optimize Report
 
-# Wed Oct 31 02:50:14 2018
+# Fri Nov  2 04:16:18 2018
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -210,50 +217,51 @@ Available hyper_sources - for debug and ip models
 @N: FX493 |Applying initial value "000000000" on instance sum_resta[8:0].
 @N: FX493 |Applying initial value "00000001" on instance m[7:0].
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
 
-@W: MO129 :"c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd":87:1:87:2|Sequential instance disp4[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd":108:1:108:2|Sequential instance disp4[1] is reduced to a combinational gate by constant propagation.
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 148MB peak: 148MB)
-
-
-Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 171MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 148MB peak: 149MB)
 
 
-Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 171MB)
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 160MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 171MB)
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 160MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 156MB peak: 171MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 160MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 162MB peak: 171MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 160MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 162MB peak: 171MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 159MB peak: 160MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 161MB peak: 171MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 159MB peak: 160MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 161MB peak: 171MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 158MB peak: 160MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 167MB peak: 209MB)
+Finished preparing to map (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 158MB peak: 160MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:21s; Memory used current: 173MB peak: 211MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:13s		   479.48ns		 457 /         8
+   1		0h:00m:21s		   474.97ns		 526 /        46
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 167MB peak: 209MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:22s; Memory used current: 173MB peak: 211MB)
 
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 168MB peak: 209MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:23s; Memory used current: 173MB peak: 211MB)
 
+@N: MT611 :|Automatically generated clock ALU|clk_low_derived_clock is not used and is being removed
 
 
 @S |Clock Optimization Summary
@@ -261,43 +269,64 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:
 
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
-0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-3 gated/generated clock tree(s) driving 34 clock pin(s) of sequential element(s)
-0 instances converted, 34 sequential instances remain driven by gated/generated clocks
+1 non-gated/non-generated clock tree(s) driving 2 clock pin(s) of sequential element(s)
+19 gated/generated clock tree(s) driving 104 clock pin(s) of sequential element(s)
+0 instances converted, 104 sequential instances remain driven by gated/generated clocks
 
-===================================================================================================== Gated/Generated Clocks ======================================================================================================
-Clock Tree ID     Driving Element              Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       OSCInst0                     OSCH                   8          m[0]                Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
-@K:CKID0002       decoUno\.op_eq\.un35_sel     ORCALUT4               16         cociente[0]         No clocks found on inputs                                                                                                     
-@K:CKID0003       sumres\.un3_sel              ORCALUT4               10         disp4[0]            No clocks found on inputs                                                                                                     
-===================================================================================================================================================================================================================================
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0020       sel[3:0]            port                   2          slog_1[8]      
+=======================================================================================
+================================================================================================================== Gated/Generated Clocks ==================================================================================================================
+Clock Tree ID     Driving Element                                     Drive Element Type     Fanout     Sample Instance       Explanation                                                                                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       OSCInst0                                            OSCH                   62         clk_low               Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       decoUno\.op_eq\.un54_sel_0_RNIPT6K                  ORCALUT4               16         cociente[0]           No clocks found on inputs                                                                                                     
+@K:CKID0003       un1_slog_0_sqmuxa_14_u_i_a2_RNI622G1                ORCALUT4               1          slog_1_2_.res_lat     Multiple clocks on instance from nets N_47, N_52, sel_c[2]                                                                    
+@K:CKID0004       disp1_6_0_.un1_slog_0_sqmuxa_13_u_i_a2_RNINBE61     ORCALUT4               1          slog_1_3_.res_lat     Multiple clocks on instance from nets N_50, N_54, sel_c[2]                                                                    
+@K:CKID0005       sumres\.un22_sel                                    ORCALUT4               10         disp4[0]              Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0006       un1_slog_0_sqmuxa_15_u_i_0_RNI7AJV                  ORCALUT4               1          slog_1_1_.res_lat     Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0007       sel_pad_RNI8H8U2[1]                                 PFUMX                  1          slog_1_5_.res_lat     Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0008       un1_slog_0_sqmuxa_10_u_i_0_RNI7H7P                  ORCALUT4               1          slog_1_6_.res_lat     Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0009       un1_slog_0_sqmuxa_9_u_i_0_RNI21FA1                  ORCALUT4               1          slog_1_7_.res_lat     Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0010       disp1_6_0_.un1_slog_0_sqmuxa_8_u_i_m2               PFUMX                  1          slog_1_0_.res_lat     Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0011       un1_slog_0_sqmuxa_12_u                              PFUMX                  1          slog_1_4_.res_lat     Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0012       un1_sel_25_0_a2                                     ORCALUT4               1          shift_5_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0013       un1_sel_24_0_a2                                     ORCALUT4               1          shift_6_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0014       un1_sel_23_0_a2                                     ORCALUT4               1          shift_7_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0015       un1_sel_22_0_a2                                     ORCALUT4               1          shift_4_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0016       un1_sel_19_0_a2                                     ORCALUT4               1          shift_2_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0017       un1_sel_18_0_a2                                     ORCALUT4               1          shift_3_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0018       un1_sel_17_0_a2                                     ORCALUT4               1          shift_0_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+@K:CKID0019       un1_sel_16                                          ORCALUT4               1          shift_1_.res_lat      Inferred clock from port sel[3:0] (in view: work.ALU(behavioral))                                                             
+============================================================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 126MB peak: 209MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:23s; Memory used current: 132MB peak: 211MB)
 
 Writing Analyst data base C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\synwork\Proyecto2doParcial_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 163MB peak: 209MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:24s; Memory used current: 169MB peak: 211MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\Proyecto2doParcial_impl1.edi
 M-2017.03L-SP1-1
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 168MB peak: 209MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:25s; Memory used current: 174MB peak: 211MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 167MB peak: 209MB)
+Start final timing analysis (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:26s; Memory used current: 173MB peak: 211MB)
 
 @W: MT420 |Found inferred clock ALU|clk_0_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:clk_0"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Wed Oct 31 02:50:31 2018
+# Timing Report written on Fri Nov  2 04:16:46 2018
 #
 
 
@@ -316,15 +345,14 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 479.476
+Worst slack in design: 473.848
 
                              Requested     Estimated     Requested     Estimated                 Clock        Clock              
 Starting Clock               Frequency     Frequency     Period        Period        Slack       Type         Group              
 ---------------------------------------------------------------------------------------------------------------------------------
-ALU|clk_0_inferred_clock     2.1 MHz       773.2 MHz     480.769       1.293         479.476     inferred     Inferred_clkgroup_0
-System                       1.0 MHz       NA            1000.000      NA            NA          system       system_clkgroup    
+ALU|clk_0_inferred_clock     2.1 MHz       144.5 MHz     480.769       6.921         473.848     inferred     Inferred_clkgroup_0
+System                       1.0 MHz       1.9 MHz       1000.000      523.711       476.289     system       system_clkgroup    
 =================================================================================================================================
-Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
 
 
 
@@ -337,7 +365,8 @@ Clocks                                              |    rise  to  rise     |   
 --------------------------------------------------------------------------------------------------------------------------------------------
 Starting                  Ending                    |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 --------------------------------------------------------------------------------------------------------------------------------------------
-ALU|clk_0_inferred_clock  ALU|clk_0_inferred_clock  |  480.769     479.476  |  No paths    -      |  No paths    -      |  No paths    -    
+System                    ALU|clk_0_inferred_clock  |  480.769     476.289  |  No paths    -      |  No paths    -      |  No paths    -    
+ALU|clk_0_inferred_clock  ALU|clk_0_inferred_clock  |  480.769     473.848  |  No paths    -      |  No paths    -      |  No paths    -    
 ============================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -360,37 +389,41 @@ Detailed Report for Clock: ALU|clk_0_inferred_clock
 Starting Points with Worst Slack
 ********************************
 
-             Starting                                                      Arrival            
-Instance     Reference                    Type        Pin     Net          Time        Slack  
-             Clock                                                                            
-----------------------------------------------------------------------------------------------
-m[0]         ALU|clk_0_inferred_clock     FD1S3AY     Q       mux_c[0]     1.188       479.476
-m[4]         ALU|clk_0_inferred_clock     FD1S3AX     Q       mux_c[2]     1.188       479.476
-m[1]         ALU|clk_0_inferred_clock     FD1S3AX     Q       m[1]         1.180       479.484
-m[2]         ALU|clk_0_inferred_clock     FD1S3AX     Q       mux_c[1]     1.180       479.484
-m[5]         ALU|clk_0_inferred_clock     FD1S3AX     Q       m[5]         1.180       479.484
-m[3]         ALU|clk_0_inferred_clock     FD1S3AX     Q       m[3]         1.148       479.516
-m[6]         ALU|clk_0_inferred_clock     FD1S3AX     Q       mux_c[3]     1.148       479.516
-m[7]         ALU|clk_0_inferred_clock     FD1S3AX     Q       m[7]         1.108       479.556
-==============================================================================================
+              Starting                                                       Arrival            
+Instance      Reference                    Type        Pin     Net           Time        Slack  
+              Clock                                                                             
+------------------------------------------------------------------------------------------------
+count[7]      ALU|clk_0_inferred_clock     FD1S3IX     Q       count[7]      1.044       473.848
+count[8]      ALU|clk_0_inferred_clock     FD1S3AX     Q       count[8]      1.044       473.848
+count[9]      ALU|clk_0_inferred_clock     FD1S3AX     Q       count[9]      1.044       473.848
+count[11]     ALU|clk_0_inferred_clock     FD1S3AX     Q       count[11]     1.044       473.848
+count[12]     ALU|clk_0_inferred_clock     FD1S3AX     Q       count[12]     1.044       473.848
+count[13]     ALU|clk_0_inferred_clock     FD1S3AX     Q       count[13]     1.044       473.848
+count[14]     ALU|clk_0_inferred_clock     FD1S3AX     Q       count[14]     1.044       473.848
+count[10]     ALU|clk_0_inferred_clock     FD1S3IX     Q       count[10]     1.044       474.865
+count[15]     ALU|clk_0_inferred_clock     FD1S3IX     Q       count[15]     1.044       474.865
+count[17]     ALU|clk_0_inferred_clock     FD1S3IX     Q       count[17]     1.044       474.865
+================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-             Starting                                                      Required            
-Instance     Reference                    Type        Pin     Net          Time         Slack  
-             Clock                                                                             
------------------------------------------------------------------------------------------------
-m[1]         ALU|clk_0_inferred_clock     FD1S3AX     D       mux_c[0]     480.664      479.476
-m[5]         ALU|clk_0_inferred_clock     FD1S3AX     D       mux_c[2]     480.664      479.476
-m[2]         ALU|clk_0_inferred_clock     FD1S3AX     D       m[1]         480.664      479.484
-m[3]         ALU|clk_0_inferred_clock     FD1S3AX     D       mux_c[1]     480.664      479.484
-m[6]         ALU|clk_0_inferred_clock     FD1S3AX     D       m[5]         480.664      479.484
-m[4]         ALU|clk_0_inferred_clock     FD1S3AX     D       m[3]         480.664      479.516
-m[7]         ALU|clk_0_inferred_clock     FD1S3AX     D       mux_c[3]     480.664      479.516
-m[0]         ALU|clk_0_inferred_clock     FD1S3AY     D       m[7]         480.664      479.556
-===============================================================================================
+                  Starting                                                         Required            
+Instance          Reference                    Type        Pin     Net             Time         Slack  
+                  Clock                                                                                
+-------------------------------------------------------------------------------------------------------
+shift_1_.II_0     ALU|clk_0_inferred_clock     FD1S3DX     D       shift_1_.fb     480.664      473.848
+shift_1_.II_1     ALU|clk_0_inferred_clock     FD1S3BX     D       shift_1_.fb     480.664      473.848
+shift_2_.II_0     ALU|clk_0_inferred_clock     FD1S3DX     D       shift_2_.fb     480.664      473.848
+shift_2_.II_1     ALU|clk_0_inferred_clock     FD1S3BX     D       shift_2_.fb     480.664      473.848
+shift_3_.II_0     ALU|clk_0_inferred_clock     FD1S3DX     D       shift_3_.fb     480.664      473.848
+shift_3_.II_1     ALU|clk_0_inferred_clock     FD1S3BX     D       shift_3_.fb     480.664      473.848
+shift_4_.II_0     ALU|clk_0_inferred_clock     FD1S3DX     D       shift_4_.fb     480.664      473.848
+shift_4_.II_1     ALU|clk_0_inferred_clock     FD1S3BX     D       shift_4_.fb     480.664      473.848
+shift_5_.II_0     ALU|clk_0_inferred_clock     FD1S3DX     D       shift_5_.fb     480.664      473.848
+shift_5_.II_1     ALU|clk_0_inferred_clock     FD1S3BX     D       shift_5_.fb     480.664      473.848
+=======================================================================================================
 
 
 
@@ -404,23 +437,126 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         480.664
 
-    - Propagation time:                      1.188
+    - Propagation time:                      6.816
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     479.476
+    = Slack (critical) :                     473.848
 
-    Number of logic level(s):                0
-    Starting point:                          m[0] / Q
-    Ending point:                            m[1] / D
+    Number of logic level(s):                5
+    Starting point:                          count[7] / Q
+    Ending point:                            shift_1_.II_0 / D
     The start point is clocked by            ALU|clk_0_inferred_clock [rising] on pin CK
     The end   point is clocked by            ALU|clk_0_inferred_clock [rising] on pin CK
 
-Instance / Net                 Pin      Pin               Arrival     No. of    
-Name               Type        Name     Dir     Delay     Time        Fan Out(s)
---------------------------------------------------------------------------------
-m[0]               FD1S3AY     Q        Out     1.188     1.188       -         
-mux_c[0]           Net         -        -       -         -           6         
-m[1]               FD1S3AX     D        In      0.000     1.188       -         
-================================================================================
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+count[7]                   FD1S3IX      Q        Out     1.044     1.044       -         
+count[7]                   Net          -        -       -         -           2         
+lowClk\.un2_countlto9      ORCALUT4     A        In      0.000     1.044       -         
+lowClk\.un2_countlto9      ORCALUT4     Z        Out     1.017     2.061       -         
+lowClk\.un2_countlt10      Net          -        -       -         -           1         
+lowClk\.un2_countlto15     ORCALUT4     C        In      0.000     2.061       -         
+lowClk\.un2_countlto15     ORCALUT4     Z        Out     1.153     3.213       -         
+lowClk\.un2_countlt16      Net          -        -       -         -           3         
+clk_low_RNIO2001           ORCALUT4     C        In      0.000     3.213       -         
+clk_low_RNIO2001           ORCALUT4     Z        Out     1.281     4.494       -         
+clk_low_RNIO2001           Net          -        -       -         -           11        
+sel_pad_RNITH8U1[3]        ORCALUT4     A        In      0.000     4.494       -         
+sel_pad_RNITH8U1[3]        ORCALUT4     Z        Out     1.233     5.727       -         
+sel_pad_RNITH8U1[3]        Net          -        -       -         -           6         
+shift_1_.II_0_RNIIMVB3     ORCALUT4     C        In      0.000     5.727       -         
+shift_1_.II_0_RNIIMVB3     ORCALUT4     Z        Out     1.089     6.816       -         
+shift_1_.fb                Net          -        -       -         -           2         
+shift_1_.II_0              FD1S3DX      D        In      0.000     6.816       -         
+=========================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                      Starting                                          Arrival            
+Instance              Reference     Type       Pin     Net              Time        Slack  
+                      Clock                                                                
+-------------------------------------------------------------------------------------------
+shift_1_.res_lat      System        FD1S1D     Q       shift_1_.o3      1.044       476.289
+shift_6_.res_lat      System        FD1S1D     Q       shift_6_.o3      1.044       476.289
+shift_0_.res_lat      System        FD1S1D     Q       shift_0_.o3      0.972       476.361
+shift_2_.res_lat      System        FD1S1D     Q       shift_2_.o3      0.972       476.361
+shift_3_.res_lat      System        FD1S1D     Q       shift_3_.o3      0.972       476.361
+shift_4_.res_lat      System        FD1S1D     Q       shift_4_.o3      0.972       476.361
+shift_5_.res_lat      System        FD1S1D     Q       shift_5_.o3      0.972       476.361
+shift_7_.res_lat      System        FD1S1D     Q       shift_7_.o3      0.972       476.361
+slog_1_0_.res_lat     System        FD1S1D     Q       slog_1_0_.o3     0.972       477.514
+slog_1_1_.res_lat     System        FD1S1D     Q       slog_1_1_.o3     0.972       477.514
+===========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                           Required            
+Instance           Reference     Type        Pin     Net              Time         Slack  
+                   Clock                                                                  
+------------------------------------------------------------------------------------------
+shift_2_.II_0      System        FD1S3DX     D       shift_2_.fb      480.664      476.289
+shift_2_.II_1      System        FD1S3BX     D       shift_2_.fb      480.664      476.289
+shift_5_.II_0      System        FD1S3DX     D       shift_5_.fb      480.664      476.289
+shift_5_.II_1      System        FD1S3BX     D       shift_5_.fb      480.664      476.289
+slog_1_2_.II_0     System        FD1S3DX     D       slog_1_2_.fb     480.664      476.289
+slog_1_2_.II_1     System        FD1S3BX     D       slog_1_2_.fb     480.664      476.289
+slog_1_5_.II_0     System        FD1S3DX     D       slog_1_5_.fb     480.664      476.289
+slog_1_5_.II_1     System        FD1S3BX     D       slog_1_5_.fb     480.664      476.289
+shift_0_.II_0      System        FD1S3DX     D       shift_0_.fb      480.664      476.361
+shift_0_.II_1      System        FD1S3BX     D       shift_0_.fb      480.664      476.361
+==========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      4.374
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 476.289
+
+    Number of logic level(s):                3
+    Starting point:                          shift_1_.res_lat / Q
+    Ending point:                            shift_2_.II_0 / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            ALU|clk_0_inferred_clock [rising] on pin CK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+shift_1_.res_lat           FD1S1D       Q        Out     1.044     1.044       -         
+shift_1_.o3                Net          -        -       -         -           2         
+shift_1_.II_0_RNIU0351     ORCALUT4     C        In      0.000     1.044       -         
+shift_1_.II_0_RNIU0351     ORCALUT4     Z        Out     1.153     2.197       -         
+shift[1]                   Net          -        -       -         -           3         
+slog_6_i_m2[9]             ORCALUT4     B        In      0.000     2.197       -         
+slog_6_i_m2[9]             ORCALUT4     Z        Out     1.089     3.285       -         
+N_71                       Net          -        -       -         -           2         
+shift_2_.II_0_RNIVB7A2     ORCALUT4     B        In      0.000     3.285       -         
+shift_2_.II_0_RNIVB7A2     ORCALUT4     Z        Out     1.089     4.374       -         
+shift_2_.fb                Net          -        -       -         -           2         
+shift_2_.II_0              FD1S3DX      D        In      0.000     4.374       -         
+=========================================================================================
 
 
 
@@ -429,43 +565,46 @@ m[1]               FD1S3AX     D        In      0.000     1.188       -
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 167MB peak: 209MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:26s; Memory used current: 173MB peak: 211MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 167MB peak: 209MB)
+Finished timing report (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:26s; Memory used current: 173MB peak: 211MB)
 
 ---------------------------------------
 Resource Usage Report
 Part: lcmxo2_7000he-5
 
-Register bits: 8 of 6864 (0%)
-Latch bits:      26
+Register bits: 62 of 6864 (1%)
+Latch bits:      44
 PIC Latch:       0
 I/O cells:       46
 
 
 Details:
-CCU2D:          1299
+CCU2D:          1310
 FD1S1A:         17
-FD1S1D:         9
-FD1S3AX:        7
+FD1S1D:         27
+FD1S3AX:        21
 FD1S3AY:        1
+FD1S3BX:        16
+FD1S3DX:        16
+FD1S3IX:        8
 GSR:            1
 IB:             24
-INV:            128
+INV:            129
 OB:             22
-ORCALUT4:       328
+ORCALUT4:       422
 OSCH:           1
-PFUMX:          19
+PFUMX:          18
 PUR:            1
 VHI:            1
 VLO:            1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 37MB peak: 209MB)
+At Mapper Exit (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:26s; Memory used current: 38MB peak: 211MB)
 
-Process took 0h:00m:16s realtime, 0h:00m:16s cputime
-# Wed Oct 31 02:50:31 2018
+Process took 0h:00m:28s realtime, 0h:00m:26s cputime
+# Fri Nov  2 04:16:46 2018
 
 ###########################################################]
 
@@ -508,7 +647,7 @@ Running DRC...
     <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="1"  />
 
 Design Results:
-   1858 blocks expanded
+   2035 blocks expanded
 Complete the first expansion.
 Writing 'Proyecto2doParcial_impl1.ngd' ...
 Total CPU Time: 0 secs  
@@ -546,24 +685,24 @@ Removing unused logic...
 
 Optimizing...
 
-3 CCU2 constant inputs absorbed.
+5 CCU2 constant inputs absorbed.
 
     <postMsg mid="51001030" type="Warning" dynamic="1" navigation="0" arg0="division_p.un3_b"  />
 
 
 
 Design Summary:
-   Number of registers:     34 out of  7209 (0%)
-      PFU registers:           34 out of  6864 (0%)
+   Number of registers:    106 out of  7209 (1%)
+      PFU registers:          106 out of  6864 (2%)
       PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:      1527 out of  3432 (44%)
-      SLICEs as Logic/ROM:   1527 out of  3432 (44%)
+   Number of SLICEs:      1597 out of  3432 (47%)
+      SLICEs as Logic/ROM:   1597 out of  3432 (47%)
       SLICEs as RAM:            0 out of  2574 (0%)
-      SLICEs as Carry:       1299 out of  3432 (38%)
-   Number of LUT4s:        3053 out of  6864 (44%)
-      Number used as logic LUTs:        455
+      SLICEs as Carry:       1310 out of  3432 (38%)
+   Number of LUT4s:        3186 out of  6864 (46%)
+      Number used as logic LUTs:        566
       Number used as distributed RAM:     0
-      Number used as ripple logic:      2598
+      Number used as ripple logic:      2620
       Number used as shift registers:     0
    Number of PIO sites used: 46 + 4(JTAG) out of 115 (43%)
    Number of block RAMs:  0 out of 26 (0%)
@@ -588,26 +727,77 @@ Design Summary:
    Notes:-
       1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
-   Number of clocks:  3
-     Net clk_0_c: 4 loads, 4 rising, 0 falling (Driver: OSCInst0 )
-     Net sumres.un3_sel: 6 loads, 6 rising, 0 falling (Driver: sumres.un3_sel )
-     Net decoUno.op_eq.un35_sel: 10 loads, 0 rising, 10 falling (Driver: decoUno.op_eq.un35_sel )
+   Number of clocks:  20
+     Net clk_0_0: 49 loads, 49 rising, 0 falling (Driver: OSCInst0 )
+     Net un1_sel_23_0_a2: 1 loads, 1 rising, 0 falling (Driver: un1_sel_23_0_a2 )
+     Net sumres.un22_sel: 6 loads, 6 rising, 0 falling (Driver: sumres.un22_sel )
+     Net decoUno.op_eq.un54_sel_i: 10 loads, 10 rising, 0 falling (Driver: decoUno.op_eq.un54_sel_0_RNIPT6K )
+     Net un1_sel_24_0_a2: 1 loads, 1 rising, 0 falling (Driver: un1_sel_24_0_a2 )
+     Net un1_sel_16: 1 loads, 1 rising, 0 falling (Driver: un1_sel_16 )
+     Net un1_sel_19_0_a2: 1 loads, 1 rising, 0 falling (Driver: un1_sel_19_0_a2 )
+     Net un1_sel_18_0_a2: 1 loads, 1 rising, 0 falling (Driver: un1_sel_18_0_a2 )
+     Net un1_sel_22_0_a2: 1 loads, 1 rising, 0 falling (Driver: un1_sel_22_0_a2 )
+     Net un1_sel_25_0_a2: 1 loads, 1 rising, 0 falling (Driver: un1_sel_25_0_a2 )
+     Net N_552_i: 1 loads, 1 rising, 0 falling (Driver: sel_pad_RNI8H8U2[1]/GATE )
+     Net N_556_i: 1 loads, 1 rising, 0 falling (Driver: un1_slog_0_sqmuxa_10_u_i_0_RNI7H7P )
+     Net N_576_i: 1 loads, 1 rising, 0 falling (Driver: un1_slog_0_sqmuxa_9_u_i_0_RNI21FA1 )
+     Net un1_sel_17_0_a2: 1 loads, 1 rising, 0 falling (Driver: un1_sel_17_0_a2 )
+     Net un1_slog_0_sqmuxa_8_u_i_m2: 1 loads, 1 rising, 0 falling (Driver: disp1_6_0_.un1_slog_0_sqmuxa_8_u_i_m2/GATE )
+     Net N_554_i: 1 loads, 1 rising, 0 falling (Driver: un1_slog_0_sqmuxa_15_u_i_0_RNI7AJV )
+     Net N_550_i: 1 loads, 1 rising, 0 falling (Driver: un1_slog_0_sqmuxa_14_u_i_a2_RNI622G1 )
+     Net N_551_i: 1 loads, 1 rising, 0 falling (Driver: disp1_6_0_.un1_slog_0_sqmuxa_13_u_i_a2_RNINBE61 )
+     Net un1_slog_0_sqmuxa_12_u: 1 loads, 1 rising, 0 falling (Driver: un1_slog_0_sqmuxa_12_u/GATE )
+     Net sel_c[2]: 2 loads, 0 rising, 2 falling (Driver: PIO sel[2] )
    Number of Clock Enables:  0
    Number of local set/reset loads for net division_p.un3_b merged into GSR:  8
-   Number of LSRs:  1
-     Net sumres.un1_sel: 1 loads, 1 LSLICEs
+   Number of LSRs:  35
+     Net lowClk.un2_count_i: 5 loads, 5 LSLICEs
+     Net un1_sel_20_0_a2: 2 loads, 2 LSLICEs
+     Net un1_sel_23_0_a2: 1 loads, 1 LSLICEs
+     Net sumres.un20_sel: 1 loads, 1 LSLICEs
+     Net un1_sel_24_0_a2: 1 loads, 1 LSLICEs
+     Net un1_sel_21_0_a2: 2 loads, 2 LSLICEs
+     Net un1_sel_16: 1 loads, 1 LSLICEs
+     Net un1_sel_34_0_a2: 2 loads, 2 LSLICEs
+     Net un1_sel_19_0_a2: 1 loads, 1 LSLICEs
+     Net un1_sel_33: 2 loads, 2 LSLICEs
+     Net un1_sel_18_0_a2: 1 loads, 1 LSLICEs
+     Net un1_sel_31_0_a2: 2 loads, 2 LSLICEs
+     Net un1_sel_22_0_a2: 1 loads, 1 LSLICEs
+     Net un1_sel_30_0_a2: 2 loads, 2 LSLICEs
+     Net un1_sel_25_0_a2: 1 loads, 1 LSLICEs
+     Net un1_sel_35_0_a2: 2 loads, 2 LSLICEs
+     Net N_552_i: 1 loads, 1 LSLICEs
+     Net un1_a_29_5_0: 2 loads, 2 LSLICEs
+     Net N_556_i: 1 loads, 1 LSLICEs
+     Net un1_a_28_5_0: 2 loads, 2 LSLICEs
+     Net N_576_i: 1 loads, 1 LSLICEs
+     Net un1_a_27_5_0: 2 loads, 2 LSLICEs
+     Net un1_sel_17_0_a2: 1 loads, 1 LSLICEs
+     Net un1_sel_36_0_a2: 2 loads, 2 LSLICEs
+     Net un1_slog_0_sqmuxa_8_u_i_m2: 1 loads, 1 LSLICEs
+     Net un1_a_26_5_0: 2 loads, 2 LSLICEs
+     Net N_554_i: 1 loads, 1 LSLICEs
+     Net un1_a_33_5_0: 2 loads, 2 LSLICEs
+     Net N_550_i: 1 loads, 1 LSLICEs
+     Net un1_a_32_5_0: 2 loads, 2 LSLICEs
+     Net N_551_i: 1 loads, 1 LSLICEs
+     Net un1_a_31_5_0: 2 loads, 2 LSLICEs
+     Net un1_slog_0_sqmuxa_12_u: 1 loads, 1 LSLICEs
+     Net un1_a_30_5: 2 loads, 2 LSLICEs
+     Net sel_c[3]: 2 loads, 2 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net b_c[0]: 261 loads
-     Net b_c[1]: 259 loads
+     Net b_c[0]: 264 loads
+     Net b_c[4]: 260 loads
+     Net b_c[5]: 260 loads
+     Net b_c[1]: 258 loads
      Net b_c[2]: 258 loads
      Net b_c[3]: 258 loads
-     Net b_c[4]: 258 loads
-     Net b_c[5]: 258 loads
      Net b_c[6]: 258 loads
      Net b_c[7]: 258 loads
-     Net sel_c[0]: 32 loads
-     Net sel_c[1]: 25 loads
+     Net sel_c[1]: 51 loads
+     Net sel_c[3]: 51 loads
  
 
    Number of warnings:  1
@@ -617,7 +807,7 @@ Design Summary:
 
 Total CPU Time: 1 secs  
 Total REAL Time: 0 secs  
-Peak Memory Usage: 71 MB
+Peak Memory Usage: 72 MB
 
 Dumping design to file Proyecto2doParcial_impl1_map.ncd.
 
@@ -628,7 +818,7 @@ Removing old design directory at request of -rem command line option to this pro
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "Proyecto2doParcial_impl1_map.ncd"
-Wed Oct 31 02:50:36 2018
+Fri Nov 02 04:16:53 2018
 
 PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
 Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/asdf1/Documents/DigitalDesign/Proyecto2doParcial/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF Proyecto2doParcial_impl1_map.ncd Proyecto2doParcial_impl1.dir/5_1.ncd Proyecto2doParcial_impl1.prf
@@ -655,39 +845,40 @@ Device utilization summary:
    PIO (prelim)   46+4(JTAG)/336     15% used
                   46+4(JTAG)/115     43% bonded
 
-   SLICE           1527/3432         44% used
+   SLICE           1597/3432         46% used
 
    GSR                1/1           100% used
    OSC                1/1           100% used
 
 
-Number of Signals: 2715
-Number of Connections: 7701
+Number of Signals: 2928
+Number of Connections: 8230
 
 Pin Constraint Summary:
    46 out of 46 pins locked (100% locked).
 
-The following 1 signal is selected to use the primary clock routing resources:
-    decoUno.op_eq.un35_sel (driver: SLICE_1440, clk load #: 10)
+The following 2 signals are selected to use the primary clock routing resources:
+    clk_0_0 (driver: OSCInst0, clk load #: 49)
+    decoUno.op_eq.un54_sel_i (driver: SLICE_1509, clk load #: 10)
 
 
 The following 1 signal is selected to use the secondary clock routing resources:
-    sumres.un3_sel (driver: SLICE_1446, clk load #: 6, sr load #: 0, ce load #: 0)
+    sumres.un22_sel (driver: SLICE_1530, clk load #: 6, sr load #: 0, ce load #: 0)
 
 Signal division_p.un3_b is selected as Global Set/Reset.
 Starting Placer Phase 0.
-...........
-Finished Placer Phase 0.  REAL time: 0 secs 
+..........
+Finished Placer Phase 0.  REAL time: 2 secs 
 
 Starting Placer Phase 1.
-..................
-Placer score = 535247.
-Finished Placer Phase 1.  REAL time: 14 secs 
+...................
+Placer score = 586433.
+Finished Placer Phase 1.  REAL time: 15 secs 
 
 Starting Placer Phase 2.
 .
-Placer score =  531971
-Finished Placer Phase 2.  REAL time: 14 secs 
+Placer score =  582199
+Finished Placer Phase 2.  REAL time: 15 secs 
 
 
 ------------------ Clock Report ------------------
@@ -699,10 +890,11 @@ Global Clock Resources:
   DCC        : 0 out of 8 (0%)
 
 Quadrants All (TL, TR, BL, BR) - Global Clocks:
-  PRIMARY "decoUno.op_eq.un35_sel" from F0 on comp "SLICE_1440" on site "R3C19C", clk load = 10
-  SECONDARY "sumres.un3_sel" from F1 on comp "SLICE_1446" on site "R21C20A", clk load = 6, ce load = 0, sr load = 0
+  PRIMARY "clk_0_0" from OSC on comp "OSCInst0" on site "OSC", clk load = 49
+  PRIMARY "decoUno.op_eq.un54_sel_i" from F0 on comp "SLICE_1509" on site "R3C19C", clk load = 10
+  SECONDARY "sumres.un22_sel" from F1 on comp "SLICE_1530" on site "R21C18A", clk load = 6, ce load = 0, sr load = 0
 
-  PRIMARY  : 1 out of 8 (12%)
+  PRIMARY  : 2 out of 8 (25%)
   SECONDARY: 1 out of 8 (12%)
 
 Edge Clocks:
@@ -729,18 +921,18 @@ I/O Bank Usage Summary:
 | 5        | 10 / 10 (100%) | 2.5V       | -         |
 +----------+----------------+------------+-----------+
 
-Total placer CPU time: 14 secs 
+Total placer CPU time: 15 secs 
 
 Dumping design to file Proyecto2doParcial_impl1.dir/5_1.ncd.
 
-0 connections routed; 7701 unrouted.
+0 connections routed; 8230 unrouted.
 Starting router resource preassignment
 
-    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=clk_0_c loads=5 clock_loads=4"  />
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=un1_sel_23_0_a2 loads=2 clock_loads=1&#xA;   Signal=un1_sel_24_0_a2 loads=2 clock_loads=1&#xA;   Signal=un1_sel_16 loads=2 clock_loads=1&#xA;   Signal=un1_sel_19_0_a2 loads=2 clock_loads=1&#xA;   Signal=un1_sel_18_0_a2 loads=2 clock_loads=1&#xA;   Signal=un1_sel_22_0_a2 loads=2 clock_loads=1&#xA;   Signal=un1_sel_25_0_a2 loads=2 clock_l   ....   _550_i loads=2 clock_loads=1&#xA;   Signal=N_551_i loads=2 clock_loads=1&#xA;   Signal=un1_slog_0_sqmuxa_12_u loads=2 clock_loads=1&#xA;   Signal=sel_c[2] loads=58 clock_loads=2"  />
 
-Completed router resource preassignment. Real time: 17 secs 
+Completed router resource preassignment. Real time: 19 secs 
 
-Start NBR router at 02:50:53 10/31/18
+Start NBR router at 04:17:12 11/02/18
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -755,80 +947,74 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at 02:50:54 10/31/18
+Start NBR special constraint process at 04:17:13 11/02/18
 
-Start NBR section for initial routing at 02:50:55 10/31/18
+Start NBR section for initial routing at 04:17:14 11/02/18
 Level 4, iteration 1
-90(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 478.341ns/0.000ns; real time: 21 secs 
+154(0.04%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 24 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 02:50:57 10/31/18
+Start NBR section for normal routing at 04:17:17 11/02/18
 Level 4, iteration 1
-38(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.417ns/0.000ns; real time: 21 secs 
+85(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 24 secs 
 Level 4, iteration 2
-12(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 21 secs 
+55(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 25 secs 
 Level 4, iteration 3
-5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 21 secs 
+45(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 25 secs 
 Level 4, iteration 4
-3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 22 secs 
+31(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 25 secs 
 Level 4, iteration 5
-3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 22 secs 
+27(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 25 secs 
 Level 4, iteration 6
-2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 22 secs 
+23(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 25 secs 
 Level 4, iteration 7
-1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 22 secs 
+20(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 26 secs 
 Level 4, iteration 8
-1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 22 secs 
+19(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 26 secs 
 Level 4, iteration 9
-1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 22 secs 
+15(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 26 secs 
 Level 4, iteration 10
-1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 22 secs 
+12(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 26 secs 
 Level 4, iteration 11
-2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 22 secs 
+10(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 26 secs 
 Level 4, iteration 12
-1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 22 secs 
+7(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 26 secs 
 Level 4, iteration 13
-1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 22 secs 
+3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 26 secs 
 Level 4, iteration 14
-1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 22 secs 
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 26 secs 
 Level 4, iteration 15
 1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 22 secs 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 26 secs 
 Level 4, iteration 16
-1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 22 secs 
-Level 4, iteration 17
-1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 22 secs 
-Level 4, iteration 18
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 22 secs 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 26 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at 02:50:58 10/31/18
+Start NBR section for setup/hold timing optimization with effort level 3 at 04:17:19 11/02/18
 
-Start NBR section for re-routing at 02:50:59 10/31/18
+Start NBR section for re-routing at 04:17:20 11/02/18
 Level 4, iteration 1
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 477.011ns/0.000ns; real time: 23 secs 
+Estimated worst slack/total negative slack<setup>: 469.675ns/0.000ns; real time: 27 secs 
 
-Start NBR section for post-routing at 02:50:59 10/31/18
+Start NBR section for post-routing at 04:17:20 11/02/18
 
 End NBR router with 0 unrouted connection
 
@@ -836,19 +1022,19 @@ NBR Summary
 -----------
   Number of unrouted connections : 0 (0.00%)
   Number of connections with timing violations : 0 (0.00%)
-  Estimated worst slack<setup> : 477.011ns
+  Estimated worst slack<setup> : 469.675ns
   Timing score<setup> : 0
 -----------
 Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
 
 
 
-    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=clk_0_c loads=5 clock_loads=4"  />
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=un1_sel_23_0_a2 loads=2 clock_loads=1&#xA;   Signal=un1_sel_24_0_a2 loads=2 clock_loads=1&#xA;   Signal=un1_sel_16 loads=2 clock_loads=1&#xA;   Signal=un1_sel_19_0_a2 loads=2 clock_loads=1&#xA;   Signal=un1_sel_18_0_a2 loads=2 clock_loads=1&#xA;   Signal=un1_sel_22_0_a2 loads=2 clock_loads=1&#xA;   Signal=un1_sel_25_0_a2 loads=2 clock_l   ....   _550_i loads=2 clock_loads=1&#xA;   Signal=N_551_i loads=2 clock_loads=1&#xA;   Signal=un1_slog_0_sqmuxa_12_u loads=2 clock_loads=1&#xA;   Signal=sel_c[2] loads=58 clock_loads=2"  />
 
-Total CPU time 24 secs 
-Total REAL time: 25 secs 
+Total CPU time 27 secs 
+Total REAL time: 29 secs 
 Completely routed.
-End of route.  7701 routed (100.00%); 0 unrouted.
+End of route.  8230 routed (100.00%); 0 unrouted.
 
 Hold time timing score: 0, hold timing errors: 0
 
@@ -859,14 +1045,14 @@ Dumping design to file Proyecto2doParcial_impl1.dir/5_1.ncd.
 
 PAR_SUMMARY::Run status = Success
 PAR_SUMMARY::Number of unrouted conns = 0
-PAR_SUMMARY::Worst  slack<setup/<ns>> = 477.011
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 469.675
 PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
-PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.055
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.306
 PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 25 secs 
-Total REAL time to completion: 26 secs 
+Total CPU  time to completion: 28 secs 
+Total REAL time to completion: 29 secs 
 
 par done!
 

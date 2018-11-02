@@ -1,4 +1,4 @@
-# Wed Oct 31 02:50:13 2018
+# Fri Nov  2 04:16:16 2018
 
 Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -12,13 +12,13 @@ Printing clock  summary report in "C:\Users\asdf1\Documents\DigitalDesign\Proyec
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 113MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 114MB)
 
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 116MB)
@@ -29,39 +29,40 @@ Number of ICG latches removed:	0
 Number of ICG latches not removed:	0
 syn_allowed_resources : blockrams=26  set on top level netlist ALU
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
 
 
 
 Clock Summary
 ******************
 
-          Start                        Requested     Requested     Clock        Clock                   Clock
-Level     Clock                        Frequency     Period        Type         Group                   Load 
--------------------------------------------------------------------------------------------------------------
-0 -       ALU|clk_0_inferred_clock     2.1 MHz       480.769       inferred     Inferred_clkgroup_0     8    
-=============================================================================================================
+          Start                           Requested     Requested     Clock                                       Clock                   Clock
+Level     Clock                           Frequency     Period        Type                                        Group                   Load 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+0 -       ALU|clk_0_inferred_clock        2.1 MHz       480.769       inferred                                    Inferred_clkgroup_0     30   
+1 .         ALU|clk_low_derived_clock     2.1 MHz       480.769       derived (from ALU|clk_0_inferred_clock)     Inferred_clkgroup_0     16   
+===============================================================================================================================================
 
-@W: MT531 :"c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd":104:1:104:2|Found signal identified as System clock which controls 27 sequential elements including cociente[0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
-@W: MT529 :"c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd":54:2:54:3|Found inferred clock ALU|clk_0_inferred_clock which controls 8 sequential elements including m[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT531 :"c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd":125:1:125:2|Found signal identified as System clock which controls 29 sequential elements including cociente[0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd":25:43:25:52|Found inferred clock ALU|clk_0_inferred_clock which controls 30 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
 
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 144MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 143MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 57MB peak: 144MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Oct 31 02:50:14 2018
+# Fri Nov  2 04:16:17 2018
 
 ###########################################################]
