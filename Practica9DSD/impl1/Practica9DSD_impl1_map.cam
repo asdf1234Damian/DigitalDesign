@@ -1,0 +1,114 @@
+[ START MERGED ]
+[ END MERGED ]
+[ START CLIPPED ]
+GND
+un21_data_s_7_0_S1
+un21_data_s_7_0_COUT
+un1_adress_cry_0_0_S1
+un1_adress_cry_0_0_S0
+N_2
+un1_adress_s_7_0_S1
+un1_adress_s_7_0_COUT
+un108_data_cry_0_0_S1
+un108_data_cry_0_0_S0
+N_3
+un108_data_cry_1_0_S0
+un108_data_cry_5_0_COUT
+un77_data_cry_0_0_S1
+un77_data_cry_0_0_S0
+N_4
+un77_data_cry_1_0_S0
+un77_data_cry_5_0_COUT
+un45_data_cry_0_0_S1
+un45_data_cry_0_0_S0
+N_5
+un45_data_cry_5_0_COUT
+un13_data_cry_0_0_S1
+un13_data_cry_0_0_S0
+N_6
+un13_data_cry_5_0_COUT
+un115_data_cry_0_0_S1
+un115_data_cry_0_0_S0
+N_7
+un115_data_s_7_0_S1
+un115_data_s_7_0_COUT
+un101_data_cry_0_0_S1
+un101_data_cry_0_0_S0
+N_8
+un101_data_s_7_0_S1
+un101_data_s_7_0_COUT
+un85_data_cry_0_0_S1
+un85_data_cry_0_0_S0
+N_9
+un85_data_s_7_0_S1
+un85_data_s_7_0_COUT
+un69_data_cry_0_0_S1
+un69_data_cry_0_0_S0
+N_10
+un69_data_s_7_0_S1
+un69_data_s_7_0_COUT
+un53_data_cry_0_0_S1
+un53_data_cry_0_0_S0
+N_11
+un53_data_s_7_0_S1
+un53_data_s_7_0_COUT
+un37_data_cry_0_0_S1
+un37_data_cry_0_0_S0
+N_12
+un37_data_s_7_0_S1
+un37_data_s_7_0_COUT
+un61_data_1_cry_3_0_S1
+un61_data_1_cry_3_0_S0
+N_13
+un61_data_1_cry_6_0_COUT
+un5_count_cry_0_0_S1
+un5_count_cry_0_0_S0
+N_14
+un5_count_s_13_0_S1
+un5_count_s_13_0_COUT
+un4_ring_cry_0_0_S1
+un4_ring_cry_0_0_S0
+N_15
+un4_ring_s_23_0_S1
+un4_ring_s_23_0_COUT
+un21_data_cry_0_0_S1
+un21_data_cry_0_0_S0
+N_1
+OSCInst0_SEDSTDBY
+[ END CLIPPED ]
+[ START OSC ]
+Clock_c 53.20
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.10.0.111.2 -- WARNING: Map write only section -- Tue Nov 20 23:48:48 2018
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "Clock" SITE "100" ;
+LOCATE COMP "Data[7]" SITE "97" ;
+LOCATE COMP "Data[6]" SITE "40" ;
+LOCATE COMP "Data[5]" SITE "95" ;
+LOCATE COMP "Data[4]" SITE "106" ;
+LOCATE COMP "Data[3]" SITE "94" ;
+LOCATE COMP "Data[2]" SITE "104" ;
+LOCATE COMP "Data[1]" SITE "92" ;
+LOCATE COMP "Data[0]" SITE "99" ;
+LOCATE COMP "mux[15]" SITE "61" ;
+LOCATE COMP "mux[14]" SITE "60" ;
+LOCATE COMP "mux[13]" SITE "58" ;
+LOCATE COMP "mux[12]" SITE "59" ;
+LOCATE COMP "mux[11]" SITE "57" ;
+LOCATE COMP "mux[10]" SITE "56" ;
+LOCATE COMP "mux[9]" SITE "54" ;
+LOCATE COMP "mux[8]" SITE "55" ;
+LOCATE COMP "mux[7]" SITE "52" ;
+LOCATE COMP "mux[6]" SITE "50" ;
+LOCATE COMP "mux[5]" SITE "48" ;
+LOCATE COMP "mux[4]" SITE "49" ;
+LOCATE COMP "mux[3]" SITE "47" ;
+LOCATE COMP "mux[2]" SITE "45" ;
+LOCATE COMP "mux[1]" SITE "43" ;
+LOCATE COMP "mux[0]" SITE "42" ;
+FREQUENCY NET "Clock_c" 53.200000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

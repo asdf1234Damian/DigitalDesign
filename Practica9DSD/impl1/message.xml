@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd&quot;:2297:8:2297:15|Map for port sedstdby of component osch not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Map for port sedstdby of component osch not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD609 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd&quot;:205:38:205:66|Index value 0 to 147 could be out of prefix range 0 to 146</Dynamic>
+            <Navigation>CD609</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd</Navigation>
+            <Navigation>205</Navigation>
+            <Navigation>38</Navigation>
+            <Navigation>205</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>Index value 0 to 147 could be out of prefix range 0 to 146 </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd&quot;:202:10:202:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd</Navigation>
+            <Navigation>202</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>202</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd&quot;:205:59:205:64|Referenced variable adress is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd</Navigation>
+            <Navigation>205</Navigation>
+            <Navigation>59</Navigation>
+            <Navigation>205</Navigation>
+            <Navigation>64</Navigation>
+            <Navigation>Referenced variable adress is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd&quot;:181:2:181:3|Found inferred clock Marquezina|Clock_inferred_clock which controls 62 sequential elements including mux[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd</Navigation>
+            <Navigation>181</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>181</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock Marquezina|Clock_inferred_clock which controls 62 sequential elements including mux[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock Marquezina|Clock_inferred_clock with period 18.80ns. Please declare a user-defined clock on object &quot;n:Clock&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock Marquezina|Clock_inferred_clock with period 18.80ns. Please declare a user-defined clock on object &quot;n:Clock&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

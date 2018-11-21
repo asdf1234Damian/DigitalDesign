@@ -1,0 +1,33 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Nov 20 23:49:42 2018 *
+NOTE DESIGN NAME: Marquezina *
+NOTE DEVICE NAME: LCMXO2-7000ZE-1TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Clock : 100 : out *
+NOTE PINS Data[7] : 97 : out *
+NOTE PINS Data[6] : 40 : out *
+NOTE PINS Data[5] : 95 : out *
+NOTE PINS Data[4] : 106 : out *
+NOTE PINS Data[3] : 94 : out *
+NOTE PINS Data[2] : 104 : out *
+NOTE PINS Data[1] : 92 : out *
+NOTE PINS Data[0] : 99 : out *
+NOTE PINS mux[15] : 61 : out *
+NOTE PINS mux[14] : 60 : out *
+NOTE PINS mux[13] : 58 : out *
+NOTE PINS mux[12] : 59 : out *
+NOTE PINS mux[11] : 57 : out *
+NOTE PINS mux[10] : 56 : out *
+NOTE PINS mux[9] : 54 : out *
+NOTE PINS mux[8] : 55 : out *
+NOTE PINS mux[7] : 52 : out *
+NOTE PINS mux[6] : 50 : out *
+NOTE PINS mux[5] : 48 : out *
+NOTE PINS mux[4] : 49 : out *
+NOTE PINS mux[3] : 47 : out *
+NOTE PINS mux[2] : 45 : out *
+NOTE PINS mux[1] : 43 : out *
+NOTE PINS mux[0] : 42 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

@@ -1,0 +1,2 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MT529 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":181:2:181:3|Found inferred clock Marquezina|Clock_inferred_clock which controls 62 sequential elements including mux[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

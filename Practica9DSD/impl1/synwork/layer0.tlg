@@ -1,0 +1,8 @@
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":7:7:7:16|Synthesizing work.marquezina.arch_marquezina.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+@W: CD609 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":205:38:205:66|Index value 0 to 147 could be out of prefix range 0 to 146 
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":202:10:202:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":205:59:205:64|Referenced variable adress is not in sensitivity list.
+Post processing for work.marquezina.arch_marquezina
