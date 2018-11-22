@@ -7,6 +7,7 @@ use ieee.std_logic_unsigned.all;
 entity Marquezina is
 	port(
 	 Clock: inout std_logic;
+	 pause:in std_logic;
 	 mux :inout std_logic_vector(15 downto 0):="0000000000000001";
 	 Data : out std_logic_vector(7 downto 0)
 	);
@@ -190,7 +191,7 @@ begin	OSCInst0 : OSCH GENERIC MAP("53.20")PORT MAP ('0', Clock);
 			else
 				if (conv_integer(Adress)= 146) then 
 					Adress <= 0; 
-				else
+				elsif (pause='0') then 
 					Adress <= Adress+1;
 				end if;
 				ring :=0;  
@@ -201,22 +202,22 @@ begin	OSCInst0 : OSCH GENERIC MAP("53.20")PORT MAP ('0', Clock);
 	muxDisp: process (mux) 
 	begin 
 		case mux is
-			when "1000000000000000" => Data <= Content(conv_integer(Adress));
-			when "0100000000000000" => Data <= Content(conv_integer(Adress)+1);
-			when "0010000000000000" => Data <= Content(conv_integer(Adress)+2);
-			when "0001000000000000" => Data <= Content(conv_integer(Adress)+3); 
-			when "0000100000000000" => Data <= Content(conv_integer(Adress)+4);
-			when "0000010000000000" => Data <= Content(conv_integer(Adress)+5);
-			when "0000001000000000" => Data <= Content(conv_integer(Adress)+6);  
-			when "0000000100000000" => Data <= Content(conv_integer(Adress)+7);
-			when "0000000010000000" => Data <= Content(conv_integer(Adress)+8);
-			when "0000000001000000" => Data <= Content(conv_integer(Adress)+9);
-			when "0000000000100000" => Data <= Content(conv_integer(Adress)+10);
-			when "0000000000010000" => Data <= Content(conv_integer(Adress)+11);
-			when "0000000000001000" => Data <= Content(conv_integer(Adress)+12);
-			when "0000000000000100" => Data <= Content(conv_integer(Adress)+13);
-			when "0000000000000010" => Data <= Content(conv_integer(Adress)+14);
-			when "0000000000000001" => Data <= Content(conv_integer(Adress)+15);
+			when "1000000000000000" => Data <= Content((Adress) mod 147);
+			when "0100000000000000" => Data <= Content((Adress+1) mod 147);
+			when "0010000000000000" => Data <= Content((Adress+2) mod 147);
+			when "0001000000000000" => Data <= Content((Adress+3) mod 147); 
+			when "0000100000000000" => Data <= Content((Adress+4) mod 147);
+			when "0000010000000000" => Data <= Content((Adress+5) mod 147);
+			when "0000001000000000" => Data <= Content((Adress+6) mod 147);  
+			when "0000000100000000" => Data <= Content((Adress+7) mod 147);
+			when "0000000010000000" => Data <= Content((Adress+8) mod 147);
+			when "0000000001000000" => Data <= Content((Adress+9) mod 147);
+			when "0000000000100000" => Data <= Content((Adress+10) mod 147);
+			when "0000000000010000" => Data <= Content((Adress+11) mod 147);
+			when "0000000000001000" => Data <= Content((Adress+12) mod 147);
+			when "0000000000000100" => Data <= Content((Adress+13) mod 147);
+			when "0000000000000010" => Data <= Content((Adress+14) mod 147);
+			when "0000000000000001" => Data <= Content((Adress+15) mod 147);
 			when others => Data <= "00000000";
 		end case; 
 	end process;

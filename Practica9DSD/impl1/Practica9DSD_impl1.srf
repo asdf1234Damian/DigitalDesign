@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: DESKTOP-4BVJD33
 
-# Tue Nov 20 23:48:26 2018
+# Wed Nov 21 19:54:05 2018
 
 #Implementation: impl1
 
@@ -17,63 +17,85 @@ Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated
 
 @N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
 @N:"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":7:7:7:16|Top entity is set to Marquezina.
-Options changed - recompiling
+
+File Dependency file is up to date.  It will not be rewritten.
+
 VHDL syntax check successful!
-Options changed - recompiling
+
+Compiler output is up to date.  No re-compile necessary
+
 @N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":7:7:7:16|Synthesizing work.marquezina.arch_marquezina.
 @W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
 @N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
 Post processing for work.osch.syn_black_box
-@W: CD609 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":205:38:205:66|Index value 0 to 147 could be out of prefix range 0 to 146 
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":202:10:202:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":205:59:205:64|Referenced variable adress is not in sensitivity list.
+@W: CD749 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":207:38:207:64|Index value of type natural (or large positive integer) could be out of prefix range 0 to 146 
+@W: CD749 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":208:38:208:64|Index value of type natural (or large positive integer) could be out of prefix range 0 to 146 
+@W: CD749 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":209:38:209:64|Index value of type natural (or large positive integer) could be out of prefix range 0 to 146 
+@W: CD749 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":210:38:210:64|Index value of type natural (or large positive integer) could be out of prefix range 0 to 146 
+@W: CD749 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":211:38:211:64|Index value of type natural (or large positive integer) could be out of prefix range 0 to 146 
+@W: CD749 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":212:38:212:64|Index value of type natural (or large positive integer) could be out of prefix range 0 to 146 
+@W: CD749 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":213:38:213:64|Index value of type natural (or large positive integer) could be out of prefix range 0 to 146 
+@W: CD749 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":214:38:214:64|Index value of type natural (or large positive integer) could be out of prefix range 0 to 146 
+@W: CD749 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":215:38:215:64|Index value of type natural (or large positive integer) could be out of prefix range 0 to 146 
+@W: CD749 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":216:38:216:65|Index value of type natural (or large positive integer) could be out of prefix range 0 to 146 
+@W: CD749 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":217:38:217:65|Index value of type natural (or large positive integer) could be out of prefix range 0 to 146 
+@W: CD749 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":218:38:218:65|Index value of type natural (or large positive integer) could be out of prefix range 0 to 146 
+@W: CD749 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":219:38:219:65|Index value of type natural (or large positive integer) could be out of prefix range 0 to 146 
+@W: CD749 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":220:38:220:65|Index value of type natural (or large positive integer) could be out of prefix range 0 to 146 
+@W: CD749 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":221:38:221:65|Index value of type natural (or large positive integer) could be out of prefix range 0 to 146 
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":203:10:203:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":206:47:206:52|Referenced variable adress is not in sensitivity list.
 Post processing for work.marquezina.arch_marquezina
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 75MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Nov 20 23:48:28 2018
+# Wed Nov 21 19:54:06 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
 @N|Running in 64-bit mode
-File C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\impl1\synwork\layer0.srs changed - recompiling
+
+Linker output is up to date. No re-linking necessary
+
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Nov 20 23:48:28 2018
+# Wed Nov 21 19:54:06 2018
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Nov 20 23:48:28 2018
+# Wed Nov 21 19:54:06 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
 @N|Running in 64-bit mode
-File C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\impl1\synwork\Practica9DSD_impl1_comp.srs changed - recompiling
+
+Linker output is up to date. No re-linking necessary
+
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Nov 20 23:48:31 2018
+# Wed Nov 21 19:54:06 2018
 
 ###########################################################]
 Pre-mapping Report
 
-# Tue Nov 20 23:48:31 2018
+# Wed Nov 21 19:54:07 2018
 
 Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -117,31 +139,31 @@ Level     Clock                               Frequency     Period        Type  
 0 -       Marquezina|Clock_inferred_clock     53.2 MHz      18.797        inferred     Inferred_clkgroup_0     62   
 ====================================================================================================================
 
-@W: MT529 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":181:2:181:3|Found inferred clock Marquezina|Clock_inferred_clock which controls 62 sequential elements including mux[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":182:2:182:3|Found inferred clock Marquezina|Clock_inferred_clock which controls 62 sequential elements including mux[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 141MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 141MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Nov 20 23:48:33 2018
+# Wed Nov 21 19:54:07 2018
 
 ###########################################################]
 Map & Optimize Report
 
-# Tue Nov 20 23:48:35 2018
+# Wed Nov 21 19:54:08 2018
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -175,61 +197,77 @@ Available hyper_sources - for debug and ip models
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":217:47:217:64|Generating a type rem remainder 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":219:47:219:64|Generating a type rem remainder 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":221:47:221:64|Generating a type rem remainder 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":216:47:216:64|Generating a type rem remainder 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":218:47:218:64|Generating a type rem remainder 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":220:47:220:64|Generating a type rem remainder 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":209:47:209:63|Generating a type rem remainder 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":211:47:211:63|Generating a type rem remainder 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":213:47:213:63|Generating a type rem remainder 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":215:47:215:63|Generating a type rem remainder 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":208:47:208:63|Generating a type rem remainder 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":210:47:210:63|Generating a type rem remainder 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":214:47:214:63|Generating a type rem remainder 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":207:47:207:63|Generating a type rem remainder 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":212:47:212:63|Generating a type rem remainder 
+@N: MF237 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":206:47:206:61|Generating a type rem remainder 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
-
-
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 144MB)
-
-
-Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
-
-
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
-
-
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
-
-
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 144MB)
-
-
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 144MB)
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 141MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
-
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":220:38:220:44|Generating ROM muxDisp\.Data_16[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":218:38:218:44|Generating ROM muxDisp\.Data_14[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":216:38:216:44|Generating ROM muxDisp\.Data_12[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":214:38:214:44|Generating ROM muxDisp\.Data_10[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":212:38:212:44|Generating ROM muxDisp\.Data_8[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":210:38:210:44|Generating ROM muxDisp\.Data_6[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":208:38:208:44|Generating ROM muxDisp\.Data_4[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":219:38:219:44|Generating ROM muxDisp\.Data_15[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":217:38:217:44|Generating ROM muxDisp\.Data_13[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":215:38:215:44|Generating ROM muxDisp\.Data_11[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":211:38:211:44|Generating ROM muxDisp\.Data_7[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":206:38:206:44|Generating ROM muxDisp\.Data_2[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":213:38:213:44|Generating ROM muxDisp\.Data_9[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":209:38:209:44|Generating ROM muxDisp\.Data_5[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":207:38:207:44|Generating ROM muxDisp\.Data_3[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":205:38:205:44|Generating ROM muxDisp\.Data_1[7:0] (in view: work.Marquezina(arch_marquezina)).
-
-Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 147MB)
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 162MB)
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 146MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 146MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 148MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 153MB peak: 154MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 153MB peak: 154MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 152MB peak: 154MB)
+
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":221:38:221:44|Generating ROM muxDisp\.Data_16[7:0] (in view: work.Marquezina(arch_marquezina)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":219:38:219:44|Generating ROM muxDisp\.Data_14[7:0] (in view: work.Marquezina(arch_marquezina)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":217:38:217:44|Generating ROM muxDisp\.Data_12[7:0] (in view: work.Marquezina(arch_marquezina)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":215:38:215:44|Generating ROM muxDisp\.Data_10[7:0] (in view: work.Marquezina(arch_marquezina)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":213:38:213:44|Generating ROM muxDisp\.Data_8[7:0] (in view: work.Marquezina(arch_marquezina)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":211:38:211:44|Generating ROM muxDisp\.Data_6[7:0] (in view: work.Marquezina(arch_marquezina)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":209:38:209:44|Generating ROM muxDisp\.Data_4[7:0] (in view: work.Marquezina(arch_marquezina)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":220:38:220:44|Generating ROM muxDisp\.Data_15[7:0] (in view: work.Marquezina(arch_marquezina)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":218:38:218:44|Generating ROM muxDisp\.Data_13[7:0] (in view: work.Marquezina(arch_marquezina)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":216:38:216:44|Generating ROM muxDisp\.Data_11[7:0] (in view: work.Marquezina(arch_marquezina)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":212:38:212:44|Generating ROM muxDisp\.Data_7[7:0] (in view: work.Marquezina(arch_marquezina)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":207:38:207:44|Generating ROM muxDisp\.Data_2[7:0] (in view: work.Marquezina(arch_marquezina)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":214:38:214:44|Generating ROM muxDisp\.Data_9[7:0] (in view: work.Marquezina(arch_marquezina)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":210:38:210:44|Generating ROM muxDisp\.Data_5[7:0] (in view: work.Marquezina(arch_marquezina)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":208:38:208:44|Generating ROM muxDisp\.Data_3[7:0] (in view: work.Marquezina(arch_marquezina)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":206:38:206:44|Generating ROM muxDisp\.Data_1[7:0] (in view: work.Marquezina(arch_marquezina)).
+
+Finished preparing to map (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 154MB peak: 155MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 167MB peak: 173MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:02s		    12.69ns		 292 /        62
+   1		0h:00m:05s		    12.67ns		 451 /        62
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 162MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 167MB peak: 173MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 159MB peak: 162MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 168MB peak: 173MB)
 
 
 
@@ -252,27 +290,27 @@ Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample I
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 124MB peak: 162MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 128MB peak: 173MB)
 
 Writing Analyst data base C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\impl1\synwork\Practica9DSD_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 158MB peak: 162MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 164MB peak: 173MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\impl1\Practica9DSD_impl1.edi
 M-2017.03L-SP1-1
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 162MB peak: 164MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 168MB peak: 173MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 162MB peak: 164MB)
+Start final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 168MB peak: 173MB)
 
 @W: MT420 |Found inferred clock Marquezina|Clock_inferred_clock with period 18.80ns. Please declare a user-defined clock on object "n:Clock"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Tue Nov 20 23:48:41 2018
+# Timing Report written on Wed Nov 21 19:54:17 2018
 #
 
 
@@ -291,12 +329,12 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 11.618
+Worst slack in design: 11.546
 
                                     Requested     Estimated     Requested     Estimated                Clock        Clock              
 Starting Clock                      Frequency     Frequency     Period        Period        Slack      Type         Group              
 ---------------------------------------------------------------------------------------------------------------------------------------
-Marquezina|Clock_inferred_clock     53.2 MHz      139.3 MHz     18.797        7.179         11.618     inferred     Inferred_clkgroup_0
+Marquezina|Clock_inferred_clock     53.2 MHz      137.9 MHz     18.797        7.251         11.546     inferred     Inferred_clkgroup_0
 System                              1.0 MHz       NA            1000.000      NA            NA         system       system_clkgroup    
 =======================================================================================================================================
 Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
@@ -312,7 +350,7 @@ Clocks                                                            |    rise  to 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                         Ending                           |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-Marquezina|Clock_inferred_clock  Marquezina|Clock_inferred_clock  |  18.797      11.618  |  No paths    -      |  No paths    -      |  No paths    -    
+Marquezina|Clock_inferred_clock  Marquezina|Clock_inferred_clock  |  18.797      11.546  |  No paths    -      |  No paths    -      |  No paths    -    
 =========================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -339,37 +377,37 @@ Starting Points with Worst Slack
 Instance     Reference                           Type        Pin     Net          Time        Slack 
              Clock                                                                                  
 ----------------------------------------------------------------------------------------------------
-ring[5]      Marquezina|Clock_inferred_clock     FD1S3IX     Q       ring[5]      1.044       11.618
-ring[6]      Marquezina|Clock_inferred_clock     FD1S3AX     Q       ring[6]      1.044       11.618
-ring[7]      Marquezina|Clock_inferred_clock     FD1S3AX     Q       ring[7]      1.044       11.618
-ring[8]      Marquezina|Clock_inferred_clock     FD1S3IX     Q       ring[8]      1.044       11.618
-ring[9]      Marquezina|Clock_inferred_clock     FD1S3AX     Q       ring[9]      1.044       11.618
-ring[10]     Marquezina|Clock_inferred_clock     FD1S3AX     Q       ring[10]     1.044       11.618
-ring[11]     Marquezina|Clock_inferred_clock     FD1S3AX     Q       ring[11]     1.044       11.618
-ring[12]     Marquezina|Clock_inferred_clock     FD1S3IX     Q       ring[12]     1.044       11.618
-ring[13]     Marquezina|Clock_inferred_clock     FD1S3IX     Q       ring[13]     1.044       11.618
-ring[14]     Marquezina|Clock_inferred_clock     FD1S3IX     Q       ring[14]     1.044       11.618
+ring[5]      Marquezina|Clock_inferred_clock     FD1S3IX     Q       ring[5]      1.044       11.546
+ring[6]      Marquezina|Clock_inferred_clock     FD1S3AX     Q       ring[6]      1.044       11.546
+ring[7]      Marquezina|Clock_inferred_clock     FD1S3AX     Q       ring[7]      1.044       11.546
+ring[8]      Marquezina|Clock_inferred_clock     FD1S3IX     Q       ring[8]      1.044       11.546
+ring[9]      Marquezina|Clock_inferred_clock     FD1S3AX     Q       ring[9]      1.044       11.546
+ring[10]     Marquezina|Clock_inferred_clock     FD1S3AX     Q       ring[10]     1.044       11.546
+ring[11]     Marquezina|Clock_inferred_clock     FD1S3AX     Q       ring[11]     1.044       11.546
+ring[12]     Marquezina|Clock_inferred_clock     FD1S3IX     Q       ring[12]     1.044       11.546
+ring[13]     Marquezina|Clock_inferred_clock     FD1S3IX     Q       ring[13]     1.044       11.546
+ring[14]     Marquezina|Clock_inferred_clock     FD1S3IX     Q       ring[14]     1.044       11.546
 ====================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-              Starting                                                                                   Required           
-Instance      Reference                           Type        Pin     Net                                Time         Slack 
-              Clock                                                                                                         
-----------------------------------------------------------------------------------------------------------------------------
-Adress[0]     Marquezina|Clock_inferred_clock     FD1S3IX     CD      lowClk\.un2_ringlto23_RNIUMG61     17.994       11.618
-Adress[1]     Marquezina|Clock_inferred_clock     FD1P3IX     CD      lowClk\.un2_ringlto23_RNIUMG61     17.994       11.618
-Adress[4]     Marquezina|Clock_inferred_clock     FD1P3IX     CD      lowClk\.un2_ringlto23_RNIUMG61     17.994       11.618
-Adress[7]     Marquezina|Clock_inferred_clock     FD1P3IX     CD      lowClk\.un2_ringlto23_RNIUMG61     17.994       11.618
-ring[0]       Marquezina|Clock_inferred_clock     FD1S3IX     CD      lowClk\.un2_ring_i                 17.994       12.507
-ring[5]       Marquezina|Clock_inferred_clock     FD1S3IX     CD      lowClk\.un2_ring_i                 17.994       12.507
-ring[8]       Marquezina|Clock_inferred_clock     FD1S3IX     CD      lowClk\.un2_ring_i                 17.994       12.507
-ring[12]      Marquezina|Clock_inferred_clock     FD1S3IX     CD      lowClk\.un2_ring_i                 17.994       12.507
-ring[13]      Marquezina|Clock_inferred_clock     FD1S3IX     CD      lowClk\.un2_ring_i                 17.994       12.507
-ring[14]      Marquezina|Clock_inferred_clock     FD1S3IX     CD      lowClk\.un2_ring_i                 17.994       12.507
-============================================================================================================================
+              Starting                                                                               Required           
+Instance      Reference                           Type        Pin     Net                            Time         Slack 
+              Clock                                                                                                     
+------------------------------------------------------------------------------------------------------------------------
+Adress[0]     Marquezina|Clock_inferred_clock     FD1P3IX     CD      lowClk\.adress9_4_RNI36D81     17.994       11.546
+Adress[1]     Marquezina|Clock_inferred_clock     FD1P3IX     CD      lowClk\.adress9_4_RNI36D81     17.994       11.546
+Adress[4]     Marquezina|Clock_inferred_clock     FD1P3IX     CD      lowClk\.adress9_4_RNI36D81     17.994       11.546
+Adress[7]     Marquezina|Clock_inferred_clock     FD1P3IX     CD      lowClk\.adress9_4_RNI36D81     17.994       11.546
+Adress[0]     Marquezina|Clock_inferred_clock     FD1P3IX     SP      un1_ring_i                     18.325       11.806
+Adress[1]     Marquezina|Clock_inferred_clock     FD1P3IX     SP      un1_ring_i                     18.325       11.806
+Adress[2]     Marquezina|Clock_inferred_clock     FD1P3AX     SP      un1_ring_i                     18.325       11.806
+Adress[3]     Marquezina|Clock_inferred_clock     FD1P3AX     SP      un1_ring_i                     18.325       11.806
+Adress[4]     Marquezina|Clock_inferred_clock     FD1P3IX     SP      un1_ring_i                     18.325       11.806
+Adress[5]     Marquezina|Clock_inferred_clock     FD1P3AX     SP      un1_ring_i                     18.325       11.806
+========================================================================================================================
 
 
 
@@ -383,9 +421,9 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         17.994
 
-    - Propagation time:                      6.376
+    - Propagation time:                      6.448
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     11.618
+    = Slack (critical) :                     11.546
 
     Number of logic level(s):                5
     Starting point:                          ring[5] / Q
@@ -393,28 +431,28 @@ Path information for path number 1:
     The start point is clocked by            Marquezina|Clock_inferred_clock [rising] on pin CK
     The end   point is clocked by            Marquezina|Clock_inferred_clock [rising] on pin CK
 
-Instance / Net                                  Pin      Pin               Arrival     No. of    
-Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------
-ring[5]                            FD1S3IX      Q        Out     1.044     1.044       -         
-ring[5]                            Net          -        -       -         -           2         
-lowClk\.un2_ringlto8               ORCALUT4     A        In      0.000     1.044       -         
-lowClk\.un2_ringlto8               ORCALUT4     Z        Out     1.017     2.061       -         
-lowClk\.un2_ringlt11               Net          -        -       -         -           1         
-lowClk\.un2_ringlto16              ORCALUT4     A        In      0.000     2.061       -         
-lowClk\.un2_ringlto16              ORCALUT4     Z        Out     1.017     3.077       -         
-lowClk\.un2_ringlt17               Net          -        -       -         -           1         
-lowClk\.un2_ringlto19              ORCALUT4     A        In      0.000     3.077       -         
-lowClk\.un2_ringlto19              ORCALUT4     Z        Out     1.089     4.166       -         
-lowClk\.un2_ringlt21               Net          -        -       -         -           2         
-lowClk\.un2_ringlto23              ORCALUT4     A        In      0.000     4.166       -         
-lowClk\.un2_ringlto23              ORCALUT4     Z        Out     1.017     5.183       -         
-lowClk\.un2_ring                   Net          -        -       -         -           1         
-lowClk\.un2_ringlto23_RNIUMG61     ORCALUT4     C        In      0.000     5.183       -         
-lowClk\.un2_ringlto23_RNIUMG61     ORCALUT4     Z        Out     1.193     6.376       -         
-lowClk\.un2_ringlto23_RNIUMG61     Net          -        -       -         -           4         
-Adress[0]                          FD1S3IX      CD       In      0.000     6.376       -         
-=================================================================================================
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                           Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+ring[5]                        FD1S3IX      Q        Out     1.044     1.044       -         
+ring[5]                        Net          -        -       -         -           2         
+lowClk\.un2_ringlto8           ORCALUT4     A        In      0.000     1.044       -         
+lowClk\.un2_ringlto8           ORCALUT4     Z        Out     1.017     2.061       -         
+lowClk\.un2_ringlt11           Net          -        -       -         -           1         
+lowClk\.un2_ringlto16          ORCALUT4     A        In      0.000     2.061       -         
+lowClk\.un2_ringlto16          ORCALUT4     Z        Out     1.017     3.077       -         
+lowClk\.un2_ringlt17           Net          -        -       -         -           1         
+lowClk\.un2_ringlto19          ORCALUT4     A        In      0.000     3.077       -         
+lowClk\.un2_ringlto19          ORCALUT4     Z        Out     1.089     4.166       -         
+lowClk\.un2_ringlt21           Net          -        -       -         -           2         
+lowClk\.un2_ringlto23          ORCALUT4     A        In      0.000     4.166       -         
+lowClk\.un2_ringlto23          ORCALUT4     Z        Out     1.089     5.255       -         
+lowClk\.un2_ring               Net          -        -       -         -           2         
+lowClk\.adress9_4_RNI36D81     ORCALUT4     C        In      0.000     5.255       -         
+lowClk\.adress9_4_RNI36D81     ORCALUT4     Z        Out     1.193     6.448       -         
+lowClk\.adress9_4_RNI36D81     Net          -        -       -         -           4         
+Adress[0]                      FD1P3IX      CD       In      0.000     6.448       -         
+=============================================================================================
 
 
 
@@ -423,10 +461,10 @@ Adress[0]                          FD1S3IX      CD       In      0.000     6.376
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 162MB peak: 164MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 169MB peak: 173MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 162MB peak: 164MB)
+Finished timing report (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 169MB peak: 173MB)
 
 ---------------------------------------
 Resource Usage Report
@@ -434,20 +472,21 @@ Part: lcmxo2_7000ze-1
 
 Register bits: 62 of 6864 (1%)
 PIC Latch:       0
-I/O cells:       25
+I/O cells:       26
 
 
 Details:
-CCU2D:          80
+CCU2D:          927
 FD1P3AX:        19
 FD1P3AY:        1
-FD1P3IX:        3
+FD1P3IX:        4
 FD1S3AX:        17
-FD1S3IX:        22
+FD1S3IX:        21
 GSR:            1
-INV:            2
+IB:             1
+INV:            21
 OB:             25
-ORCALUT4:       290
+ORCALUT4:       430
 OSCH:           1
 PUR:            1
 ROM128X1A:      128
@@ -456,9 +495,9 @@ VHI:            1
 VLO:            1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 31MB peak: 164MB)
+At Mapper Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 35MB peak: 173MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:05s cputime
-# Tue Nov 20 23:48:41 2018
+Process took 0h:00m:09s realtime, 0h:00m:07s cputime
+# Wed Nov 21 19:54:17 2018
 
 ###########################################################]

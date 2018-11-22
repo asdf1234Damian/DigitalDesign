@@ -3,19 +3,20 @@ Report for cell Marquezina.arch_marquezina
 
 Register bits: 62 of 6864 (1%)
 PIC Latch:       0
-I/O cells:       25
+I/O cells:       26
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2D       80       100.0
+                              CCU2D      927       100.0
                             FD1P3AX       19       100.0
                             FD1P3AY        1       100.0
-                            FD1P3IX        3       100.0
+                            FD1P3IX        4       100.0
                             FD1S3AX       17       100.0
-                            FD1S3IX       22       100.0
+                            FD1S3IX       21       100.0
                                 GSR        1       100.0
-                                INV        2       100.0
+                                 IB        1       100.0
+                                INV       21       100.0
                                  OB       25       100.0
-                           ORCALUT4      290       100.0
+                           ORCALUT4      430       100.0
                                OSCH        1       100.0
                                 PUR        1       100.0
                           ROM128X1A      128       100.0
@@ -23,4 +24,4 @@ I/O cells:       25
                                 VHI        1       100.0
                                 VLO        1       100.0
                             
-                         TOTAL           688           
+                         TOTAL          1695           

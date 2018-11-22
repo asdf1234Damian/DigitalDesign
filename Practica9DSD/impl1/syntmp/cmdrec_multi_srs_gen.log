@@ -1,7 +1,7 @@
 C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  Marquezina  -multisrs  C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\impl1\synwork\Practica9DSD_impl1_comp.srs  -osyn  C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\impl1\synwork\Practica9DSD_impl1_mult.srs  -log  C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\impl1\synlog\Practica9DSD_impl1_multi_srs_gen.srr 
 relcom:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top Marquezina -multisrs ..\synwork\Practica9DSD_impl1_comp.srs -osyn ..\synwork\Practica9DSD_impl1_mult.srs -log ..\synlog\Practica9DSD_impl1_multi_srs_gen.srr
-rc:0 success:1 runtime:2
-file:..\synwork\Practica9DSD_impl1_comp.srs|io:i|time:1542779308|size:11044|exec:0|csum:434EAF34890430E6F199EF661E80669A
-file:..\synwork\Practica9DSD_impl1_mult.srs|io:o|time:1542779311|size:10702|exec:0|csum:
-file:..\synlog\Practica9DSD_impl1_multi_srs_gen.srr|io:o|time:1542779311|size:531|exec:0|csum:
+rc:0 success:1 runtime:0
+file:..\synwork\Practica9DSD_impl1_comp.srs|io:i|time:1542851624|size:11562|exec:0|csum:008B9D34BE9208C21C7562F1118EB9C8
+file:..\synwork\Practica9DSD_impl1_mult.srs|io:o|time:1542851626|size:11139|exec:0|csum:
+file:..\synlog\Practica9DSD_impl1_multi_srs_gen.srr|io:o|time:1542851646|size:467|exec:0|csum:
 file:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501910190|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

@@ -1,522 +1,4 @@
 
-synpwrap -msg -prj "Practica9DSD_impl1_synplify.tcl" -log "Practica9DSD_impl1.srf"
-Copyright (C) 1992-2017 Lattice Semiconductor Corporation. All rights reserved.
-Lattice Diamond Version 3.10.0.111.2
-    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
-
-==contents of Practica9DSD_impl1.srf
-#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
-#install: C:\lscc\diamond\3.10_x64\synpbase
-#OS: Windows 8 6.2
-#Hostname: DESKTOP-4BVJD33
-
-# Tue Nov 20 23:48:26 2018
-
-#Implementation: impl1
-
-Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
-@N|Running in 64-bit mode
-Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
-
-Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
-@N|Running in 64-bit mode
-Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
-
-@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
-@N:"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":7:7:7:16|Top entity is set to Marquezina.
-Options changed - recompiling
-VHDL syntax check successful!
-Options changed - recompiling
-@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":7:7:7:16|Synthesizing work.marquezina.arch_marquezina.
-@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
-@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
-Post processing for work.osch.syn_black_box
-@W: CD609 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":205:38:205:66|Index value 0 to 147 could be out of prefix range 0 to 146 
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":202:10:202:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\Disp8x8.vhd":205:59:205:64|Referenced variable adress is not in sensitivity list.
-Post processing for work.marquezina.arch_marquezina
-
-At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 75MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-
-Process completed successfully.
-# Tue Nov 20 23:48:28 2018
-
-###########################################################]
-Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
-@N|Running in 64-bit mode
-File C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\impl1\synwork\layer0.srs changed - recompiling
-
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-
-Process completed successfully.
-# Tue Nov 20 23:48:28 2018
-
-###########################################################]
-@END
-
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-
-Process completed successfully.
-# Tue Nov 20 23:48:28 2018
-
-###########################################################]
-Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
-@N|Running in 64-bit mode
-File C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\impl1\synwork\Practica9DSD_impl1_comp.srs changed - recompiling
-
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-
-Process completed successfully.
-# Tue Nov 20 23:48:31 2018
-
-###########################################################]
-Pre-mapping Report
-
-# Tue Nov 20 23:48:31 2018
-
-Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
-Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
-Product Version M-2017.03L-SP1-1
-
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
-
-@A: MF827 |No constraint file specified.
-@L: C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\impl1\Practica9DSD_impl1_scck.rpt 
-Printing clock  summary report in "C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\impl1\Practica9DSD_impl1_scck.rpt" file 
-@N: MF248 |Running in 64-bit mode.
-@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
-
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
-
-
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
-
-
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
-
-
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
-
-@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
-ICG Latch Removal Summary:
-Number of ICG latches removed:	0
-Number of ICG latches not removed:	0
-syn_allowed_resources : blockrams=26  set on top level netlist Marquezina
-
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
-
-
-
-Clock Summary
-******************
-
-          Start                               Requested     Requested     Clock        Clock                   Clock
-Level     Clock                               Frequency     Period        Type         Group                   Load 
---------------------------------------------------------------------------------------------------------------------
-0 -       Marquezina|Clock_inferred_clock     53.2 MHz      18.797        inferred     Inferred_clkgroup_0     62   
-====================================================================================================================
-
-@W: MT529 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":181:2:181:3|Found inferred clock Marquezina|Clock_inferred_clock which controls 62 sequential elements including mux[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
-
-Finished Pre Mapping Phase.
-
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
-
-
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
-
-None
-None
-
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
-
-Pre-mapping successful!
-
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 141MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Nov 20 23:48:33 2018
-
-###########################################################]
-Map & Optimize Report
-
-# Tue Nov 20 23:48:35 2018
-
-Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
-Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
-Product Version M-2017.03L-SP1-1
-
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
-
-@N: MF248 |Running in 64-bit mode.
-@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
-
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
-
-
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
-
-
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
-
-
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
-
-
-
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
-
-
-Available hyper_sources - for debug and ip models
-	None Found
-
-@N: FX493 |Applying initial value "0000000000000001" on instance mux[15:0].
-
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
-
-
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
-
-
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 144MB)
-
-
-Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
-
-
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
-
-
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
-
-
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 144MB)
-
-
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 144MB)
-
-
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
-
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":220:38:220:44|Generating ROM muxDisp\.Data_16[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":218:38:218:44|Generating ROM muxDisp\.Data_14[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":216:38:216:44|Generating ROM muxDisp\.Data_12[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":214:38:214:44|Generating ROM muxDisp\.Data_10[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":212:38:212:44|Generating ROM muxDisp\.Data_8[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":210:38:210:44|Generating ROM muxDisp\.Data_6[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":208:38:208:44|Generating ROM muxDisp\.Data_4[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":219:38:219:44|Generating ROM muxDisp\.Data_15[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":217:38:217:44|Generating ROM muxDisp\.Data_13[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":215:38:215:44|Generating ROM muxDisp\.Data_11[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":211:38:211:44|Generating ROM muxDisp\.Data_7[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":206:38:206:44|Generating ROM muxDisp\.Data_2[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":213:38:213:44|Generating ROM muxDisp\.Data_9[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":209:38:209:44|Generating ROM muxDisp\.Data_5[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":207:38:207:44|Generating ROM muxDisp\.Data_3[7:0] (in view: work.Marquezina(arch_marquezina)).
-@N: FX214 :"c:\users\asdf1\documents\digitaldesign\practica9dsd\disp8x8.vhd":205:38:205:44|Generating ROM muxDisp\.Data_1[7:0] (in view: work.Marquezina(arch_marquezina)).
-
-Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 147MB)
-
-
-Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 162MB)
-
-Pass		 CPU time		Worst Slack		Luts / Registers
-------------------------------------------------------------
-   1		0h:00m:02s		    12.69ns		 292 /        62
-
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 162MB)
-
-@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
-
-Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 159MB peak: 162MB)
-
-
-
-@S |Clock Optimization Summary
-
-
-#### START OF CLOCK OPTIMIZATION REPORT #####[
-
-0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 62 clock pin(s) of sequential element(s)
-0 instances converted, 62 sequential instances remain driven by gated/generated clocks
-
-================================================================================================= Gated/Generated Clocks =================================================================================================
-Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       OSCInst0            OSCH                   62         Adress[2]           Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
-==========================================================================================================================================================================================================================
-
-
-##### END OF CLOCK OPTIMIZATION REPORT ######]
-
-
-Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 124MB peak: 162MB)
-
-Writing Analyst data base C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\impl1\synwork\Practica9DSD_impl1_m.srm
-
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 158MB peak: 162MB)
-
-Writing EDIF Netlist and constraint files
-@N: FX1056 |Writing EDF file: C:\Users\asdf1\Documents\DigitalDesign\Practica9DSD\impl1\Practica9DSD_impl1.edi
-M-2017.03L-SP1-1
-@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
-
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 162MB peak: 164MB)
-
-
-Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 162MB peak: 164MB)
-
-@W: MT420 |Found inferred clock Marquezina|Clock_inferred_clock with period 18.80ns. Please declare a user-defined clock on object "n:Clock"
-
-
-##### START OF TIMING REPORT #####[
-# Timing Report written on Tue Nov 20 23:48:41 2018
-#
-
-
-Top view:               Marquezina
-Requested Frequency:    53.2 MHz
-Wire load mode:         top
-Paths requested:        5
-Constraint File(s):    
-@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
-
-@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
-
-
-
-Performance Summary
-*******************
-
-
-Worst slack in design: 11.618
-
-                                    Requested     Estimated     Requested     Estimated                Clock        Clock              
-Starting Clock                      Frequency     Frequency     Period        Period        Slack      Type         Group              
----------------------------------------------------------------------------------------------------------------------------------------
-Marquezina|Clock_inferred_clock     53.2 MHz      139.3 MHz     18.797        7.179         11.618     inferred     Inferred_clkgroup_0
-System                              1.0 MHz       NA            1000.000      NA            NA         system       system_clkgroup    
-=======================================================================================================================================
-Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
-
-
-
-
-
-Clock Relationships
-*******************
-
-Clocks                                                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
----------------------------------------------------------------------------------------------------------------------------------------------------------
-Starting                         Ending                           |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
----------------------------------------------------------------------------------------------------------------------------------------------------------
-Marquezina|Clock_inferred_clock  Marquezina|Clock_inferred_clock  |  18.797      11.618  |  No paths    -      |  No paths    -      |  No paths    -    
-=========================================================================================================================================================
- Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
-       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
-
-
-
-Interface Information 
-*********************
-
-No IO constraint found
-
-
-
-====================================
-Detailed Report for Clock: Marquezina|Clock_inferred_clock
-====================================
-
-
-
-Starting Points with Worst Slack
-********************************
-
-             Starting                                                             Arrival           
-Instance     Reference                           Type        Pin     Net          Time        Slack 
-             Clock                                                                                  
-----------------------------------------------------------------------------------------------------
-ring[5]      Marquezina|Clock_inferred_clock     FD1S3IX     Q       ring[5]      1.044       11.618
-ring[6]      Marquezina|Clock_inferred_clock     FD1S3AX     Q       ring[6]      1.044       11.618
-ring[7]      Marquezina|Clock_inferred_clock     FD1S3AX     Q       ring[7]      1.044       11.618
-ring[8]      Marquezina|Clock_inferred_clock     FD1S3IX     Q       ring[8]      1.044       11.618
-ring[9]      Marquezina|Clock_inferred_clock     FD1S3AX     Q       ring[9]      1.044       11.618
-ring[10]     Marquezina|Clock_inferred_clock     FD1S3AX     Q       ring[10]     1.044       11.618
-ring[11]     Marquezina|Clock_inferred_clock     FD1S3AX     Q       ring[11]     1.044       11.618
-ring[12]     Marquezina|Clock_inferred_clock     FD1S3IX     Q       ring[12]     1.044       11.618
-ring[13]     Marquezina|Clock_inferred_clock     FD1S3IX     Q       ring[13]     1.044       11.618
-ring[14]     Marquezina|Clock_inferred_clock     FD1S3IX     Q       ring[14]     1.044       11.618
-====================================================================================================
-
-
-Ending Points with Worst Slack
-******************************
-
-              Starting                                                                                   Required           
-Instance      Reference                           Type        Pin     Net                                Time         Slack 
-              Clock                                                                                                         
-----------------------------------------------------------------------------------------------------------------------------
-Adress[0]     Marquezina|Clock_inferred_clock     FD1S3IX     CD      lowClk\.un2_ringlto23_RNIUMG61     17.994       11.618
-Adress[1]     Marquezina|Clock_inferred_clock     FD1P3IX     CD      lowClk\.un2_ringlto23_RNIUMG61     17.994       11.618
-Adress[4]     Marquezina|Clock_inferred_clock     FD1P3IX     CD      lowClk\.un2_ringlto23_RNIUMG61     17.994       11.618
-Adress[7]     Marquezina|Clock_inferred_clock     FD1P3IX     CD      lowClk\.un2_ringlto23_RNIUMG61     17.994       11.618
-ring[0]       Marquezina|Clock_inferred_clock     FD1S3IX     CD      lowClk\.un2_ring_i                 17.994       12.507
-ring[5]       Marquezina|Clock_inferred_clock     FD1S3IX     CD      lowClk\.un2_ring_i                 17.994       12.507
-ring[8]       Marquezina|Clock_inferred_clock     FD1S3IX     CD      lowClk\.un2_ring_i                 17.994       12.507
-ring[12]      Marquezina|Clock_inferred_clock     FD1S3IX     CD      lowClk\.un2_ring_i                 17.994       12.507
-ring[13]      Marquezina|Clock_inferred_clock     FD1S3IX     CD      lowClk\.un2_ring_i                 17.994       12.507
-ring[14]      Marquezina|Clock_inferred_clock     FD1S3IX     CD      lowClk\.un2_ring_i                 17.994       12.507
-============================================================================================================================
-
-
-
-Worst Path Information
-***********************
-
-
-Path information for path number 1: 
-      Requested Period:                      18.797
-    - Setup time:                            0.803
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         17.994
-
-    - Propagation time:                      6.376
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     11.618
-
-    Number of logic level(s):                5
-    Starting point:                          ring[5] / Q
-    Ending point:                            Adress[0] / CD
-    The start point is clocked by            Marquezina|Clock_inferred_clock [rising] on pin CK
-    The end   point is clocked by            Marquezina|Clock_inferred_clock [rising] on pin CK
-
-Instance / Net                                  Pin      Pin               Arrival     No. of    
-Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------
-ring[5]                            FD1S3IX      Q        Out     1.044     1.044       -         
-ring[5]                            Net          -        -       -         -           2         
-lowClk\.un2_ringlto8               ORCALUT4     A        In      0.000     1.044       -         
-lowClk\.un2_ringlto8               ORCALUT4     Z        Out     1.017     2.061       -         
-lowClk\.un2_ringlt11               Net          -        -       -         -           1         
-lowClk\.un2_ringlto16              ORCALUT4     A        In      0.000     2.061       -         
-lowClk\.un2_ringlto16              ORCALUT4     Z        Out     1.017     3.077       -         
-lowClk\.un2_ringlt17               Net          -        -       -         -           1         
-lowClk\.un2_ringlto19              ORCALUT4     A        In      0.000     3.077       -         
-lowClk\.un2_ringlto19              ORCALUT4     Z        Out     1.089     4.166       -         
-lowClk\.un2_ringlt21               Net          -        -       -         -           2         
-lowClk\.un2_ringlto23              ORCALUT4     A        In      0.000     4.166       -         
-lowClk\.un2_ringlto23              ORCALUT4     Z        Out     1.017     5.183       -         
-lowClk\.un2_ring                   Net          -        -       -         -           1         
-lowClk\.un2_ringlto23_RNIUMG61     ORCALUT4     C        In      0.000     5.183       -         
-lowClk\.un2_ringlto23_RNIUMG61     ORCALUT4     Z        Out     1.193     6.376       -         
-lowClk\.un2_ringlto23_RNIUMG61     Net          -        -       -         -           4         
-Adress[0]                          FD1S3IX      CD       In      0.000     6.376       -         
-=================================================================================================
-
-
-
-##### END OF TIMING REPORT #####]
-
-Timing exceptions that could not be applied
-None
-
-Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 162MB peak: 164MB)
-
-
-Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 162MB peak: 164MB)
-
----------------------------------------
-Resource Usage Report
-Part: lcmxo2_7000ze-1
-
-Register bits: 62 of 6864 (1%)
-PIC Latch:       0
-I/O cells:       25
-
-
-Details:
-CCU2D:          80
-FD1P3AX:        19
-FD1P3AY:        1
-FD1P3IX:        3
-FD1S3AX:        17
-FD1S3IX:        22
-GSR:            1
-INV:            2
-OB:             25
-ORCALUT4:       290
-OSCH:           1
-PUR:            1
-ROM128X1A:      128
-ROM32X1A:       96
-VHI:            1
-VLO:            1
-Mapper successful!
-
-At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 31MB peak: 164MB)
-
-Process took 0h:00m:05s realtime, 0h:00m:05s cputime
-# Tue Nov 20 23:48:41 2018
-
-###########################################################]
-
-
-Synthesis exit by 0.
-
-edif2ngd  -l "MachXO2" -d LCMXO2-7000ZE -path "C:/Users/asdf1/Documents/DigitalDesign/Practica9DSD/impl1" -path "C:/Users/asdf1/Documents/DigitalDesign/Practica9DSD"   "C:/Users/asdf1/Documents/DigitalDesign/Practica9DSD/impl1/Practica9DSD_impl1.edi" "Practica9DSD_impl1.ngo"   
-edif2ngd:  version Diamond (64-bit) 3.10.0.111.2
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Writing the design to Practica9DSD_impl1.ngo...
-
-Total CPU Time: 0 secs  
-
-Total REAL Time: 0 secs  
-
-
-ngdbuild  -a "MachXO2" -d LCMXO2-7000ZE  -p "C:/lscc/diamond/3.10_x64/ispfpga/xo2c00/data"  -p "C:/Users/asdf1/Documents/DigitalDesign/Practica9DSD/impl1" -p "C:/Users/asdf1/Documents/DigitalDesign/Practica9DSD"  "Practica9DSD_impl1.ngo" "Practica9DSD_impl1.ngd"  	
-ngdbuild:  version Diamond (64-bit) 3.10.0.111.2
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Reading 'Practica9DSD_impl1.ngo' ...
-Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
-Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
-Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
-Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/or5g00/data/orc5glib.ngl'...
-
-
-Running DRC...
-
-    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="OSCInst0_SEDSTDBY" arg2="OSCInst0_SEDSTDBY"  />
-    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="1"  />
-
-Design Results:
-    687 blocks expanded
-Complete the first expansion.
-Writing 'Practica9DSD_impl1.ngd' ...
-Total CPU Time: 0 secs  
-
-Total REAL Time: 0 secs  
-
-
 map -a "MachXO2" -p LCMXO2-7000ZE -t TQFP144 -s 1 -oc Commercial   "Practica9DSD_impl1.ngd" -o "Practica9DSD_impl1_map.ncd" -pr "Practica9DSD_impl1.prf" -mp "Practica9DSD_impl1.mrp" -lpf "C:/Users/asdf1/Documents/DigitalDesign/Practica9DSD/impl1/Practica9DSD_impl1_synplify.lpf" -lpf "C:/Users/asdf1/Documents/DigitalDesign/Practica9DSD/Practica9DSD.lpf" -c 0            
 map:  version Diamond (64-bit) 3.10.0.111.2
 
@@ -547,7 +29,7 @@ Removing unused logic...
 
 Optimizing...
 
-4 CCU2 constant inputs absorbed.
+115 CCU2 constant inputs absorbed.
 
 
 
@@ -556,16 +38,16 @@ Design Summary:
    Number of registers:     62 out of  7209 (1%)
       PFU registers:           62 out of  6864 (1%)
       PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:       835 out of  3432 (24%)
-      SLICEs as Logic/ROM:    835 out of  3432 (24%)
+   Number of SLICEs:      1762 out of  3432 (51%)
+      SLICEs as Logic/ROM:   1762 out of  3432 (51%)
       SLICEs as RAM:            0 out of  2574 (0%)
-      SLICEs as Carry:         80 out of  3432 (2%)
-   Number of LUT4s:        1668 out of  6864 (24%)
-      Number used as logic LUTs:        1508
+      SLICEs as Carry:        927 out of  3432 (27%)
+   Number of LUT4s:        3521 out of  6864 (51%)
+      Number used as logic LUTs:        1667
       Number used as distributed RAM:     0
-      Number used as ripple logic:      160
+      Number used as ripple logic:      1854
       Number used as shift registers:     0
-   Number of PIO sites used: 25 + 4(JTAG) out of 115 (25%)
+   Number of PIO sites used: 26 + 4(JTAG) out of 115 (26%)
    Number of block RAMs:  0 out of 26 (0%)
    Number of GSRs:  0 out of 1 (0%)
    EFB used :       No
@@ -589,26 +71,26 @@ Design Summary:
       1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
    Number of clocks:  1
-     Net Clock_c: 37 loads, 37 rising, 0 falling (Driver: OSCInst0 )
+     Net Clock_c: 39 loads, 39 rising, 0 falling (Driver: OSCInst0 )
    Number of Clock Enables:  2
-     Net lowClk.un2_ring_i: 4 loads, 4 LSLICEs
      Net lowClk.un2_count_i: 8 loads, 8 LSLICEs
+     Net un1_ring_i: 5 loads, 5 LSLICEs
    Number of LSRs:  3
-     Net lowClk.un2_ringlto23_RNIUMG61: 3 loads, 3 LSLICEs
-     Net lowClk.un2_ring_i: 9 loads, 9 LSLICEs
      Net lowClk.un2_count_i: 5 loads, 5 LSLICEs
+     Net lowClk.adress9_4_RNI36D81: 3 loads, 3 LSLICEs
+     Net lowClk.un2_ring_i: 9 loads, 9 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net Adress[1]: 597 loads
-     Net Adress[2]: 310 loads
-     Net Adress[0]: 282 loads
-     Net Adress[3]: 159 loads
-     Net N_302_a: 144 loads
-     Net un45_data_a[2]: 144 loads
-     Net Adress[5]: 87 loads
-     Net N_331_a: 74 loads
-     Net N_332_a: 73 loads
-     Net un101_data_a[1]: 73 loads
+     Net muxDisp.un101_data[8]: 73 loads
+     Net muxDisp.un171_data[8]: 73 loads
+     Net muxDisp.un1_data[24]: 73 loads
+     Net muxDisp.un241_data[8]: 73 loads
+     Net muxDisp.un346_data[8]: 73 loads
+     Net muxDisp.un381_data[8]: 73 loads
+     Net muxDisp.un416_data[8]: 73 loads
+     Net muxDisp.un451_data[8]: 73 loads
+     Net muxDisp.un485_data[8]: 73 loads
+     Net muxDisp.un519_data[8]: 73 loads
  
 
    Number of warnings:  0
@@ -616,9 +98,9 @@ Design Summary:
 
 
 
-Total CPU Time: 2 secs  
-Total REAL Time: 3 secs  
-Peak Memory Usage: 65 MB
+Total CPU Time: 1 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 73 MB
 
 Dumping design to file Practica9DSD_impl1_map.ncd.
 
@@ -629,7 +111,7 @@ Removing old design directory at request of -rem command line option to this pro
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "Practica9DSD_impl1_map.ncd"
-Tue Nov 20 23:48:48 2018
+Wed Nov 21 19:55:31 2018
 
 PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
 Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/asdf1/Documents/DigitalDesign/Practica9DSD/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF Practica9DSD_impl1_map.ncd Practica9DSD_impl1.dir/5_1.ncd Practica9DSD_impl1.prf
@@ -653,42 +135,41 @@ License checked out.
 Ignore Preference Error(s):  True
 Device utilization summary:
 
-   PIO (prelim)   25+4(JTAG)/336     9% used
-                  25+4(JTAG)/115     25% bonded
+   PIO (prelim)   26+4(JTAG)/336     9% used
+                  26+4(JTAG)/115     26% bonded
 
-   SLICE            835/3432         24% used
+   SLICE           1762/3432         51% used
 
    OSC                1/1           100% used
 
 
-Number of Signals: 1530
-Number of Connections: 7763
+Number of Signals: 3647
+Number of Connections: 11257
 
 Pin Constraint Summary:
-   25 out of 25 pins locked (100% locked).
+   26 out of 26 pins locked (100% locked).
 
 The following 1 signal is selected to use the primary clock routing resources:
-    Clock_c (driver: OSCInst0, clk load #: 37)
+    Clock_c (driver: OSCInst0, clk load #: 39)
 
 
-The following 2 signals are selected to use the secondary clock routing resources:
-    lowClk.un2_ring_i (driver: SLICE_80, clk load #: 0, sr load #: 9, ce load #: 4)
-    lowClk.un2_count_i (driver: SLICE_820, clk load #: 0, sr load #: 5, ce load #: 8)
+The following 1 signal is selected to use the secondary clock routing resources:
+    lowClk.un2_count_i (driver: SLICE_1689, clk load #: 0, sr load #: 5, ce load #: 8)
 
 No signal is selected as Global Set/Reset.
 Starting Placer Phase 0.
-..........
-Finished Placer Phase 0.  REAL time: 3 secs 
+............
+Finished Placer Phase 0.  REAL time: 0 secs 
 
 Starting Placer Phase 1.
-....................
-Placer score = 232810.
-Finished Placer Phase 1.  REAL time: 26 secs 
+.....................
+Placer score = 506865.
+Finished Placer Phase 1.  REAL time: 14 secs 
 
 Starting Placer Phase 2.
 .
-Placer score =  231775
-Finished Placer Phase 2.  REAL time: 26 secs 
+Placer score =  504662
+Finished Placer Phase 2.  REAL time: 15 secs 
 
 
 ------------------ Clock Report ------------------
@@ -700,12 +181,11 @@ Global Clock Resources:
   DCC        : 0 out of 8 (0%)
 
 Quadrants All (TL, TR, BL, BR) - Global Clocks:
-  PRIMARY "Clock_c" from OSC on comp "OSCInst0" on site "OSC", clk load = 37
-  SECONDARY "lowClk.un2_ring_i" from F1 on comp "SLICE_80" on site "R21C18D", clk load = 0, ce load = 4, sr load = 9
-  SECONDARY "lowClk.un2_count_i" from F0 on comp "SLICE_820" on site "R25C6D", clk load = 0, ce load = 8, sr load = 5
+  PRIMARY "Clock_c" from OSC on comp "OSCInst0" on site "OSC", clk load = 39
+  SECONDARY "lowClk.un2_count_i" from F0 on comp "SLICE_1689" on site "R25C12C", clk load = 0, ce load = 8, sr load = 5
 
   PRIMARY  : 1 out of 8 (12%)
-  SECONDARY: 2 out of 8 (25%)
+  SECONDARY: 1 out of 8 (12%)
 
 Edge Clocks:
   No edge clock selected.
@@ -714,9 +194,9 @@ Edge Clocks:
 
 
 I/O Usage Summary (final):
-   25 + 4(JTAG) out of 336 (8.6%) PIO sites used.
-   25 + 4(JTAG) out of 115 (25.2%) bonded PIO sites used.
-   Number of PIO comps: 25; differential: 0.
+   26 + 4(JTAG) out of 336 (8.9%) PIO sites used.
+   26 + 4(JTAG) out of 115 (26.1%) bonded PIO sites used.
+   Number of PIO comps: 26; differential: 0.
    Number of Vref pins used: 0.
 
 I/O Bank Usage Summary:
@@ -728,19 +208,19 @@ I/O Bank Usage Summary:
 | 2        | 17 / 29 ( 58%) | 2.5V       | -         |
 | 3        | 0 / 9 (  0%)   | -          | -         |
 | 4        | 0 / 10 (  0%)  | -          | -         |
-| 5        | 0 / 10 (  0%)  | -          | -         |
+| 5        | 1 / 10 ( 10%)  | 2.5V       | -         |
 +----------+----------------+------------+-----------+
 
-Total placer CPU time: 25 secs 
+Total placer CPU time: 15 secs 
 
 Dumping design to file Practica9DSD_impl1.dir/5_1.ncd.
 
-0 connections routed; 7763 unrouted.
+0 connections routed; 11257 unrouted.
 Starting router resource preassignment
 
-Completed router resource preassignment. Real time: 31 secs 
+Completed router resource preassignment. Real time: 17 secs 
 
-Start NBR router at 23:49:19 11/20/18
+Start NBR router at 19:55:48 11/21/18
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -755,181 +235,95 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at 23:49:19 11/20/18
+Start NBR special constraint process at 19:55:48 11/21/18
 
-Start NBR section for initial routing at 23:49:19 11/20/18
+Start NBR section for initial routing at 19:55:49 11/21/18
 Level 1, iteration 1
-0(0.00%) conflict; 6826(87.93%) untouched conns; 32379 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.358ns/-32.379ns; real time: 32 secs 
+1(0.00%) conflict; 9623(85.48%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.517ns/0.000ns; real time: 18 secs 
 Level 2, iteration 1
-7(0.00%) conflicts; 6803(87.63%) untouched conns; 6024 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.459ns/-6.025ns; real time: 33 secs 
+1(0.00%) conflict; 9608(85.35%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.224ns/0.000ns; real time: 18 secs 
 Level 3, iteration 1
-8(0.00%) conflicts; 6776(87.29%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 0.064ns/0.000ns; real time: 38 secs 
+4(0.00%) conflicts; 9573(85.04%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.804ns/0.000ns; real time: 18 secs 
 Level 4, iteration 1
-29(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 0.064ns/0.000ns; real time: 42 secs 
+46(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.955ns/0.000ns; real time: 21 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 23:49:30 11/20/18
+Start NBR section for normal routing at 19:55:52 11/21/18
 Level 1, iteration 1
-7(0.00%) conflicts; 34(0.44%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 0.152ns/0.000ns; real time: 42 secs 
+1(0.00%) conflict; 90(0.80%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.955ns/0.000ns; real time: 21 secs 
 Level 2, iteration 1
-7(0.00%) conflicts; 34(0.44%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 0.152ns/0.000ns; real time: 42 secs 
+1(0.00%) conflict; 90(0.80%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.955ns/0.000ns; real time: 21 secs 
 Level 3, iteration 1
-7(0.00%) conflicts; 34(0.44%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 0.152ns/0.000ns; real time: 42 secs 
+1(0.00%) conflict; 90(0.80%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.955ns/0.000ns; real time: 21 secs 
 Level 4, iteration 1
-11(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 0.152ns/0.000ns; real time: 43 secs 
+18(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.955ns/0.000ns; real time: 21 secs 
 Level 4, iteration 2
-9(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 0.152ns/0.000ns; real time: 43 secs 
-Level 4, iteration 3
 7(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 0.152ns/0.000ns; real time: 43 secs 
-Level 4, iteration 4
-6(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 0.152ns/0.000ns; real time: 43 secs 
-Level 4, iteration 5
-5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 0.152ns/0.000ns; real time: 43 secs 
-Level 4, iteration 6
-6(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 0.152ns/0.000ns; real time: 43 secs 
-Level 4, iteration 7
-4(0.00%) conflicts; 0(0.00%) untouched conn; 3440 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.500ns/-3.440ns; real time: 43 secs 
-Level 4, iteration 8
-3(0.00%) conflicts; 0(0.00%) untouched conn; 3440 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.500ns/-3.440ns; real time: 43 secs 
-Level 4, iteration 9
-3(0.00%) conflicts; 0(0.00%) untouched conn; 1655 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.245ns/-1.655ns; real time: 43 secs 
-Level 4, iteration 10
-4(0.00%) conflicts; 0(0.00%) untouched conn; 1655 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.245ns/-1.655ns; real time: 43 secs 
-Level 4, iteration 11
-4(0.00%) conflicts; 0(0.00%) untouched conn; 3440 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.500ns/-3.440ns; real time: 43 secs 
-Level 4, iteration 12
-3(0.00%) conflicts; 0(0.00%) untouched conn; 3440 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.500ns/-3.440ns; real time: 44 secs 
-Level 4, iteration 13
-2(0.00%) conflicts; 0(0.00%) untouched conn; 8834 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.853ns/-8.835ns; real time: 44 secs 
-Level 4, iteration 14
-2(0.00%) conflicts; 0(0.00%) untouched conn; 8834 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.853ns/-8.835ns; real time: 44 secs 
-Level 4, iteration 15
-2(0.00%) conflicts; 0(0.00%) untouched conn; 10790 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.199ns/-10.790ns; real time: 44 secs 
-Level 4, iteration 16
-1(0.00%) conflict; 0(0.00%) untouched conn; 10790 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.199ns/-10.790ns; real time: 44 secs 
-Level 4, iteration 17
-0(0.00%) conflict; 0(0.00%) untouched conn; 29147 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -2.642ns/-29.147ns; real time: 44 secs 
-Level 4, iteration 18
-2(0.00%) conflicts; 0(0.00%) untouched conn; 29147 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -2.642ns/-29.147ns; real time: 44 secs 
-Level 4, iteration 19
-1(0.00%) conflict; 0(0.00%) untouched conn; 16649 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.775ns/-16.649ns; real time: 44 secs 
-Level 4, iteration 20
-2(0.00%) conflicts; 0(0.00%) untouched conn; 16649 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.775ns/-16.649ns; real time: 44 secs 
-Level 4, iteration 21
-0(0.00%) conflict; 0(0.00%) untouched conn; 20026 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -2.030ns/-20.026ns; real time: 44 secs 
-Level 4, iteration 22
-1(0.00%) conflict; 0(0.00%) untouched conn; 20026 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -2.030ns/-20.026ns; real time: 44 secs 
-Level 4, iteration 23
-0(0.00%) conflict; 0(0.00%) untouched conn; 24668 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -2.267ns/-24.668ns; real time: 44 secs 
-Level 4, iteration 24
-2(0.00%) conflicts; 0(0.00%) untouched conn; 24668 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -2.267ns/-24.668ns; real time: 44 secs 
-Level 4, iteration 25
-0(0.00%) conflict; 0(0.00%) untouched conn; 21256 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -2.030ns/-21.256ns; real time: 44 secs 
-
-Start NBR section for performance tuning (iteration 1) at 23:49:32 11/20/18
-Level 4, iteration 1
-2(0.00%) conflicts; 0(0.00%) untouched conn; 11603 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.457ns/-11.603ns; real time: 44 secs 
-Level 4, iteration 2
-1(0.00%) conflict; 0(0.00%) untouched conn; 15895 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.457ns/-15.895ns; real time: 44 secs 
+Estimated worst slack/total negative slack<setup>: 0.955ns/0.000ns; real time: 21 secs 
 Level 4, iteration 3
-0(0.00%) conflict; 0(0.00%) untouched conn; 15784 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.457ns/-15.784ns; real time: 44 secs 
-
-Start NBR section for performance tuning (iteration 2) at 23:49:32 11/20/18
-Level 4, iteration 1
-1(0.00%) conflict; 0(0.00%) untouched conn; 12694 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.227ns/-12.694ns; real time: 44 secs 
-Level 4, iteration 2
-7(0.00%) conflicts; 0(0.00%) untouched conn; 5650 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.580ns/-5.650ns; real time: 44 secs 
-Level 4, iteration 3
-3(0.00%) conflicts; 0(0.00%) untouched conn; 14932 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.457ns/-14.932ns; real time: 45 secs 
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.955ns/0.000ns; real time: 21 secs 
 Level 4, iteration 4
-1(0.00%) conflict; 0(0.00%) untouched conn; 14932 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.457ns/-14.932ns; real time: 45 secs 
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.955ns/0.000ns; real time: 21 secs 
 Level 4, iteration 5
-0(0.00%) conflict; 0(0.00%) untouched conn; 20069 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -2.030ns/-20.069ns; real time: 45 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.955ns/0.000ns; real time: 21 secs 
 
-Start NBR section for re-routing at 23:49:33 11/20/18
+Start NBR section for setup/hold timing optimization with effort level 3 at 19:55:52 11/21/18
+
+Start NBR section for re-routing at 19:55:53 11/21/18
 Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 15784 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -1.457ns/-15.784ns; real time: 45 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.955ns/0.000ns; real time: 22 secs 
 
-Start NBR section for post-routing at 23:49:33 11/20/18
+Start NBR section for post-routing at 19:55:53 11/21/18
 
 End NBR router with 0 unrouted connection
 
 NBR Summary
 -----------
   Number of unrouted connections : 0 (0.00%)
-  Number of connections with timing violations : 14 (0.18%)
-  Estimated worst slack<setup> : -1.457ns
-  Timing score<setup> : 10900
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 0.955ns
+  Timing score<setup> : 0
 -----------
 Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
 
 
 
-Total CPU time 45 secs 
-Total REAL time: 47 secs 
+Total CPU time 23 secs 
+Total REAL time: 23 secs 
 Completely routed.
-End of route.  7763 routed (100.00%); 0 unrouted.
+End of route.  11257 routed (100.00%); 0 unrouted.
 
 Hold time timing score: 0, hold timing errors: 0
 
-Timing score: 10900 
+Timing score: 0 
 
 Dumping design to file Practica9DSD_impl1.dir/5_1.ncd.
 
 
 PAR_SUMMARY::Run status = Success
 PAR_SUMMARY::Number of unrouted conns = 0
-PAR_SUMMARY::Worst  slack<setup/<ns>> = -1.457
-PAR_SUMMARY::Timing score<setup/<ns>> = 10.900
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 0.955
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
 PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.688
 PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 45 secs 
-Total REAL time to completion: 47 secs 
+Total CPU  time to completion: 23 secs 
+Total REAL time to completion: 24 secs 
 
 par done!
 

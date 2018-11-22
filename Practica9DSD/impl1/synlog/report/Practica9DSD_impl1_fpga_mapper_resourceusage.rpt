@@ -3,19 +3,20 @@ Part: lcmxo2_7000ze-1
 
 Register bits: 62 of 6864 (1%)
 PIC Latch:       0
-I/O cells:       25
+I/O cells:       26
 
 Details:
-CCU2D:          80
+CCU2D:          927
 FD1P3AX:        19
 FD1P3AY:        1
-FD1P3IX:        3
+FD1P3IX:        4
 FD1S3AX:        17
-FD1S3IX:        22
+FD1S3IX:        21
 GSR:            1
-INV:            2
+IB:             1
+INV:            21
 OB:             25
-ORCALUT4:       290
+ORCALUT4:       430
 OSCH:           1
 PUR:            1
 ROM128X1A:      128
