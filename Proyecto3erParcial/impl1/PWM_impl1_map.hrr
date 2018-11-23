@@ -1,0 +1,10 @@
+---------------------------------------------------
+Report for cell Marquezina
+   Instance path: Marquezina
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     322.00        100.0
+                                  LUT4	     217.00        100.0
+                                 IOBUF	         27        100.0
+                                PFUREG	        274        100.0
+                                RIPPLE	        209        100.0

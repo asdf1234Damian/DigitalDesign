@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\asdf1\Documents\DigitalDesign\Proyecto3erParcial\PWM.vhd":7:7:7:16|Top entity is set to Marquezina.
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto3erParcial\PWM.vhd":7:7:7:16|Synthesizing work.marquezina.arch_marquezina.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N|Running in 64-bit mode
+

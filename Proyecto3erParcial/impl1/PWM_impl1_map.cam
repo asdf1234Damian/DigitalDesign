@@ -1,0 +1,211 @@
+[ START MERGED ]
+[ END MERGED ]
+[ START CLIPPED ]
+GND
+un1_PW_cry_5_0_COUT
+if_generate_plus.mult1_un150_sum_cry_0_0_S1
+if_generate_plus.mult1_un150_sum_cry_0_0_S0
+N_2
+if_generate_plus.mult1_un150_sum_cry_1_0_S1
+if_generate_plus.mult1_un150_sum_cry_1_0_S0
+if_generate_plus.mult1_un150_sum_cry_3_0_S1
+if_generate_plus.mult1_un150_sum_cry_3_0_S0
+if_generate_plus.mult1_un150_sum_cry_5_0_S0
+if_generate_plus.mult1_un150_sum_cry_5_0_COUT
+if_generate_plus.mult1_un87_sum_cry_2_0_S1
+if_generate_plus.mult1_un87_sum_cry_2_0_S0
+N_3
+if_generate_plus.mult1_un87_sum_cry_7_0_COUT
+if_generate_plus.mult1_un80_sum_cry_2_0_S1
+if_generate_plus.mult1_un80_sum_cry_2_0_S0
+N_4
+if_generate_plus.mult1_un80_sum_cry_7_0_COUT
+if_generate_plus.mult1_un73_sum_cry_2_0_S1
+if_generate_plus.mult1_un73_sum_cry_2_0_S0
+N_5
+if_generate_plus.mult1_un73_sum_cry_7_0_COUT
+if_generate_plus.mult1_un66_sum_cry_2_0_S1
+if_generate_plus.mult1_un66_sum_cry_2_0_S0
+N_6
+if_generate_plus.mult1_un66_sum_cry_7_0_COUT
+if_generate_plus.mult1_un59_sum_cry_2_0_S1
+if_generate_plus.mult1_un59_sum_cry_2_0_S0
+N_7
+if_generate_plus.mult1_un59_sum_cry_7_0_COUT
+if_generate_plus.mult1_un52_sum_cry_2_0_S1
+if_generate_plus.mult1_un52_sum_cry_2_0_S0
+N_8
+if_generate_plus.mult1_un52_sum_cry_7_0_COUT
+un28_5_cry_9_0_S1
+un28_5_cry_9_0_S0
+N_9
+un28_5_cry_15_0_S1
+un28_5_cry_15_0_COUT
+un28_4_cry_2_0_S1
+un28_4_cry_2_0_S0
+N_10
+un28_4_cry_17_0_COUT
+if_generate_plus.mult1_un143_sum_cry_1_0_S1
+if_generate_plus.mult1_un143_sum_cry_1_0_S0
+N_11
+if_generate_plus.mult1_un143_sum_cry_6_0_COUT
+un28_cry_0_0_S1
+un28_cry_0_0_S0
+N_12
+un28_cry_17_0_COUT
+if_generate_plus.mult1_un136_sum_cry_2_0_S1
+if_generate_plus.mult1_un136_sum_cry_2_0_S0
+N_13
+if_generate_plus.mult1_un136_sum_cry_7_0_COUT
+if_generate_plus.mult1_un129_sum_cry_2_0_S1
+if_generate_plus.mult1_un129_sum_cry_2_0_S0
+N_14
+if_generate_plus.mult1_un129_sum_cry_7_0_COUT
+if_generate_plus.mult1_un122_sum_cry_2_0_S1
+if_generate_plus.mult1_un122_sum_cry_2_0_S0
+N_15
+if_generate_plus.mult1_un122_sum_cry_7_0_COUT
+if_generate_plus.mult1_un115_sum_cry_2_0_S1
+if_generate_plus.mult1_un115_sum_cry_2_0_S0
+N_16
+if_generate_plus.mult1_un115_sum_cry_7_0_COUT
+if_generate_plus.mult1_un108_sum_cry_2_0_S1
+if_generate_plus.mult1_un108_sum_cry_2_0_S0
+N_17
+if_generate_plus.mult1_un108_sum_cry_7_0_COUT
+if_generate_plus.mult1_un101_sum_cry_2_0_S1
+if_generate_plus.mult1_un101_sum_cry_2_0_S0
+N_18
+if_generate_plus.mult1_un101_sum_cry_7_0_COUT
+if_generate_plus.mult1_un94_sum_cry_2_0_S1
+if_generate_plus.mult1_un94_sum_cry_2_0_S0
+N_19
+if_generate_plus.mult1_un94_sum_cry_7_0_COUT
+un4_count_cry_0_0_S1
+un4_count_cry_0_0_S0
+N_20
+un4_count_s_13_0_S1
+un4_count_s_13_0_COUT
+un3_count_cry_0_0_S1
+un3_count_cry_0_0_S0
+N_21
+un3_count_s_13_0_S1
+un3_count_s_13_0_COUT
+un2_count_cry_0_0_S1
+un2_count_cry_0_0_S0
+N_22
+un2_count_cry_19_0_COUT
+un4_count1_cry_0_0_S1
+un4_count1_cry_0_0_S0
+N_23
+un4_count1_s_17_0_S1
+un4_count1_s_17_0_COUT
+un4_count2_cry_0_0_S1
+un4_count2_cry_0_0_S0
+N_24
+un4_count2_cry_17_0_COUT
+un4_count3_cry_0_0_S1
+un4_count3_cry_0_0_S0
+N_25
+un4_count3_s_19_0_S1
+un4_count3_s_19_0_COUT
+un4_count4_cry_0_0_S1
+un4_count4_cry_0_0_S0
+N_26
+un4_count4_s_19_0_S1
+un4_count4_s_19_0_COUT
+un4_count5_cry_0_0_S1
+un4_count5_cry_0_0_S0
+N_27
+un4_count5_s_19_0_S1
+un4_count5_s_19_0_COUT
+un4_count6_cry_0_0_S1
+un4_count6_cry_0_0_S0
+N_28
+un4_count6_cry_19_0_COUT
+un3_count7_cry_0_0_S1
+un3_count7_cry_0_0_S0
+N_29
+un3_count7_cry_19_0_COUT
+ampMod.un14_count_1_cry_1_0_S1
+ampMod.un14_count_1_cry_1_0_S0
+N_30
+ampMod.un14_count_1_cry_2_0_S1
+ampMod.un14_count_1_cry_2_0_S0
+ampMod.un14_count_1_cry_4_0_S1
+ampMod.un14_count_1_cry_4_0_S0
+ampMod.un14_count_1_cry_6_0_S1
+ampMod.un14_count_1_cry_6_0_S0
+ampMod.un14_count_1_cry_8_0_S1
+ampMod.un14_count_1_cry_8_0_S0
+ampMod.un14_count_1_cry_10_0_S1
+ampMod.un14_count_1_cry_10_0_S0
+ampMod.un14_count_1_cry_12_0_S1
+ampMod.un14_count_1_cry_12_0_S0
+ampMod.un14_count_1_cry_14_0_S1
+ampMod.un14_count_1_cry_14_0_S0
+ampMod.un14_count_1_cry_16_0_S0
+ampMod.un14_count_1_cry_16_0_COUT
+ampMod.un14_count_0_cry_0_0_S0
+N_31
+ampMod.un14_count_0_cry_1_0_S1
+ampMod.un14_count_0_cry_1_0_S0
+ampMod.un14_count_0_cry_3_0_S1
+ampMod.un14_count_0_cry_3_0_S0
+ampMod.un14_count_0_cry_5_0_S1
+ampMod.un14_count_0_cry_5_0_S0
+ampMod.un14_count_0_cry_7_0_S1
+ampMod.un14_count_0_cry_7_0_S0
+ampMod.un14_count_0_cry_9_0_S1
+ampMod.un14_count_0_cry_9_0_S0
+ampMod.un14_count_0_cry_11_0_S1
+ampMod.un14_count_0_cry_11_0_S0
+ampMod.un14_count_0_cry_13_0_S1
+ampMod.un14_count_0_cry_13_0_S0
+ampMod.un14_count_0_cry_15_0_S1
+ampMod.un14_count_0_cry_15_0_S0
+ampMod.un14_count_0_cry_16_0_S1
+ampMod.un14_count_0_cry_16_0_COUT
+un1_PW_cry_0_0_S1
+un1_PW_cry_0_0_S0
+N_1
+OSCInst0_SEDSTDBY
+[ END CLIPPED ]
+[ START OSC ]
+Clock_c 44.33
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.10.0.111.2 -- WARNING: Map write only section -- Fri Nov 23 03:11:44 2018
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "Clock" SITE "100" ;
+LOCATE COMP "pPW" SITE "109" ;
+LOCATE COMP "Data[7]" SITE "97" ;
+LOCATE COMP "Data[6]" SITE "40" ;
+LOCATE COMP "Data[5]" SITE "95" ;
+LOCATE COMP "Data[4]" SITE "106" ;
+LOCATE COMP "Data[3]" SITE "94" ;
+LOCATE COMP "Data[2]" SITE "104" ;
+LOCATE COMP "Data[1]" SITE "92" ;
+LOCATE COMP "Data[0]" SITE "99" ;
+LOCATE COMP "mux[15]" SITE "52" ;
+LOCATE COMP "mux[14]" SITE "50" ;
+LOCATE COMP "mux[13]" SITE "48" ;
+LOCATE COMP "mux[12]" SITE "49" ;
+LOCATE COMP "mux[11]" SITE "47" ;
+LOCATE COMP "mux[10]" SITE "45" ;
+LOCATE COMP "mux[9]" SITE "43" ;
+LOCATE COMP "mux[8]" SITE "42" ;
+LOCATE COMP "mux[7]" SITE "61" ;
+LOCATE COMP "mux[6]" SITE "60" ;
+LOCATE COMP "mux[5]" SITE "58" ;
+LOCATE COMP "mux[4]" SITE "59" ;
+LOCATE COMP "mux[3]" SITE "57" ;
+LOCATE COMP "mux[2]" SITE "56" ;
+LOCATE COMP "mux[1]" SITE "54" ;
+LOCATE COMP "mux[0]" SITE "55" ;
+LOCATE COMP "mPW" SITE "112" ;
+FREQUENCY NET "Clock_c" 44.330000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

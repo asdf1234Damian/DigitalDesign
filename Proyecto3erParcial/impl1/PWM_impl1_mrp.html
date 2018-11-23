@@ -1,0 +1,599 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+          Lattice Mapping Report File for Design Module 'Marquezina'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial
+     PWM_impl1.ngd -o PWM_impl1_map.ncd -pr PWM_impl1.prf -mp PWM_impl1.mrp -lpf
+      C:/Users/asdf1/Documents/DigitalDesign/Proyecto3erParcial/impl1/PWM_impl1_
+     synplify.lpf -lpf
+     C:/Users/asdf1/Documents/DigitalDesign/Proyecto3erParcial/PWM.lpf -c 0 -gui
+     -msgset
+     C:/Users/asdf1/Documents/DigitalDesign/Proyecto3erParcial/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
+Mapped on:  11/23/18  03:11:44
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:    274 out of  7209 (4%)
+      PFU registers:          274 out of  6864 (4%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:       322 out of  3432 (9%)
+      SLICEs as Logic/ROM:    322 out of  3432 (9%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:        209 out of  3432 (6%)
+   Number of LUT4s:        635 out of  6864 (9%)
+      Number used as logic LUTs:        217
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      418
+      Number used as shift registers:     0
+   Number of PIO sites used: 27 + 4(JTAG) out of 115 (27%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net Clock_c: 154 loads, 154 rising, 0 falling (Driver: OSCInst0 )
+
+   Number of Clock Enables:  3
+     Net waspressed: 10 loads, 10 LSLICEs
+     Net lowClk.un1_count_i: 8 loads, 8 LSLICEs
+     Net ampMod.un2_count: 1 loads, 1 LSLICEs
+   Number of LSRs:  10
+     Net lowClk.un2_count1_i: 6 loads, 6 LSLICEs
+     Net debouncerPlus.un2_waspressedlto20_RNIGTSQ: 11 loads, 11 LSLICEs
+     Net lowClk.un1_count_i: 6 loads, 6 LSLICEs
+     Net ampMod.un2_count_i: 6 loads, 6 LSLICEs
+     Net lowClk.un2_count2_i: 5 loads, 5 LSLICEs
+     Net lowClk.un2_count3_i: 6 loads, 6 LSLICEs
+     Net lowClk.un2_count4_i: 6 loads, 6 LSLICEs
+     Net lowClk.un2_count5_i: 8 loads, 8 LSLICEs
+     Net lowClk.un2_count6_i: 5 loads, 5 LSLICEs
+     Net lowClk.un1_count7_i: 5 loads, 5 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net lowClk.un2_count5_i: 16 loads
+     Net waspressed: 15 loads
+     Net lowClk.un1_count_i: 14 loads
+     Net lowClk.un2_count1_i: 14 loads
+     Net lowClk.un2_count3_i: 14 loads
+     Net lowClk.un2_count4_i: 14 loads
+     Net lowClk.un1_count7_i: 13 loads
+     Net lowClk.un2_count2_i: 13 loads
+     Net lowClk.un2_count6_i: 13 loads
+     Net debouncerPlus.un2_waspressedlto20_RNIGTSQ: 11 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+   No errors or warnings present.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| Clock               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| pPW                 | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Data[7]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Data[6]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Data[5]             | OUTPUT    | LVCMOS25  |            |
+
++---------------------+-----------+-----------+------------+
+| Data[4]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Data[3]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Data[2]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Data[1]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Data[0]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[15]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[14]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[13]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[12]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[11]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[10]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[9]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[8]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[7]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[6]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[5]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[4]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[3]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[2]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[1]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mux[0]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| mPW                 | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block GSR_INST undriven or does not drive anything - clipped.
+Signal GND undriven or does not drive anything - clipped.
+Signal un1_PW_cry_5_0_COUT undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un150_sum_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un150_sum_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+
+Signal N_2 undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un150_sum_cry_1_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un150_sum_cry_1_0_S0 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un150_sum_cry_3_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un150_sum_cry_3_0_S0 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un150_sum_cry_5_0_S0 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un150_sum_cry_5_0_COUT undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un87_sum_cry_2_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un87_sum_cry_2_0_S0 undriven or does not drive
+     anything - clipped.
+Signal N_3 undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un87_sum_cry_7_0_COUT undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un80_sum_cry_2_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un80_sum_cry_2_0_S0 undriven or does not drive
+     anything - clipped.
+Signal N_4 undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un80_sum_cry_7_0_COUT undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un73_sum_cry_2_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un73_sum_cry_2_0_S0 undriven or does not drive
+     anything - clipped.
+Signal N_5 undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un73_sum_cry_7_0_COUT undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un66_sum_cry_2_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un66_sum_cry_2_0_S0 undriven or does not drive
+     anything - clipped.
+Signal N_6 undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un66_sum_cry_7_0_COUT undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un59_sum_cry_2_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un59_sum_cry_2_0_S0 undriven or does not drive
+     anything - clipped.
+Signal N_7 undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un59_sum_cry_7_0_COUT undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un52_sum_cry_2_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un52_sum_cry_2_0_S0 undriven or does not drive
+     anything - clipped.
+Signal N_8 undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un52_sum_cry_7_0_COUT undriven or does not drive
+     anything - clipped.
+Signal un28_5_cry_9_0_S1 undriven or does not drive anything - clipped.
+
+Signal un28_5_cry_9_0_S0 undriven or does not drive anything - clipped.
+Signal N_9 undriven or does not drive anything - clipped.
+Signal un28_5_cry_15_0_S1 undriven or does not drive anything - clipped.
+Signal un28_5_cry_15_0_COUT undriven or does not drive anything - clipped.
+Signal un28_4_cry_2_0_S1 undriven or does not drive anything - clipped.
+Signal un28_4_cry_2_0_S0 undriven or does not drive anything - clipped.
+Signal N_10 undriven or does not drive anything - clipped.
+Signal un28_4_cry_17_0_COUT undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un143_sum_cry_1_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un143_sum_cry_1_0_S0 undriven or does not drive
+     anything - clipped.
+Signal N_11 undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un143_sum_cry_6_0_COUT undriven or does not drive
+     anything - clipped.
+Signal un28_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un28_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_12 undriven or does not drive anything - clipped.
+Signal un28_cry_17_0_COUT undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un136_sum_cry_2_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un136_sum_cry_2_0_S0 undriven or does not drive
+     anything - clipped.
+Signal N_13 undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un136_sum_cry_7_0_COUT undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un129_sum_cry_2_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un129_sum_cry_2_0_S0 undriven or does not drive
+     anything - clipped.
+Signal N_14 undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un129_sum_cry_7_0_COUT undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un122_sum_cry_2_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un122_sum_cry_2_0_S0 undriven or does not drive
+     anything - clipped.
+Signal N_15 undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un122_sum_cry_7_0_COUT undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un115_sum_cry_2_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un115_sum_cry_2_0_S0 undriven or does not drive
+     anything - clipped.
+Signal N_16 undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un115_sum_cry_7_0_COUT undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un108_sum_cry_2_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un108_sum_cry_2_0_S0 undriven or does not drive
+     anything - clipped.
+Signal N_17 undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un108_sum_cry_7_0_COUT undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un101_sum_cry_2_0_S1 undriven or does not drive
+     anything - clipped.
+
+Signal if_generate_plus.mult1_un101_sum_cry_2_0_S0 undriven or does not drive
+     anything - clipped.
+Signal N_18 undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un101_sum_cry_7_0_COUT undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un94_sum_cry_2_0_S1 undriven or does not drive
+     anything - clipped.
+Signal if_generate_plus.mult1_un94_sum_cry_2_0_S0 undriven or does not drive
+     anything - clipped.
+Signal N_19 undriven or does not drive anything - clipped.
+Signal if_generate_plus.mult1_un94_sum_cry_7_0_COUT undriven or does not drive
+     anything - clipped.
+Signal un4_count_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un4_count_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_20 undriven or does not drive anything - clipped.
+Signal un4_count_s_13_0_S1 undriven or does not drive anything - clipped.
+Signal un4_count_s_13_0_COUT undriven or does not drive anything - clipped.
+Signal un3_count_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un3_count_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_21 undriven or does not drive anything - clipped.
+Signal un3_count_s_13_0_S1 undriven or does not drive anything - clipped.
+Signal un3_count_s_13_0_COUT undriven or does not drive anything - clipped.
+Signal un2_count_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un2_count_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_22 undriven or does not drive anything - clipped.
+Signal un2_count_cry_19_0_COUT undriven or does not drive anything - clipped.
+Signal un4_count1_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un4_count1_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_23 undriven or does not drive anything - clipped.
+Signal un4_count1_s_17_0_S1 undriven or does not drive anything - clipped.
+Signal un4_count1_s_17_0_COUT undriven or does not drive anything - clipped.
+Signal un4_count2_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un4_count2_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_24 undriven or does not drive anything - clipped.
+Signal un4_count2_cry_17_0_COUT undriven or does not drive anything - clipped.
+Signal un4_count3_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un4_count3_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_25 undriven or does not drive anything - clipped.
+Signal un4_count3_s_19_0_S1 undriven or does not drive anything - clipped.
+Signal un4_count3_s_19_0_COUT undriven or does not drive anything - clipped.
+Signal un4_count4_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un4_count4_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_26 undriven or does not drive anything - clipped.
+Signal un4_count4_s_19_0_S1 undriven or does not drive anything - clipped.
+Signal un4_count4_s_19_0_COUT undriven or does not drive anything - clipped.
+Signal un4_count5_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un4_count5_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_27 undriven or does not drive anything - clipped.
+Signal un4_count5_s_19_0_S1 undriven or does not drive anything - clipped.
+Signal un4_count5_s_19_0_COUT undriven or does not drive anything - clipped.
+Signal un4_count6_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un4_count6_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_28 undriven or does not drive anything - clipped.
+Signal un4_count6_cry_19_0_COUT undriven or does not drive anything - clipped.
+Signal un3_count7_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un3_count7_cry_0_0_S0 undriven or does not drive anything - clipped.
+
+Signal N_29 undriven or does not drive anything - clipped.
+Signal un3_count7_cry_19_0_COUT undriven or does not drive anything - clipped.
+Signal ampMod.un14_count_1_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal N_30 undriven or does not drive anything - clipped.
+Signal ampMod.un14_count_1_cry_2_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_2_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_4_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_4_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_6_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_6_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_8_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_8_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_10_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_10_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_12_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_12_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_14_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_14_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_16_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_1_cry_16_0_COUT undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal N_31 undriven or does not drive anything - clipped.
+Signal ampMod.un14_count_0_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_7_0_S1 undriven or does not drive anything -
+     clipped.
+
+Signal ampMod.un14_count_0_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_11_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_11_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_13_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_13_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_15_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_15_0_S0 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_16_0_S1 undriven or does not drive anything -
+     clipped.
+Signal ampMod.un14_count_0_cry_16_0_COUT undriven or does not drive anything -
+     clipped.
+Signal un1_PW_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un1_PW_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_1 undriven or does not drive anything - clipped.
+Signal OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
+Block GND was optimized away.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              PIN,NODE Clock_c
+  OSC Nominal Frequency (MHz):                      44.33
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: OSCInst0
+         Type: OSCH
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 61 MB
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

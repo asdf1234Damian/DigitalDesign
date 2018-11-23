@@ -1,0 +1,88 @@
+# Synopsys Constraint Checker, version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Fri Nov 23 03:11:27 2018
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "Marquezina"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                            Ending                              |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Marquezina|Clock_inferred_clock     Marquezina|Clock_inferred_clock     |     22.558           |     No paths         |     No paths         |     No paths                         
+===================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:Data[0]
+p:Data[1]
+p:Data[2]
+p:Data[3]
+p:Data[4]
+p:Data[5]
+p:Data[6]
+p:Data[7]
+p:mPW
+p:mux[0]
+p:mux[1]
+p:mux[2]
+p:mux[3]
+p:mux[4]
+p:mux[5]
+p:mux[6]
+p:mux[7]
+p:mux[8]
+p:mux[9]
+p:mux[10]
+p:mux[11]
+p:mux[12]
+p:mux[13]
+p:mux[14]
+p:mux[15]
+p:pPW
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report
