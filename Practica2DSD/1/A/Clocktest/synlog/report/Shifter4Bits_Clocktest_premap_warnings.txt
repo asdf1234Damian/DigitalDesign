@@ -1,1 +1,0 @@
-@W: MT529 :"c:\users\asdf1\documents\digitaldesign\practica2dsd\1\a\dcma.vhd":30:6:30:7|Found inferred clock blinking_led|clk_inferred_clock which controls 26 sequential elements including count[24:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

@@ -1,9 +1,0 @@
-@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\asdfasd\barrelShifter.vhd":6:7:6:27|Synthesizing work.corrimientorotacional.barrshift.
-@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\asdfasd\ffsr.vhd":6:7:6:10|Synthesizing work.ffsr.archffsr.
-@N: CD364 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\asdfasd\ffsr.vhd":21:1:21:3|Removing redundant assignment.
-Post processing for work.ffsr.archffsr
-@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\asdfasd\andOr.vhd":6:7:6:12|Synthesizing work.andnor.archandnor.
-Post processing for work.andnor.archandnor
-@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\asdfasd\andOr.vhd":24:7:24:11|Synthesizing work.andor.archandor.
-Post processing for work.andor.archandor
-Post processing for work.corrimientorotacional.barrshift

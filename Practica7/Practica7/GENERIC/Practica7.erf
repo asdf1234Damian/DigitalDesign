@@ -1,6 +1,0 @@
-MESSAGE "File: \\VBOXSVR\DigitalDesign\Practica7\Practica7.vhd" 
-MESSAGE "Compile Entity "MUX"" 
-MESSAGE "Compile Architecture "archMUX" of Entity "MUX"" 
-MESSAGE "Top-Level unit detected" 
-MESSAGE "Entity  =>   MUX" 
-MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

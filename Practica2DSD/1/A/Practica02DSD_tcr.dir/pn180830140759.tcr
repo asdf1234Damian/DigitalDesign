@@ -1,5 +1,0 @@
-#Start recording tcl command: 8/30/2018 14:07:43
-#Project Location: C:/Users/asdf1/Documents/DigitalDesign/Practica2DSD/1/A; Project name: Practica02DSD
-prj_project new -name "Practica02DSD" -impl "impl1" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
-prj_project save
-#Stop recording: 8/30/2018 14:07:59

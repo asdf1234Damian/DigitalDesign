@@ -1,2 +1,0 @@
-@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
-@W: MT529 :"c:\users\asdf1\documents\digitaldesign\ejerciciorecuperacion\eje1.vhd":39:2:39:3|Found inferred clock ejercicio|clk_0_inferred_clock which controls 26 sequential elements including clk_low. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

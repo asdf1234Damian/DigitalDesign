@@ -1,7 +1,0 @@
-#Start recording tcl command: 9/9/2018 17:07:17
-#Project Location: C:/Users/asdf1/Documents/DigitalDesign/Practica4DSD/Ejercicio2b; Project name: Ejercicio2b
-prj_project new -name "Ejercicio2b" -impl "Ejercicio2b" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
-prj_project save
-prj_src add "C:/Users/asdf1/Documents/DigitalDesign/Practica4DSD/Ejercicio2b/ComponenteMux.vhd"
-prj_src add "C:/Users/asdf1/Documents/DigitalDesign/Practica4DSD/Ejercicio2b/Ejercicio2b.vhd"
-#Stop recording: 9/9/2018 17:25:17

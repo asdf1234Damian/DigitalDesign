@@ -1,6 +1,0 @@
-@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\EjercicioRecuperacion\Eje1.vhd":6:7:6:15|Synthesizing work.ejercicio.archejercicio.
-@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
-@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
-Post processing for work.osch.syn_black_box
-Post processing for work.ejercicio.archejercicio
-@A: CL282 :"C:\Users\asdf1\Documents\DigitalDesign\EjercicioRecuperacion\Eje1.vhd":29:1:29:2|Feedback mux created for signal d[3:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.

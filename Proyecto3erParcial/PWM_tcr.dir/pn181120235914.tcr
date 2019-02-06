@@ -1,6 +1,0 @@
-#Start recording tcl command: 11/20/2018 23:55:41
-#Project Location: C:/Users/asdf1/Documents/DigitalDesign/Proyecto3erParcial; Project name: PWM
-prj_project new -name "PWM" -impl "impl1" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
-prj_project save
-prj_src add "C:/Users/asdf1/Documents/DigitalDesign/Proyecto3erParcial/PWM.vhd"
-#Stop recording: 11/20/2018 23:59:14

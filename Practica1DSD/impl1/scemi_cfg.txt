@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-## UMR3 MESSAGE PORT CONFIGURATION FILE
-## ************************************
-XTOR_DPI_MSG_PORT_UMR_ADDR_VERSION=0
-=======
-## UMR3 MESSAGE PORT CONFIGURATION FILE
-## ************************************
-XTOR_DPI_MSG_PORT_UMR_ADDR_VERSION=0
->>>>>>> 1e0159934712de369f90e4d4827110fd69e68344

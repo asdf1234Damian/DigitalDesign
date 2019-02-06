@@ -1,2 +1,0 @@
-@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
-@W: MT529 :"c:\users\asdf1\downloads\practica7alu\aluseq.vhd":31:2:31:3|Found inferred clock aluS|clk_0_inferred_clock which controls 4 sequential elements including AA[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

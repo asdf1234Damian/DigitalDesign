@@ -1,6 +1,0 @@
-#Start recording tcl command: 10/16/2018 14:42:32
-#Project Location: C:/Users/asdf1/Documents/DigitalDesign/Proyecto2doParcial; Project name: Proyecto2doParcial
-prj_project new -name "Proyecto2doParcial" -impl "impl1" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
-prj_project save
-prj_src add "C:/Users/asdf1/Documents/DigitalDesign/Proyecto2doParcial/Proyecto2doParcial.vhd"
-#Stop recording: 10/16/2018 18:23:51

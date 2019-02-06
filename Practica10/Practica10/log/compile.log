@@ -1,7 +1,0 @@
- Compilation with file reorder...
- File: \\VBOXSVR\DigitalDesign\Practica10\Practica10.vhd
- Compile Entity "FFT"
- Compile Architecture "archFFT" of Entity "FFT"
- Top-Level unit detected
- Entity  =>   FFT
- Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]

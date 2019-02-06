@@ -1,312 +1,0 @@
-<HTML>
-<HEAD><TITLE>Lattice Synthesis Timing Report</TITLE>
-<STYLE TYPE="text/css">
-<!--
- body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
--->
-</STYLE>
-</HEAD>
-<PRE><A name="Map_Twr"></A><B><U><big>Lattice Synthesis Timing Report</big></U></B>
---------------------------------------------------------------------------------
-Lattice Synthesis Timing Report, Version  
-Mon Oct 08 19:04:17 2018
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-
-<A name="mtw1_ri"></A><B><U><big>Report Information</big></U></B>
-------------------
-Design:     Counter
-Constraint file:  
-Report level:    verbose report, limited to 3 items per constraint
---------------------------------------------------------------------------------
-
-
-
-================================================================================
-Constraint: create_clock -period 5.000000 -name clk0 [get_nets clk_c]
-            363 items scored, 113 timing errors detected.
---------------------------------------------------------------------------------
-
-
-Error:  The following path violates requirements by 1.312ns
-
- Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
-
-   Source:         FD1S3AX    CK             d_12__i1  (from clk_c +)
-   Destination:    FD1S3AX    D              d_12__i26  (to clk_c +)
-
-   Delay:                   6.152ns  (61.0% logic, 39.0% route), 15 logic levels.
-
- Constraint Details:
-
-      6.152ns data_path d_12__i1 to d_12__i26 violates
-      5.000ns delay constraint less
-      0.160ns L_S requirement (totaling 4.840ns) by 1.312ns
-
- Path Details: d_12__i1 to d_12__i26
-
-   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.444             CK to Q              d_12__i1 (from clk_c)
-Route         2   e 1.198                                  data_c_0
-A1_TO_FCO   ---     0.827           A[2] to COUT           d_12_add_4_1
-Route         1   e 0.020                                  n117
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_3
-Route         1   e 0.020                                  n118
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_5
-Route         1   e 0.020                                  n119
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_7
-Route         1   e 0.020                                  n120
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_9
-Route         1   e 0.020                                  n121
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_11
-Route         1   e 0.020                                  n122
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_13
-Route         1   e 0.020                                  n123
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_15
-Route         1   e 0.020                                  n124
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_17
-Route         1   e 0.020                                  n125
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_19
-Route         1   e 0.020                                  n126
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_21
-Route         1   e 0.020                                  n127
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_23
-Route         1   e 0.020                                  n128
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_25
-Route         1   e 0.020                                  n129
-FCI_TO_F    ---     0.598            CIN to S[2]           d_12_add_4_27
-Route         1   e 0.941                                  n110
-                  --------
-                    6.152  (61.0% logic, 39.0% route), 15 logic levels.
-
-
-Error:  The following path violates requirements by 1.135ns
-
- Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
-
-   Source:         FD1S3AX    CK             d_12__i1  (from clk_c +)
-   Destination:    FD1S3AX    D              d_12__i24  (to clk_c +)
-
-   Delay:                   5.975ns  (60.2% logic, 39.8% route), 14 logic levels.
-
- Constraint Details:
-
-      5.975ns data_path d_12__i1 to d_12__i24 violates
-      5.000ns delay constraint less
-      0.160ns L_S requirement (totaling 4.840ns) by 1.135ns
-
- Path Details: d_12__i1 to d_12__i24
-
-   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.444             CK to Q              d_12__i1 (from clk_c)
-Route         2   e 1.198                                  data_c_0
-A1_TO_FCO   ---     0.827           A[2] to COUT           d_12_add_4_1
-Route         1   e 0.020                                  n117
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_3
-Route         1   e 0.020                                  n118
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_5
-Route         1   e 0.020                                  n119
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_7
-Route         1   e 0.020                                  n120
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_9
-Route         1   e 0.020                                  n121
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_11
-Route         1   e 0.020                                  n122
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_13
-Route         1   e 0.020                                  n123
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_15
-Route         1   e 0.020                                  n124
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_17
-Route         1   e 0.020                                  n125
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_19
-Route         1   e 0.020                                  n126
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_21
-Route         1   e 0.020                                  n127
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_23
-Route         1   e 0.020                                  n128
-FCI_TO_F    ---     0.598            CIN to S[2]           d_12_add_4_25
-Route         1   e 0.941                                  n112
-                  --------
-                    5.975  (60.2% logic, 39.8% route), 14 logic levels.
-
-
-Error:  The following path violates requirements by 1.135ns
-
- Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
-
-   Source:         FD1S3AX    CK             d_12__i1  (from clk_c +)
-   Destination:    FD1S3AX    D              d_12__i25  (to clk_c +)
-
-   Delay:                   5.975ns  (60.2% logic, 39.8% route), 14 logic levels.
-
- Constraint Details:
-
-      5.975ns data_path d_12__i1 to d_12__i25 violates
-      5.000ns delay constraint less
-      0.160ns L_S requirement (totaling 4.840ns) by 1.135ns
-
- Path Details: d_12__i1 to d_12__i25
-
-   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.444             CK to Q              d_12__i1 (from clk_c)
-Route         2   e 1.198                                  data_c_0
-A1_TO_FCO   ---     0.827           A[2] to COUT           d_12_add_4_1
-Route         1   e 0.020                                  n117
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_3
-Route         1   e 0.020                                  n118
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_5
-Route         1   e 0.020                                  n119
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_7
-Route         1   e 0.020                                  n120
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_9
-Route         1   e 0.020                                  n121
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_11
-Route         1   e 0.020                                  n122
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_13
-Route         1   e 0.020                                  n123
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_15
-Route         1   e 0.020                                  n124
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_17
-Route         1   e 0.020                                  n125
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_19
-Route         1   e 0.020                                  n126
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_21
-Route         1   e 0.020                                  n127
-FCI_TO_FCO  ---     0.157            CIN to COUT           d_12_add_4_23
-Route         1   e 0.020                                  n128
-FCI_TO_F    ---     0.598            CIN to S[2]           d_12_add_4_25
-Route         1   e 0.941                                  n111
-                  --------
-                    5.975  (60.2% logic, 39.8% route), 14 logic levels.
-
-Warning: 6.312 ns is the maximum delay for this constraint.
-
-
-<A name="mtw1_rs"></A><B><U><big>Timing Report Summary</big></U></B>
---------------
---------------------------------------------------------------------------------
-Constraint                              |   Constraint|       Actual|Levels
---------------------------------------------------------------------------------
-                                        |             |             |
-create_clock -period 5.000000 -name     |             |             |
-clk0 [get_nets clk_c]                   |     5.000 ns|     6.312 ns|    15 *
-                                        |             |             |
---------------------------------------------------------------------------------
-
-
-1 constraints not met.
-
---------------------------------------------------------------------------------
-Critical Nets                           |   Loads|  Errors| % of total
---------------------------------------------------------------------------------
-n123                                    |       1|     109|     96.46%
-                                        |        |        |
-n122                                    |       1|     105|     92.92%
-                                        |        |        |
-n124                                    |       1|     105|     92.92%
-                                        |        |        |
-n121                                    |       1|      95|     84.07%
-                                        |        |        |
-n125                                    |       1|      95|     84.07%
-                                        |        |        |
-n120                                    |       1|      81|     71.68%
-                                        |        |        |
-n126                                    |       1|      81|     71.68%
-                                        |        |        |
-n119                                    |       1|      63|     55.75%
-                                        |        |        |
-n127                                    |       1|      63|     55.75%
-                                        |        |        |
-n118                                    |       1|      41|     36.28%
-                                        |        |        |
-n128                                    |       1|      41|     36.28%
-                                        |        |        |
-data_c_0                                |       2|      15|     13.27%
-                                        |        |        |
-n110                                    |       1|      15|     13.27%
-                                        |        |        |
-n117                                    |       1|      15|     13.27%
-                                        |        |        |
-n129                                    |       1|      15|     13.27%
-                                        |        |        |
-data_c_1                                |       2|      13|     11.50%
-                                        |        |        |
-data_c_2                                |       2|      13|     11.50%
-                                        |        |        |
-n111                                    |       1|      13|     11.50%
-                                        |        |        |
-n112                                    |       1|      13|     11.50%
-                                        |        |        |
---------------------------------------------------------------------------------
-
-
-<A name="mtw1_ts"></A><B><U><big>Timing summary:</big></U></B>
----------------
-
-Timing errors: 113  Score: 49136
-
-Constraints cover  363 paths, 66 nets, and 91 connections (77.1% coverage)
-
-
-Peak memory: 77197312 bytes, TRCE: 1781760 bytes, DLYMAN: 0 bytes
-CPU_TIME_REPORT: 0 secs 
-
-
-
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-</PRE></FONT>
-</BODY>
-</HTML>

@@ -1,3 +1,0 @@
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\FlipFlopSR.vhd":19:0:19:1|Latch generated from process for signal x_tri_enable; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\FlipFlopSR.vhd":19:0:19:1|Latch generated from process for signal x; possible missing assignment in an if or case statement.
-

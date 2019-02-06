@@ -1,1 +1,0 @@
-@W: MT531 :"c:\users\asdf1\documents\digitaldesign\practica2dsd\1\a\flipflopsrcomponent.vhd":19:0:19:1|Found signal identified as System clock which controls 8 sequential elements including ff0.x.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 

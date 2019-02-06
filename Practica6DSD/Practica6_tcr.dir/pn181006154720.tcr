@@ -1,6 +1,0 @@
-#Start recording tcl command: 10/6/2018 15:29:32
-#Project Location: C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD; Project name: Practica6
-prj_project new -name "Practica6" -impl "impl1" -dev LCMXO2-2000ZE-1TG144C -synthesis "lse"
-prj_project save
-prj_src add "C:/Users/asdf1/Documents/DigitalDesign/Practica6DSD/Counter.vhd"
-#Stop recording: 10/6/2018 15:47:20

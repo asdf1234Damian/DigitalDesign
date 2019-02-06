@@ -1,1 +1,0 @@
-@W: MT420 |Found inferred clock Marquezina|Clock_inferred_clock with period 22.56ns. Please declare a user-defined clock on object "n:Clock"

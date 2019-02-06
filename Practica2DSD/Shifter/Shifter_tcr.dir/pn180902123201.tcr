@@ -1,6 +1,0 @@
-#Start recording tcl command: 9/2/2018 12:14:34
-#Project Location: C:/Users/asdf1/Documents/DigitalDesign/Practica2DSD/Shifter; Project name: Shifter
-prj_project new -name "Shifter" -impl "impl1" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
-prj_project save
-prj_src add "C:/Users/asdf1/Documents/DigitalDesign/Practica2DSD/Shifter/Shifter.vhd"
-#Stop recording: 9/2/2018 12:32:01

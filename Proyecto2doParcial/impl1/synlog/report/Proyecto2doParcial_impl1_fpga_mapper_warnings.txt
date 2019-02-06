@@ -1,3 +1,0 @@
-@W: MO129 :"c:\users\asdf1\documents\digitaldesign\proyecto2doparcial\proyecto2doparcial.vhd":108:1:108:2|Sequential instance disp4[1] is reduced to a combinational gate by constant propagation.
-@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
-@W: MT420 |Found inferred clock ALU|clk_0_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:clk_0"

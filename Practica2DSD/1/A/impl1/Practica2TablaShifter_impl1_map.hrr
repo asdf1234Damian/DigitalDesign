@@ -1,9 +1,0 @@
----------------------------------------------------
-Report for cell shifter
-   Instance path: shifter
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	       2.00        100.0
-                                  LUT4	       4.00        100.0
-                                 IOBUF	         10        100.0
-                                PFUREG	          4        100.0

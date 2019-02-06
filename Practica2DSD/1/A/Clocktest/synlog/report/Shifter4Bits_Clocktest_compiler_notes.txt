@@ -1,8 +1,0 @@
-@N|Running in 64-bit mode
-@N|Running in 64-bit mode
-@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
-@N:"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\DCMA.vhd":6:7:6:18|Top entity is set to blinking_led.
-@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\DCMA.vhd":6:7:6:18|Synthesizing work.blinking_led.behavior.
-@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
-@N|Running in 64-bit mode
-

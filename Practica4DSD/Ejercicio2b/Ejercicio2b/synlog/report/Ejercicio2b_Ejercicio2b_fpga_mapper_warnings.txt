@@ -1,2 +1,0 @@
-@W: MT246 :"c:\users\asdf1\documents\digitaldesign\practica4dsd\ejercicio2b\ejercicio2b\mux4a1.v":26:4:26:5|Blackbox OR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
-@W: MT246 :"c:\users\asdf1\documents\digitaldesign\practica4dsd\ejercicio2b\ejercicio2b\mux4a1.v":23:5:23:6|Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 

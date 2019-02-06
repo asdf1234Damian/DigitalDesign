@@ -1,6 +1,0 @@
-@E: CL219 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":15:1:15:4|Multiple non-tristate drivers for net slog(7 downto 0) in ALU
-@E: CL229 :"C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\Proyecto2doParcial.vhd":15:1:15:4|Unresolved tristate drivers for net slog(7 downto 0) in ALU
-@E: MF420 |Netlist read from file C:\Users\asdf1\Documents\DigitalDesign\Proyecto2doParcial\impl1\synwork\layer0.srs failed
-@E: Could not find specified top level ALU (library: work, cell: ALU)Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-@E::Error while linking, aborting.
-

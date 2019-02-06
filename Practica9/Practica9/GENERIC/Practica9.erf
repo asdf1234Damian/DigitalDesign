@@ -1,5 +1,0 @@
-MESSAGE "File: \\VBOXSVR\DigitalDesign\Practica9\Practica9.vhd" 
-MESSAGE "Compile Entity "CuadroDeAlarma"" 
-MESSAGE "Entity "CuadroDeAlarma" has been skipped - no difference detected." 
-MESSAGE "Compile Architecture "arch_cuadrodealarma" of Entity "CuadroDeAlarma"" 
-MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 

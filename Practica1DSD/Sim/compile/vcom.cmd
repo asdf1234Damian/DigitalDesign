@@ -1,1 +1,0 @@
--w -erf C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Sim/compile/Sim.erf -d C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Sim/compile -s C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Sim/library.cfg -j C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Sim/projlib.cfg -work work -dbg -work work C:/Users/asdf1/Documents/DigitalDesign/Practica1DSD/Practica1.vhd 

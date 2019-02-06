@@ -1,1 +1,0 @@
-@W: MT420 |Found inferred clock blinking_led|clk_inferred_clock with period 18.80ns. Please declare a user-defined clock on object "n:clk"

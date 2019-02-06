@@ -1,1 +1,0 @@
-run_tcl -fg Ejercicio2b_Ejercicio2b_synplify.tcl

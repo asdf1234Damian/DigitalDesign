@@ -1,6 +1,0 @@
-#Start recording tcl command: 8/27/2018 18:03:56
-#Project Location: C:/Users/asdf1/Documents/DigitalDesign/Practica2DSD/1/A; Project name: A
-prj_project new -name "A" -impl "impl1" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
-prj_project save
-prj_src add "C:/Users/asdf1/Documents/DigitalDesign/Practica2DSD/1/A/FlipFlopD.vhd"
-#Stop recording: 8/27/2018 18:16:40

@@ -1,5 +1,0 @@
-@W: MO129 :"c:\users\asdf1\documents\digitaldesign\practica2dsd\asdfasd\ffsr.vhd":19:0:19:1|Sequential instance ff0.tmp_cl is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\asdf1\documents\digitaldesign\practica2dsd\asdfasd\ffsr.vhd":19:0:19:1|Sequential instance ff1.tmp_cl is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\asdf1\documents\digitaldesign\practica2dsd\asdfasd\ffsr.vhd":19:0:19:1|Sequential instance ff2.tmp_cl is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\asdf1\documents\digitaldesign\practica2dsd\asdfasd\ffsr.vhd":19:0:19:1|Sequential instance ff3.tmp_cl is reduced to a combinational gate by constant propagation.
-@W: MT420 |Found inferred clock andOr|cz_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:ao.cz"

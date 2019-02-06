@@ -1,7 +1,0 @@
-@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd":17:0:17:6|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd":22:6:22:7|Referenced variable pn is not in sensitivity list.
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd":20:0:20:1|Latch generated from process for signal aux(3); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd":20:0:20:1|Latch generated from process for signal aux(2); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd":20:0:20:1|Latch generated from process for signal aux(1); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Practica2DSD\1\A\shifter2.vhd":20:0:20:1|Latch generated from process for signal aux(0); possible missing assignment in an if or case statement.
-

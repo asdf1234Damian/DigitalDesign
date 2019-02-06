@@ -1,6 +1,0 @@
-MESSAGE "File: \\VBOXSVR\DigitalDesign\Practica5\Practica5.vhd" 
-MESSAGE "Compile Entity "Decoder"" 
-MESSAGE "Compile Architecture "Arch_Decode" of Entity "Decoder"" 
-MESSAGE "Top-Level unit detected" 
-MESSAGE "Entity  =>   Decoder" 
-MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 
