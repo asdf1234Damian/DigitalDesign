@@ -12,7 +12,7 @@ entity ALU is
 		a, b: in std_logic_vector(9 downto 0);
 		sel: in std_logic_vector(3 downto 0);
 		sLog: inout std_logic_vector(9 downto 0);
-		sAri: out std_logic_vector(9 downto 0)
+		sari: inout std_logic_vector(9 downto 0)
 	);
 end entity;
 
@@ -31,7 +31,7 @@ component OSCH
 	); 
 end component;
 
-attribute NOM_FREQ: string; 
+attribute NOM_FREQ: string;  
 attribute NOM_FREQ of OSCinst0 : label is "2.08";
 
 begin
@@ -52,44 +52,51 @@ begin
 		end if;
 	end process;
 ------------------------------------------------------------------------------
-
-	logicOP : process(sel, load, asr, lsl,slog)
-	variable MVP: std_logic;
+	bitsOP : process(sel,load, asr, lsl,slog,minus)
+	variable z: std_logic_vector(9 downto 0) := (others => '0');
 	begin
 		if (sel = "0100") then
-			if(lsl'event and lsl='1')then 
-				slog <= "1010101010";
-				--slog <= slog(8 downto 0)&'0';
-			elsif(load'event and load='1') then  				
-				slog <= a(9 downto 0);
-			--elsif(asr'event and asr='1')then 
-				--slog <= slog(8)&slog(8 downto 1);
+			if(load = '1' and lsl = '0' and asr = '0') then 
+				slog <= a;
+			elsif(lsl'event and lsl = '1' and load = '0' and asr='0')then 
+				slog <= slog(8 downto 0)&'0';
 			end if;
+		elsif (sel = "0101") then
+			if(load = '1' and lsl = '0' and asr = '0') then 
+				slog <= a;
+			elsif(lsl'event and lsl = '1' and load = '0' and asr='0')then 
+				slog <= slog(9)&slog(9 downto 1);
+			end if;
+		elsif (sel = "1000" or sel = "1001") then 
+			z:= "0" & sum_resta;
+		elsif (sel = "1100") then
+			z:= producto;
 		else
 			case (sel) is 
 				when "0000"=> slog <= (not a);
 				when "0001"=> slog <= (not a) + 1;
 				when "0010"=> slog <= (a and b); 
 				when "0011"=> slog <= (a or b);
-				when others=> slog <= "0000000000";
+				when others=> slog<= "0000000000";
 			end case;
+			sari<=z;
 		end if; 
-	end process;
-			
+	end process; 
+			  
 	sumres: process(sel)
 	begin 
-		if (sel = "1000") then --Suma
+		if (sel = "1000") then --Suma  
 			sum_resta <= (("0" & a(9 downto 2)) + ("0" & b(7 downto 0)));
 		elsif (sel = "1001") then --Resta
 			if (a(9 downto 2) < b(7 downto 0)) then
-				sum_resta <= not(("0" & a(9 downto 2)) - ("0" & b(7 downto 0))) + 1;
-				minus <= '0';
+				sum_resta <= not(("0" & a(9 downto 2)) - ("0" & b(7 downto 0))) + 1; 
+				minus <= '0'; 
 			else
 				sum_resta <= (("0" & a(9 downto 2)) - ("0" & b(7 downto 0)));
 			end if;
 		end if;
 	end process;
-
+ 
 	multi: process(b, sel)
 	variable mulo, mulr: unsigned(4 downto 0); -- unsigned para que tengan valor numerico
 	variable prod: unsigned(9 downto 0);
@@ -113,15 +120,4 @@ begin
 			producto <= std_logic_vector(prod);-- se convierten en stdlogic
 		end if;
 	end process;
-
-	showResult: process(sel, minus)
-    variable z: std_logic_vector(9 downto 0) := (others => '0');
-    begin
-		if ((sel = "1000") or (sel = "1001")) then
-			z := "0" & sum_resta;
-		elsif (sel = "1100") then
-			z := producto;
-		end if;
-		sAri <= z;
-    end process;
 end Behavioral;
