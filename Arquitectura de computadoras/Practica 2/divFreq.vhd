@@ -2,7 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity divFreq is	generic(
-	div : integer :=20
+	div : integer 
 	);
 	port(
 	osc : in std_logic;

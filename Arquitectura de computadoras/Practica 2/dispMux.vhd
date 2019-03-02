@@ -34,7 +34,7 @@ begin
 if (neg = '1') then 
 	sign <= "1111";
 else
-	sign <= "1011";
+	sign <= "1110";
 end if;
 if (clk'event and clk = '1')then 
 	mux <= mux(2 downto 0)& mux(3);
