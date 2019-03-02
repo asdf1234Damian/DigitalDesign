@@ -1,5 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
 
 entity dispMux is 
 	port(
@@ -22,18 +24,21 @@ component binbcd is
 	port(
 	bin: in std_logic_vector (9 downto 0);
 	bcd: out std_logic_vector (11 downto 0)
-	);
+	); 
 end component;
 signal sigBcd : std_logic_vector(11 downto 0);
 signal currentSeg : std_logic_vector(3 downto 0); 
 signal sign : std_logic_vector(3 downto 0);
+signal inBin :std_logic_vector(9 downto 0);
 begin 
-decoInS: binbcd port map(bin,sigBcd);
+
 process(mux)
 begin
 if (neg = '1') then 
+	inbin <= not(bin)+1;
 	sign <= "1111";
 else
+	inbin <= bin;
 	sign <= "1110";
 end if;
 if (clk'event and clk = '1')then 
@@ -45,8 +50,9 @@ case mux is
 	when "0100" => currentSeg <= sigBCD(11 downto 8);
 	when others => currentSeg <= sign;
 end case;
-end process;  
-deco7Ins: deco7 port map(currentSeg,disp);
+end process;   
+decoInS: binbcd port map(inBin,sigBcd);
+deco7Ins: deco7 port map(currentSeg,disp); 
 end architecture;  
 
 
