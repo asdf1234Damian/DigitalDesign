@@ -8,7 +8,8 @@ entity testBench is
 	Start : in std_logic;
 	disp : out std_logic_vector(6 downto 0);
 	digIR : out std_logic_vector(3 downto 0);
-	digPC: out std_logic_vector(9 downto 0);	digDisp: out std_logic_vector(9 downto 0);
+	digPC: out std_logic_vector(9 downto 0);
+	digDisp: out std_logic_vector(9 downto 0);
 	dmux : inout  std_logic_vector(3 downto 0);
 	sel : inout std_logic_vector(1 downto 0)
 	);
@@ -44,8 +45,8 @@ end component;
 ------------------------------------------------------------------ROM
 constant addrssA : integer:=0;
 constant addrssB : integer:=19;
-constant addrssC : integer:=36;
-constant addrssD : integer:=0;
+constant addrssC : integer:=40;
+constant addrssD : integer:=99;
 type ROM is array (99 downto 0) of std_logic_vector(7 downto 0);
 type miniROM is array (4 downto 0) of std_logic_vector(9 downto 0);
 attribute syn_romstyle : string;
@@ -84,7 +85,7 @@ constant ROM_Program: ROM :=
 		14=> "00001110",--A:=W/4
 		15=> "10110111",--Sumar C con D (13X + 23Y)
 		16=> "01001110",--B:=(13X + 23Y)
-		17=> "01001100",--Restar B menos A
+		17=> "01001000",--Restar B menos A
 		------Termina funcion 1 ----------------------
 		------Comienza funcion 2----------------------
 		19 => "00001011",--Carga a A
@@ -93,52 +94,48 @@ constant ROM_Program: ROM :=
 		22 => "01011001",--Multiplicar B a por B
 		23 => "01001110",--B := X^2
 		24 => "00011001",--Multiplicar A a por B
-		25 => "01001110",--C := 5x^2
+		25 => "10001110",--C := 5x^2
 		26 => "00001011",--Cargar a A
 		27 => "00011110",--A:=30 
 		28 => "01011100",--B:=X
 		29 => "00011001",--Multiplicar A a por B
 		30 => "11001110",--D:=30x
 		31 => "00111100",--Mover variable Z a A
-		32 => "10110111",--Sumar C con D (5X^2 + 30x)
-		33 => "01001110",--B:=(5X^2 + 30x)
-		34 => "01001000",--Restar B menos A
+		32 => "01001011",--Cargar a B
+		33 => "00000010",--2
+		34 => "00011010",--Dividr A entre B
+		35 => "00001110",--A:=Z/2
+		36 => "10110111",--Sumar C con D (13X + 23Y)
+		37 => "01001110",--B:=(5X^2 + 30x)
+		38 => "01001000",--Restar B menos A
 		------Termina funcion 2 ----------------------
 		------Comienza funcion 3----------------------
-		36 => "00001011",--Carga a A
-		37 => "00000111",--A:=7
-		38 => "01011100",--B:=X
-		39 => "01011001",--Multiplicar B a por B
-		40 => "01001110",--B := X^2
-		41 => "00011001",--Multiplicar A por B
-		42 => "00001011",--Carga a A
-		43 => "00000000",--A:=0
-		44 => "01001110",--B := 7x^2
-		45 => "00011000",--RestarA a por B
-		46 => "10001110",--C := -7x^2
-		47 => "00001011",--Carga a A
-		48 => "00000101",--A:=5
-		49 => "01111100",--B:=Z
-		50 => "00011001",--Multiplicar A a por B
-		51 => "00001011",--Carga a A
-		52 => "00000000",--A:=0
-		53 => "01001110",--B := 5z
-		54 => "00011000",--RestarA a por B
-		55 => "11001110",--D := -5z
-		56 => "01001011",--Carga a B
-		57 => "00000101",--B:=5
-		58 => "00001100",--A:=W
-		59 => "00011010",--Dvidir A entre B
-		60 => "00001110",--A := W/5
-		61 => "00110111",--Sumar A mas D
-		62 => "00001110",--Guardar en A
-		63 => "00100111",--Sumar A mas C
+		40 => "00001100",--Mov variable W a reg A
+		41 => "01001011",--Copiar 5 a reg B
+		42 => "00000101",--Dato 5
+		43 => "00011010",--Dividr A entre B
+		44 => "00001110",--Guardar Acc a A
+		45 => "01001011",--Mover 7 a reg B
+		46 => "00000111",--Dato 7
+		47 => "10011100",--Copiar var X a C
+		48 => "01101001",--B := 7x^2
+		49 => "01001110",--RestarA a por B
+		50 => "01101001",--C := -7x^2
+		51 => "01001110",--Carga a A
+		52 => "10001011",--A:=5
+		53 => "00000101",--B:=Z
+		54 => "11111100",--Multiplicar A a por B
+		55 => "10111001",--Carga a A
+		56 => "10001110",--A:=0
+		57 => "01100111",--B := 5z
+		58 => "01001110",--RestarA a por B
+		59 => "00011000",--D := -5z
 		------Termina funcion 3 ----------------------
 		others => ("00001111")
 	);
 constant ROM_Var :miniROM :=
 	(
-		0 => "0000000001",--W
+		0 => "0000000100",--W
 		1 => "0000000010",--X
 		2 => "0000000100",--Y
 		3 => "0000001000",--Z	
@@ -148,7 +145,8 @@ signal RegsGen: miniROM;
 signal FlagReg: std_logic_vector(3 downto 0);
 ------------------------------------Registros de proposito especifico
 signal PC : integer := 0; 
-signal MAR : std_logic_vector(3 downto 0):="0000";signal IR : std_logic_vector(3 downto 0):="0000"; 
+signal MAR : std_logic_vector(3 downto 0):="0000";
+signal IR : std_logic_vector(3 downto 0):="0000"; 
 signal MBR, ACC : std_logic_vector(9 downto 0):="0000000000"; 
 ----------------------------------------Registros de entrada a la ALU
 signal REGA : std_logic_vector(9 downto 0):="0000000000";
@@ -245,10 +243,10 @@ begin
 	elsif (IR= "1010")  then 
 		if regb(4 downto 0) /= "00000" then -- valida division entre cero
 			if regb(4 downto 0) ="00001" then -- si se divide entre uno, se pasa directo
-				acc <= "00000"&rega(6 downto 2);
+				acc <= "00000"&rega(4 downto 0);
 			else-- si se divide entre dos acc mas
 				coc := "00000";--inicializa en 0
-				res := unsigned(rega(6 downto 2));-- se inicializa el  res a A
+				res := unsigned(rega(4 downto 0));-- se inicializa el  res a A
 				div := unsigned(regb(4 downto 0));-- se inicializa divisor a B
 				for i in 0 to 128 loop -- peor caso 255/2 (optimizado del paso pasado)
 					if (res >= div) then-- mientras el residuo sea mayor acc igual al divisor 
@@ -274,7 +272,7 @@ begin
 end process;  		  
 oschIns: OSCH generic map(VEL) port map('0', sigOSC); 
 divInsIR: divFreq generic map(20) port map(sigOSC,muxCLK);
---divmuxCU: divFreq  generic map(2000000) port map(sigOSC,cuCLK);
+--divmuxCU: divFreq  generipc map(2000000) port map(sigOSC,cuCLK);
 divmuxCU: divFreq  generic map(200000) port map(sigOSC,cuCLK); 
 dispM: dispMux port map (muxCLK,MBR(9),MBR,dmux,disp);      
 end architecture;      
