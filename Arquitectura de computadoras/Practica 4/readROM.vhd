@@ -28,7 +28,7 @@ begin
       if counter < 2 then
         counter:= 0;
         state:= 1;
-      end if
+	:end if;
     when 1 =>
       ROM_address<=FPGA_address;
       ROM_CE <= 0;
