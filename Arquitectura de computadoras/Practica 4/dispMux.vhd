@@ -46,15 +46,15 @@ else
 	if (neg = '1') then 
 		inbin <= not(bin)+1;
 		sign <= "11111";
-	else
+	else 
 		inbin <= bin;
-		sign <= "01110";
+		sign <= "00000";
 	end if;
 	case mux is 
-		when "0001" => OutputSeg <= '0'&sigBCD(3 downto 0);
-		when "0010" => OutputSeg <= '0'&sigBCD(7 downto 4);
-		when "0100" => OutputSeg <= '0'&sigBCD(11 downto 8);
-		when others => OutputSeg <= sign; 
+		when "0001" => OutputSeg <= sign;
+		when "0010" => OutputSeg <= '0'&sigBCD(3 downto 0);
+		when "0100" => OutputSeg <= '0'&sigBCD(7 downto 4);
+		when others => OutputSeg <= '0'&sigBCD(11 downto 8);
 	end case;
 end if;
 

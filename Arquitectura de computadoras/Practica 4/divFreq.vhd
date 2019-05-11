@@ -2,12 +2,12 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity divFreq is	generic(
-	div : integer 
+	div : integer := 1
 	);
 	port(
 	osc : in std_logic;
 	clk: inout std_logic
-	);
+	); 
 end entity; 
 
 architecture behavioral of divFreq is 
@@ -19,9 +19,9 @@ begin
 			if (count < div) then				
 				count := count + 1;
 			else
-				count :=0;
+				count :=0; 
 				clk <= not clk;
 			end if;
 		end if;
 	end process;
-end architecture;   
+end architecture;     

@@ -20,40 +20,40 @@ regALU : process(mux, a, b)
 	variable zero : std_logic;
 	variable arithRes : std_logic_vector(16 downto 0 );
 	variable shifter : std_logic_vector(15 downto 0);
-	variable remaining :  integer;
+	variable remaining :  integer; 
 	variable coc, res, div : unsigned(7 downto 0 ); -- unsigned para que tengan valor numerico
 begin
 	if (mux = "0101" or mux = "0110") then 
 		shifter := a;
-		remaining := to_integer(signed(b));
-		for i in 0 to 15 loop
-			if (remaining > 0)then 
-				if(mux = "0101") then  
-					shifter:= shifter(14 downto 0) & "0";
-				else  
-					shifter:= shifter(15) & shifter(15 downto 1);
-				end if;
-				remaining := remaining - 1;  
-			end if; 			 
-		end loop;  
-		arithres := "0"&shifter;
-	elsif (mux= "1010")  then 
-		if b(7 downto 0) /= "00000" then -- valida division entre cero
-			if b(7 downto 0) ="00001" then -- si se divide entre uno, se pasa directo
-				arithres:= "0"&a;  
-			else-- si se divide entre dos acc mas 
-				coc := "00000000";--inicializa en 0
-				res := unsigned(a(7 downto 0));-- se inicializa el  res a A
-				div := unsigned(b(7 downto 0));-- se inicializa divisor a B
-				for i in 0 to 128 loop -- peor caso 255/2 (optimizado del paso pasado)
-					if (res >= div) then-- mientras el residuo sea mayor acc igual al divisor 
-						coc := coc+ 1;
-						res := res - div;-- se hace la resta
-					end if;
-				end loop;	
-				arithres := "000000000"&std_logic_vector(coc);-- se convierten en stdlogic 
-			end if;
-		end if;  
+		-- remaining := to_integer(signed(b));
+		-- for i in 0 to 15 loop
+		-- 	if (remaining > 0)then 
+		-- 		if(mux = "0101") then  
+		-- 			shifter:= shifter(14 downto 0) & "0";
+		-- 		else  
+		-- 			shifter:= shifter(15) & shifter(15 downto 1);
+		-- 		end if;
+		-- 		remaining := remaining - 1;  
+		-- 	end if; 			 
+		-- end loop;  
+		-- arithres := "0"&shifter;
+	-- elsif (mux= "1010")  then 
+	-- 	if b(7 downto 0) /= "00000" then -- valida division entre cero
+	-- 		if b(7 downto 0) ="00001" then -- si se divide entre uno, se pasa directo
+	-- 			arithres:= "0"&a;  
+	-- 		else-- si se divide entre dos acc mas 
+	-- 			coc := "00000000";--inicializa en 0
+	-- 			res := unsigned(a(7 downto 0));-- se inicializa el  res a A
+	-- 			div := unsigned(b(7 downto 0));-- se inicializa divisor a B
+	-- 			for i in 0 to 128 loop -- peor caso 255/2 (optimizado del paso pasado)
+	-- 				if (res >= div) then-- mientras el residuo sea mayor acc igual al divisor 
+	-- 					coc := coc+ 1;
+	-- 					res := res - div;-- se hace la resta
+	-- 				end if;
+	-- 			end loop;	
+	-- 			arithres := "000000000"&std_logic_vector(coc);-- se convierten en stdlogic 
+	-- 		end if;
+	-- 	end if;  
 	else		  
 		case mux is
 			when "0001" => arithres := "0"&not a;

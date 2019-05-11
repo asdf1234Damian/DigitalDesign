@@ -9,27 +9,27 @@ entity deco7 is
 end entity;
 
 architecture behavioral of deco7 is 
-	Constant Dig0: std_logic_vector(7 downto 0) := "11111100";
-	Constant Dig1: std_logic_vector(7 downto 0) := "01100000";
-	Constant Dig2: std_logic_vector(7 downto 0) := "11011010";
-	Constant Dig3: std_logic_vector(7 downto 0) := "11110010";
-	Constant Dig4: std_logic_vector(7 downto 0) := "01100110";
-	Constant Dig5: std_logic_vector(7 downto 0) := "10110110";
-	Constant Dig6: std_logic_vector(7 downto 0) := "10111110";
-	Constant Dig7: std_logic_vector(7 downto 0) := "11100000";
-	Constant Dig8: std_logic_vector(7 downto 0) := "11111110";
-	Constant Dig9: std_logic_vector(7 downto 0) := "11110110";
-	Constant ChrA: std_logic_vector(7 downto 0) := "11101110";
-	Constant ChrH: std_logic_vector(7 downto 0) := "01101110";
-	Constant ChrL: std_logic_vector(7 downto 0) := "00011100";
-	Constant ChrE: std_logic_vector(7 downto 0) := "10011110";
-	Constant ChrC: std_logic_vector(7 downto 0) := "10011100";
-	Constant Chrr: std_logic_vector(7 downto 0) := "00001010";
-	Constant Chrn: std_logic_vector(7 downto 0) := "00101010";
-	Constant Chrb: std_logic_vector(7 downto 0) := "00111110";
-	Constant Chry: std_logic_vector(7 downto 0) := "01110110";
-	constant dash: std_logic_vector(7 downto 0) := "00000010";
-	constant dot : std_logic_vector(7 downto 0) := "00000001";
+	Constant Dig0: std_logic_vector(7 downto 0) := "01111110";
+	Constant Dig1: std_logic_vector(7 downto 0) := "00110000";
+	Constant Dig2: std_logic_vector(7 downto 0) := "01101101";
+	Constant Dig3: std_logic_vector(7 downto 0) := "01111001";
+	Constant Dig4: std_logic_vector(7 downto 0) := "00110011";
+	Constant Dig5: std_logic_vector(7 downto 0) := "01011011";
+	Constant Dig6: std_logic_vector(7 downto 0) := "01011111";
+	Constant Dig7: std_logic_vector(7 downto 0) := "01110000";
+	Constant Dig8: std_logic_vector(7 downto 0) := "01111111";
+	Constant Dig9: std_logic_vector(7 downto 0) := "01111011";
+	Constant ChrA: std_logic_vector(7 downto 0) := "01110111";
+	Constant ChrH: std_logic_vector(7 downto 0) := "00110111";
+	Constant ChrL: std_logic_vector(7 downto 0) := "00001110";
+	Constant ChrE: std_logic_vector(7 downto 0) := "01001111";
+	Constant ChrC: std_logic_vector(7 downto 0) := "01001110";
+	Constant Chrr: std_logic_vector(7 downto 0) := "00000101";
+	Constant Chrn: std_logic_vector(7 downto 0) := "00010101";
+	Constant Chrb: std_logic_vector(7 downto 0) := "00011111";
+	Constant Chry: std_logic_vector(7 downto 0) := "00111011";
+	constant dash: std_logic_vector(7 downto 0) := "00000001";
+	constant dot : std_logic_vector(7 downto 0) := "10000000";
 	Constant Apag: std_logic_vector(7 downto 0) := "00000000";
 begin 
 disp <= dig0 when a = "00000" else 
