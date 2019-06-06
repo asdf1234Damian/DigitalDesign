@@ -9,12 +9,14 @@ entity testBench is
 	rw,rs,e : out std_logic;
 	lcd_data :out std_logic_vector(7 downto 0);
 	selchr : in std_logic_vector(1 downto 0);
+	getIn : in std_logic;
 	FlagReg: inout std_logic_vector(3 downto 0);
-	sel : inout std_logic_vector(1 downto 0);
+ 		sel : inout std_logic_vector(1 downto 0);
+	selview, charview : out std_logic_vector(7 downto 0);
 	pcview : out std_logic_vector(7 downto 0):="00000000"
 	);  
-end entity;   
-  
+end entity;        
+     
 architecture behavioral of testbench is 
 component lcd_controller IS
   PORT(
@@ -26,8 +28,8 @@ component lcd_controller IS
 	line1_buffer : IN STD_LOGIC_VECTOR(63 downto 0); -- Data for the top line of the LCD
 	line2_buffer : IN STD_LOGIC_VECTOR(7 downto 0)); -- Datak  for the bottom line of the LCD
 END component;
-   
-   
+    
+    
 component ALU is   
 port( 
 	a, b: in std_logic_vector(15 downto 0); 
@@ -106,10 +108,15 @@ constant Branch: std_logic_vector(7 downto 0) := "00010000";
 constant MBRtoRAM: std_logic_vector(7 downto 0) := "00010001";
 --Move from ram to reg
 constant read_RAM: std_logic_vector(7 downto 0) := "00010010";
---Move from ram to reg
+--Move from rom to ram
 constant ROMtoRAM: std_logic_vector(7 downto 0) := "00010011";
+-- SET(signal, pos)
+constant setbit: std_logic_vector(7 downto 0) := "00010100";
+-- Get input 
+constant get_input : std_logic_vector(7 downto 0) := "00010101";
 --HALT
 constant HALT: std_logic_vector(7 downto 0) := "11111111";
+
 type MemArr is array (200 downto 0) of std_logic_vector(7 downto 0);
 type miniROM is array (15  downto 0) of std_logic_vector(15 downto 0);
 constant ROM_Program: MemArr :=
@@ -187,9 +194,9 @@ constant ROM_Program: MemArr :=
 		59  => ROMtoREG, -- step = 1
 		60  => "00000010",--reggen(2)
 		61  => "00000001",-- 1
-		62  => ROMtoREG, -- size= 8
+		62  => ROMtoREG, -- size= 9
 		63  => "00000011",--reggen(3)
-		64  => "00001001",-- 8
+		64  => "00001001",-- 9
 		-- -- Ciclo
 		65  => ROMtoRAM, --ROM(j) to RAM(i) 
 		66 	=> "00000000", -- dest ram i(reggen(0))
@@ -207,87 +214,105 @@ constant ROM_Program: MemArr :=
 		78  => Branch,	  -- if i - size != 0 
 		79  => "00001001",
 		80  => "01000001",-- Goto  
-		-- --Empieza ciclo for	
-		-- 32  => ROMtoRAM, --From rom to RAM ram(i) = rom (i)
-		-- 33  => "00000000",--dest ram i
-		-- 34  => "00000000",--orig rom i
-		-- 35  => ALUADD, 
-		-- 36  => "00000100",--i  + 1
-		-- 37  => SaveMBR,
-		-- 38  => "00000000",--i = i+1
-		-- 39  => ALUSUB,
-		-- 40  => "00000010",--i-tam mensaje 
-		-- 41  => Branch,	  --if i - tam != 0 
-		-- 42  => "00001001",
-		-- 43  => "00100000",-- Goto  
-		-- --Termina ciclo para cargar a ram
-		-- --Se inicializa i a 0
-		-- 44  => ROMtoREG ,--ROM to REGSGEN i = 0
-		-- 45  => "00000000",--Regsgen(0) 
-		-- 46  => "00000000",--0 contador
-		-- --Mover mensaje de ROM a RAM
-		-- 47  => CPOrDe,-- Move char 
-		-- 48  => "11111110",--char(2)to char(3)
-		-- 49  => CPOrDe,--Move char
-		-- 50  => "11101101",--char(2)to char(3)
-		-- 51  => CPOrDe,--Movechar
-		-- 52  => "11011100",--char(1)to char(2)
-		-- 53  => read_RAM,--Load char from ram
-		-- 54  => "00001100",-- into reggen 12 
-		-- 55  => "00000000",-- from ram(0)=1
-		-- 56  => ALUADD, 
-		-- 57  => "00000100",--i  + 1
-		-- 58  => SaveMBR,
-		-- 59  => "00000000",--i = i+1
-		-- 60  => ALUSUB, 
-		-- 61  => "00000010",
-		-- 62  => Branch, 
-		-- 63  => "00001001",
-		-- 64  => "00101111",
-		-- 65  => ALUADD, 
-		-- 66  => "00010100",--j  + 1
-		-- 67  => SaveMBR,
-		-- 68  => "00000001",--i = i+1
-		-- 69  => ALUSUB, 
-		-- 70  => "00010011",
-		-- 71  => Branch, 
-		-- 72  => "00001001",
-		-- 73  => "00101100",
-		-- -- Re establecer variables
-		-- 74  => ROMtoREG ,--ROM to REGSGEN i = 0
-		-- 75  => "00000000",--Regsgen(0) 
-		-- 76  => "00000000",--0 contador
-		-- 77  => ROMtoREG ,--ROM to REGSGEN j = 0
-		-- 78  => "00000000",--Regsgen(0) 
-		-- 79  => "00000000",--0 contador
-		-- 80  => ROMtoREG ,--ROM to REGSGEN t = 50
-		-- 81  => "00000101",--Regsgen(5)=t 
-		-- 82  => "00000101",--5
-		-- 83  => ROMtoREG ,--ROM to REGSGEN ischar = false
-		-- 84  => "00001011",--Regsgen(11)=ischar 
-		-- 85  => "00000000",--false
-		-- --Compienza ciclo interno
-		-- 86  => ALUADD,-- i + 50
-		-- 87 => "00000101",--
-		-- 88 => SaveMBR,--i = i +50
-		-- 89 => "00000000",--
-		-- 90  => ALUADD,-- j + 1
-		-- 91 => "00010100",--
-		-- 92 => SaveMBR,--i = j +1
-		-- 93 => "00000001",--
-		-- 94 => ALUSUB,--
-		-- 95 => "00010010",--false 
-		-- 96 => BRANCH,--false
-		-- 97 => "00001001",--false
-		-- 98 => "01010110",--false
-		-- 99  => ROMtoREG ,--ROM to REGSGEN ischar = true
-		-- 100  => "00001011",--Regsgen(11)=ischar 
-		-- 101  => "00000001",--true
-		-- 102  => ROMtoREG ,--ROM to REGSGEN j=0
-		-- 103  => "00000001",--
-		-- 104  => "00000000",--
-		-- 105 => jump,
-		-- 106 => "00101100",   
+		-- Juego (?)
+		-- -- Inicializando variables otra vez
+		-- -- -- max attemps
+		81  => ROMtoREG, -- max = 4
+		82  => "00000101",--reggen(5)
+		83  => "00000100",-- 4
+		-- -- -- num intentos
+		84  => ROMtoREG, -- attemps = 0
+		85  => "00000001",--reggen(1)
+		86  => "00000000",-- 0
+		-- -- -- step asd 
+		87  => ROMtoREG, -- step = 1
+		88  => "00000010",--reggen(2)
+		89  => "00000001",-- 1
+		-- -- -- tamaño de palabra
+		90  => ROMtoREG, -- size= 8
+		91  => "00000011",--reggen(3)
+		92  => "00001000",-- 8 					POSBGGGGGGGGGGGGGGGGG
+		-- -- -- true   
+		93  => ROMtoREG, -- true = 255
+		94  => "00000100",--reggen(4)
+		95  => "11111111",-- 255
+		-- -- Inicia ciclo exterior
+		96  => ROMtoREG, -- i = 0
+		97  => "00000000",--reggen(0)
+		98  => "00000000",-- 0
+		99  => ROMtoREG, -- j = 7
+		100 => "00001000",--reggen(8)
+		101 => "00000111",-- 7
+		102  => ROMtoREG, -- bandera = 0
+		103 => "00001001",-- reggen(9)
+		104 => "00000000",-- 0
+		105	=> get_input,
+		106 => "00000110", -- selection goes to reg (6)
+		-- -- Inicia ciclo interior
+		-- -- -- Move missing to reggen
+		107 => read_RAM, -- recupera ram(j)
+		108 => "00000111", -- y lo manda a reggen(7)
+		109 => "00001000",
+		-- -- -- compare with input
+		110 => ALUSUB, 
+		111 => "01110110", -- compara 
+		-- -- -- if
+		112 => Branch,
+		113 => "00000010", -- if flag 0
+		114 => "01110101",-- Goto  117
+		-- -- -- false 
+		115 => JUMP,
+		116 => "01111010", -- GOTO 122
+		-- -- -- true
+		117 => setbit,
+		118 => "00000000",
+		119  => ROMtoREG, -- bandera = 0
+		120 => "00001001",-- reggen(9)
+		121 => "00000001",-- 0
+		-- -- -- i ++
+		122 => ALUADD, 
+		123 => "00000010",
+		124 => SaveMBR, 
+		125 => "00000000",
+		126 => ALUSUB, 
+		127 => "10000010",
+		128 => SaveMBR, 
+		129 => "00001000",
+		-- -- -- if last char 
+		130 => ALUSUB, 
+		131 => "00000011",
+		132 => Branch, 
+		133 => "00001001",
+		134 => "01101011", --107
+		-- -- -- if wrong guess, add one
+		135 => ALUSUB, 
+		136 => "10011010",
+		137 => Branch, 
+		138 => "00000010", 
+		139 => "10010000", --else jump to 144
+		140 => ALUADD, 
+		141 => "00010010",
+		142 => SaveMBR, 
+		143 => "00000001",
+		-- -- -- palabra completada 
+		144 => read_RAM, -- recupera spaces
+		145 => "00001011", -- y lo manda a reggen(11)
+		146 => "00000011",
+		147 => ALUSUB, 
+		148 => "10110100",
+		149 => Branch, 
+		150 => "00000010", -- si ya gano
+		151 => "11001000", -- 200
+		-- -- -- ran out of guesses 
+		152 => ALUSUB, 
+		153 => "00010101",
+		154 => Branch, 
+		155 => "00000010", -- se le acabaron 
+		156 => "11001000", -- 200
+		157 => jump, 
+		158 => "01100000",
+		-- 135 =>
+		-- 
 		others => ("11111111")
 	);  
 signal RAM : MemArr :=( others => "00000000"); 
@@ -295,7 +320,7 @@ signal RAM : MemArr :=( others => "00000000");
 signal RegsGen: miniROM:=(others => "0000000000000000"); 
 signal rom_var: miniROM:=(others => "0000000000000000");  
 signal wordcontent : std_logic_vector(63 DOWNTO 0);
-signal wordspaces : std_logic_vector(7 DOWNTO 0);
+signal wordspaces : std_logic_vector(7 DOWNTO 0); 
 ------------------------------------Registros de proposito especifico
 signal PC : integer;  
 signal MAR : std_logic_vector(7 downto 0):="00000000";
@@ -314,16 +339,19 @@ attribute NOM_FREQ of oschins : label is VEL;
 --------------------------------------------------Inicio del programa 
  begin
  pcview<=std_logic_vector(to_unsigned(Pc,8));
+ selview<=regsgen(6)(7 downto 0);
+ charview<=regsgen(7)(7 downto 0);
  wordcontent <= RAM(0)(7 DOWNTO 0)&
-				ram(1)(7 DOWNTO 0)&
-				ram(2)(7 DOWNTO 0)&
+				RAM(1)(7 DOWNTO 0)&
+				RAM(2)(7 DOWNTO 0)&
 				RAM(3)(7 DOWNTO 0)&
 				RAM(4)(7 DOWNTO 0)&
 				RAM(5)(7 DOWNTO 0)&
 				RAM(6)(7 DOWNTO 0)&
 				RAM(7)(7 DOWNTO 0);
  wordspaces <= RAM(8)(7 DOWNTO 0);
-ControlUnit: process(Start, IR,cuclk)    
+ControlUnit: process(Start, IR,cuclk)
+	variable debauncerCU: integer range 0 to 5;
 	variable state:integer range 0 to 3 :=0;  
 begin
 	if (Start = '0') then   
@@ -380,11 +408,28 @@ begin
 					pc <= to_integer(unsigned(rom_program(pc+2)));
 				else  
 					pc <= pc+3; 
-				end if;			
+				end if;		 	
 				state := 0;
 			elsif( IR = "00001111") then  --JUMP
 				pc <= to_integer(signed(MAR));
 				state := 0;
+			elsif (ir = setbit) then -- SET bit (from ram 0) 
+				ram(8)(to_integer(unsigned(regsgen(0)))) <= '1';
+				state := 0;
+				pc <= pc+2;
+			elsif (ir = get_input) then
+				if (getIn = '1') then
+					if debauncerCU <5 then 
+						debauncerCU:=debauncerCU+1;
+					else
+						debauncerCU:= 0;
+						RegsGen(to_integer(unsigned(MAR)))<= "00000000"&charselection; 
+						state := 0;
+						pc <= pc+2;  
+					end if;
+				else 
+					debauncerCU:=0;
+				end if;
 			else  
 				muxalu <= ir(3 downto 0 );
 				RegA <= RegsGen(to_integer(unsigned(MAR(7 downto 4))));
@@ -402,12 +447,12 @@ begin
 end process;   
 
 currChar: process(cuclk) is 
-variable debauncer: integer range 0 to 1000;
+variable debauncer: integer range 0 to 5;
 begin 
 if (cuCLK'event and cuclk = '1') then 
 	if (Start /= '0') then  
 		if selchr /= "00" then 
-			if debauncer <1000 then 
+			if debauncer <5 then 
 				debauncer:=debauncer+1;
 				charSelection <= charselection;
 			else
@@ -434,6 +479,6 @@ end if;
 end process; 
 aluIns: ALU port map(rega,regb,muxalu(3 downto 0),flagReg,acc); 
 oschIns: OSCH generic map(VEL) port map('0', sigOSC);  
-divCU: divFreq  generic map(700) port map(sigOSC,cuCLK); 
+divCU: divFreq  generic map(70000) port map(sigOSC,cuCLK); 
 lcd: lcd_controller port map(sigosc,Start,rw,rs,e,lcd_data,wordspaces,wordcontent,charSelection); 
 end architecture;       

@@ -1,21 +1,16 @@
-@P:  Worst Slack : 122.432
-@P:  divFreq|clk_derived_clock - Estimated Frequency : 55.3 MHz
-@P:  divFreq|clk_derived_clock - Requested Frequency : 7.0 MHz
-@P:  divFreq|clk_derived_clock - Estimated Period : 18.096
-@P:  divFreq|clk_derived_clock - Requested Period : 142.857
-@P:  divFreq|clk_derived_clock - Slack : 136.988
-@P:  testBench|sigOSC_inferred_clock - Estimated Frequency : 49.0 MHz
+@P:  Worst Slack : 120.863
+@P:  testBench|sigOSC_inferred_clock - Estimated Frequency : 45.5 MHz
 @P:  testBench|sigOSC_inferred_clock - Requested Frequency : 7.0 MHz
-@P:  testBench|sigOSC_inferred_clock - Estimated Period : 20.425
+@P:  testBench|sigOSC_inferred_clock - Estimated Period : 21.994
 @P:  testBench|sigOSC_inferred_clock - Requested Period : 142.857
-@P:  testBench|sigOSC_inferred_clock - Slack : 122.432
+@P:  testBench|sigOSC_inferred_clock - Slack : 120.863
 @P:  System - Estimated Frequency : 1.1 MHz
 @P:  System - Requested Frequency : 1.0 MHz
-@P:  System - Estimated Period : 872.529
+@P:  System - Estimated Period : 879.137
 @P:  System - Requested Period : 1000.000
-@P:  System - Slack : 127.471
-@P:  Total Area : 973.0
+@P:  System - Slack : 120.863
+@P:  Total Area : 2324.0
 @P:  Total Area : 0.0
 @P:  Total Area : 0.0
 @P:  Total Area : 0.0
-@P:  CPU Time : 0h:00m:06s
+@P:  CPU Time : 0h:00m:13s

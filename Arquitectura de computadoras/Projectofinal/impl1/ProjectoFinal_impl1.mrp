@@ -18,24 +18,24 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000ZETQFP144
 Target Performance:   1
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
-Mapped on:  06/06/19  02:56:24
+Mapped on:  06/06/19  13:16:13
 
 Design Summary
 --------------
 
-   Number of registers:    531 out of  7209 (7%)
-      PFU registers:          521 out of  6864 (8%)
+   Number of registers:   2071 out of  7209 (29%)
+      PFU registers:         2061 out of  6864 (30%)
       PIO registers:           10 out of   345 (3%)
-   Number of SLICEs:       746 out of  3432 (22%)
-      SLICEs as Logic/ROM:    668 out of  3432 (19%)
-      SLICEs as RAM:           78 out of  2574 (3%)
-      SLICEs as Carry:        108 out of  3432 (3%)
-   Number of LUT4s:        1486 out of  6864 (22%)
-      Number used as logic LUTs:        1114
-      Number used as distributed RAM:   156
-      Number used as ripple logic:      216
+   Number of SLICEs:      1695 out of  3432 (49%)
+      SLICEs as Logic/ROM:   1695 out of  3432 (49%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:        105 out of  3432 (3%)
+   Number of LUT4s:        2729 out of  6864 (40%)
+      Number used as logic LUTs:        2519
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      210
       Number used as shift registers:     0
-   Number of PIO sites used: 28 + 4(JTAG) out of 115 (28%)
+   Number of PIO sites used: 45 + 4(JTAG) out of 115 (43%)
    Number of block RAMs:  2 out of 26 (8%)
    Number of GSRs:  1 out of 1 (100%)
    EFB used :       No
@@ -66,100 +66,343 @@ Design Summary
 
 
 
-Design:  testBench                                     Date:  06/06/19  02:56:24
+Design:  testBench                                     Date:  06/06/19  13:16:13
 
 Design Summary (cont)
 ---------------------
-   Number of clocks:  9
-     Net sigOSC_0: 292 loads, 292 rising, 0 falling (Driver: oschIns )
-     Net cuCLK: 52 loads, 52 rising, 0 falling (Driver: divCU/clk )
-     Net un1_PC_1_0_a3: 1 loads, 1 rising, 0 falling (Driver: un1_PC_1_0_a3 )
-     Net un1_PC_0_a3: 1 loads, 1 rising, 0 falling (Driver: un1_PC_0_a3 )
-     Net un1_sel_1_0_a3: 1 loads, 1 rising, 0 falling (Driver: un1_sel_1_0_a3 )
-     Net aluIns/un2_mux_i_0: 11 loads, 11 rising, 0 falling (Driver:
+   Number of clocks:  8
+     Net sigOSC_0: 1062 loads, 1062 rising, 0 falling (Driver: oschIns )
+     Net un1_start_54_0_a2_0_a2: 1 loads, 1 rising, 0 falling (Driver:
+     un1_start_54_0_a2_0_a2 )
+     Net aluIns/un2_mux_i_0: 8 loads, 8 rising, 0 falling (Driver:
      aluIns/regALU.un2_mux_i_0 )
-     Net aluIns/N_101_i_i: 1 loads, 1 rising, 0 falling (Driver:
+     Net aluIns/N_447_i_i: 1 loads, 1 rising, 0 falling (Driver:
      aluIns/arithres_RNO_0[16] )
-     Net N_1287_i: 1 loads, 1 rising, 0 falling (Driver: sel_pad_RNI3QS41_1[0] )
+     Net un1_start_17_0_a3_0_a2: 1 loads, 1 rising, 0 falling (Driver:
+     un1_start_17_0_a3_0_a2 )
+     Net un1_start_15_0_a2_0_a2: 1 loads, 1 rising, 0 falling (Driver:
+     un1_start_15_0_a2_0_a2 )
+     Net un1_start_20_0_a2_0_a2: 1 loads, 1 rising, 0 falling (Driver:
+     un1_start_20_0_a2_0_a2 )
+     Net N_6425_i: 1 loads, 1 rising, 0 falling (Driver: sel_pad_RNI3QS41_1[0] )
      
-     Net un1_sel_0_a3: 1 loads, 1 rising, 0 falling (Driver: un1_sel_0_a3 )
-   Number of Clock Enables:  36
-     Net ControlUnit.un1_IR_1_5_0_a2_RNIA05H3: 2 loads, 0 LSLICEs
-     Net lcd.un1_state_9_i: 8 loads, 0 LSLICEs
-     Net G_88: 10 loads, 10 LSLICEs
-     Net un2_state_15_i_a3_RNIGQ3M1: 12 loads, 12 LSLICEs
-     Net un1_e_0_sqmuxa_1_0: 1 loads, 0 LSLICEs
-     Net un1_IR_62_0_a3_0_RNIO81V7: 2 loads, 2 LSLICEs
+   Number of Clock Enables:  235
+     Net state_RNI1R8K4[0]: 2 loads, 0 LSLICEs
+     Net clk_RNIL3ON: 8 loads, 8 LSLICEs
+     Net un1_state_inv_0_639_i_0_0_a2_RNIGPJI1: 9 loads, 9 LSLICEs
+     Net un1_e_0_sqmuxa_1_0_0: 1 loads, 0 LSLICEs
+     Net un2_state_597_i_0_a2_RNII2IP8: 3 loads, 3 LSLICEs
+     Net un1_IR_inv_1302_i_0_0_a2_1_RNIBOQJ2: 4 loads, 4 LSLICEs
+     Net RAM_8_RNO[5]: 1 loads, 1 LSLICEs
+     Net N_8695_i: 1 loads, 0 LSLICEs
      Net lcd/un1_state_7_i: 1 loads, 1 LSLICEs
-     Net lcd.un1_state_4_i: 1 loads, 0 LSLICEs
-     Net ControlUnit.un1_IR_1_5_0_a2_RNIN0RM2: 3 loads, 3 LSLICEs
-     Net un1_IR_60_0_RNI2JCH1: 32 loads, 32 LSLICEs
-     Net ControlUnit.un1_IR_1_5_0_a2_RNI11043: 8 loads, 8 LSLICEs
-     Net un1_start_11_6_RNI28PD1: 4 loads, 4 LSLICEs
-     Net ControlUnit.un58_state_RNIFLBG2[1]: 4 loads, 4 LSLICEs
-     Net un1_start_11_6_RNIK4F82: 4 loads, 4 LSLICEs
-     Net ControlUnit.un58_state_RNILRAH2[7]: 4 loads, 4 LSLICEs
-     Net ControlUnit.un1_start_0_a3_RNIHNAH2_0: 4 loads, 4 LSLICEs
-     Net un1_start_12_6_RNIH2G82: 4 loads, 4 LSLICEs
-     Net un2_state_16_i_a3_RNI838B1: 8 loads, 8 LSLICEs
-     Net un2_state_22_i_a3_RNI0PP71: 8 loads, 8 LSLICEs
-     Net un2_state_25_i_a3_RNIJ7541: 8 loads, 8 LSLICEs
-     Net un2_state_24_i_a3_RNIISS71: 8 loads, 8 LSLICEs
-     Net un2_state_23_i_a3_RNI1NVA1: 8 loads, 8 LSLICEs
-     Net un2_state_18_i_a3_RNIMLUO1: 8 loads, 8 LSLICEs
-     Net un2_state_21_i_a3_RNI8GLI1: 8 loads, 8 LSLICEs
-     Net un2_state_20_i_a3_RNIVCB61: 8 loads, 8 LSLICEs
-     Net un2_state_19_i_a3_RNIVB6C1: 8 loads, 8 LSLICEs
-     Net un2_state_27_i_a3_RNIOQP51: 8 loads, 8 LSLICEs
-     Net un2_state_26_i_a3_RNI7LS81: 8 loads, 8 LSLICEs
-     Net un2_state_28_i_a3_RNIRIO11: 8 loads, 8 LSLICEs
-     Net un2_state_14_i_a3_RNI5A3A1: 8 loads, 8 LSLICEs
-     Net un2_state_17_i_a3_RNI0HG61: 8 loads, 8 LSLICEs
-     Net un2_state_29_i_a3_RNITSCM1: 8 loads, 8 LSLICEs
-     Net ControlUnit.un1_IR_1_5_0_a2_RNICFPN3: 2 loads, 0 LSLICEs
-     Net ControlUnit.un1_start_0_a3_RNIHNAH2: 4 loads, 4 LSLICEs
-     Net un1_start_12_6_RNI7EQD1: 4 loads, 4 LSLICEs
-     Net un1_start_12_6_RNI7EQD1_0: 4 loads, 4 LSLICEs
-   Number of local set/reset loads for net Start_c merged into GSR:  309
-   Number of LSRs:  16
-     Net Start_c: 4 loads, 3 LSLICEs
-     Net N_1289_i: 2 loads, 2 LSLICEs
-     Net un1_PC_1_0_a3: 1 loads, 1 LSLICEs
-     Net un1_state_4_0_0_o2_RNIUN8QG: 4 loads, 0 LSLICEs
+     Net lcd.un1_state_9_i: 8 loads, 0 LSLICEs
+     Net ControlUnit.RegsGen_7_cnv[0]: 8 loads, 8 LSLICEs
+     Net un1_state_inv_0_636_i_0_a2_0_RNIJ1HP1: 8 loads, 8 LSLICEs
+     Net ControlUnit.IR_3_0_0_RNIERUP3: 6 loads, 6 LSLICEs
+     Net REGAce[0]: 27 loads, 27 LSLICEs
+     Net RAM_8_RNO_0[0]: 1 loads, 1 LSLICEs
+     Net RAM_8_RNO_0[1]: 1 loads, 1 LSLICEs
+     Net RAM_8_RNO_0[2]: 1 loads, 1 LSLICEs
+     Net RAM_8_RNO[3]: 1 loads, 1 LSLICEs
+     Net RAM_8_RNO_0[4]: 1 loads, 1 LSLICEs
+     Net RAM_8_RNO[6]: 1 loads, 1 LSLICEs
+     Net RAM_8_RNO[7]: 1 loads, 1 LSLICEs
+     Net state_RNIOR374[1]: 8 loads, 8 LSLICEs
+     Net un1_IR_inv_1412_i_0_0_a2_2_RNIKAJ52: 8 loads, 8 LSLICEs
+     Net un1_IR_inv_1412_i_0_0_a2_2_RNIG5EV1: 8 loads, 8 LSLICEs
+     Net un1_state_inv_0_633_i_0_0_a2_RNI0KUO1: 8 loads, 8 LSLICEs
+     Net un1_state_inv_0_632_i_0_0_a2_RNIK05K1: 8 loads, 8 LSLICEs
+     Net un1_state_inv_0_640_i_0_0_a2_RNIFJ4D1: 8 loads, 8 LSLICEs
+     Net un1_state_inv_0_i_0_0_a2_RNIJGT81: 8 loads, 8 LSLICEs
+     Net un1_state_inv_0_637_i_0_0_a2_RNIE2T11: 8 loads, 8 LSLICEs
+     Net un1_state_inv_0_638_0_i_a2_RNI47DC1: 8 loads, 8 LSLICEs
+     Net un1_state_inv_0_644_i_0_a2_0_RNIHD8K1: 8 loads, 8 LSLICEs
+     Net un1_state_inv_0_646_i_0_a2_0_RNIGML22: 8 loads, 8 LSLICEs
+     Net un1_state_inv_0_634_i_0_a2_0_RNIDHRP1: 8 loads, 8 LSLICEs
+     Net un1_state_inv_0_645_i_0_a2_0_RNIFACH1: 8 loads, 8 LSLICEs
+     Net un1_state_inv_0_642_i_0_a2_0_RNICO3N1: 8 loads, 8 LSLICEs
+     Net un1_IR_inv_1318_i_0_0_a2_1_RNIGHMK2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1318_i_0_0_a2_1_RNIG7AP3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1294_i_0_0_a2_1_RNITQC83: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1286_i_0_0_a2_3_RNI4L672: 4 loads, 4 LSLICEs
 
                                     Page 2
 
 
 
 
-Design:  testBench                                     Date:  06/06/19  02:56:24
+Design:  testBench                                     Date:  06/06/19  13:16:13
 
 Design Summary (cont)
 ---------------------
-     Net currChar.un2_debauncerlto9_RNIUSHS: 6 loads, 6 LSLICEs
-     Net un1_PC_0_a3: 3 loads, 3 LSLICEs
-     Net un1_sel_1_0_a3: 2 loads, 2 LSLICEs
+     Net un1_IR_inv_1286_i_0_0_a2_3_RNI4BQB3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1306_i_0_0_a2_2_RNIVERA3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1306_i_0_0_a2_2_RNIP17L3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1305_i_0_0_a2_1_RNID5UF3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1376_i_0_0_a2_0_RNIFQD72: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1310_i_a2_3_RNIT5KJ3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1310_i_a2_3_RNINOVT3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1300_i_0_0_a2_1_RNIOCFI3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1300_i_0_0_a2_1_RNI0INQ3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1306_i_0_0_a2_2_RNISKQN2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1306_i_0_0_a2_2_RNISAEC3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1305_i_0_0_a2_1_RNIQ9313: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1305_i_0_0_a2_1_RNIQVML3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1310_i_a2_3_RNIQBJ03: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1310_i_a2_3_RNIQ17L3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1300_i_0_0_a2_1_RNILIEV2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1300_i_0_0_a2_1_RNITEH93: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1291_i_0_0_a2_1_RNI57G04: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1291_i_0_0_a2_1_RNIR9HF2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1291_i_0_0_a2_1_RNI6I7N3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1480_i_a2_2_RNI8N004: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1480_i_a2_2_RNI92OM3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1287_i_0_0_a2_2_RNIBTPQ3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1287_i_0_0_a2_2_RNIC8HH3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1421_i_a2_3_RNII09S3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1294_i_0_0_a2_1_RNIS55A3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1291_i_0_0_a2_1_RNI6R8R2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1291_i_0_0_a2_1_RNI6HSV3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1480_i_a2_2_RNI9BPQ2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1480_i_a2_2_RNI91DV3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1287_i_0_0_a2_2_RNICHIL2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1287_i_0_0_a2_2_RNIC76Q3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1291_i_0_0_a2_1_RNIA8DG2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1349_i_0_0_a2_RNITLSI2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1421_i_a2_3_RNIJALR3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1338_i_0_0_a2_1_RNI9USV2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1338_i_0_0_a2_1_RNI3H8A3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1336_i_0_0_a2_1_RNI78E23: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1336_i_0_0_a2_1_RNI1RPC3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1343_i_a2_3_RNI98KM2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1343_i_a2_3_RNI3RV03: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1338_i_0_0_a2_1_RNI77OV1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1480_i_a2_2_RNIK3D82: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1285_i_0_0_a2_3_RNICCK13: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1285_i_0_0_a2_3_RNIKHS93: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1338_i_0_0_a2_1_RNITIDR1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1336_i_0_0_a2_1_RNI5H922: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1336_i_0_0_a2_1_RNIRSUT1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1343_i_a2_3_RNI7HFM1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1343_i_a2_3_RNITS4I1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1285_i_0_0_a2_3_RNIALF12: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1480_i_a2_2_RNIAF2K2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1285_i_0_0_a2_3_RNIR01E2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1284_i_0_0_a2_2_RNIEHV33: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1284_i_0_0_a2_2_RNIFSMQ2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1320_i_0_0_a2_1_RNI4A253: 4 loads, 4 LSLICEs
+
+                                    Page 3
+
+
+
+
+Design:  testBench                                     Date:  06/06/19  13:16:13
+
+Design Summary (cont)
+---------------------
+     Net un1_IR_inv_1320_i_0_0_a2_1_RNI5LPR2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1318_i_0_0_a2_1_RNIBMQC3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1318_i_0_0_a2_1_RNIC1I33: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1286_i_0_0_a2_3_RNID7123: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1316_i_0_0_a2_1_RNI9V6D2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1287_i_0_0_a2_2_RNINF5S1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1284_i_0_0_a2_2_RNIG8KH1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1284_i_0_0_a2_2_RNI6K9T1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1320_i_0_0_a2_1_RNISCCU1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1320_i_0_0_a2_1_RNI61NI1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1318_i_0_0_a2_1_RNIDDFQ1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1318_i_0_0_a2_1_RNI3P462: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1286_i_0_0_a2_3_RNI1HVC1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1286_i_0_0_a2_3_RNINSKO1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1306_i_0_0_a2_2_RNICDE13: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1306_i_0_0_a2_2_RNI60QB3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1313_i_0_0_a2_0_RNINU703: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1287_i_0_0_a2_2_RNIDRQ72: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1305_i_0_0_a2_1_RNI1C7P3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1310_i_a2_3_RNI71B73: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1310_i_a2_3_RNI1KMH3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1300_i_0_0_a2_1_RNIQ6S63: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1300_i_0_0_a2_1_RNI17VO3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1306_i_0_0_a2_2_RNIAM912: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1306_i_0_0_a2_2_RNI02VS1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1305_i_0_0_a2_1_RNI52NE2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1305_i_0_0_a2_1_RNIRDCA2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1326_i_0_0_a2_RNI5SL42: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1476_i_0_0_a2_2_RNINGM43: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1484_i_0_0_a2_0_RNIC33B2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1395_i_0_0_a2_1_RNIQA3M3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1480_i_a2_2_RNIJL7F3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1310_i_a2_3_RNI5A672: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1480_i_a2_1_RNIQHOP3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1287_i_0_0_a2_2_RNIMR0A3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1374_i_0_0_a2_1_RNITTGD3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1476_i_0_0_a2_2_RNIBJC03: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1476_i_0_0_a2_RNIBPFQ1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1338_i_0_0_a2_1_RNIBP812: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1338_i_0_0_a2_1_RNI10D52: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1310_i_a2_3_RNIRLR22: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1336_i_0_0_a2_1_RNI93Q32: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1336_i_0_0_a2_1_RNIV9U72: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1343_i_a2_3_RNIB30O1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1343_i_a2_3_RNI1A4S1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1285_i_0_0_a2_3_RNIE7032: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1285_i_0_0_a2_3_RNII0152: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1338_i_0_0_a2_1_RNICOB42: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1338_i_0_0_a2_1_RNIBOCV1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1336_i_0_0_a2_1_RNIA2T62: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1336_i_0_0_a2_1_RNI92U12: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1343_i_a2_3_RNIC23R1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1300_i_0_0_a2_1_RNIOFN62: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1343_i_a2_3_RNIB24M1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1285_i_0_0_a2_3_RNIF6362: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1284_i_0_0_a2_2_RNIGCB52: 4 loads, 4 LSLICEs
+
+                                    Page 4
+
+
+
+
+Design:  testBench                                     Date:  06/06/19  13:16:13
+
+Design Summary (cont)
+---------------------
+     Net un1_IR_inv_1460_i_0_0_a2_0_RNI2HRU1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1284_i_0_0_a2_2_RNIDBRL1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1320_i_0_0_a2_1_RNI65E62: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1320_i_0_0_a2_1_RNI34UM1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1318_i_0_0_a2_1_RNIDH6E2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1318_i_0_0_a2_1_RNIAGMU1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1300_i_0_0_a2_1_RNIERC22: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1286_i_0_0_a2_3_RNI1LM02: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1452_i_0_0_a2_RNI3J902: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1284_i_0_0_a2_2_RNILP7M1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1284_i_0_0_a2_2_RNIKP812: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1320_i_0_0_a2_1_RNIBIAN1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1320_i_0_0_a2_1_RNIAIB22: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1286_i_0_0_a2_RNI8VJ32: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1318_i_0_0_a2_1_RNIIU2V1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1318_i_0_0_a2_1_RNIHU3A2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1286_i_0_0_a2_3_RNI52KS1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1306_i_0_0_a2_2_RNI0RS32: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1306_i_0_0_a2_2_RNIM1182: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1291_i_0_0_a2_1_RNII53N3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1305_i_0_0_a2_1_RNIUF5D2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1305_i_0_0_a2_1_RNIKM9H2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1310_i_a2_3_RNIUHLC2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1310_i_a2_3_RNIKOPG2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1300_i_0_0_a2_1_RNIPOGB2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1436_i_0_0_a2_RNI5VQU1: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1306_i_0_0_a2_2_RNI1QV62: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1306_i_0_0_a2_2_RNI0Q022: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1291_i_0_0_a2_1_RNIJGQD3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1305_i_0_0_a2_1_RNIVE8G2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1305_i_0_0_a2_1_RNIUE9B2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1310_i_a2_3_RNIVGOF2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1310_i_a2_3_RNIUGPA2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1300_i_0_0_a2_1_RNIQNJE2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1300_i_0_0_a2_1_RNILK4E2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1291_i_0_0_a2_1_RNI3I1A2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1291_i_0_0_a2_1_RNI6JHP2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1480_i_a2_2_RNI932P2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1480_i_a2_2_RNI62I92: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1480_i_a2_2_RNIICOQ3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1287_i_0_0_a2_2_RNIC9RJ2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1287_i_0_0_a2_2_RNI98B42: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1421_i_a2_2_RNIJCAL2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1420_i_0_0_a2_RNINU242: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1291_i_0_0_a2_1_RNIB0EA2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1291_i_0_0_a2_1_RNIA0FL2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1480_i_a2_2_RNIEGU92: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1287_i_0_0_a2_2_RNIHMN42: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1480_i_a2_2_RNIDGVK2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1287_i_0_0_a2_2_RNIGMOF2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1413_i_0_0_a2_RNIPF2A2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1364_i_0_0_a2_1_RNI6PRB2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1338_i_0_0_a2_1_RNID50D3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1480_i_a2_2_RNIJNFH3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1338_i_0_0_a2_1_RNI7OBN3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1336_i_0_0_a2_1_RNI04NM3: 4 loads, 4 LSLICEs
+
+                                    Page 5
+
+
+
+
+Design:  testBench                                     Date:  06/06/19  13:16:13
+
+Design Summary (cont)
+---------------------
+     Net un1_IR_inv_1336_i_0_0_a2_1_RNI52TP3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1343_i_a2_3_RNIDFN33: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1343_i_a2_3_RNI723E3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1285_i_0_0_a2_3_RNIGJNE3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1285_i_0_0_a2_3_RNIOOVM3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1338_i_0_0_a2_1_RNIABVP2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1336_i_0_0_a2_1_RNI8B4H3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1287_i_0_0_a2_2_RNILOGE3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1338_i_0_0_a2_1_RNIA1JE3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1336_i_0_0_a2_1_RNI8LGS2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1343_i_a2_3_RNIALMG2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1343_i_a2_3_RNIABA53: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1285_i_0_0_a2_3_RNIDPMR2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1285_i_0_0_a2_3_RNIQ85H3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1284_i_0_0_a2_2_RNIIO2H3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1284_i_0_0_a2_2_RNIJ3Q73: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1320_i_0_0_a2_1_RNI8H5I3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1287_i_0_0_a2_2_RNIM3853: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1320_i_0_0_a2_1_RNI9SS83: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1318_i_0_0_a2_1_RNIFTTP3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1318_i_0_0_a2_1_RNIG8LG3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1286_i_0_0_a2_3_RNI31EC3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1285_i_0_0_a2_1_RNID6AQ2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1284_i_0_0_a2_2_RNIJCRB2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1284_i_0_0_a2_2_RNIJ2FG3: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1320_i_0_0_a2_1_RNI95UC2: 4 loads, 4 LSLICEs
+     Net un1_IR_inv_1320_i_0_0_a2_1_RNIUFNO3: 4 loads, 4 LSLICEs
+     Net IR_0_sqmuxa_i_0_o2_RNIF0L84: 2 loads, 0 LSLICEs
+   Number of local set/reset loads for net Start_c merged into GSR:  309
+   Number of LSRs:  17
+     Net Start_c: 4 loads, 3 LSLICEs
+     Net getIn_pad_RNIEAOK4: 2 loads, 2 LSLICEs
+     Net debauncercu_pipe_3.fb: 1 loads, 1 LSLICEs
+     Net N_6426_i: 2 loads, 2 LSLICEs
+     Net un1_start_54_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net selchr_pad_RNI9MO61[0]: 2 loads, 2 LSLICEs
+     Net lcd/fb: 1 loads, 1 LSLICEs
      Net lcd/un1_rs_0_sqmuxa_i: 32 loads, 32 LSLICEs
      Net lcd/un3_clk_count[32]: 1 loads, 1 LSLICEs
-     Net lcd/fb: 1 loads, 1 LSLICEs
-     Net divCU/un1_count_i: 5 loads, 5 LSLICEs
-     Net aluIns/N_1407_i: 1 loads, 1 LSLICEs
-     Net N_1287_i: 1 loads, 1 LSLICEs
-     Net N_1285_i: 2 loads, 2 LSLICEs
-     Net un1_sel_0_a3: 1 loads, 1 LSLICEs
-     Net un1_start_1_0_a3: 2 loads, 2 LSLICEs
+     Net divCU/un1_count_i: 4 loads, 4 LSLICEs
+     Net aluIns/un3_mux_7: 1 loads, 1 LSLICEs
+     Net un1_start_17_0_a3_0_a2: 2 loads, 2 LSLICEs
+     Net un1_start_15_0_a2_0_a2: 2 loads, 2 LSLICEs
+     Net un1_start_20_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net un1_start_11_0_a2_0_a2: 2 loads, 2 LSLICEs
+     Net N_6425_i: 1 loads, 1 LSLICEs
+     Net N_6424_i: 2 loads, 2 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net un127_regsgen_a[2]: 156 loads
-     Net un127_regsgen_a[3]: 155 loads
-     Net un127_regsgen_a[1]: 153 loads
-     Net MAR[7]: 146 loads
-     Net MAR[3]: 135 loads
-     Net un127_regsgen_a[0]: 120 loads
-     Net un127_regsgen_a[5]: 86 loads
-     Net MAR[6]: 73 loads
-     Net MAR[2]: 72 loads
-     Net ControlUnit.PC_83mux_iv[0]: 66 loads
+     Net un127_regsgen_a[7]: 593 loads
+     Net un127_regsgen_a[2]: 568 loads
+     Net un127_regsgen_a[1]: 358 loads
+     Net clk_RNIL3ON: 238 loads
+     Net MAR[2]: 216 loads
+     Net un127_regsgen_a[3]: 207 loads
+     Net un1_ram_i_m2[0]: 200 loads
+
+                                    Page 6
+
+
+
+
+Design:  testBench                                     Date:  06/06/19  13:16:13
+
+Design Summary (cont)
+---------------------
+     Net un1_ram_i_m2[6]: 200 loads
+     Net un1_ram_i_m2[7]: 200 loads
+     Net un1_ram_i_m3[2]: 200 loads
 
 
 
@@ -192,16 +435,6 @@ IO (PIO) Attributes
 +---------------------+-----------+-----------+------------+
 | pcview[4]           | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-
-                                    Page 3
-
-
-
-
-Design:  testBench                                     Date:  06/06/19  02:56:24
-
-IO (PIO) Attributes (cont)
---------------------------
 | pcview[3]           | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | pcview[2]           | OUTPUT    | LVCMOS25  |            |
@@ -209,6 +442,48 @@ IO (PIO) Attributes (cont)
 | pcview[1]           | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | pcview[0]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| charview[7]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| charview[6]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| charview[5]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| charview[4]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| charview[3]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| charview[2]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| charview[1]         | OUTPUT    | LVCMOS25  |            |
+
+                                    Page 7
+
+
+
+
+Design:  testBench                                     Date:  06/06/19  13:16:13
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| charview[0]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| selview[7]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| selview[6]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| selview[5]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| selview[4]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| selview[3]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| selview[2]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| selview[1]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| selview[0]          | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | sel[1]              | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
@@ -221,6 +496,8 @@ IO (PIO) Attributes (cont)
 | FlagReg[1]          | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | FlagReg[0]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| getIn               | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | selchr[1]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
@@ -245,6 +522,16 @@ IO (PIO) Attributes (cont)
 | e                   | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
 | rs                  | OUTPUT    | LVCMOS25  | OUT        |
+
+                                    Page 8
+
+
+
+
+Design:  testBench                                     Date:  06/06/19  13:16:13
+
+IO (PIO) Attributes (cont)
+--------------------------
 +---------------------+-----------+-----------+------------+
 
 Removed logic
@@ -254,93 +541,79 @@ Signal lcd/un3_clk_count_i[32] was merged into signal lcd/un3_clk_count[32]
 Signal aluIns/GND undriven or does not drive anything - clipped.
 Signal divCU/GND undriven or does not drive anything - clipped.
 Signal lcd/GND undriven or does not drive anything - clipped.
-Signal un3_pc_s_7_0_S1 undriven or does not drive anything - clipped.
-Signal un3_pc_s_7_0_COUT undriven or does not drive anything - clipped.
-Signal mar_1_cry_0_0_S1 undriven or does not drive anything - clipped.
-Signal mar_1_cry_0_0_S0 undriven or does not drive anything - clipped.
-
-                                    Page 4
-
-
-
-
-Design:  testBench                                     Date:  06/06/19  02:56:24
-
-Removed logic (cont)
---------------------
-Signal N_2 undriven or does not drive anything - clipped.
 Signal mar_1_s_7_0_S1 undriven or does not drive anything - clipped.
 Signal mar_1_s_7_0_COUT undriven or does not drive anything - clipped.
 Signal un25_regsgen_cry_0_0_S1 undriven or does not drive anything - clipped.
 Signal un25_regsgen_cry_0_0_S0 undriven or does not drive anything - clipped.
-Signal N_3 undriven or does not drive anything - clipped.
+Signal N_2 undriven or does not drive anything - clipped.
 Signal un25_regsgen_cry_5_0_COUT undriven or does not drive anything - clipped.
-Signal un1_charSelection_1_cry_0_0_S1 undriven or does not drive anything -
+Signal un1_charSelection_1280_cry_0_0_S1 undriven or does not drive anything -
      clipped.
-Signal un1_charSelection_1_cry_0_0_S0 undriven or does not drive anything -
+Signal un1_charSelection_1280_cry_0_0_S0 undriven or does not drive anything -
      clipped.
-Signal N_4 undriven or does not drive anything - clipped.
-Signal un1_charSelection_1_s_7_0_S1 undriven or does not drive anything -
+Signal N_3 undriven or does not drive anything - clipped.
+Signal un1_charSelection_1280_s_7_0_S1 undriven or does not drive anything -
      clipped.
-Signal un1_charSelection_1_s_7_0_COUT undriven or does not drive anything -
+Signal un1_charSelection_1280_s_7_0_COUT undriven or does not drive anything -
      clipped.
-Signal un1_debauncer_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal un3_pc_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un3_pc_cry_0_0_S0 undriven or does not drive anything - clipped.
 Signal N_5 undriven or does not drive anything - clipped.
-Signal un1_debauncer_s_9_0_S1 undriven or does not drive anything - clipped.
-Signal un1_debauncer_s_9_0_COUT undriven or does not drive anything - clipped.
+Signal un3_pc_s_7_0_S1 undriven or does not drive anything - clipped.
+Signal un3_pc_s_7_0_COUT undriven or does not drive anything - clipped.
 Signal ControlUnit.MAR_1_0_0_DO8 undriven or does not drive anything - clipped.
-Signal aluIns/arithres_7_madd_cry_0_0_S1 undriven or does not drive anything -
-     clipped.
-Signal aluIns/arithres_7_madd_cry_0_0_S0 undriven or does not drive anything -
-     clipped.
-Signal aluIns/N_2 undriven or does not drive anything - clipped.
-Signal aluIns/arithres_7_madd_s_11_0_S1 undriven or does not drive anything -
-     clipped.
-Signal aluIns/arithres_7_madd_s_11_0_COUT undriven or does not drive anything -
-     clipped.
 Signal aluIns/arithres_7_madd_0_cry_0_0_S1 undriven or does not drive anything -
      clipped.
 Signal aluIns/arithres_7_madd_0_cry_0_0_S0 undriven or does not drive anything -
      clipped.
-Signal aluIns/N_3 undriven or does not drive anything - clipped.
+Signal aluIns/N_1 undriven or does not drive anything - clipped.
 Signal aluIns/arithres_7_madd_0_cry_7_0_COUT undriven or does not drive anything
-     - clipped.
-Signal aluIns/arithres_7_madd_1_cry_1_0_S1 undriven or does not drive anything -
-     clipped.
-Signal aluIns/arithres_7_madd_1_cry_1_0_S0 undriven or does not drive anything -
-     clipped.
-Signal aluIns/N_4 undriven or does not drive anything - clipped.
-Signal aluIns/arithres_7_madd_1_cry_8_0_COUT undriven or does not drive anything
      - clipped.
 Signal aluIns/arithres_7_madd_2_cry_1_0_S1 undriven or does not drive anything -
      clipped.
 Signal aluIns/arithres_7_madd_2_cry_1_0_S0 undriven or does not drive anything -
      clipped.
-Signal aluIns/N_5 undriven or does not drive anything - clipped.
+Signal aluIns/N_2 undriven or does not drive anything - clipped.
 Signal aluIns/arithres_7_madd_2_cry_8_0_COUT undriven or does not drive anything
+     - clipped.
+Signal aluIns/arithres_7_madd_1_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal aluIns/arithres_7_madd_1_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal aluIns/N_3 undriven or does not drive anything - clipped.
+Signal aluIns/arithres_7_madd_1_cry_8_0_COUT undriven or does not drive anything
      - clipped.
 Signal aluIns/arithres_7_madd_3_cry_1_0_S1 undriven or does not drive anything -
      clipped.
 Signal aluIns/arithres_7_madd_3_cry_1_0_S0 undriven or does not drive anything -
      clipped.
-Signal aluIns/N_6 undriven or does not drive anything - clipped.
+Signal aluIns/N_4 undriven or does not drive anything - clipped.
 
-                                    Page 5
-
-
+                                    Page 9
 
 
-Design:  testBench                                     Date:  06/06/19  02:56:24
+
+
+Design:  testBench                                     Date:  06/06/19  13:16:13
 
 Removed logic (cont)
 --------------------
 Signal aluIns/arithres_7_madd_3_cry_8_0_COUT undriven or does not drive anything
      - clipped.
+Signal aluIns/arithres_7_madd_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal aluIns/arithres_7_madd_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal aluIns/N_5 undriven or does not drive anything - clipped.
+Signal aluIns/arithres_7_madd_s_11_0_S1 undriven or does not drive anything -
+     clipped.
+Signal aluIns/arithres_7_madd_s_11_0_COUT undriven or does not drive anything -
+     clipped.
 Signal aluIns/arithres_7_madd_5_cry_2_0_S1 undriven or does not drive anything -
      clipped.
 Signal aluIns/arithres_7_madd_5_cry_2_0_S0 undriven or does not drive anything -
      clipped.
-Signal aluIns/N_7 undriven or does not drive anything - clipped.
+Signal aluIns/N_6 undriven or does not drive anything - clipped.
 Signal aluIns/arithres_7_madd_5_s_11_0_S1 undriven or does not drive anything -
      clipped.
 Signal aluIns/arithres_7_madd_5_s_11_0_COUT undriven or does not drive anything
@@ -349,57 +622,56 @@ Signal aluIns/arithres_7_madd_4_cry_0_0_S1 undriven or does not drive anything -
      clipped.
 Signal aluIns/arithres_7_madd_4_cry_0_0_S0 undriven or does not drive anything -
      clipped.
-Signal aluIns/N_8 undriven or does not drive anything - clipped.
+Signal aluIns/N_7 undriven or does not drive anything - clipped.
 Signal aluIns/arithres_7_madd_4_cry_9_0_COUT undriven or does not drive anything
      - clipped.
-Signal aluIns/un1_a_cry_0_0_S0 undriven or does not drive anything - clipped.
-Signal aluIns/N_9 undriven or does not drive anything - clipped.
-Signal aluIns/un1_a_cry_15_0_COUT undriven or does not drive anything - clipped.
-     
 Signal aluIns/un11_arithres_cry_0_0_S1 undriven or does not drive anything -
      clipped.
 Signal aluIns/un11_arithres_cry_0_0_S0 undriven or does not drive anything -
      clipped.
-Signal aluIns/N_10 undriven or does not drive anything - clipped.
+Signal aluIns/N_8 undriven or does not drive anything - clipped.
 Signal aluIns/un11_arithres_s_15_0_S1 undriven or does not drive anything -
      clipped.
 Signal aluIns/un11_arithres_s_15_0_COUT undriven or does not drive anything -
      clipped.
+Signal aluIns/un1_a_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal aluIns/N_9 undriven or does not drive anything - clipped.
+Signal aluIns/un1_a_cry_15_0_COUT undriven or does not drive anything - clipped.
+     
 Signal divCU/un4_count_cry_0_0_S1 undriven or does not drive anything - clipped.
      
 Signal divCU/un4_count_cry_0_0_S0 undriven or does not drive anything - clipped.
      
 Signal divCU/N_1 undriven or does not drive anything - clipped.
-Signal divCU/un4_count_s_9_0_S1 undriven or does not drive anything - clipped.
-Signal divCU/un4_count_s_9_0_COUT undriven or does not drive anything - clipped.
-     
+Signal divCU/un4_count_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
 Signal lcd/un1_ptr_3_cry_0_0_S1 undriven or does not drive anything - clipped.
 Signal lcd/un1_ptr_3_cry_0_0_S0 undriven or does not drive anything - clipped.
-Signal lcd/N_4 undriven or does not drive anything - clipped.
+Signal lcd/N_6 undriven or does not drive anything - clipped.
 Signal lcd/un1_ptr_3_s_3_0_S1 undriven or does not drive anything - clipped.
 Signal lcd/un1_ptr_3_s_3_0_COUT undriven or does not drive anything - clipped.
 Signal lcd/un3_clk_count_cry_0_0_S1 undriven or does not drive anything -
      clipped.
 Signal lcd/un3_clk_count_cry_0_0_S0 undriven or does not drive anything -
      clipped.
-Signal lcd/N_5 undriven or does not drive anything - clipped.
+
+                                   Page 10
+
+
+
+
+Design:  testBench                                     Date:  06/06/19  13:16:13
+
+Removed logic (cont)
+--------------------
+Signal lcd/N_8 undriven or does not drive anything - clipped.
 Signal lcd/un3_clk_count_s_31_0_S1 undriven or does not drive anything -
      clipped.
 Signal lcd/un3_clk_count_s_31_0_COUT undriven or does not drive anything -
      clipped.
 Signal ControlUnit.IR_3_0_0_DO8 undriven or does not drive anything - clipped.
-Signal un3_pc_cry_0_0_S1 undriven or does not drive anything - clipped.
-Signal un3_pc_cry_0_0_S0 undriven or does not drive anything - clipped.
-
-                                    Page 6
-
-
-
-
-Design:  testBench                                     Date:  06/06/19  02:56:24
-
-Removed logic (cont)
---------------------
+Signal mar_1_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal mar_1_cry_0_0_S0 undriven or does not drive anything - clipped.
 Signal N_1 undriven or does not drive anything - clipped.
 Signal oschIns_SEDSTDBY undriven or does not drive anything - clipped.
 Block lcd/clk_count_pipe_RNO was optimized away.
@@ -412,164 +684,14 @@ Memory Usage
 
 /:
     EBRs: 2
-    RAM SLICEs: 24
-    Logic SLICEs: 315
-    PFU Registers: 421
+    RAM SLICEs: 0
+    Logic SLICEs: 1100
+    PFU Registers: 1952
     -Contains EBR ControlUnit.IR_3_0_0:  TYPE= SP8KC,  Width= 8,  Depth= 256,
          REGMODE= NOREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= ASYNC,
          WRITEMODE= NORMAL,  GSR= DISABLED
     -Contains EBR ControlUnit.MAR_1_0_0:  TYPE= SP8KC,  Width= 8,  Depth= 256,
          REGMODE= NOREG,  RESETMODE= SYNC,  WRITEMODE= NORMAL,  GSR= DISABLED
-/ram_ram:
-    EBRs: 0
-    RAM SLICEs: 1
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_0:
-    EBRs: 0
-    RAM SLICEs: 1
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_1:
-    EBRs: 0
-    RAM SLICEs: 1
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_10:
-    EBRs: 0
-    RAM SLICEs: 1
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_11:
-    EBRs: 0
-    RAM SLICEs: 1
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_12:
-    EBRs: 0
-    RAM SLICEs: 1
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_13:
-    EBRs: 0
-    RAM SLICEs: 1
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_14:
-
-                                    Page 7
-
-
-
-
-Design:  testBench                                     Date:  06/06/19  02:56:24
-
-Memory Usage (cont)
--------------------
-    EBRs: 0
-    RAM SLICEs: 1
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_15:
-    EBRs: 0
-    RAM SLICEs: 1
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_16:
-    EBRs: 0
-    RAM SLICEs: 1
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_17:
-    EBRs: 0
-    RAM SLICEs: 1
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_18:
-    EBRs: 0
-    RAM SLICEs: 1
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_19:
-    EBRs: 0
-    RAM SLICEs: 3
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_2:
-    EBRs: 0
-    RAM SLICEs: 3
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_20:
-    EBRs: 0
-    RAM SLICEs: 3
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_21:
-    EBRs: 0
-    RAM SLICEs: 3
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_22:
-    EBRs: 0
-    RAM SLICEs: 3
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_23:
-    EBRs: 0
-    RAM SLICEs: 3
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_24:
-    EBRs: 0
-
-                                    Page 8
-
-
-
-
-Design:  testBench                                     Date:  06/06/19  02:56:24
-
-Memory Usage (cont)
--------------------
-    RAM SLICEs: 3
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_3:
-    EBRs: 0
-    RAM SLICEs: 3
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_4:
-    EBRs: 0
-    RAM SLICEs: 3
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_5:
-    EBRs: 0
-    RAM SLICEs: 3
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_6:
-    EBRs: 0
-    RAM SLICEs: 3
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_7:
-    EBRs: 0
-    RAM SLICEs: 3
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_8:
-    EBRs: 0
-    RAM SLICEs: 3
-    Logic SLICEs: 0
-    PFU Registers: 0
-/ram_ram_9:
-    EBRs: 0
-    RAM SLICEs: 3
-    Logic SLICEs: 0
-    PFU Registers: 0
 
      
 
@@ -588,16 +710,6 @@ ASIC Components
 
 Instance Name: oschIns
          Type: OSCH
-
-                                    Page 9
-
-
-
-
-Design:  testBench                                     Date:  06/06/19  02:56:24
-
-ASIC Components (cont)
-----------------------
 Instance Name: ControlUnit.IR_3_0_0
          Type: SP8KC
 Instance Name: ControlUnit.MAR_1_0_0
@@ -608,6 +720,16 @@ GSR Usage
 
 GSR Component:
    The local reset signal 'Start_c' of the design has been inferred as Global
+
+                                   Page 11
+
+
+
+
+Design:  testBench                                     Date:  06/06/19  13:16:13
+
+GSR Usage (cont)
+----------------
         Set Reset (GSR). The reset signal used for GSR control is 'Start_c'.
         
 
@@ -639,9 +761,9 @@ GSR Component:
 Run Time and Memory Usage
 -------------------------
 
-   Total CPU Time: 1 secs  
-   Total REAL Time: 2 secs  
-   Peak Memory Usage: 69 MB
+   Total CPU Time: 3 secs  
+   Total REAL Time: 3 secs  
+   Peak Memory Usage: 83 MB
         
 
 
@@ -655,7 +777,17 @@ Run Time and Memory Usage
 
 
 
-                                   Page 10
+
+
+
+
+
+
+
+
+
+
+                                   Page 12
 
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.

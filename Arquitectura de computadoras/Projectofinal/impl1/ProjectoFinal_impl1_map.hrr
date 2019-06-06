@@ -3,44 +3,43 @@ Report for cell testBench
    Instance path: testBench
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     746.00        100.0
+                                  SLIC	    1695.00        100.0
                                  IOLGC	      10.00        100.0
-                                  LUT4	    1114.00        100.0
-                               DISTRAM	      78.00        100.0
+                                  LUT4	    2519.00        100.0
                                  IOREG	         10        100.0
-                                 IOBUF	         28        100.0
-                                PFUREG	        521        100.0
-                                RIPPLE	        108        100.0
+                                 IOBUF	         45        100.0
+                                PFUREG	       2061        100.0
+                                RIPPLE	        105        100.0
                                    EBR	          2        100.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                        lcd_controller	          1        15.7
-                               divFreq	          1         1.2
-                                   ALU	          1        44.1
+                               divFreq	          1         0.8
+                        lcd_controller	          1         8.0
+                                   ALU	          1         3.5
 ---------------------------------------------------
 Report for cell lcd_controller
    Instance path: testBench/lcd
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     117.08        15.7
-                                  LUT4	     198.00        17.8
-                                PFUREG	         75        14.4
-                                RIPPLE	         20        18.5
+                                  SLIC	     136.00         8.0
+                                  LUT4	     286.00        11.4
+                                PFUREG	         75         3.6
+                                RIPPLE	         20        19.0
 ---------------------------------------------------
 Report for cell divFreq
    Instance path: testBench/divCU
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       9.00         1.2
-                                  LUT4	       5.00         0.4
-                                PFUREG	         11         2.1
-                                RIPPLE	          6         5.6
+                                  SLIC	      13.67         0.8
+                                  LUT4	       8.00         0.3
+                                PFUREG	         18         0.9
+                                RIPPLE	          9         8.6
 ---------------------------------------------------
 Report for cell ALU
    Instance path: testBench/aluIns
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     329.28        44.1
-                                  LUT4	     719.00        64.5
-                                PFUREG	         17         3.3
-                                RIPPLE	         57        52.8
+                                  SLIC	      59.12         3.5
+                                  LUT4	     138.00         5.5
+                                PFUREG	         17         0.8
+                                RIPPLE	         57        54.3

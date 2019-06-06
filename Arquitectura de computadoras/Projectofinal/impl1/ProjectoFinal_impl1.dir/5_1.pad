@@ -6,18 +6,27 @@ Performance Grade:      1
 PACKAGE:          TQFP144
 Package Status:                     Final          Version 1.39
 
-Thu Jun 06 02:56:56 2019
+Thu Jun 06 13:16:38 2019
 
 Pinout by Port Name:
 +-------------+----------+--------------+-------+-----------+-----------+--------------------------------------+
 | Port Name   | Pin/Bank | Buffer Type  | Site  | PG Enable | BC Enable | Properties                           |
 +-------------+----------+--------------+-------+-----------+-----------+--------------------------------------+
-| FlagReg[0]  | 94/1     | LVCMOS25_OUT | PR11A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| FlagReg[1]  | 93/1     | LVCMOS25_OUT | PR11B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| FlagReg[2]  | 92/1     | LVCMOS25_OUT | PR12A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| FlagReg[3]  | 91/1     | LVCMOS25_OUT | PR12B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| FlagReg[0]  | 54/2     | LVCMOS25_OUT | PB18B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| FlagReg[1]  | 56/2     | LVCMOS25_OUT | PB23B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| FlagReg[2]  | 57/2     | LVCMOS25_OUT | PB26A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| FlagReg[3]  | 59/2     | LVCMOS25_OUT | PB29A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | Start       | 1/5      | LVCMOS25_IN  | PL3A  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| charview[0] | 97/1     | LVCMOS25_OUT | PR7B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| charview[1] | 98/1     | LVCMOS25_OUT | PR7A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| charview[2] | 95/1     | LVCMOS25_OUT | PR9B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| charview[3] | 96/1     | LVCMOS25_OUT | PR9A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| charview[4] | 94/1     | LVCMOS25_OUT | PR11A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| charview[5] | 93/1     | LVCMOS25_OUT | PR11B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| charview[6] | 92/1     | LVCMOS25_OUT | PR12A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| charview[7] | 91/1     | LVCMOS25_OUT | PR12B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | e           | 115/0    | LVCMOS25_OUT | PT28B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| getIn       | 110/0    | LVCMOS25_IN  | PT36C |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
 | lcd_data[0] | 120/0    | LVCMOS25_OUT | PT27C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | lcd_data[1] | 119/0    | LVCMOS25_OUT | PT27D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | lcd_data[2] | 122/0    | LVCMOS25_OUT | PT25A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
@@ -40,6 +49,14 @@ Pinout by Port Name:
 | sel[1]      | 3/5      | LVCMOS25_IN  | PL4A  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
 | selchr[0]   | 112/0    | LVCMOS25_IN  | PT35A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
 | selchr[1]   | 109/0    | LVCMOS25_IN  | PT36D |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| selview[0]  | 38/2     | LVCMOS25_OUT | PB4A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| selview[1]  | 40/2     | LVCMOS25_OUT | PB6A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| selview[2]  | 107/1    | LVCMOS25_OUT | PR2A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| selview[3]  | 106/1    | LVCMOS25_OUT | PR2B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| selview[4]  | 105/1    | LVCMOS25_OUT | PR3A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| selview[5]  | 104/1    | LVCMOS25_OUT | PR3B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| selview[6]  | 100/1    | LVCMOS25_OUT | PR5A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| selview[7]  | 99/1     | LVCMOS25_OUT | PR5B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 +-------------+----------+--------------+-------+-----------+-----------+--------------------------------------+
 
 Vccio by Bank:
@@ -91,9 +108,9 @@ Pinout by Pin Number:
 | 33/3     |     unused, PULL:DOWN |            |              | PL24B |                |           |           |
 | 34/3     |     unused, PULL:DOWN |            |              | PL25A |                |           |           |
 | 35/3     |     unused, PULL:DOWN |            |              | PL25B |                |           |           |
-| 38/2     |     unused, PULL:DOWN |            |              | PB4A  |                |           |           |
+| 38/2     | selview[0]            | LOCATED    | LVCMOS25_OUT | PB4A  |                |           |           |
 | 39/2     |     unused, PULL:DOWN |            |              | PB4B  |                |           |           |
-| 40/2     |     unused, PULL:DOWN |            |              | PB6A  | CSSPIN         |           |           |
+| 40/2     | selview[1]            | LOCATED    | LVCMOS25_OUT | PB6A  | CSSPIN         |           |           |
 | 41/2     |     unused, PULL:DOWN |            |              | PB6B  |                |           |           |
 | 42/2     | pcview[1]             | LOCATED    | LVCMOS25_OUT | PB9A  |                |           |           |
 | 43/2     | pcview[2]             | LOCATED    | LVCMOS25_OUT | PB9B  |                |           |           |
@@ -104,12 +121,12 @@ Pinout by Pin Number:
 | 49/2     | pcview[5]             | LOCATED    | LVCMOS25_OUT | PB16A | PCLKT2_0       |           |           |
 | 50/2     | pcview[7]             | LOCATED    | LVCMOS25_OUT | PB16B | PCLKC2_0       |           |           |
 | 52/2     |     unused, PULL:DOWN |            |              | PB18A |                |           |           |
-| 54/2     |     unused, PULL:DOWN |            |              | PB18B |                |           |           |
+| 54/2     | FlagReg[0]            | LOCATED    | LVCMOS25_OUT | PB18B |                |           |           |
 | 55/2     |     unused, PULL:DOWN |            |              | PB23A | PCLKT2_1       |           |           |
-| 56/2     |     unused, PULL:DOWN |            |              | PB23B | PCLKC2_1       |           |           |
-| 57/2     |     unused, PULL:DOWN |            |              | PB26A |                |           |           |
+| 56/2     | FlagReg[1]            | LOCATED    | LVCMOS25_OUT | PB23B | PCLKC2_1       |           |           |
+| 57/2     | FlagReg[2]            | LOCATED    | LVCMOS25_OUT | PB26A |                |           |           |
 | 58/2     |     unused, PULL:DOWN |            |              | PB26B |                |           |           |
-| 59/2     |     unused, PULL:DOWN |            |              | PB29A |                |           |           |
+| 59/2     | FlagReg[3]            | LOCATED    | LVCMOS25_OUT | PB29A |                |           |           |
 | 60/2     |     unused, PULL:DOWN |            |              | PB29B |                |           |           |
 | 61/2     |     unused, PULL:DOWN |            |              | PB31A |                |           |           |
 | 62/2     |     unused, PULL:DOWN |            |              | PB31B |                |           |           |
@@ -134,23 +151,23 @@ Pinout by Pin Number:
 | 86/1     |     unused, PULL:DOWN |            |              | PR16A | DQS1           |           |           |
 | 87/1     |     unused, PULL:DOWN |            |              | PR15B |                |           |           |
 | 89/1     |     unused, PULL:DOWN |            |              | PR15A |                |           |           |
-| 91/1     | FlagReg[3]            | LOCATED    | LVCMOS25_OUT | PR12B | PCLKC1_0/DQ0   |           |           |
-| 92/1     | FlagReg[2]            | LOCATED    | LVCMOS25_OUT | PR12A | PCLKT1_0/DQ0   |           |           |
-| 93/1     | FlagReg[1]            | LOCATED    | LVCMOS25_OUT | PR11B | DQS0N          |           |           |
-| 94/1     | FlagReg[0]            | LOCATED    | LVCMOS25_OUT | PR11A | DQS0           |           |           |
-| 95/1     |     unused, PULL:DOWN |            |              | PR9B  | DQ0            |           |           |
-| 96/1     |     unused, PULL:DOWN |            |              | PR9A  | DQ0            |           |           |
-| 97/1     |     unused, PULL:DOWN |            |              | PR7B  | DQ0            |           |           |
-| 98/1     |     unused, PULL:DOWN |            |              | PR7A  | DQ0            |           |           |
-| 99/1     |     unused, PULL:DOWN |            |              | PR5B  | DQ0            |           |           |
-| 100/1    |     unused, PULL:DOWN |            |              | PR5A  | DQ0            |           |           |
+| 91/1     | charview[7]           | LOCATED    | LVCMOS25_OUT | PR12B | PCLKC1_0/DQ0   |           |           |
+| 92/1     | charview[6]           | LOCATED    | LVCMOS25_OUT | PR12A | PCLKT1_0/DQ0   |           |           |
+| 93/1     | charview[5]           | LOCATED    | LVCMOS25_OUT | PR11B | DQS0N          |           |           |
+| 94/1     | charview[4]           | LOCATED    | LVCMOS25_OUT | PR11A | DQS0           |           |           |
+| 95/1     | charview[2]           | LOCATED    | LVCMOS25_OUT | PR9B  | DQ0            |           |           |
+| 96/1     | charview[3]           | LOCATED    | LVCMOS25_OUT | PR9A  | DQ0            |           |           |
+| 97/1     | charview[0]           | LOCATED    | LVCMOS25_OUT | PR7B  | DQ0            |           |           |
+| 98/1     | charview[1]           | LOCATED    | LVCMOS25_OUT | PR7A  | DQ0            |           |           |
+| 99/1     | selview[7]            | LOCATED    | LVCMOS25_OUT | PR5B  | DQ0            |           |           |
+| 100/1    | selview[6]            | LOCATED    | LVCMOS25_OUT | PR5A  | DQ0            |           |           |
 | 103/1    |     unused, PULL:DOWN |            |              | PR4C  |                |           |           |
-| 104/1    |     unused, PULL:DOWN |            |              | PR3B  | R_GPLLC_IN/DQ0 |           |           |
-| 105/1    |     unused, PULL:DOWN |            |              | PR3A  | R_GPLLT_IN/DQ0 |           |           |
-| 106/1    |     unused, PULL:DOWN |            |              | PR2B  | R_GPLLC_FB/DQ0 |           |           |
-| 107/1    |     unused, PULL:DOWN |            |              | PR2A  | R_GPLLT_FB/DQ0 |           |           |
+| 104/1    | selview[5]            | LOCATED    | LVCMOS25_OUT | PR3B  | R_GPLLC_IN/DQ0 |           |           |
+| 105/1    | selview[4]            | LOCATED    | LVCMOS25_OUT | PR3A  | R_GPLLT_IN/DQ0 |           |           |
+| 106/1    | selview[3]            | LOCATED    | LVCMOS25_OUT | PR2B  | R_GPLLC_FB/DQ0 |           |           |
+| 107/1    | selview[2]            | LOCATED    | LVCMOS25_OUT | PR2A  | R_GPLLT_FB/DQ0 |           |           |
 | 109/0    | selchr[1]             | LOCATED    | LVCMOS25_IN  | PT36D | DONE           |           |           |
-| 110/0    |     unused, PULL:DOWN |            |              | PT36C | INITN          |           |           |
+| 110/0    | getIn                 | LOCATED    | LVCMOS25_IN  | PT36C | INITN          |           |           |
 | 111/0    |     unused, PULL:DOWN |            |              | PT35B |                |           |           |
 | 112/0    | selchr[0]             | LOCATED    | LVCMOS25_IN  | PT35A |                |           |           |
 | 113/0    | rs                    | LOCATED    | LVCMOS25_OUT | PT33B |                |           |           |
@@ -416,12 +433,21 @@ Dedicated sysCONFIG Pins:
 List of All Pins' Locate Preferences Based on Final Placement After PAR 
 to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
 
-LOCATE  COMP  "FlagReg[0]"  SITE  "94";
-LOCATE  COMP  "FlagReg[1]"  SITE  "93";
-LOCATE  COMP  "FlagReg[2]"  SITE  "92";
-LOCATE  COMP  "FlagReg[3]"  SITE  "91";
+LOCATE  COMP  "FlagReg[0]"  SITE  "54";
+LOCATE  COMP  "FlagReg[1]"  SITE  "56";
+LOCATE  COMP  "FlagReg[2]"  SITE  "57";
+LOCATE  COMP  "FlagReg[3]"  SITE  "59";
 LOCATE  COMP  "Start"  SITE  "1";
+LOCATE  COMP  "charview[0]"  SITE  "97";
+LOCATE  COMP  "charview[1]"  SITE  "98";
+LOCATE  COMP  "charview[2]"  SITE  "95";
+LOCATE  COMP  "charview[3]"  SITE  "96";
+LOCATE  COMP  "charview[4]"  SITE  "94";
+LOCATE  COMP  "charview[5]"  SITE  "93";
+LOCATE  COMP  "charview[6]"  SITE  "92";
+LOCATE  COMP  "charview[7]"  SITE  "91";
 LOCATE  COMP  "e"  SITE  "115";
+LOCATE  COMP  "getIn"  SITE  "110";
 LOCATE  COMP  "lcd_data[0]"  SITE  "120";
 LOCATE  COMP  "lcd_data[1]"  SITE  "119";
 LOCATE  COMP  "lcd_data[2]"  SITE  "122";
@@ -444,6 +470,14 @@ LOCATE  COMP  "sel[0]"  SITE  "4";
 LOCATE  COMP  "sel[1]"  SITE  "3";
 LOCATE  COMP  "selchr[0]"  SITE  "112";
 LOCATE  COMP  "selchr[1]"  SITE  "109";
+LOCATE  COMP  "selview[0]"  SITE  "38";
+LOCATE  COMP  "selview[1]"  SITE  "40";
+LOCATE  COMP  "selview[2]"  SITE  "107";
+LOCATE  COMP  "selview[3]"  SITE  "106";
+LOCATE  COMP  "selview[4]"  SITE  "105";
+LOCATE  COMP  "selview[5]"  SITE  "104";
+LOCATE  COMP  "selview[6]"  SITE  "100";
+LOCATE  COMP  "selview[7]"  SITE  "99";
 
 
 
@@ -455,5 +489,5 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Jun 06 02:56:57 2019
+Thu Jun 06 13:16:39 2019
 

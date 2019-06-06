@@ -1,6 +1,6 @@
 NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
 NOTE All Rights Reserved *
-NOTE DATE CREATED: Thu Jun 06 02:57:17 2019 *
+NOTE DATE CREATED: Thu Jun 06 13:18:24 2019 *
 NOTE DESIGN NAME: testBench *
 NOTE DEVICE NAME: LCMXO2-7000ZE-1TQFP144 *
 NOTE PIN ASSIGNMENTS *
@@ -14,12 +14,29 @@ NOTE PINS pcview[3] : 45 : out *
 NOTE PINS pcview[2] : 43 : out *
 NOTE PINS pcview[1] : 42 : out *
 NOTE PINS pcview[0] : 44 : out *
+NOTE PINS charview[7] : 91 : out *
+NOTE PINS charview[6] : 92 : out *
+NOTE PINS charview[5] : 93 : out *
+NOTE PINS charview[4] : 94 : out *
+NOTE PINS charview[3] : 96 : out *
+NOTE PINS charview[2] : 95 : out *
+NOTE PINS charview[1] : 98 : out *
+NOTE PINS charview[0] : 97 : out *
+NOTE PINS selview[7] : 99 : out *
+NOTE PINS selview[6] : 100 : out *
+NOTE PINS selview[5] : 104 : out *
+NOTE PINS selview[4] : 105 : out *
+NOTE PINS selview[3] : 106 : out *
+NOTE PINS selview[2] : 107 : out *
+NOTE PINS selview[1] : 40 : out *
+NOTE PINS selview[0] : 38 : out *
 NOTE PINS sel[1] : 3 : in *
 NOTE PINS sel[0] : 4 : in *
-NOTE PINS FlagReg[3] : 91 : out *
-NOTE PINS FlagReg[2] : 92 : out *
-NOTE PINS FlagReg[1] : 93 : out *
-NOTE PINS FlagReg[0] : 94 : out *
+NOTE PINS FlagReg[3] : 59 : out *
+NOTE PINS FlagReg[2] : 57 : out *
+NOTE PINS FlagReg[1] : 56 : out *
+NOTE PINS FlagReg[0] : 54 : out *
+NOTE PINS getIn : 110 : in *
 NOTE PINS selchr[1] : 109 : in *
 NOTE PINS selchr[0] : 112 : in *
 NOTE PINS lcd_data[7] : 127 : out *

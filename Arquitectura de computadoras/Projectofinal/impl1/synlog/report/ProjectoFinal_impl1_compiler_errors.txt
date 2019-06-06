@@ -1,2 +1,2 @@
-@E: CD441 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":339:10:339:16|process must contain at least one wait
+@E: CD375 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":278:2:278:4|Duplicate specification of choice 124
 

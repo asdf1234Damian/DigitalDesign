@@ -4,7 +4,6 @@
 
 # Period Constraints 
 #FREQUENCY NET "sigOSC_0" 7.0 MHz;
-#FREQUENCY NET "divCU/cuCLK" 7.0 MHz;
 
 
 # Output Constraints 
