@@ -1,0 +1,8 @@
+#Start recording tcl command: 6/4/2019 21:47:32
+#Project Location: C:/Users/asdf1/Documents/DigitalDesign/Arquitectura de computadoras/Projectofinal; Project name: ProjectoFinal
+prj_project open "C:/Users/asdf1/Documents/DigitalDesign/Arquitectura de computadoras/Projectofinal/ProjectoFinal.ldf"
+prj_run Map -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Map -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+#Stop recording: 6/4/2019 22:11:24

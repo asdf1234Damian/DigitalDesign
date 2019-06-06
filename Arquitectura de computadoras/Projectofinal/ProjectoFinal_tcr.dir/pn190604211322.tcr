@@ -1,0 +1,5 @@
+#Start recording tcl command: 6/4/2019 20:21:17
+#Project Location: C:/Users/asdf1/Documents/DigitalDesign/Arquitectura de computadoras/Projectofinal; Project name: ProjectoFinal
+prj_project open "C:/Users/asdf1/Documents/DigitalDesign/Arquitectura de computadoras/Projectofinal/ProjectoFinal.ldf"
+prj_src add "C:/Users/asdf1/Documents/DigitalDesign/Arquitectura de computadoras/Projectofinal/divFreq.vhd"
+#Stop recording: 6/4/2019 21:13:22

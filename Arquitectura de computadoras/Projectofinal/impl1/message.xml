@@ -1,0 +1,1654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>51001030</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Start_c</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=un1_PC_1_0_a3 loads=2 clock_loads=1
+   Signal=un1_PC_0_a3 loads=4 clock_loads=1
+   Signal=un1_sel_1_0_a3 loads=3 clock_loads=1
+   Signal=aluIns/N_101_i_i loads=1 clock_loads=1
+   Signal=N_1287_i loads=2 clock_loads=1
+   Signal=un1_sel_0_a3 loads=2 clock_loads=1</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=un1_PC_1_0_a3 loads=2 clock_loads=1
+   Signal=un1_PC_0_a3 loads=4 clock_loads=1
+   Signal=un1_sel_1_0_a3 loads=3 clock_loads=1
+   Signal=aluIns/N_101_i_i loads=1 clock_loads=1
+   Signal=N_1287_i loads=2 clock_loads=1
+   Signal=un1_sel_0_a3 loads=2 clock_loads=1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>oschIns_SEDSTDBY</Dynamic>
+            <Navigation>oschIns_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>ControlUnit.MAR_1_0_0_DO8</Dynamic>
+            <Navigation>ControlUnit.MAR_1_0_0_DO8</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>ControlUnit.IR_3_0_0_DO8</Dynamic>
+            <Navigation>ControlUnit.IR_3_0_0_DO8</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>3</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:326:13:326:19|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>326</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>326</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:336:7:336:9|Referenced variable sel is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>336</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>336</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Referenced variable sel is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd&quot;:2297:8:2297:15|Map for port sedstdby of component osch not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Map for port sedstdby of component osch not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:296:7:296:13|Signal rom_var is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>296</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>296</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Signal rom_var is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD610 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\stlnCode.vhd&quot;:155:19:155:30|Index value 0 to 8 could be out of prefix range 7 downto 0.</Dynamic>
+            <Navigation>CD610</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\stlnCode.vhd</Navigation>
+            <Navigation>155</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>155</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>Index value 0 to 8 could be out of prefix range 7 downto 0. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL117 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\Alu10bits.vhd&quot;:25:1:25:2|Latch generated from process for signal arithres(16 downto 0); possible missing assignment in an if or case statement.</Dynamic>
+            <Navigation>CL117</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\Alu10bits.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Latch generated from process for signal arithres(16 downto 0); possible missing assignment in an if or case statement.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_9(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_9(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_10(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_10(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_11(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_11(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_12(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_12(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_13(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_13(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_14(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_14(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_15(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_15(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_16(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_16(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_17(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_17(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_18(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_18(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_19(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_19(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_20(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_20(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_21(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_21(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_22(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_22(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_23(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_23(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_24(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_24(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_25(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_25(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_26(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_26(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_27(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_27(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_28(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_28(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_29(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_29(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_30(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_30(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_31(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_31(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_32(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_32(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_33(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_33(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_34(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_34(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_35(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_35(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_36(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_36(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_37(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_37(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_38(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_38(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_39(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_39(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_40(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_40(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_41(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_41(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_42(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_42(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_43(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_43(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_44(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_44(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_45(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_45(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_46(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_46(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_47(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_47(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_48(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_48(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_49(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_49(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_50(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_50(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_51(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_51(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_52(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_52(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_53(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_53(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_54(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_54(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_55(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_55(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_56(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_56(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_57(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_57(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_58(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_58(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_59(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_59(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_60(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_60(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_61(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_61(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_62(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_62(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_63(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_63(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_64(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_64(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_65(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_65(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_66(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_66(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_67(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_67(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_68(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_68(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_69(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_69(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_70(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_70(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_71(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_71(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_72(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_72(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_73(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_73(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_74(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_74(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_75(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_75(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_76(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_76(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_77(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_77(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_78(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_78(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_79(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_79(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_80(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_80(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_81(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_81(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_82(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_82(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_83(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_83(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_84(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_84(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_85(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_85(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_86(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_86(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_87(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_87(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_88(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_88(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_89(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_89(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_90(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_90(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_91(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_91(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_92(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_92(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_93(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_93(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_94(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_94(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_95(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_95(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_96(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_96(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_97(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_97(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_98(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_98(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_99(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_99(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_100(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_100(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_101(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_101(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_102(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_102(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_103(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_103(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_104(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_104(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_105(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_105(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_106(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_106(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_107(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_107(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:14:45:14:54|Pruning unused register ram_108(7 downto 0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>Pruning unused register ram_108(7 downto 0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Pruning unused bits 31 to 8 of PC_13(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Pruning unused bits 31 to 8 of PC_13(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_15[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_15[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_14[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_14[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_13[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_13[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_12[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_12[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_11[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_11[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_10[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_10[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_9[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_9[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_8[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_8[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_7[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_7[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_6[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_6[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_5[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_5[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_4[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_4[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_3[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_3[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_2[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_2[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_1[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_1[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal RegsGen_0[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal RegsGen_0[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal REGB[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal REGB[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal REGA[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal REGA[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal MBR[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal MBR[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal IR[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal IR[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal state[1:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal state[1:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd&quot;:329:1:329:2|Feedback mux created for signal PC[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>329</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Feedback mux created for signal PC[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT531 :&quot;c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\alu10bits.vhd&quot;:25:1:25:2|Found signal identified as System clock which controls 17 sequential elements including aluIns.arithres[16].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance.</Dynamic>
+            <Navigation>MT531</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\alu10bits.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Found signal identified as System clock which controls 17 sequential elements including aluIns.arithres[16].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\divfreq.vhd&quot;:18:2:18:3|Found inferred clock testBench|sigOSC_inferred_clock which controls 64 sequential elements including divCU.count[9:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\divfreq.vhd</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock testBench|sigOSC_inferred_clock which controls 64 sequential elements including divCU.count[9:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock testBench|sigOSC_inferred_clock with period 142.86ns. Please declare a user-defined clock on object &quot;n:sigOSC&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock testBench|sigOSC_inferred_clock with period 142.86ns. Please declare a user-defined clock on object &quot;n:sigOSC&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

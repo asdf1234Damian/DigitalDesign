@@ -1,0 +1,126 @@
+[ START MERGED ]
+lcd/un3_clk_count_i[32] lcd/un3_clk_count[32]
+[ END MERGED ]
+[ START CLIPPED ]
+aluIns/GND
+divCU/GND
+lcd/GND
+un3_pc_s_7_0_S1
+un3_pc_s_7_0_COUT
+mar_1_cry_0_0_S1
+mar_1_cry_0_0_S0
+N_2
+mar_1_s_7_0_S1
+mar_1_s_7_0_COUT
+un25_regsgen_cry_0_0_S1
+un25_regsgen_cry_0_0_S0
+N_3
+un25_regsgen_cry_5_0_COUT
+un1_charSelection_1_cry_0_0_S1
+un1_charSelection_1_cry_0_0_S0
+N_4
+un1_charSelection_1_s_7_0_S1
+un1_charSelection_1_s_7_0_COUT
+un1_debauncer_cry_0_0_S0
+N_5
+un1_debauncer_s_9_0_S1
+un1_debauncer_s_9_0_COUT
+ControlUnit.MAR_1_0_0_DO8
+aluIns/arithres_7_madd_cry_0_0_S1
+aluIns/arithres_7_madd_cry_0_0_S0
+aluIns/N_2
+aluIns/arithres_7_madd_s_11_0_S1
+aluIns/arithres_7_madd_s_11_0_COUT
+aluIns/arithres_7_madd_0_cry_0_0_S1
+aluIns/arithres_7_madd_0_cry_0_0_S0
+aluIns/N_3
+aluIns/arithres_7_madd_0_cry_7_0_COUT
+aluIns/arithres_7_madd_1_cry_1_0_S1
+aluIns/arithres_7_madd_1_cry_1_0_S0
+aluIns/N_4
+aluIns/arithres_7_madd_1_cry_8_0_COUT
+aluIns/arithres_7_madd_2_cry_1_0_S1
+aluIns/arithres_7_madd_2_cry_1_0_S0
+aluIns/N_5
+aluIns/arithres_7_madd_2_cry_8_0_COUT
+aluIns/arithres_7_madd_3_cry_1_0_S1
+aluIns/arithres_7_madd_3_cry_1_0_S0
+aluIns/N_6
+aluIns/arithres_7_madd_3_cry_8_0_COUT
+aluIns/arithres_7_madd_5_cry_2_0_S1
+aluIns/arithres_7_madd_5_cry_2_0_S0
+aluIns/N_7
+aluIns/arithres_7_madd_5_s_11_0_S1
+aluIns/arithres_7_madd_5_s_11_0_COUT
+aluIns/arithres_7_madd_4_cry_0_0_S1
+aluIns/arithres_7_madd_4_cry_0_0_S0
+aluIns/N_8
+aluIns/arithres_7_madd_4_cry_9_0_COUT
+aluIns/un1_a_cry_0_0_S0
+aluIns/N_9
+aluIns/un1_a_cry_15_0_COUT
+aluIns/un11_arithres_cry_0_0_S1
+aluIns/un11_arithres_cry_0_0_S0
+aluIns/N_10
+aluIns/un11_arithres_s_15_0_S1
+aluIns/un11_arithres_s_15_0_COUT
+divCU/un4_count_cry_0_0_S1
+divCU/un4_count_cry_0_0_S0
+divCU/N_1
+divCU/un4_count_s_9_0_S1
+divCU/un4_count_s_9_0_COUT
+lcd/un1_ptr_3_cry_0_0_S1
+lcd/un1_ptr_3_cry_0_0_S0
+lcd/N_4
+lcd/un1_ptr_3_s_3_0_S1
+lcd/un1_ptr_3_s_3_0_COUT
+lcd/un3_clk_count_cry_0_0_S1
+lcd/un3_clk_count_cry_0_0_S0
+lcd/N_5
+lcd/un3_clk_count_s_31_0_S1
+lcd/un3_clk_count_s_31_0_COUT
+ControlUnit.IR_3_0_0_DO8
+un3_pc_cry_0_0_S1
+un3_pc_cry_0_0_S0
+N_1
+oschIns_SEDSTDBY
+[ END CLIPPED ]
+[ START OSC ]
+sigOSC_0 7.00
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.10.0.111.2 -- WARNING: Map write only section -- Thu Jun 06 02:56:25 2019
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "rw" SITE "117" ;
+LOCATE COMP "Start" SITE "1" ;
+LOCATE COMP "pcview[7]" SITE "50" ;
+LOCATE COMP "pcview[6]" SITE "48" ;
+LOCATE COMP "pcview[5]" SITE "49" ;
+LOCATE COMP "pcview[4]" SITE "47" ;
+LOCATE COMP "pcview[3]" SITE "45" ;
+LOCATE COMP "pcview[2]" SITE "43" ;
+LOCATE COMP "pcview[1]" SITE "42" ;
+LOCATE COMP "pcview[0]" SITE "44" ;
+LOCATE COMP "sel[1]" SITE "3" ;
+LOCATE COMP "sel[0]" SITE "4" ;
+LOCATE COMP "FlagReg[3]" SITE "91" ;
+LOCATE COMP "FlagReg[2]" SITE "92" ;
+LOCATE COMP "FlagReg[1]" SITE "93" ;
+LOCATE COMP "FlagReg[0]" SITE "94" ;
+LOCATE COMP "selchr[1]" SITE "109" ;
+LOCATE COMP "selchr[0]" SITE "112" ;
+LOCATE COMP "lcd_data[7]" SITE "127" ;
+LOCATE COMP "lcd_data[6]" SITE "128" ;
+LOCATE COMP "lcd_data[5]" SITE "125" ;
+LOCATE COMP "lcd_data[4]" SITE "126" ;
+LOCATE COMP "lcd_data[3]" SITE "121" ;
+LOCATE COMP "lcd_data[2]" SITE "122" ;
+LOCATE COMP "lcd_data[1]" SITE "119" ;
+LOCATE COMP "lcd_data[0]" SITE "120" ;
+LOCATE COMP "e" SITE "115" ;
+LOCATE COMP "rs" SITE "113" ;
+FREQUENCY NET "sigOSC_0" 7.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

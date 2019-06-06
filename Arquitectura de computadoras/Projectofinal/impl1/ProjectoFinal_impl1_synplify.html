@@ -1,0 +1,973 @@
+<HTML>
+<HEAD><TITLE>Synthesis Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis Report</big></U></B>
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\lscc\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-4BVJD33
+
+# Thu Jun  6 02:56:04 2019
+
+#Implementation: impl1
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":6:7:6:15|Top entity is set to testBench.
+File C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd changed - recompiling
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":6:7:6:15|Synthesizing work.testbench.behavioral.
+@W: CG296 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":326:13:326:19|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":336:7:336:9|Referenced variable sel is not in sensitivity list.
+@N: CD364 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":412:4:412:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":428:19:428:31|Removing redundant assignment.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+@W: CD638 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":296:7:296:13|Signal rom_var is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\stlnCode.vhd":45:7:45:20|Synthesizing work.lcd_controller.controller.
+@N: CD231 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\stlnCode.vhd":57:15:57:16|Using onehot encoding for type control. For example, enumeration power_up is mapped to "100000".
+@W: CD610 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\stlnCode.vhd":155:19:155:30|Index value 0 to 8 could be out of prefix range 7 downto 0. 
+Post processing for work.lcd_controller.controller
+@N: CL189 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\stlnCode.vhd":67:2:67:3|Register bit rw is always 0.
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\divFreq.vhd":4:7:4:13|Synthesizing work.divfreq.behavioral.
+Post processing for work.divfreq.behavioral
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\Alu10bits.vhd":7:7:7:9|Synthesizing work.alu.behavioral.
+Post processing for work.alu.behavioral
+@W: CL117 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\Alu10bits.vhd":25:1:25:2|Latch generated from process for signal arithres(16 downto 0); possible missing assignment in an if or case statement.
+Post processing for work.testbench.behavioral
+@N: CL134 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":293:7:293:9|Found RAM ram, depth=201, width=8
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_9(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_10(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_11(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_12(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_13(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_14(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_15(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_16(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_17(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_18(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_19(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_20(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_21(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_22(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_23(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_24(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_25(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_26(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_27(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_28(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_29(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_30(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_31(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_32(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_33(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_34(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_35(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_36(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_37(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_38(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_39(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_40(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_41(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_42(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_43(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_44(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_45(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_46(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_47(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_48(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_49(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_50(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_51(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_52(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_53(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_54(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_55(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_56(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_57(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_58(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_59(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_60(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_61(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_62(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_63(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_64(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_65(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_66(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_67(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_68(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_69(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_70(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_71(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_72(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_73(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_74(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_75(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_76(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_77(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_78(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_79(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_80(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_81(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_82(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_83(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_84(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_85(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_86(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_87(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_88(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_89(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_90(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_91(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_92(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_93(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_94(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_95(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_96(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_97(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_98(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_99(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_100(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_101(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_102(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_103(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_104(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_105(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_106(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_107(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":14:45:14:54|Pruning unused register ram_108(7 downto 0). Make sure that there are no unused intermediate registers.
+
+Only the first 100 messages of id 'CL169' are reported. To see all messages use 'report_messages -log C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\impl1\synlog\ProjectoFinal_impl1_compiler.srr -id CL169' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL169} -count unlimited' in the Tcl shell.
+@W: CL271 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Pruning unused bits 31 to 8 of PC_13(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@A: CL282 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal muxALU[3:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal MAR[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_15[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_14[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_13[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_12[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_11[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_10[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_9[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_8[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_7[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_6[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_5[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_4[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_3[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_2[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_1[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal RegsGen_0[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal REGB[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal REGA[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal MBR[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal IR[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal state[1:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":329:1:329:2|Feedback mux created for signal PC[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@N: CL201 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\stlnCode.vhd":67:2:67:3|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 85MB peak: 90MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jun  6 02:56:07 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\impl1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jun  6 02:56:07 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jun  6 02:56:07 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\impl1\synwork\ProjectoFinal_impl1_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jun  6 02:56:09 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Thu Jun  6 02:56:09 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\impl1\ProjectoFinal_impl1_scck.rpt 
+Printing clock  summary report in "C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\impl1\ProjectoFinal_impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 114MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 116MB)
+
+@A: FX681 :"c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\stlncode.vhd":67:2:67:3|Initial value on register ptr[3:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@A: FX681 :"c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\controlunit.vhd":407:0:407:1|Initial value on register charSelection[7:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist testBench
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+
+Clock Summary
+******************
+
+          Start                               Requested     Requested     Clock                                              Clock                   Clock
+Level     Clock                               Frequency     Period        Type                                               Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                              1.0 MHz       1000.000      system                                             system_clkgroup         17   
+                                                                                                                                                          
+0 -       testBench|sigOSC_inferred_clock     7.0 MHz       142.857       inferred                                           Inferred_clkgroup_0     64   
+1 .         divFreq|clk_derived_clock         7.0 MHz       142.857       derived (from testBench|sigOSC_inferred_clock)     Inferred_clkgroup_0     432  
+==========================================================================================================================================================
+
+@W: MT531 :"c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\alu10bits.vhd":25:1:25:2|Found signal identified as System clock which controls 17 sequential elements including aluIns.arithres[16].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\divfreq.vhd":18:2:18:3|Found inferred clock testBench|sigOSC_inferred_clock which controls 64 sequential elements including divCU.count[9:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+Encoding state machine state[0:5] (in view: work.lcd_controller(controller))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 144MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jun  6 02:56:10 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Jun  6 02:56:11 2019
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FX493 |Applying initial value "0111" on instance lcd.ptr[3:0].
+@N: FX493 |Applying initial value "0000" on instance muxALU[3:0].
+@N: FX493 |Applying initial value "00000000" on instance ram_8[7:0].
+@N: FX493 |Applying initial value "00000000" on instance ram_7[7:0].
+@N: FX493 |Applying initial value "00000000" on instance ram_6[7:0].
+@N: FX493 |Applying initial value "00000000" on instance ram_5[7:0].
+@N: FX493 |Applying initial value "00000000" on instance ram_4[7:0].
+@N: FX493 |Applying initial value "00000000" on instance ram_3[7:0].
+@N: FX493 |Applying initial value "00000000" on instance ram_2[7:0].
+@N: FX493 |Applying initial value "00000000" on instance ram_1[7:0].
+@N: FX493 |Applying initial value "00000000" on instance ram_0[7:0].
+@N: FX493 |Applying initial value "00" on instance state[1:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance MBR[15:0].
+@N: FX493 |Applying initial value "01100001" on instance charSelection[7:0].
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
+
+Encoding state machine state[0:5] (in view: work.lcd_controller(controller))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 147MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 152MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 149MB peak: 152MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 149MB peak: 152MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 162MB)
+
+@N: FA113 :"c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\stlncode.vhd":74:25:74:37|Pipelining module un3_clk_count[1:32]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\stlncode.vhd":67:2:67:3|Pushed in register clk_count[31:0].
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 162MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 162MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 153MB peak: 162MB)
+
+@N: FX211 |Packed ROM ControlUnit\.MAR_1_0[7:0] (8 input, 8 output) to Block SelectRAM 
+@N: FX211 |Packed ROM ControlUnit\.IR_3_0[7:0] (8 input, 8 output) to Block SelectRAM 
+@N: FO126 :"c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\controlunit.vhd":293:7:293:9|Generating RAM ram[7:0]
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\controlunit.vhd":367:69:367:79|Generating ROM ControlUnit\.un26_ram[7:0] (in view: work.testBench(behavioral)).
+@N: FX214 :"c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\controlunit.vhd":359:105:359:115|Generating ROM ControlUnit\.PC_8[7:0] (in view: work.testBench(behavioral)).
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 153MB peak: 162MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 205MB peak: 208MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		   121.87ns		 978 /       504
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 206MB peak: 208MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@A: BN291 :"c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\stlncode.vhd":67:2:67:3|Boundary register lcd.lcd_data_4_.fb (in view: work.testBench(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\stlncode.vhd":67:2:67:3|Boundary register lcd.lcd_data_3_.fb (in view: work.testBench(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\stlncode.vhd":67:2:67:3|Boundary register lcd.lcd_data_1_.fb (in view: work.testBench(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\asdf1\documents\digitaldesign\arquitectura de computadoras\projectofinal\stlncode.vhd":67:2:67:3|Boundary register lcd.lcd_data_0_.fb (in view: work.testBench(behavioral)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 206MB peak: 208MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+8 gated/generated clock tree(s) driving 559 clock pin(s) of sequential element(s)
+0 instances converted, 559 sequential instances remain driven by gated/generated clocks
+
+======================================================================================================== Gated/Generated Clocks =========================================================================================================
+Clock Tree ID     Driving Element                Drive Element Type     Fanout     Sample Instance         Explanation                                                                                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       oschIns                        OSCH                   511        charSelection[0]        Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       aluIns.arithres_RNO_0[16]      ORCALUT4               1          aluIns.arithres[16]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0003       divCU.clk                      FD1S3AX                26         ram_ram                 No gated clock conversion method for cell cell:LUCENT.DPR16X4C                                                                
+@K:CKID0004       aluIns.regALU\.un2_mux_i_0     ORCALUT4               16         aluIns.arithres[0]      No clocks found on inputs                                                                                                     
+@K:CKID0005       un1_PC_0_a3                    ORCALUT4               2          PC_2_.res_lat           No clocks found on inputs                                                                                                     
+@K:CKID0006       sel_pad_RNI3QS41_1[0]          ORCALUT4               1          PC_3_.res_lat           No clocks found on inputs                                                                                                     
+@K:CKID0007       un1_PC_1_0_a3                  ORCALUT4               1          PC_4_.res_lat           No clocks found on inputs                                                                                                     
+@K:CKID0008       un1_sel_0_a3                   ORCALUT4               1          PC_1_.res_lat           No clocks found on inputs                                                                                                     
+=========================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 169MB peak: 208MB)
+
+Writing Analyst data base C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\impl1\synwork\ProjectoFinal_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 206MB peak: 208MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\impl1\ProjectoFinal_impl1.edi
+M-2017.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 210MB peak: 212MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 208MB peak: 212MB)
+
+@W: MT420 |Found inferred clock testBench|sigOSC_inferred_clock with period 142.86ns. Please declare a user-defined clock on object "n:sigOSC"
+@N: MT615 |Found clock divFreq|clk_derived_clock with period 142.86ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Jun  6 02:56:18 2019
+#
+
+
+Top view:               testBench
+Requested Frequency:    7.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 122.432
+
+                                    Requested     Estimated     Requested     Estimated                 Clock                                              Clock              
+Starting Clock                      Frequency     Frequency     Period        Period        Slack       Type                                               Group              
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+divFreq|clk_derived_clock           7.0 MHz       55.3 MHz      142.857       18.096        136.988     derived (from testBench|sigOSC_inferred_clock)     Inferred_clkgroup_0
+testBench|sigOSC_inferred_clock     7.0 MHz       49.0 MHz      142.857       20.425        122.432     inferred                                           Inferred_clkgroup_0
+System                              1.0 MHz       1.1 MHz       1000.000      872.529       127.471     system                                             system_clkgroup    
+==============================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                         Ending                           |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+System                           testBench|sigOSC_inferred_clock  |  142.857     127.471  |  No paths    -      |  No paths    -      |  No paths    -    
+System                           divFreq|clk_derived_clock        |  142.857     130.378  |  No paths    -      |  No paths    -      |  No paths    -    
+testBench|sigOSC_inferred_clock  System                           |  142.857     129.443  |  No paths    -      |  No paths    -      |  No paths    -    
+testBench|sigOSC_inferred_clock  testBench|sigOSC_inferred_clock  |  142.857     122.432  |  No paths    -      |  No paths    -      |  No paths    -    
+testBench|sigOSC_inferred_clock  divFreq|clk_derived_clock        |  142.857     124.761  |  No paths    -      |  No paths    -      |  No paths    -    
+divFreq|clk_derived_clock        testBench|sigOSC_inferred_clock  |  142.857     136.988  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: divFreq|clk_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+               Starting                                                           Arrival            
+Instance       Reference                     Type         Pin     Net             Time        Slack  
+               Clock                                                                                 
+-----------------------------------------------------------------------------------------------------
+ram_ram_7      divFreq|clk_derived_clock     DPR16X4C     DO3     ram_ram_34      0.972       136.988
+ram_ram_8      divFreq|clk_derived_clock     DPR16X4C     DO3     ram_ram_38      0.972       136.988
+ram_ram_23     divFreq|clk_derived_clock     DPR16X4C     DO3     ram_ram_98      0.972       136.988
+ram_ram_24     divFreq|clk_derived_clock     DPR16X4C     DO3     ram_ram_102     0.972       136.988
+ram_ram        divFreq|clk_derived_clock     DPR16X4C     DO3     ram_ram_2       0.972       137.791
+ram_ram_0      divFreq|clk_derived_clock     DPR16X4C     DO3     ram_ram_6       0.972       137.791
+ram_ram_1      divFreq|clk_derived_clock     DPR16X4C     DO3     ram_ram_10      0.972       137.791
+ram_ram_2      divFreq|clk_derived_clock     DPR16X4C     DO3     ram_ram_14      0.972       137.791
+ram_ram_3      divFreq|clk_derived_clock     DPR16X4C     DO3     ram_ram_18      0.972       137.791
+ram_ram_4      divFreq|clk_derived_clock     DPR16X4C     DO3     ram_ram_22      0.972       137.791
+=====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                              Starting                                                                          Required            
+Instance                      Reference                     Type        Pin     Net                             Time         Slack  
+                              Clock                                                                                                 
+------------------------------------------------------------------------------------------------------------------------------------
+ControlUnit\.RegsGen_0[3]     divFreq|clk_derived_clock     FD1P3DX     D       ControlUnit\.RegsGen_0_7[3]     142.751      136.988
+ControlUnit\.RegsGen_0[7]     divFreq|clk_derived_clock     FD1P3DX     D       ControlUnit\.RegsGen_0_7[7]     142.751      136.988
+ControlUnit\.RegsGen_1[3]     divFreq|clk_derived_clock     FD1P3DX     D       ControlUnit\.RegsGen_0_7[3]     142.751      136.988
+ControlUnit\.RegsGen_1[7]     divFreq|clk_derived_clock     FD1P3DX     D       ControlUnit\.RegsGen_0_7[7]     142.751      136.988
+ControlUnit\.RegsGen_2[3]     divFreq|clk_derived_clock     FD1P3DX     D       ControlUnit\.RegsGen_0_7[3]     142.751      136.988
+ControlUnit\.RegsGen_2[7]     divFreq|clk_derived_clock     FD1P3DX     D       ControlUnit\.RegsGen_0_7[7]     142.751      136.988
+ControlUnit\.RegsGen_3[3]     divFreq|clk_derived_clock     FD1P3DX     D       ControlUnit\.RegsGen_0_7[3]     142.751      136.988
+ControlUnit\.RegsGen_3[7]     divFreq|clk_derived_clock     FD1P3DX     D       ControlUnit\.RegsGen_0_7[7]     142.751      136.988
+ControlUnit\.RegsGen_4[3]     divFreq|clk_derived_clock     FD1P3DX     D       ControlUnit\.RegsGen_0_7[3]     142.751      136.988
+ControlUnit\.RegsGen_4[7]     divFreq|clk_derived_clock     FD1P3DX     D       ControlUnit\.RegsGen_0_7[7]     142.751      136.988
+====================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      142.857
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         142.751
+
+    - Propagation time:                      5.763
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 136.988
+
+    Number of logic level(s):                6
+    Starting point:                          ram_ram_7 / DO3
+    Ending point:                            ControlUnit\.RegsGen_0[3] / D
+    The start point is clocked by            divFreq|clk_derived_clock [rising] on pin WCK
+    The end   point is clocked by            testBench|sigOSC_inferred_clock [rising] on pin CK
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+ram_ram_7                                        DPR16X4C     DO3      Out     0.972     0.972       -         
+ram_ram_34                                       Net          -        -       -         -           1         
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO_10[3]     ORCALUT4     A        In      0.000     0.972       -         
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO_10[3]     ORCALUT4     Z        Out     1.017     1.989       -         
+RegsGen_0_7_am_RNO_10[3]                         Net          -        -       -         -           1         
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO_5[3]      ORCALUT4     A        In      0.000     1.989       -         
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO_5[3]      ORCALUT4     Z        Out     1.017     3.005       -         
+RegsGen_0_7_am_RNO_5[3]                          Net          -        -       -         -           1         
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO_1[3]      ORCALUT4     B        In      0.000     3.005       -         
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO_1[3]      ORCALUT4     Z        Out     1.017     4.022       -         
+RegsGen_0_7_am_RNO_1[3]                          Net          -        -       -         -           1         
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO[3]        PFUMX        BLUT     In      0.000     4.022       -         
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO[3]        PFUMX        Z        Out     0.214     4.236       -         
+ram[3]                                           Net          -        -       -         -           1         
+aluIns.ControlUnit\.RegsGen_0_7_am[3]            ORCALUT4     B        In      0.000     4.236       -         
+aluIns.ControlUnit\.RegsGen_0_7_am[3]            ORCALUT4     Z        Out     1.017     5.253       -         
+RegsGen_0_7_am[3]                                Net          -        -       -         -           1         
+aluIns.ControlUnit\.RegsGen_0_7[3]               PFUMX        BLUT     In      0.000     5.253       -         
+aluIns.ControlUnit\.RegsGen_0_7[3]               PFUMX        Z        Out     0.510     5.763       -         
+RegsGen_0_7[3]                                   Net          -        -       -         -           16        
+ControlUnit\.RegsGen_0[3]                        FD1P3DX      D        In      0.000     5.763       -         
+===============================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: testBench|sigOSC_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                         Arrival            
+Instance                   Reference                           Type      Pin     Net        Time        Slack  
+                           Clock                                                                               
+---------------------------------------------------------------------------------------------------------------
+ControlUnit\.IR_3_0_0      testBench|sigOSC_inferred_clock     SP8KC     DO1     IR[1]      12.057      122.432
+ControlUnit\.IR_3_0_0      testBench|sigOSC_inferred_clock     SP8KC     DO0     IR[0]      11.140      123.350
+ControlUnit\.IR_3_0_0      testBench|sigOSC_inferred_clock     SP8KC     DO2     IR[2]      12.024      123.522
+ControlUnit\.IR_3_0_0      testBench|sigOSC_inferred_clock     SP8KC     DO3     IR[3]      12.016      123.530
+ControlUnit\.IR_3_0_0      testBench|sigOSC_inferred_clock     SP8KC     DO5     IR[5]      11.140      124.406
+ControlUnit\.IR_3_0_0      testBench|sigOSC_inferred_clock     SP8KC     DO6     IR[6]      11.140      124.406
+ControlUnit\.MAR_1_0_0     testBench|sigOSC_inferred_clock     SP8KC     DO3     MAR[3]     11.140      124.571
+ControlUnit\.IR_3_0_0      testBench|sigOSC_inferred_clock     SP8KC     DO4     IR[4]      11.140      124.622
+ControlUnit\.MAR_1_0_0     testBench|sigOSC_inferred_clock     SP8KC     DO2     MAR[2]     11.140      124.753
+ControlUnit\.IR_3_0_0      testBench|sigOSC_inferred_clock     SP8KC     DO7     IR[7]      11.140      125.017
+===============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                              Starting                                                                               Required            
+Instance                      Reference                           Type        Pin     Net                            Time         Slack  
+                              Clock                                                                                                      
+-----------------------------------------------------------------------------------------------------------------------------------------
+PC_1_.II_0                    testBench|sigOSC_inferred_clock     FD1S3DX     D       PC_1_.fb                       142.751      122.432
+PC_1_.II_1                    testBench|sigOSC_inferred_clock     FD1S3BX     D       PC_1_.fb                       142.751      122.432
+PC_2_.II_0                    testBench|sigOSC_inferred_clock     FD1S3DX     D       PC_2_.fb                       142.751      122.432
+PC_2_.II_1                    testBench|sigOSC_inferred_clock     FD1S3BX     D       PC_2_.fb                       142.751      122.432
+PC_3_.II_0                    testBench|sigOSC_inferred_clock     FD1S3DX     D       PC_3_.fb                       142.751      122.432
+PC_3_.II_1                    testBench|sigOSC_inferred_clock     FD1S3BX     D       PC_3_.fb                       142.751      122.432
+PC_4_.II_0                    testBench|sigOSC_inferred_clock     FD1S3DX     D       PC_4_.fb                       142.751      122.432
+PC_4_.II_1                    testBench|sigOSC_inferred_clock     FD1S3BX     D       PC_4_.fb                       142.751      122.432
+ControlUnit\.RegsGen_0[0]     testBench|sigOSC_inferred_clock     FD1P3DX     SP      un2_state_15_i_a3_RNIGQ3M1     142.386      123.171
+ControlUnit\.RegsGen_0[1]     testBench|sigOSC_inferred_clock     FD1P3DX     SP      un2_state_15_i_a3_RNIGQ3M1     142.386      123.171
+=========================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      142.857
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         142.751
+
+    - Propagation time:                      20.320
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     122.432
+
+    Number of logic level(s):                8
+    Starting point:                          ControlUnit\.IR_3_0_0 / DO1
+    Ending point:                            PC_2_.II_0 / D
+    The start point is clocked by            testBench|sigOSC_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            testBench|sigOSC_inferred_clock [rising] on pin CK
+
+Instance / Net                                  Pin      Pin                Arrival     No. of    
+Name                               Type         Name     Dir     Delay      Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+ControlUnit\.IR_3_0_0              SP8KC        DO1      Out     12.057     12.057      -         
+IR[1]                              Net          -        -       -          -           33        
+aluIns.un1_IR_48_1_i_i_i3_i_o2     ORCALUT4     B        In      0.000      12.057      -         
+aluIns.un1_IR_48_1_i_i_i3_i_o2     ORCALUT4     Z        Out     1.273      13.330      -         
+N_1381                             Net          -        -       -          -           9         
+aluIns.un1_IR_51_0_a3_0            ORCALUT4     D        In      0.000      13.330      -         
+aluIns.un1_IR_51_0_a3_0            ORCALUT4     Z        Out     1.017      14.347      -         
+N_1390                             Net          -        -       -          -           1         
+aluIns.un1_IR_51_0                 ORCALUT4     C        In      0.000      14.347      -         
+aluIns.un1_IR_51_0                 ORCALUT4     Z        Out     1.153      15.500      -         
+un1_IR_51                          Net          -        -       -          -           3         
+aluIns.un2_state_51_0_4_RNO        ORCALUT4     A        In      0.000      15.500      -         
+aluIns.un2_state_51_0_4_RNO        ORCALUT4     Z        Out     1.017      16.516      -         
+N_126                              Net          -        -       -          -           1         
+aluIns.un2_state_51_0_4            ORCALUT4     B        In      0.000      16.516      -         
+aluIns.un2_state_51_0_4            ORCALUT4     Z        Out     1.249      17.765      -         
+un2_state_51_0_4                   Net          -        -       -          -           7         
+aluIns.un1_regsgen_1_iv_0_a3_0     ORCALUT4     C        In      0.000      17.765      -         
+aluIns.un1_regsgen_1_iv_0_a3_0     ORCALUT4     Z        Out     1.017      18.782      -         
+N_1326                             Net          -        -       -          -           1         
+aluIns.un1_regsgen_1_iv_0_0        ORCALUT4     B        In      0.000      18.782      -         
+aluIns.un1_regsgen_1_iv_0_0        ORCALUT4     Z        Out     0.449      19.231      -         
+un1_regsgen_1_iv_0_0               Net          -        -       -          -           1         
+PC_2_.II_0_RNISP4H8                ORCALUT4     B        In      0.000      19.231      -         
+PC_2_.II_0_RNISP4H8                ORCALUT4     Z        Out     1.089      20.320      -         
+PC_2_.fb                           Net          -        -       -          -           2         
+PC_2_.II_0                         FD1S3DX      D        In      0.000      20.320      -         
+==================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                       Arrival            
+Instance                Reference     Type        Pin     Net          Time        Slack  
+                        Clock                                                             
+------------------------------------------------------------------------------------------
+PC_1_.res_lat           System        FD1S1D      Q       PC_1_.o3     0.972       127.471
+PC_2_.res_lat           System        FD1S1D      Q       PC_2_.o3     0.972       127.718
+PC_3_.res_lat           System        FD1S1D      Q       PC_3_.o3     0.972       127.718
+PC_4_.res_lat           System        FD1S1D      Q       PC_4_.o3     0.972       127.861
+PC_0_.res_lat           System        FD1S1D      Q       PC_0_.o3     0.972       131.267
+aluIns.arithres[6]      System        FD1S1AY     Q       ACC[6]       1.044       132.613
+aluIns.arithres[8]      System        FD1S1AY     Q       ACC[8]       1.044       132.613
+aluIns.arithres[9]      System        FD1S1AY     Q       ACC[9]       1.044       132.613
+aluIns.arithres[10]     System        FD1S1AY     Q       ACC[10]      1.044       132.613
+aluIns.arithres[11]     System        FD1S1AY     Q       ACC[11]      1.044       132.613
+==========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                              Starting                                                          Required            
+Instance                      Reference     Type        Pin     Net                             Time         Slack  
+                              Clock                                                                                 
+--------------------------------------------------------------------------------------------------------------------
+ControlUnit\.RegsGen_0[0]     System        FD1P3DX     D       ControlUnit\.RegsGen_0_7[0]     142.751      127.471
+ControlUnit\.RegsGen_0[1]     System        FD1P3DX     D       ControlUnit\.RegsGen_0_7[1]     142.751      127.471
+ControlUnit\.RegsGen_0[2]     System        FD1P3DX     D       ControlUnit\.RegsGen_0_7[2]     142.751      127.471
+ControlUnit\.RegsGen_0[3]     System        FD1P3DX     D       ControlUnit\.RegsGen_0_7[3]     142.751      127.471
+ControlUnit\.RegsGen_0[4]     System        FD1P3DX     D       ControlUnit\.RegsGen_0_7[4]     142.751      127.471
+ControlUnit\.RegsGen_0[5]     System        FD1P3DX     D       ControlUnit\.RegsGen_0_7[5]     142.751      127.471
+ControlUnit\.RegsGen_0[6]     System        FD1P3DX     D       ControlUnit\.RegsGen_0_7[6]     142.751      127.471
+ControlUnit\.RegsGen_0[7]     System        FD1P3DX     D       ControlUnit\.RegsGen_0_7[7]     142.751      127.471
+ControlUnit\.RegsGen_1[0]     System        FD1P3DX     D       ControlUnit\.RegsGen_0_7[0]     142.751      127.471
+ControlUnit\.RegsGen_1[1]     System        FD1P3DX     D       ControlUnit\.RegsGen_0_7[1]     142.751      127.471
+====================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      142.857
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         142.751
+
+    - Propagation time:                      15.280
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 127.471
+
+    Number of logic level(s):                17
+    Starting point:                          PC_1_.res_lat / Q
+    Ending point:                            ControlUnit\.RegsGen_0[0] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            testBench|sigOSC_inferred_clock [rising] on pin CK
+
+Instance / Net                                                Pin      Pin                Arrival     No. of    
+Name                                             Type         Name     Dir     Delay      Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+PC_1_.res_lat                                    FD1S1D       Q        Out     0.972      0.972       -         
+PC_1_.o3                                         Net          -        -       -          -           1         
+PC_1_.res_lat_RNITEKU                            ORCALUT4     C        In      0.000      0.972       -         
+PC_1_.res_lat_RNITEKU                            ORCALUT4     Z        Out     1.337      2.309       -         
+pcview_c[1]                                      Net          -        -       -          -           23        
+un25_regsgen_cry_0_0                             CCU2D        A1       In      0.000      2.309       -         
+un25_regsgen_cry_0_0                             CCU2D        COUT     Out     1.544      3.853       -         
+un25_regsgen_cry_0                               Net          -        -       -          -           1         
+un25_regsgen_cry_1_0                             CCU2D        CIN      In      0.000      3.853       -         
+un25_regsgen_cry_1_0                             CCU2D        COUT     Out     0.143      3.996       -         
+un25_regsgen_cry_2                               Net          -        -       -          -           1         
+un25_regsgen_cry_3_0                             CCU2D        CIN      In      0.000      3.996       -         
+un25_regsgen_cry_3_0                             CCU2D        COUT     Out     0.143      4.139       -         
+un25_regsgen_cry_4                               Net          -        -       -          -           1         
+un25_regsgen_cry_5_0                             CCU2D        CIN      In      0.000      4.139       -         
+un25_regsgen_cry_5_0                             CCU2D        S1       Out     1.809      5.948       -         
+N_2533_a                                         Net          -        -       -          -           10        
+un25_regsgen_cry_3_0_RNICCHV1                    ORCALUT4     D        In      0.000      5.948       -         
+un25_regsgen_cry_3_0_RNICCHV1                    ORCALUT4     Z        Out     1.265      7.213       -         
+ControlUnit\.PC_8en1_1_e                         Net          -        -       -          -           8         
+ControlUnit\.PC_8192_3_RNIIJ143                  ORCALUT4     A        In      0.000      7.213       -         
+ControlUnit\.PC_8192_3_RNIIJ143                  ORCALUT4     Z        Out     0.449      7.661       -         
+ControlUnit\.PC_83mux_iv[0]                      Net          -        -       -          -           66        
+aluIns.un127_regsgen_2[7]                        ORCALUT4     A        In      0.000      7.661       -         
+aluIns.un127_regsgen_2[7]                        ORCALUT4     Z        Out     1.017      8.678       -         
+N_218                                            Net          -        -       -          -           1         
+aluIns.un127_regsgen_3[7]                        PFUMX        BLUT     In      0.000      8.678       -         
+aluIns.un127_regsgen_3[7]                        PFUMX        Z        Out     -0.033     8.645       -         
+N_226                                            Net          -        -       -          -           1         
+aluIns.un127_regsgen_7[7]                        L6MUX21      D1       In      0.000      8.645       -         
+aluIns.un127_regsgen_7[7]                        L6MUX21      Z        Out     0.732      9.377       -         
+N_258                                            Net          -        -       -          -           1         
+aluIns.un127_regsgen_15[7]                       L6MUX21      D1       In      0.000      9.377       -         
+aluIns.un127_regsgen_15[7]                       L6MUX21      Z        Out     1.112      10.489      -         
+un127_regsgen_a[7]                               Net          -        -       -          -           49        
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO_10[0]     ORCALUT4     C        In      0.000      10.489      -         
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO_10[0]     ORCALUT4     Z        Out     1.017      11.505      -         
+RegsGen_0_7_am_RNO_10[0]                         Net          -        -       -          -           1         
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO_5[0]      ORCALUT4     A        In      0.000      11.505      -         
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO_5[0]      ORCALUT4     Z        Out     1.017      12.522      -         
+RegsGen_0_7_am_RNO_5[0]                          Net          -        -       -          -           1         
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO_1[0]      ORCALUT4     B        In      0.000      12.522      -         
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO_1[0]      ORCALUT4     Z        Out     1.017      13.539      -         
+RegsGen_0_7_am_RNO_1[0]                          Net          -        -       -          -           1         
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO[0]        PFUMX        BLUT     In      0.000      13.539      -         
+aluIns.ControlUnit\.RegsGen_0_7_am_RNO[0]        PFUMX        Z        Out     0.214      13.753      -         
+ram[0]                                           Net          -        -       -          -           1         
+aluIns.ControlUnit\.RegsGen_0_7_am[0]            ORCALUT4     B        In      0.000      13.753      -         
+aluIns.ControlUnit\.RegsGen_0_7_am[0]            ORCALUT4     Z        Out     1.017      14.770      -         
+RegsGen_0_7_am[0]                                Net          -        -       -          -           1         
+aluIns.ControlUnit\.RegsGen_0_7[0]               PFUMX        BLUT     In      0.000      14.770      -         
+aluIns.ControlUnit\.RegsGen_0_7[0]               PFUMX        Z        Out     0.510      15.280      -         
+RegsGen_0_7[0]                                   Net          -        -       -          -           16        
+ControlUnit\.RegsGen_0[0]                        FD1P3DX      D        In      0.000      15.280      -         
+================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 208MB peak: 212MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 208MB peak: 212MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000ze-1
+
+Register bits: 509 of 6864 (7%)
+Latch bits:      22
+PIC Latch:       0
+I/O cells:       28
+Block Rams : 2 of 26 (7%)
+
+
+Details:
+CCU2D:          108
+DPR16X4C:       26
+FD1P3AX:        81
+FD1P3AY:        4
+FD1P3BX:        1
+FD1P3DX:        308
+FD1P3IX:        10
+FD1S1AY:        16
+FD1S1D:         6
+FD1S3AX:        5
+FD1S3AY:        3
+FD1S3BX:        5
+FD1S3DX:        5
+FD1S3IX:        75
+FD1S3JX:        2
+GSR:            1
+IB:             5
+INV:            4
+L6MUX21:        130
+OB:             23
+OFS1P3DX:       6
+OFS1P3JX:       4
+ORCALUT4:       969
+OSCH:           1
+PFUMX:          233
+PUR:            1
+ROM128X1A:      16
+ROM16X1A:       16
+SP8KC:          2
+VHI:            4
+VLO:            4
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 37MB peak: 212MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:06s cputime
+# Thu Jun  6 02:56:18 2019
+
+###########################################################]
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

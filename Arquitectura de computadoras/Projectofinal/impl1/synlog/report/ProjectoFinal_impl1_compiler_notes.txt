@@ -1,0 +1,17 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":6:7:6:15|Top entity is set to testBench.
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":6:7:6:15|Synthesizing work.testbench.behavioral.
+@N: CD364 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":412:4:412:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":428:19:428:31|Removing redundant assignment.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\stlnCode.vhd":45:7:45:20|Synthesizing work.lcd_controller.controller.
+@N: CD231 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\stlnCode.vhd":57:15:57:16|Using onehot encoding for type control. For example, enumeration power_up is mapped to "100000".
+@N: CL189 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\stlnCode.vhd":67:2:67:3|Register bit rw is always 0.
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\divFreq.vhd":4:7:4:13|Synthesizing work.divfreq.behavioral.
+@N: CD630 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\Alu10bits.vhd":7:7:7:9|Synthesizing work.alu.behavioral.
+@N: CL134 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd":293:7:293:9|Found RAM ram, depth=201, width=8
+@N: CL201 :"C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\stlnCode.vhd":67:2:67:3|Trying to extract state machine for register state.
+@N|Running in 64-bit mode
+

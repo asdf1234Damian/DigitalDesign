@@ -1,0 +1,46 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|testBench|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\asdf1\\Documents\\DigitalDesign\\Arquitectura de computadoras\\Projectofinal\\impl1\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501910110
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501933408
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493327504
+#CUR:"C:\\Users\\asdf1\\Documents\\DigitalDesign\\Arquitectura de computadoras\\Projectofinal\\Alu10bits.vhd":1559697801
+#CUR:"C:\\Users\\asdf1\\Documents\\DigitalDesign\\Arquitectura de computadoras\\Projectofinal\\controlUnit.vhd":1559807756
+#CUR:"C:\\Users\\asdf1\\Documents\\DigitalDesign\\Arquitectura de computadoras\\Projectofinal\\divFreq.vhd":1559697861
+#CUR:"C:\\Users\\asdf1\\Documents\\DigitalDesign\\Arquitectura de computadoras\\Projectofinal\\stlnCode.vhd":1559796014
+0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\Alu10bits.vhd" vhdl
+2 "C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\controlUnit.vhd" vhdl
+3 "C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\divFreq.vhd" vhdl
+4 "C:\Users\asdf1\Documents\DigitalDesign\Arquitectura de computadoras\Projectofinal\stlnCode.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 1 3 4 
+3 -1
+4 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 2 
+2 -1
+3 2 
+4 2 
+
+# Design Unit to File Association
+arch work alu behavioral 1
+module work alu 1
+arch work testbench behavioral 2
+module work testbench 2
+arch work divfreq behavioral 3
+module work divfreq 3
+arch work lcd_controller controller 4
+module work lcd_controller 4

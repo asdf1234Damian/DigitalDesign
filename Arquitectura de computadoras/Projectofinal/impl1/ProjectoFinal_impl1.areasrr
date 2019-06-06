@@ -1,0 +1,95 @@
+----------------------------------------------------------------------
+Report for cell testBench.behavioral
+
+Register bits: 509 of 6864 (7%)
+Latch bits:      22
+PIC Latch:       0
+I/O cells:       28
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D      108       100.0
+                           DPR16X4C       26       100.0
+                            FD1P3AX       81       100.0
+                            FD1P3AY        4       100.0
+                            FD1P3BX        1       100.0
+                            FD1P3DX      308       100.0
+                            FD1P3IX       10       100.0
+                            FD1S1AY       16       100.0
+                             FD1S1D        6       100.0
+                            FD1S3AX        5       100.0
+                            FD1S3AY        3       100.0
+                            FD1S3BX        5       100.0
+                            FD1S3DX        5       100.0
+                            FD1S3IX       75       100.0
+                            FD1S3JX        2       100.0
+                                GSR        1       100.0
+                                 IB        5       100.0
+                                INV        4       100.0
+                            L6MUX21      130       100.0
+                                 OB       23       100.0
+                           OFS1P3DX        6       100.0
+                           OFS1P3JX        4       100.0
+                           ORCALUT4      969       100.0
+                               OSCH        1       100.0
+                              PFUMX      233       100.0
+                                PUR        1       100.0
+                          ROM128X1A       16       100.0
+                           ROM16X1A       16       100.0
+                              SP8KC        2       100.0
+                                VHI        4       100.0
+                                VLO        4       100.0
+SUB MODULES 
+                                ALU        1       100.0
+                            divFreq        1       100.0
+                     lcd_controller        1       100.0
+                            
+                         TOTAL          2077           
+----------------------------------------------------------------------
+Report for cell lcd_controller.netlist
+     Instance path:  lcd
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       20        18.5
+                            FD1P3AY        1        25.0
+                            FD1S3AX        1        20.0
+                            FD1S3AY        3       100.0
+                            FD1S3IX       68        90.7
+                            FD1S3JX        2       100.0
+                                INV        1        25.0
+                            L6MUX21        7         5.4
+                           ORCALUT4      198        20.4
+                              PFUMX       22         9.4
+                                VHI        1        25.0
+                                VLO        1        25.0
+                            
+                         TOTAL           325           
+----------------------------------------------------------------------
+Report for cell divFreq.netlist
+     Instance path:  divCU
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        6         5.6
+                            FD1S3AX        4        80.0
+                            FD1S3IX        7         9.3
+                                INV        1        25.0
+                           ORCALUT4        4         0.4
+                                VHI        1        25.0
+                                VLO        1        25.0
+                            
+                         TOTAL            24           
+----------------------------------------------------------------------
+Report for cell ALU.netlist
+     Instance path:  aluIns
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       57        52.8
+                            FD1S1AY       16       100.0
+                             FD1S1D        1        16.7
+                                INV        1        25.0
+                            L6MUX21      123        94.6
+                           ORCALUT4      718        74.1
+                              PFUMX      210        90.1
+                                VHI        1        25.0
+                                VLO        1        25.0
+                            
+                         TOTAL          1128           

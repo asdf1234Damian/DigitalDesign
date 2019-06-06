@@ -1,0 +1,27 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+8 gated/generated clock tree(s) driving 559 clock pin(s) of sequential element(s)
+0 instances converted, 559 sequential instances remain driven by gated/generated clocks
+
+======================================================================================================== Gated/Generated Clocks =========================================================================================================
+Clock Tree ID     Driving Element                Drive Element Type     Fanout     Sample Instance         Explanation                                                                                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       oschIns                        OSCH                   511        charSelection[0]        Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       aluIns.arithres_RNO_0[16]      ORCALUT4               1          aluIns.arithres[16]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0003       divCU.clk                      FD1S3AX                26         ram_ram                 No gated clock conversion method for cell cell:LUCENT.DPR16X4C                                                                
+@K:CKID0004       aluIns.regALU\.un2_mux_i_0     ORCALUT4               16         aluIns.arithres[0]      No clocks found on inputs                                                                                                     
+@K:CKID0005       un1_PC_0_a3                    ORCALUT4               2          PC_2_.res_lat           No clocks found on inputs                                                                                                     
+@K:CKID0006       sel_pad_RNI3QS41_1[0]          ORCALUT4               1          PC_3_.res_lat           No clocks found on inputs                                                                                                     
+@K:CKID0007       un1_PC_1_0_a3                  ORCALUT4               1          PC_4_.res_lat           No clocks found on inputs                                                                                                     
+@K:CKID0008       un1_sel_0_a3                   ORCALUT4               1          PC_1_.res_lat           No clocks found on inputs                                                                                                     
+=========================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
