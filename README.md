@@ -4,9 +4,6 @@ Practicas de los cursos de Diseño Digital y relacionadas en ESCOM
 
 # Fundamentos de diseño digital
 
-## Profesora:
-* Lopez Rodriguez Claudia Alejandra
-
 ### Alumnos:
 * Meza Madrid Raúl Damián 2017631051
 * Daniela Tellez Jimenez
@@ -26,9 +23,6 @@ Practicas de los cursos de Diseño Digital y relacionadas en ESCOM
 
 # Diseño digital
 
-## Profesor:
-* Pastrana Carlos 
-
 ### Alumnos:
 * Meza Madrid Raúl Damián 2017631051
 * Portilla Martinez David
@@ -43,3 +37,11 @@ Practicas de los cursos de Diseño Digital y relacionadas en ESCOM
 * 6.-  Divisores de frecuencia
 * 7.-  ALU
 
+# Arquitectura de computadoras
+
+### Alumnos:
+* Meza Madrid Raúl Damián 2017631051
+* Portilla Martinez David
+
+
+### Practicas:
